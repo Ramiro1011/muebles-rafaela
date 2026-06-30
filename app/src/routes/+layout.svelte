@@ -14,6 +14,7 @@
 
   let { children } = $props();
   let busqueda = $state('');
+  let menuOpen = $state(false);
 
   // Escuchar auth state
   onMount(() => {
@@ -92,8 +93,26 @@
         <span class="btn-contactar-label">Contactar</span>
       </a>
       <a href="/admin" class="btn-admin-header">Admin</a>
+      <button class="hamburger" onclick={() => menuOpen = !menuOpen} aria-label="Menú">
+        {#if menuOpen}
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        {:else}
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+        {/if}
+      </button>
     </div>
   </header>
+
+  {#if menuOpen}
+    <div class="mobile-menu-overlay" onclick={() => menuOpen = false}></div>
+    <nav class="mobile-menu">
+      <a href="/" onclick={() => menuOpen = false} class:active={$page.url.pathname === '/'}>Inicio</a>
+      <a href="/catalogo" onclick={() => menuOpen = false} class:active={$page.url.pathname === '/catalogo'}>Catálogo</a>
+      <a href="/nosotros" onclick={() => menuOpen = false}>Nosotros</a>
+      <a href="https://wa.me/{$configContacto.wsp_num}" target="_blank" rel="noopener" onclick={() => menuOpen = false}>Contacto</a>
+      <a href="/admin" onclick={() => menuOpen = false} class="mobile-menu-admin">Admin</a>
+    </nav>
+  {/if}
 {/if}
 
 <main class="page-main">{@render children()}</main>
