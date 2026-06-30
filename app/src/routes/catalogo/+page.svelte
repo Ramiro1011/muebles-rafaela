@@ -151,7 +151,7 @@
       <div class="promo-label">Consulta personalizada</div>
       <div class="promo-title">Proyectos</div>
       <p class="promo-desc">¿Necesitás asesoramiento para tu espacio? Hablá directamente con nosotros.</p>
-      <a href="https://wa.me/{WSP_NUM}" target="_blank" rel="noopener" class="btn-promo-wsp">WhatsApp</a>
+      <a href="https://wa.me/{$configContacto.wsp_num}" target="_blank" rel="noopener" class="btn-promo-wsp">WhatsApp</a>
     </div>
   </aside>
 
