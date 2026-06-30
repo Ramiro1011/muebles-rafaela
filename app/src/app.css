@@ -2142,6 +2142,16 @@ img { display: block; max-width: 100%; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; gap: .5rem; text-align: center; }
 
+  /* Admin header mobile */
+  .admin-user-pill { display: none; }
+  .admin-header { padding: 0 1rem; gap: .5rem; }
+  .admin-header-brand { gap: .5rem; }
+  .admin-header-brand > svg { display: none; }
+  .admin-header-brand-name { font-size: .82rem; }
+  .admin-header-brand-sub { font-size: .58rem; letter-spacing: .06em; margin-top: .2rem; }
+  .admin-header-actions { gap: .35rem; }
+  .admin-header-actions .btn-sm { padding: .4rem .65rem; font-size: .68rem; }
+
   /* Admin */
   .admin-wrap { overflow-x: hidden; }
   .admin-sidebar { display: none; }
