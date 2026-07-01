@@ -1545,7 +1545,12 @@ img { display: block; max-width: 100%; }
   display: flex;
   flex-wrap: wrap;
   gap: .35rem .85rem;
-  padding: .4rem 0;
+  padding: .5rem .75rem;
+  max-height: 160px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-2);
 }
 
 /* Admin — editor de colores */
