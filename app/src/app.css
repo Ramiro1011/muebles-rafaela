@@ -838,13 +838,18 @@ img { display: block; max-width: 100%; }
 }
 
 .modal-info-side { padding: 2rem; display: flex; flex-direction: column; background: var(--bg); }
+.modal-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-bottom: .75rem;
+}
 .modal-cat {
   font-size: .62rem;
   font-weight: 700;
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--naranja);
-  margin-bottom: .75rem;
 }
 .modal-name {
   font-family: var(--font);
@@ -1535,6 +1540,14 @@ img { display: block; max-width: 100%; }
   .color-dot-lg { width: 18px; height: 18px; }
   .modal-color-nombre { font-size: .72rem; }
 }
+/* Admin — selector múltiple de categorías */
+.cat-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem .85rem;
+  padding: .4rem 0;
+}
+
 /* Admin — editor de colores */
 .color-picker-row {
   display: flex;

@@ -41,7 +41,10 @@ export const productosFiltrados = derived(
     let ps = $productos.filter(p => p.activo !== false);
 
     if ($cat !== 'todos') {
-      ps = ps.filter(p => p.categoria === $cat);
+      ps = ps.filter(p => {
+        const cats = p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : [];
+        return cats.includes($cat);
+      });
     }
     if ($material) {
       ps = ps.filter(p => p.material === $material);
@@ -52,7 +55,7 @@ export const productosFiltrados = derived(
         (p.nombre || '').toLowerCase().includes(q) ||
         (p.descripcion || '').toLowerCase().includes(q) ||
         (p.material || '').toLowerCase().includes(q) ||
-        (p.categoria || '').toLowerCase().includes(q)
+        (p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : []).join(' ').toLowerCase().includes(q)
       );
     }
     if ($pMin !== '') {
@@ -135,7 +138,10 @@ export const configContacto = writable({
 export const conteoCategoria = derived(productos, $ps => {
   const mapa = {};
   for (const p of $ps) {
-    mapa[p.categoria] = (mapa[p.categoria] || 0) + 1;
+    const cats = p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : [];
+    for (const c of cats) {
+      mapa[c] = (mapa[c] || 0) + 1;
+    }
   }
   return mapa;
 });

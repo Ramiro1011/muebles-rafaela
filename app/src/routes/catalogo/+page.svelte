@@ -57,6 +57,9 @@
   const tituloSeccion   = $derived($filtroCategoria === 'todos' ? 'Todos los productos' : $filtroCategoria);
   const subtituloSeccion = $derived(`${totalProd} ${totalProd === 1 ? 'producto' : 'productos'}`);
   const imagenesModal   = $derived(productoSel ? [productoSel.imagen, ...(productoSel.imagenes || [])].filter(Boolean) : []);
+  const categoriasModal = $derived(
+    productoSel ? (productoSel.categorias?.length ? productoSel.categorias : productoSel.categoria ? [productoSel.categoria] : []) : []
+  );
 
   function seleccionarCat(cat) {
     filtroCategoria.set(cat); paginaActual = 1; sidebarOpen = false;
@@ -291,7 +294,11 @@
         {/if}
       </div>
       <div class="modal-info-side">
-        {#if productoSel.categoria}<div class="modal-cat">{productoSel.categoria}</div>{/if}
+        {#if categoriasModal.length > 0}
+          <div class="modal-cats">
+            {#each categoriasModal as cat}<span class="modal-cat">{cat}</span>{/each}
+          </div>
+        {/if}
         <h2 class="modal-name">{productoSel.nombre}</h2>
         {#if productoSel.material}<p style="font-size:.72rem;color:var(--text-3);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.75rem">{productoSel.material}</p>{/if}
         {#if productoSel.descripcion}<p class="modal-desc">{productoSel.descripcion}</p>{/if}

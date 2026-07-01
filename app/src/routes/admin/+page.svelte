@@ -22,12 +22,15 @@
   let catAdmin = $state('');
   const prodsFiltrados = $derived.by(() => {
     let ps = $productos;
-    if (catAdmin) ps = ps.filter(p => p.categoria === catAdmin);
+    if (catAdmin) ps = ps.filter(p => {
+      const cats = p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : [];
+      return cats.includes(catAdmin);
+    });
     const q = busquedaAdmin.trim().toLowerCase();
     if (q) {
       ps = ps.filter(p =>
         (p.nombre || '').toLowerCase().includes(q) ||
-        (p.categoria || '').toLowerCase().includes(q) ||
+        (p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : []).join(' ').toLowerCase().includes(q) ||
         (p.descripcion || '').toLowerCase().includes(q) ||
         (p.material || '').toLowerCase().includes(q) ||
         String(p.precio ?? '').includes(q) ||
@@ -53,7 +56,7 @@
   let formPrecioAnt  = $state('');
   let formDescuento  = $state('');   // % descuento, ej: 20
   let formStock      = $state('');   // número de unidades
-  let formCategoria  = $state('');
+  let formCategorias = $state([]);
   let formMaterial   = $state('');
   let formImagenUrl  = $state('');
   let formGaleria    = $state([]);   // URLs de imágenes adicionales
@@ -75,7 +78,7 @@
   function abrirFormNuevo() {
     editId = ''; formNombre = ''; formDesc = ''; formPrecio = '';
     formPrecioAnt = ''; formDescuento = ''; formStock = '';
-    formCategoria = ''; formMaterial = ''; formImagenUrl = ''; formGaleria = [];
+    formCategorias = []; formMaterial = ''; formImagenUrl = ''; formGaleria = [];
     formNuevo = false; formDestacado = false; formActivo = true;
     formColores = []; nuevoColorHex = '#888888'; nuevoColorNombre = '';
     mostrarForm = true;
@@ -90,7 +93,7 @@
     formPrecioAnt = p.precioAnterior != null ? String(p.precioAnterior) : '';
     formDescuento = p.descuento != null && p.descuento > 0 ? String(p.descuento) : '';
     formStock     = p.stock != null ? String(p.stock) : '';
-    formCategoria = p.categoria || '';
+    formCategorias = p.categorias?.length ? [...p.categorias] : p.categoria ? [p.categoria] : [];
     formMaterial  = p.material || '';
     formImagenUrl = p.imagen || '';
     formGaleria   = p.imagenes ? [...p.imagenes] : [];
@@ -114,7 +117,8 @@
         precioAnterior: formPrecioAnt !== '' ? Number(formPrecioAnt) : null,
         descuento:      formDescuento !== '' ? Number(formDescuento) : 0,
         stock:          formStock !== '' ? Number(formStock) : null,
-        categoria:      formCategoria || null,
+        categorias:     formCategorias,
+        categoria:      formCategorias[0] || null,
         material:       formMaterial.trim() || null,
         imagen:         formImagenUrl || null,
         imagenes:       formGaleria,
@@ -251,8 +255,12 @@
     }
   }
 
+  function getCats(p) {
+    return p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : [];
+  }
+
   async function eliminarCategoria(cat) {
-    const n = $productos.filter(p => p.categoria === cat.nombre).length;
+    const n = $productos.filter(p => getCats(p).includes(cat.nombre)).length;
     if (n > 0 && !confirm(`Esta categoría tiene ${n} producto(s). ¿Eliminarla de todos modos?`)) return;
     try {
       await deleteDoc(doc(db, 'categorias', cat.id));
@@ -541,14 +549,24 @@
               <input id="fstock" class="form-input" type="number" min="0" bind:value={formStock} placeholder="Vacío = sin control" />
             </div>
 
-            <div class="form-field">
-              <label class="form-label" for="fc">Categoría</label>
-              <select id="fc" class="form-select" bind:value={formCategoria}>
-                <option value="">Sin categoría</option>
+            <div class="form-field full">
+              <label class="form-label">Categorías</label>
+              <div class="cat-checkboxes">
                 {#each $categorias as cat (cat.id)}
-                  <option value={cat.nombre}>{cat.nombre}</option>
+                  <label class="filter-check">
+                    <input type="checkbox"
+                      checked={formCategorias.includes(cat.nombre)}
+                      onchange={e => {
+                        if (e.currentTarget.checked) formCategorias = [...formCategorias, cat.nombre];
+                        else formCategorias = formCategorias.filter(c => c !== cat.nombre);
+                      }} />
+                    <span>{cat.nombre}</span>
+                  </label>
                 {/each}
-              </select>
+                {#if $categorias.length === 0}
+                  <p style="font-size:.75rem;color:var(--text-3);margin:0">Sin categorías creadas aún</p>
+                {/if}
+              </div>
             </div>
 
             <div class="form-field">
@@ -729,7 +747,7 @@
                     {/if}
                   </td>
                   <td class="bold">{p.nombre}</td>
-                  <td>{p.categoria || '—'}</td>
+                  <td>{getCats(p).join(', ') || '—'}</td>
                   <td>
                     {#if p.descuento > 0}
                       <span style="text-decoration:line-through;font-size:.75rem;color:var(--text-3)">{pesos(p.precio)}</span>
