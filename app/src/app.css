@@ -1004,14 +1004,14 @@ img { display: block; max-width: 100%; }
   font-weight: 700;
   letter-spacing: .2em;
   text-transform: uppercase;
-  color: rgba(255,255,255,.32);
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: .5rem; }
 .footer-col ul a { font-size: .8rem; color: rgba(255,255,255,.52); transition: color .15s; }
 .footer-col ul a:hover { color: #fff; }
 .footer-locales li { display: flex; flex-direction: column; gap: .15rem; font-size: .8rem; color: rgba(255,255,255,.52); }
-.footer-locales li strong { color: rgba(255,255,255,.85); font-size: .78rem; }
+.footer-locales li strong { color: rgba(255,255,255,.52); font-weight: 700; font-size: .78rem; }
 .footer-bottom {
   max-width: 1200px;
   margin: 0 auto;
