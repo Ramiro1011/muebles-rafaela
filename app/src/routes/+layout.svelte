@@ -8,43 +8,61 @@
   import { collection, query, orderBy, onSnapshot } from 'firebase/firestore';
   import { doc, onSnapshot as onSnap } from 'firebase/firestore';
   import {
-    productos, categorias, usuario, authCargando,
-    textoBusqueda, toasts, configLanding, configNosotros, configContacto
+    productos, categorias, proveedores, usuario, authCargando,
+    textoBusqueda, toasts, toast, configLanding, configNosotros, configContacto
   } from '$lib/stores.js';
 
   let { children } = $props();
   let busqueda = $state('');
   let menuOpen = $state(false);
 
+  // Evita mostrar el mismo toast de error varias veces si fallan varios listeners a la vez
+  let errorFirestoreMostrado = false;
+  function manejarErrorFirestore(err) {
+    console.error('Error de Firestore:', err);
+    if (errorFirestoreMostrado) return;
+    errorFirestoreMostrado = true;
+    toast('No pudimos cargar los datos del catálogo. Probá de nuevo en unos minutos.', 'err');
+  }
+
   // Escuchar auth state
   onMount(() => {
     const unsub = onAuthStateChanged(auth, u => {
       usuario.set(u);
       authCargando.set(false);
+    }, err => {
+      console.error('Error de Firebase Auth:', err);
+      usuario.set(null);
+      authCargando.set(false); // no dejar el spinner de "Cargando..." colgado para siempre
+      toast('No pudimos verificar tu sesión. Probá recargar la página.', 'err');
     });
     return unsub;
   });
 
   // Escuchar Firestore en tiempo real
   onMount(() => {
-    const q1 = query(collection(db, 'productos'),  orderBy('nombre'));
-    const q2 = query(collection(db, 'categorias'), orderBy('nombre'));
+    const q1 = query(collection(db, 'productos'),   orderBy('nombre'));
+    const q2 = query(collection(db, 'categorias'),  orderBy('nombre'));
+    const q3 = query(collection(db, 'proveedores'), orderBy('nombre'));
     const u1 = onSnapshot(q1, snap => {
       productos.set(snap.docs.map(d => ({ id: d.id, ...d.data() })));
-    });
+    }, manejarErrorFirestore);
     const u2 = onSnapshot(q2, snap => {
       categorias.set(snap.docs.map(d => ({ id: d.id, ...d.data() })));
-    });
-    const u3 = onSnap(doc(db, 'config', 'landing'), snap => {
+    }, manejarErrorFirestore);
+    const u3 = onSnapshot(q3, snap => {
+      proveedores.set(snap.docs.map(d => ({ id: d.id, ...d.data() })));
+    }, manejarErrorFirestore);
+    const u4 = onSnap(doc(db, 'config', 'landing'), snap => {
       if (snap.exists()) configLanding.update(prev => ({ ...prev, ...snap.data() }));
-    });
-    const u4 = onSnap(doc(db, 'config', 'nosotros'), snap => {
+    }, manejarErrorFirestore);
+    const u5 = onSnap(doc(db, 'config', 'nosotros'), snap => {
       if (snap.exists()) configNosotros.update(prev => ({ ...prev, ...snap.data() }));
-    });
-    const u5 = onSnap(doc(db, 'config', 'contacto'), snap => {
+    }, manejarErrorFirestore);
+    const u6 = onSnap(doc(db, 'config', 'contacto'), snap => {
       if (snap.exists()) configContacto.update(prev => ({ ...prev, ...snap.data() }));
-    });
-    return () => { u1(); u2(); u3(); u4(); u5(); };
+    }, manejarErrorFirestore);
+    return () => { u1(); u2(); u3(); u4(); u5(); u6(); };
   });
 
   function handleSearch(e) {
@@ -146,6 +164,20 @@
           <li><a href="https://wa.me/{$configContacto.wsp_num}" target="_blank" rel="noopener">Contacto</a></li>
         </ul>
       </div>
+
+      {#if $configContacto.locales?.length > 0}
+        <div class="footer-col">
+          <h4>Nuestros locales</h4>
+          <ul class="footer-locales">
+            {#each $configContacto.locales as local}
+              <li>
+                {#if local.nombre}<strong>{local.nombre}</strong>{/if}
+                {#if local.direccion}<span>{local.direccion}</span>{/if}
+              </li>
+            {/each}
+          </ul>
+        </div>
+      {/if}
 
     </div>
 

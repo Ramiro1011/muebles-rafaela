@@ -1,8 +1,9 @@
 import { writable, derived } from 'svelte/store';
 
 // ── Datos de Firestore ──────────────────────────────────────────────
-export const productos  = writable([]);
-export const categorias = writable([]);
+export const productos   = writable([]);
+export const categorias  = writable([]);
+export const proveedores = writable([]);
 
 // ── Auth ────────────────────────────────────────────────────────────
 export const usuario = writable(null);
@@ -132,6 +133,7 @@ export const configNosotros = writable({
 // ── Configuración de contacto ────────────────────────────────────────
 export const configContacto = writable({
   wsp_num: '5492252486140',
+  locales: [], // [{ nombre, direccion }]
 });
 
 // ── Conteo por categoría ────────────────────────────────────────────

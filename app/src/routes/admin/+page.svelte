@@ -1,8 +1,9 @@
 <script>
   import { db, subirImagenCloudinary } from '$lib/firebase.js';
-  import { productos, categorias, toast, configLanding, configNosotros, configContacto } from '$lib/stores.js';
+  import { productos, categorias, proveedores, toast, configLanding, configNosotros, configContacto } from '$lib/stores.js';
   import {
-    collection, addDoc, updateDoc, deleteDoc, doc, setDoc
+    collection, addDoc, updateDoc, deleteDoc, doc, setDoc, writeBatch,
+    getDocs, query, orderBy, limit
   } from 'firebase/firestore';
   import { goto } from '$app/navigation';
   import { usuario } from '$lib/stores.js';
@@ -15,7 +16,50 @@
   });
 
   // ── Pestañas ────────────────────────────────────────────────
-  let tab = $state('productos');  // 'productos' | 'categorias' | 'landing' | 'nosotros' | 'contacto'
+  let tab = $state('productos');  // 'productos' | 'categorias' | 'proveedores' | 'historial' | 'landing' | 'nosotros' | 'contacto'
+
+  // ── Historial de cambios ────────────────────────────────────
+  let historial         = $state([]);
+  let cargandoHistorial = $state(false);
+  let historialCargado  = $state(false);
+
+  async function registrarHistorial(tipo, descripcion) {
+    try {
+      await addDoc(collection(db, 'historial'), {
+        tipo,
+        descripcion,
+        usuario: $usuario?.email || 'admin',
+        fecha: new Date().toISOString(),
+      });
+      historialCargado = false; // forzar recarga la próxima vez que se abra la pestaña
+    } catch (err) {
+      // No bloquear la operación principal si falla el registro del historial
+      console.error('Error al registrar historial:', err);
+    }
+  }
+
+  async function cargarHistorial() {
+    if (historialCargado) return;
+    cargandoHistorial = true;
+    try {
+      const snap = await getDocs(query(collection(db, 'historial'), orderBy('fecha', 'desc'), limit(200)));
+      historial = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+      historialCargado = true;
+    } catch (err) {
+      toast('Error al cargar historial: ' + err.message, 'err');
+    } finally {
+      cargandoHistorial = false;
+    }
+  }
+
+  function tipoHistorialLabel(tipo) {
+    if (tipo.startsWith('producto'))  return { label: 'Producto',      color: '#818cf8' };
+    if (tipo.startsWith('categoria')) return { label: 'Categoría',     color: '#22c55e' };
+    if (tipo.startsWith('proveedor')) return { label: 'Proveedor',     color: '#f59e0b' };
+    if (tipo === 'aumento_masivo')    return { label: 'Precios',       color: 'var(--naranja)' };
+    if (tipo.startsWith('config'))    return { label: 'Configuración', color: '#7a8899' };
+    return { label: tipo, color: '#7a8899' };
+  }
 
   // ── Búsqueda en admin ───────────────────────────────────────
   let busquedaAdmin = $state('');
@@ -33,6 +77,7 @@
         (p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : []).join(' ').toLowerCase().includes(q) ||
         (p.descripcion || '').toLowerCase().includes(q) ||
         (p.material || '').toLowerCase().includes(q) ||
+        (p.proveedor || '').toLowerCase().includes(q) ||
         String(p.precio ?? '').includes(q) ||
         String(p.stock ?? '').includes(q)
       );
@@ -58,6 +103,7 @@
   let formStock      = $state('');   // número de unidades
   let formCategorias = $state([]);
   let formMaterial   = $state('');
+  let formProveedor  = $state('');
   let formImagenUrl  = $state('');
   let formGaleria    = $state([]);   // URLs de imágenes adicionales
   let formNuevo      = $state(false);
@@ -78,7 +124,7 @@
   function abrirFormNuevo() {
     editId = ''; formNombre = ''; formDesc = ''; formPrecio = '';
     formPrecioAnt = ''; formDescuento = ''; formStock = '';
-    formCategorias = []; formMaterial = ''; formImagenUrl = ''; formGaleria = [];
+    formCategorias = []; formMaterial = ''; formProveedor = ''; formImagenUrl = ''; formGaleria = [];
     formNuevo = false; formDestacado = false; formActivo = true;
     formColores = []; nuevoColorHex = '#888888'; nuevoColorNombre = '';
     mostrarForm = true;
@@ -95,6 +141,7 @@
     formStock     = p.stock != null ? String(p.stock) : '';
     formCategorias = p.categorias?.length ? [...p.categorias] : p.categoria ? [p.categoria] : [];
     formMaterial  = p.material || '';
+    formProveedor = p.proveedor || '';
     formImagenUrl = p.imagen || '';
     formGaleria   = p.imagenes ? [...p.imagenes] : [];
     formNuevo     = p.nuevo || false;
@@ -120,6 +167,7 @@
         categorias:     formCategorias,
         categoria:      formCategorias[0] || null,
         material:       formMaterial.trim() || null,
+        proveedor:      formProveedor || null,
         imagen:         formImagenUrl || null,
         imagenes:       formGaleria,
         nuevo:          formNuevo,
@@ -130,9 +178,11 @@
       if (editId) {
         await updateDoc(doc(db, 'productos', editId), data);
         toast('Producto actualizado');
+        await registrarHistorial('producto_editado', `Editó el producto "${data.nombre}"`);
       } else {
         await addDoc(collection(db, 'productos'), data);
         toast('Producto agregado');
+        await registrarHistorial('producto_creado', `Creó el producto "${data.nombre}"`);
       }
       mostrarForm = false;
     } catch(err) {
@@ -144,8 +194,10 @@
 
   async function toggleActivo(p) {
     try {
-      await updateDoc(doc(db, 'productos', p.id), { activo: p.activo === false });
-      toast(p.activo === false ? 'Producto activado' : 'Producto desactivado');
+      const nuevoActivo = p.activo === false;
+      await updateDoc(doc(db, 'productos', p.id), { activo: nuevoActivo });
+      toast(nuevoActivo ? 'Producto activado' : 'Producto desactivado');
+      await registrarHistorial('producto_estado', `${nuevoActivo ? 'Activó' : 'Desactivó'} el producto "${p.nombre}"`);
     } catch(err) {
       toast('Error: ' + err.message, 'err');
     }
@@ -156,6 +208,7 @@
     try {
       await deleteDoc(doc(db, 'productos', p.id));
       toast('Producto eliminado');
+      await registrarHistorial('producto_eliminado', `Eliminó el producto "${p.nombre}"`);
     } catch(err) {
       toast('Error: ' + err.message, 'err');
     }
@@ -236,6 +289,7 @@
     try {
       await addDoc(collection(db, 'categorias'), { nombre: nuevaCat.trim() });
       toast('Categoría agregada');
+      await registrarHistorial('categoria_creada', `Creó la categoría "${nuevaCat.trim()}"`);
       nuevaCat = '';
     } catch(err) {
       toast('Error: ' + err.message, 'err');
@@ -246,9 +300,11 @@
 
   async function guardarCat(id) {
     if (!editCatNombre.trim()) return;
+    const nombreViejo = $categorias.find(c => c.id === id)?.nombre;
     try {
       await updateDoc(doc(db, 'categorias', id), { nombre: editCatNombre.trim() });
       toast('Categoría actualizada');
+      await registrarHistorial('categoria_editada', `Renombró la categoría "${nombreViejo}" a "${editCatNombre.trim()}"`);
       editCatId = '';
     } catch(err) {
       toast('Error: ' + err.message, 'err');
@@ -265,8 +321,117 @@
     try {
       await deleteDoc(doc(db, 'categorias', cat.id));
       toast('Categoría eliminada');
+      await registrarHistorial('categoria_eliminada', `Eliminó la categoría "${cat.nombre}"`);
     } catch(err) {
       toast('Error: ' + err.message, 'err');
+    }
+  }
+
+  // ── Proveedores ─────────────────────────────────────────────
+  let nuevoProv     = $state('');
+  let agregandoProv = $state(false);
+  let editProvId    = $state('');
+  let editProvNombre = $state('');
+
+  async function agregarProveedor(e) {
+    e.preventDefault();
+    if (!nuevoProv.trim()) return;
+    const existe = $proveedores.some(p => p.nombre.toLowerCase() === nuevoProv.toLowerCase());
+    if (existe) { toast('Ya existe ese proveedor', 'err'); return; }
+    agregandoProv = true;
+    try {
+      await addDoc(collection(db, 'proveedores'), { nombre: nuevoProv.trim() });
+      toast('Proveedor agregado');
+      await registrarHistorial('proveedor_creado', `Creó el proveedor "${nuevoProv.trim()}"`);
+      nuevoProv = '';
+    } catch(err) {
+      toast('Error: ' + err.message, 'err');
+    } finally {
+      agregandoProv = false;
+    }
+  }
+
+  async function guardarProveedor(id) {
+    if (!editProvNombre.trim()) return;
+    const nombreViejo = $proveedores.find(p => p.id === id)?.nombre;
+    try {
+      await updateDoc(doc(db, 'proveedores', id), { nombre: editProvNombre.trim() });
+      toast('Proveedor actualizado');
+      await registrarHistorial('proveedor_editado', `Renombró el proveedor "${nombreViejo}" a "${editProvNombre.trim()}"`);
+      editProvId = '';
+    } catch(err) {
+      toast('Error: ' + err.message, 'err');
+    }
+  }
+
+  async function eliminarProveedor(prov) {
+    const n = $productos.filter(p => p.proveedor === prov.nombre).length;
+    if (n > 0 && !confirm(`Este proveedor tiene ${n} producto(s) asociado(s). ¿Eliminarlo de todos modos?`)) return;
+    try {
+      await deleteDoc(doc(db, 'proveedores', prov.id));
+      toast('Proveedor eliminado');
+      await registrarHistorial('proveedor_eliminado', `Eliminó el proveedor "${prov.nombre}"`);
+    } catch(err) {
+      toast('Error: ' + err.message, 'err');
+    }
+  }
+
+  // ── Aumento masivo de precios por proveedor ────────────────
+  let aumentoProveedor  = $state('');
+  let aumentoDireccion  = $state('subir');   // 'subir' | 'bajar'
+  let aumentoPorcentaje = $state('');        // siempre positivo, la dirección define el signo
+  let aplicandoAumento  = $state(false);
+
+  const aumentoPctFirmado = $derived.by(() => {
+    if (aumentoPorcentaje === '' || isNaN(Number(aumentoPorcentaje))) return null;
+    const pct = Math.abs(Number(aumentoPorcentaje));
+    return aumentoDireccion === 'bajar' ? -pct : pct;
+  });
+
+  const aumentoPreview = $derived.by(() => {
+    if (!aumentoProveedor || aumentoPctFirmado === null) return null;
+    const factor = 1 + aumentoPctFirmado / 100;
+    const afectados = $productos.filter(p => p.proveedor === aumentoProveedor);
+    if (afectados.length === 0) return { count: 0, ejemplo: null };
+    const ej = afectados.find(p => p.precio != null) || afectados[0];
+    return {
+      count: afectados.length,
+      ejemplo: ej.precio != null ? {
+        nombre: ej.nombre,
+        precioAntes: ej.precio,
+        precioDespues: Math.round(ej.precio * factor),
+        tachadoAntes: ej.precioAnterior ?? null,
+        tachadoDespues: ej.precioAnterior != null ? Math.round(ej.precioAnterior * factor) : null,
+      } : null,
+    };
+  });
+
+  async function aplicarAumentoMasivo() {
+    if (!aumentoPreview || aumentoPreview.count === 0 || aumentoPctFirmado === null) return;
+    const pct = aumentoPctFirmado;
+    const verbo = pct >= 0 ? 'aumentar' : 'bajar';
+    if (!confirm(`¿Aplicar ${Math.abs(pct)}% (${verbo}) a ${aumentoPreview.count} producto(s) de "${aumentoProveedor}"? Esta acción no se puede deshacer.`)) return;
+    aplicandoAumento = true;
+    try {
+      const factor = 1 + pct / 100;
+      const afectados = $productos.filter(p => p.proveedor === aumentoProveedor);
+      for (let i = 0; i < afectados.length; i += 450) {
+        const batch = writeBatch(db);
+        afectados.slice(i, i + 450).forEach(p => {
+          const data = {};
+          if (p.precio != null) data.precio = Math.round(p.precio * factor);
+          if (p.precioAnterior != null) data.precioAnterior = Math.round(p.precioAnterior * factor);
+          batch.update(doc(db, 'productos', p.id), data);
+        });
+        await batch.commit();
+      }
+      toast(`Precios actualizados para ${afectados.length} producto(s)`);
+      await registrarHistorial('aumento_masivo', `${pct >= 0 ? 'Aumentó' : 'Bajó'} ${Math.abs(pct)}% el precio de ${afectados.length} producto(s) de "${aumentoProveedor}"`);
+      aumentoProveedor = ''; aumentoPorcentaje = '';
+    } catch(err) {
+      toast('Error: ' + err.message, 'err');
+    } finally {
+      aplicandoAumento = false;
     }
   }
 
@@ -293,6 +458,7 @@
     try {
       await setDoc(doc(db, 'config', 'landing'), landingForm);
       toast('Página de inicio guardada');
+      await registrarHistorial('config_landing', 'Actualizó la página de Inicio');
     } catch(err) {
       toast('Error: ' + err.message, 'err');
     } finally {
@@ -313,6 +479,7 @@
     try {
       await setDoc(doc(db, 'config', 'nosotros'), nosotrosForm);
       toast('Página Nosotros guardada');
+      await registrarHistorial('config_nosotros', 'Actualizó la página Quiénes somos');
     } catch(err) {
       toast('Error: ' + err.message, 'err');
     } finally {
@@ -345,11 +512,19 @@
     try {
       await setDoc(doc(db, 'config', 'contacto'), contactoForm);
       toast('Contacto guardado');
+      await registrarHistorial('config_contacto', 'Actualizó los datos de Contacto');
     } catch(err) {
       toast('Error: ' + err.message, 'err');
     } finally {
       guardandoContacto = false;
     }
+  }
+
+  function agregarLocal() {
+    contactoForm = { ...contactoForm, locales: [...(contactoForm.locales ?? []), { nombre: '', direccion: '' }] };
+  }
+  function quitarLocal(i) {
+    contactoForm = { ...contactoForm, locales: (contactoForm.locales ?? []).filter((_, idx) => idx !== i) };
   }
 
   async function subirImagenLanding(file, campo) {
@@ -388,6 +563,24 @@
           </svg>
           Categorías
           <span class="admin-nav-badge">{$categorias.length}</span>
+        </button>
+      </li>
+      <li class="admin-nav-item">
+        <button class:active={tab === 'proveedores'} onclick={() => { tab = 'proveedores'; mostrarForm = false; }}>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+            <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+          </svg>
+          Proveedores
+          <span class="admin-nav-badge">{$proveedores.length}</span>
+        </button>
+      </li>
+      <li class="admin-nav-item">
+        <button class:active={tab === 'historial'} onclick={() => { tab = 'historial'; mostrarForm = false; cargarHistorial(); }}>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/>
+          </svg>
+          Historial
         </button>
       </li>
       <li class="admin-nav-item">
@@ -449,6 +642,8 @@
     <div class="admin-mobile-tabs">
       <button class:active={tab === 'productos'} onclick={() => { tab = 'productos'; mostrarForm = false; }}>Productos</button>
       <button class:active={tab === 'categorias'} onclick={() => { tab = 'categorias'; mostrarForm = false; }}>Categorías</button>
+      <button class:active={tab === 'proveedores'} onclick={() => { tab = 'proveedores'; mostrarForm = false; }}>Proveedores</button>
+      <button class:active={tab === 'historial'} onclick={() => { tab = 'historial'; mostrarForm = false; cargarHistorial(); }}>Historial</button>
       <button class:active={tab === 'landing'} onclick={() => { tab = 'landing'; mostrarForm = false; }}>Inicio</button>
       <button class:active={tab === 'nosotros'} onclick={() => { tab = 'nosotros'; mostrarForm = false; }}>Nosotros</button>
       <button class:active={tab === 'contacto'} onclick={() => { tab = 'contacto'; mostrarForm = false; }}>Contacto</button>
@@ -535,8 +730,9 @@
             </div>
 
             <div class="form-field">
-              <label class="form-label" for="fpa">Precio costo</label>
+              <label class="form-label" for="fpa">Precio tachado</label>
               <input id="fpa" class="form-input" type="number" min="0" bind:value={formPrecioAnt} placeholder="100000" />
+              <p style="font-size:.7rem;color:var(--text-3);margin:0">Se muestra tachado junto al precio final para marcar una oferta (opcional)</p>
             </div>
 
             <div class="form-field">
@@ -572,6 +768,21 @@
             <div class="form-field">
               <label class="form-label" for="fmat">Material</label>
               <input id="fmat" class="form-input" type="text" bind:value={formMaterial} placeholder="Ej: Madera, Cuero, Metal" />
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="fprov">Proveedor</label>
+              <select id="fprov" class="form-select" bind:value={formProveedor}>
+                <option value="">Sin proveedor</option>
+                {#each $proveedores as prov (prov.id)}
+                  <option value={prov.nombre}>{prov.nombre}</option>
+                {/each}
+              </select>
+              {#if $proveedores.length === 0}
+                <p style="font-size:.7rem;color:var(--text-3);margin:0">
+                  No hay proveedores creados — agregalos en la pestaña Proveedores
+                </p>
+              {/if}
             </div>
 
             <!-- Upload de imagen -->
@@ -723,6 +934,7 @@
                 <th>Imagen</th>
                 <th>Nombre</th>
                 <th>Categoría</th>
+                <th>Proveedor</th>
                 <th>Precio</th>
                 <th>Stock</th>
                 <th>Flags</th>
@@ -732,7 +944,7 @@
             <tbody>
               {#if prodsPaginados.length === 0}
                 <tr>
-                  <td colspan="7" style="text-align:center;padding:2rem;color:var(--text-3)">
+                  <td colspan="8" style="text-align:center;padding:2rem;color:var(--text-3)">
                     Sin resultados
                   </td>
                 </tr>
@@ -748,6 +960,7 @@
                   </td>
                   <td class="bold">{p.nombre}</td>
                   <td>{getCats(p).join(', ') || '—'}</td>
+                  <td>{p.proveedor || '—'}</td>
                   <td>
                     {#if p.descuento > 0}
                       <span style="text-decoration:line-through;font-size:.75rem;color:var(--text-3)">{pesos(p.precio)}</span>
@@ -885,6 +1098,185 @@
       </div>
     {/if}
 
+    <!-- ── PESTAÑA PROVEEDORES ── -->
+    {#if tab === 'proveedores'}
+      <div class="admin-section-header">
+        <h2 class="admin-section-title">Proveedores</h2>
+      </div>
+
+      <!-- Agregar proveedor -->
+      <form class="admin-form" style="margin-bottom:1.5rem" onsubmit={agregarProveedor}>
+        <div style="display:flex;gap:.75rem;align-items:flex-end;max-width:480px">
+          <div class="form-field" style="flex:1">
+            <label class="form-label" for="np">Nuevo proveedor</label>
+            <input id="np" class="form-input" type="text" bind:value={nuevoProv} placeholder="Ej: Sillas del Sur SRL" />
+          </div>
+          <button type="submit" class="btn btn-primary" disabled={agregandoProv || !nuevoProv.trim()}>
+            {agregandoProv ? '...' : 'Agregar'}
+          </button>
+        </div>
+      </form>
+
+      <!-- Lista de proveedores -->
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Productos</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            {#each $proveedores as prov (prov.id)}
+              <tr>
+                <td class="bold">
+                  {#if editProvId === prov.id}
+                    <form onsubmit={(e) => { e.preventDefault(); guardarProveedor(prov.id); }} style="display:flex;gap:.5rem">
+                      <input class="form-input" type="text" bind:value={editProvNombre} style="padding:.35rem .6rem;font-size:.82rem" />
+                      <button type="submit" class="btn btn-primary btn-sm">✓</button>
+                      <button type="button" class="btn btn-ghost btn-sm" onclick={() => editProvId = ''}>✕</button>
+                    </form>
+                  {:else}
+                    {prov.nombre}
+                  {/if}
+                </td>
+                <td>{$productos.filter(p => p.proveedor === prov.nombre).length}</td>
+                <td>
+                  <div style="display:flex;gap:.35rem">
+                    <button
+                      class="btn btn-ghost btn-sm btn-icon"
+                      onclick={() => { editProvId = prov.id; editProvNombre = prov.nombre; }}
+                      title="Editar"
+                    >
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/>
+                        <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                      </svg>
+                    </button>
+                    <button
+                      class="btn btn-danger btn-sm btn-icon"
+                      onclick={() => eliminarProveedor(prov)}
+                      title="Eliminar"
+                    >
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="3 6 5 6 21 6"/>
+                        <path d="M19 6l-1 14H6L5 6"/>
+                        <path d="M10 11v6M14 11v6"/>
+                        <path d="M9 6V4h6v2"/>
+                      </svg>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            {/each}
+            {#if $proveedores.length === 0}
+              <tr>
+                <td colspan="3" style="text-align:center;padding:2rem;color:var(--text-3)">
+                  Sin proveedores creados aún
+                </td>
+              </tr>
+            {/if}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Aumento masivo de precios -->
+      <div class="admin-form-group-title" style="margin-top:2rem">Aumento masivo de precios por proveedor</div>
+      <form class="admin-form" onsubmit={(e) => e.preventDefault()}>
+        <div class="form-grid">
+          <div class="form-field">
+            <label class="form-label" for="aum-prov">Proveedor</label>
+            <select id="aum-prov" class="form-select" bind:value={aumentoProveedor}>
+              <option value="">Seleccioná un proveedor</option>
+              {#each $proveedores as prov (prov.id)}
+                <option value={prov.nombre}>{prov.nombre}</option>
+              {/each}
+            </select>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="aum-dir">Acción</label>
+            <select id="aum-dir" class="form-select" bind:value={aumentoDireccion}>
+              <option value="subir">Aumentar precio</option>
+              <option value="bajar">Bajar precio</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="aum-pct">Porcentaje (%)</label>
+            <input id="aum-pct" class="form-input" type="number" min="0" step="0.01" bind:value={aumentoPorcentaje} placeholder="Ej: 10" />
+          </div>
+        </div>
+
+        {#if aumentoPreview}
+          <div class="aumento-preview">
+            {#if aumentoPreview.count === 0}
+              <p>No hay productos asociados a "{aumentoProveedor}".</p>
+            {:else}
+              <p>Se {aumentoDireccion === 'subir' ? 'van a aumentar' : 'van a bajar'} los precios de <strong>{aumentoPreview.count}</strong> producto(s) de "{aumentoProveedor}" un <strong>{Math.abs(aumentoPctFirmado)}%</strong>.</p>
+              {#if aumentoPreview.ejemplo}
+                <p class="aumento-ejemplo">
+                  Ejemplo — "{aumentoPreview.ejemplo.nombre}": {pesos(aumentoPreview.ejemplo.precioAntes)} → {pesos(aumentoPreview.ejemplo.precioDespues)}
+                  {#if aumentoPreview.ejemplo.tachadoAntes != null}
+                    (precio tachado: {pesos(aumentoPreview.ejemplo.tachadoAntes)} → {pesos(aumentoPreview.ejemplo.tachadoDespues)})
+                  {/if}
+                </p>
+              {/if}
+              <button type="button" class="btn btn-primary" disabled={aplicandoAumento} onclick={aplicarAumentoMasivo}>
+                {aplicandoAumento ? 'Aplicando...' : `Aplicar a ${aumentoPreview.count} producto(s)`}
+              </button>
+            {/if}
+          </div>
+        {/if}
+      </form>
+    {/if}
+
+    <!-- ── PESTAÑA HISTORIAL ── -->
+    {#if tab === 'historial'}
+      <div class="admin-section-header">
+        <h2 class="admin-section-title">Historial de cambios</h2>
+        <p class="admin-section-sub">Últimos 200 movimientos del panel de administración</p>
+      </div>
+
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Tipo</th>
+              <th>Descripción</th>
+              <th>Usuario</th>
+            </tr>
+          </thead>
+          <tbody>
+            {#if cargandoHistorial}
+              <tr>
+                <td colspan="4" style="text-align:center;padding:2rem;color:var(--text-3)">Cargando...</td>
+              </tr>
+            {:else if historial.length === 0}
+              <tr>
+                <td colspan="4" style="text-align:center;padding:2rem;color:var(--text-3)">Sin movimientos registrados todavía</td>
+              </tr>
+            {:else}
+              {#each historial as h (h.id)}
+                <tr>
+                  <td style="white-space:nowrap;color:var(--text-3);font-size:.8rem">
+                    {new Date(h.fecha).toLocaleString('es-AR')}
+                  </td>
+                  <td>
+                    <span class="badge" style="background:{tipoHistorialLabel(h.tipo).color}22;color:{tipoHistorialLabel(h.tipo).color}">
+                      {tipoHistorialLabel(h.tipo).label}
+                    </span>
+                  </td>
+                  <td>{h.descripcion}</td>
+                  <td style="color:var(--text-3);font-size:.8rem">{h.usuario}</td>
+                </tr>
+              {/each}
+            {/if}
+          </tbody>
+        </table>
+      </div>
+    {/if}
+
     <!-- ── PESTAÑA LANDING ── -->
     {#if tab === 'landing'}
       <div class="admin-section-header">
@@ -961,8 +1353,13 @@
                 <input class="form-input" bind:value={landingForm[`${col.prefix}_badge`]} />
               </div>
               <div class="form-field">
-                <label class="form-label">Link (nombre categoría)</label>
-                <input class="form-input" bind:value={landingForm[`${col.prefix}_link`]} />
+                <label class="form-label">Categoría de destino</label>
+                <select class="form-select" bind:value={landingForm[`${col.prefix}_link`]}>
+                  <option value="">Seleccioná una categoría</option>
+                  {#each $categorias as cat (cat.id)}
+                    <option value={cat.nombre}>{cat.nombre}</option>
+                  {/each}
+                </select>
               </div>
               <div class="form-field">
                 <label class="form-label">Imagen</label>
@@ -1163,6 +1560,18 @@
             Ejemplo Argentina: <strong style="color:var(--text-2)">549</strong> + número sin 0 ni 15.<br>
             (0221 123-4567 → <strong style="color:var(--text-2)">5492211234567</strong>)
           </p>
+        </div>
+
+        <div class="admin-form-group-title" style="margin-top:2rem">Locales</div>
+        <div class="form-field full" style="max-width:640px">
+          {#each contactoForm.locales ?? [] as local, i}
+            <div class="local-row">
+              <input class="form-input" type="text" bind:value={local.nombre} placeholder="Nombre (ej: Sucursal Centro)" />
+              <input class="form-input" type="text" bind:value={local.direccion} placeholder="Dirección" />
+              <button type="button" class="btn btn-danger btn-sm btn-icon" onclick={() => quitarLocal(i)} title="Quitar">✕</button>
+            </div>
+          {/each}
+          <button type="button" class="btn btn-ghost btn-sm" onclick={agregarLocal}>+ Agregar local</button>
         </div>
 
         <div style="margin-top:1.5rem">

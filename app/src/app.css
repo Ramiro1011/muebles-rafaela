@@ -969,7 +969,7 @@ img { display: block; max-width: 100%; }
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.5fr repeat(2, 1fr);
+  grid-template-columns: 1.5fr repeat(3, 1fr);
   gap: 3rem;
   margin-bottom: 3rem;
 }
@@ -1010,6 +1010,8 @@ img { display: block; max-width: 100%; }
 .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: .5rem; }
 .footer-col ul a { font-size: .8rem; color: rgba(255,255,255,.52); transition: color .15s; }
 .footer-col ul a:hover { color: #fff; }
+.footer-locales li { display: flex; flex-direction: column; gap: .15rem; font-size: .8rem; color: rgba(255,255,255,.52); }
+.footer-locales li strong { color: rgba(255,255,255,.85); font-size: .78rem; }
 .footer-bottom {
   max-width: 1200px;
   margin: 0 auto;
@@ -1290,6 +1292,23 @@ img { display: block; max-width: 100%; }
   padding-bottom: .5rem;
   margin-bottom: 1rem;
 }
+
+/* Locales (tab Contacto) */
+.local-row { display: flex; gap: .5rem; margin-bottom: .5rem; }
+.local-row .form-input:nth-child(1) { flex: 1; min-width: 0; }
+.local-row .form-input:nth-child(2) { flex: 2; min-width: 0; }
+
+/* Aumento masivo de precios (tab Proveedores) */
+.aumento-preview {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: .85rem;
+}
+.aumento-preview p { margin: 0 0 .5rem; }
+.aumento-preview .aumento-ejemplo { color: var(--text-3); font-size: .78rem; }
 
 /* Tabla admin */
 .admin-table-wrap {
@@ -2190,6 +2209,10 @@ img { display: block; max-width: 100%; }
   /* Color picker row */
   .color-picker-row { flex-wrap: wrap; }
   .color-picker-row .form-input { min-width: 120px; }
+  /* Locales: apilar en mobile */
+  .local-row { flex-wrap: wrap; }
+  .local-row .form-input:nth-child(1),
+  .local-row .form-input:nth-child(2) { flex-basis: 100%; }
   /* File upload */
   .file-upload-wrap { flex-wrap: wrap; }
   /* Admin form: ancho completo en mobile */
