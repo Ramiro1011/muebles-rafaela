@@ -4,161 +4,128 @@ Eres un experto en optimizar el uso eficiente del contexto de IA. Tu objetivo es
 
 ## Estrategias de optimización para este proyecto
 
-### 1. Lectura quirúrgica del archivo único
+### 1. Lectura quirúrgica de un proyecto multi-archivo
 
-El archivo `muebles_rafaela.html` es grande (~1100+ líneas). Leer secciones específicas con `offset` y `limit`:
-
-```
-MAL:  Leer todo muebles_rafaela.html (1100+ líneas)
-BIEN: Grep para encontrar la línea exacta → Read con offset/limit de ±20 líneas
-```
-
-Grep útiles para encontrar secciones:
-```bash
-# Encontrar función específica
-grep -n "function renderGrid" muebles_rafaela.html
-
-# Encontrar clase CSS
-grep -n "\.card-nombre" muebles_rafaela.html
-
-# Encontrar sección de Firebase
-grep -n "onSnapshot\|addDoc\|deleteDoc" muebles_rafaela.html
-
-# Encontrar event listeners
-grep -n "addEventListener" muebles_rafaela.html
-```
-
-### 2. Estructura del archivo (referencia rápida)
-
-Para no tener que explorar el archivo desde cero, la estructura aproximada:
+A diferencia de un archivo único, el proyecto ahora está repartido en varios componentes pequeños/medianos. La estrategia cambia: en vez de offsets dentro de un archivo gigante, se trata de **elegir el archivo correcto primero**.
 
 ```
-Líneas 1-15:     <head> — meta, title
-Líneas 16-695:   <style> — todo el CSS
-  ~16-100:         Variables, reset, header
-  ~100-200:        Hero, toolbar, filtros
-  ~200-300:        Cards, skeleton, empty state
-  ~300-400:        Footer, overlay, modals
-  ~400-500:        Modal detalle, panel admin
-  ~500-600:        Formularios, pestañas, toast
-  ~600-695:        Responsive
-Líneas 696-XXX:  <body> — HTML
-  ~696-750:        Header, hero, toolbar
-  ~750-850:        Catálogo, grid, footer
-  ~850-950:        Overlay, modal detalle, modal admin
-  ~950-XXX:        Script JS (Firebase + lógica)
+MAL:  Leer app.css completo (2200+ líneas) para agregar una clase
+BIEN: Grep la clase o selector relacionado → Read con offset/limit alrededor del match
 ```
 
-**Nota**: los offsets exactos cambian con cada modificación. Usar Grep primero.
+```
+MAL:  Leer admin/+page.svelte completo (1177 líneas) para un cambio en el tab de categorías
+BIEN: Grep "tab === 'categorias'" o el nombre de función relevante → leer esa sección
+```
+
+### 2. Mapa de archivos (referencia rápida, no releer si ya se cargó en la sesión)
+
+```
+app/src/
+├── app.css                          # ~2200 líneas — TODO el CSS global
+├── lib/
+│   ├── firebase.js                  # ~50 líneas — init + subirImagenCloudinary()
+│   └── stores.js                    # ~150 líneas — todos los stores y derived
+└── routes/
+    ├── +layout.svelte               # ~170 líneas — header, footer, listeners onSnapshot, toasts
+    ├── +page.svelte                 # Landing
+    ├── catalogo/+page.svelte        # ~345 líneas — sidebar, filtros, grid, paginación, modal
+    ├── nosotros/+page.svelte
+    └── admin/
+        ├── +layout.svelte           # ~70 líneas — auth guard
+        ├── +page.svelte             # ~1180 líneas — 5 tabs, más grande del proyecto
+        └── login/+page.svelte
+```
 
 ### 3. Contexto mínimo necesario por tipo de tarea
 
-**Para modificar una función JS existente:**
-- Grep el nombre de la función → leer ±30 líneas
-- Leer las variables de estado globales (≈15 líneas al inicio del script)
-- Leer la función que llama a la modificada (si es callback)
+**Para modificar un store o derived:**
+- Leer `stores.js` completo si es la primera vez en la sesión (es corto, ~150 líneas) — después, no releer, referenciar lo ya visto
+
+**Para modificar un componente de ruta:**
+- Grep el nombre de la función/variable relevante dentro del archivo específico → leer ±40 líneas
+- Si el cambio depende de un store, ya se conoce su forma sin releer `stores.js`
 
 **Para agregar CSS:**
-- Grep la clase que quiero extender → leer ±20 líneas
-- No es necesario leer todo el CSS
-
-**Para agregar HTML:**
-- Grep el elemento padre donde va el nuevo HTML → leer ±30 líneas
-- Identificar el patrón existente → replicarlo
+- Grep la clase que se quiere extender en `app.css` → leer ±20 líneas
+- No es necesario leer todo `app.css`
 
 **Para modificar Firestore/Firebase:**
-- Grep "const db" o "collection" → leer ±20 líneas
-- Grep la función de escucha relevante (escucharDatos, etc.)
+- Grep "onSnapshot" o "addDoc" en `+layout.svelte` / `admin/+page.svelte` → leer esa sección puntual
+- No releer `firebase.js` si ya se cargó (es corto y estable)
 
-### 4. Variables de estado globales (referencia, no leer el archivo)
+### 4. Stores y helpers clave (referencia, no releer el archivo si ya se vio en la sesión)
 
 ```javascript
-// Estado que influye en todas las funciones render:
-let productos = [];    // Array de objetos {id, nombre, descripcion, precio, categoria, imagen}
-let categorias = [];   // Array de objetos {id, nombre}
-let filtro = 'todos';  // String: 'todos' o nombre de categoría
-let busqueda = '';     // String: texto del input de búsqueda
-let isAdmin = false;   // Boolean: usuario autenticado como admin
-let unsubProds = null; // Función unsubscribe de onSnapshot productos
-let unsubCats = null;  // Función unsubscribe de onSnapshot categorías
+productos, categorias                          // writable
+usuario, authCargando                           // writable, auth
+filtroCategoria, textoBusqueda, filtroMaterial,
+precioMin, precioMax, soloDestacados, ordenamiento  // writable
+productosFiltrados                              // derived — filtro + orden combinados
+conteoCategoria                                 // derived — {nombreCategoria: cantidad}
+configLanding, configNosotros, configContacto   // writable
+toasts, toast(msg, tipo)                        // notificaciones
+precioFinal(p)                                  // number|null — aplica descuento
 ```
 
-### 5. Funciones clave (referencia, no leer el archivo)
+### 5. Firestore — colecciones y campos (referencia)
 
 ```
-escucharDatos()      → suscribe Firestore → actualiza productos[] y categorias[]
-renderGrid()         → filtra productos[] y genera HTML del grid
-renderFiltros()      → genera botones de categorías desde categorias[]
-renderAdminPanel()   → genera HTML del panel admin con 3 pestañas
-renderAList()        → lista de productos en admin (pestaña 1)
-renderCats()         → lista de categorías en admin (pestaña 2)
-fillCatSel()         → llena el <select> de categoría en el form de agregar producto
-showOverlay(which)   → muestra overlay: 'mlogin' | 'madmin' | 'mdet'
-closeOverlay()       → oculta overlay
-toast(msg, tipo)     → toast: tipo 'ok' | 'err'
-wsp(nombre)          → link WhatsApp
-openDet(id)          → modal detalle de producto
-editProd(id)         → carga producto en formulario de edición
-delProd(id)          → elimina producto de Firestore
-editCat(id)          → edición inline de categoría
-delCat(id)           → elimina categoría de Firestore
-pesos(n)             → formatea precio a string '$ 12.500'
+'productos': {
+  nombre, descripcion, precio, precioAnterior, descuento, stock,
+  categoria (legacy string), categorias (array),
+  material, imagen, imagenes[], nuevo, destacado, activo,
+  colores: [{nombre, hex}]
+}
+'categorias': { nombre }
+'config/landing', 'config/nosotros', 'config/contacto': documentos únicos con campos de texto/imagen de cada página
 ```
 
-### 6. Firestore — colecciones y campos (referencia)
+### 6. Reutilizar contexto de la sesión
 
-```
-colección 'productos':
-  {id: auto, nombre: str, descripcion: str, precio: number|null, categoria: str, imagen: url|null, destacado: bool|null}
-
-colección 'categorias':
-  {id: auto, nombre: str}
-```
-
-### 7. Reutilizar contexto de la sesión
-
-- No re-leer el archivo si ya se leyó en la conversación
-- No re-analizar la estructura si ya se describió
+- No re-leer un archivo si ya se leyó en la conversación
+- No re-analizar la estructura de rutas si ya se describió
 - Referenciar hallazgos previos en lugar de re-derivarlos
+- Si se necesita un dato puntual de un archivo grande (`app.css`, `admin/+page.svelte`) y ya se hizo Grep antes, reutilizar ese resultado en vez de repetir la búsqueda
 
-### 8. Preguntas de diagnóstico antes de actuar
+### 7. Preguntas de diagnóstico antes de actuar
 
 Antes de explorar el código, preguntar al usuario:
-- ¿En qué función o sección visual está el problema?
+- ¿En qué ruta o componente está el problema? (`/`, `/catalogo`, `/nosotros`, `/admin`)
 - ¿Qué comportamiento espera vs qué ve?
-- ¿Hay un error en la consola del browser?
+- ¿Hay un error en la consola del browser o en la terminal de `npm run dev`?
 
-### 9. Métricas de eficiencia
+### 8. Métricas de eficiencia
 
 | Tipo de tarea | Lecturas máximas | Ediciones máximas |
 |---|---|---|
-| Bug fix de CSS | 2 Greps + 1 Read parcial | 1 Edit |
-| Bug fix de JS | 2 Greps + 2 Reads parciales | 1 Edit |
-| Nueva feature pequeña | 5 Greps + 3 Reads parciales | 1-2 Edits |
-| Feature mediana | 8 Greps + 5 Reads parciales | 2-4 Edits |
+| Bug fix de CSS | 2 Greps + 1 Read parcial en `app.css` | 1 Edit |
+| Bug fix de JS/Svelte | 2 Greps + 1-2 Reads parciales en el `.svelte` afectado | 1 Edit |
+| Nueva feature pequeña | 4 Greps + 2-3 Reads parciales | 1-2 Edits |
+| Feature mediana (nueva ruta o store) | 6 Greps + 4 Reads parciales | 2-4 Edits |
 
-Si se exceden estos límites, replantear el enfoque.
+Si se exceden estos límites, replantear el enfoque — probablemente falta entender el flujo antes de tocar código.
 
-### 10. Patterns de Grep eficientes para este proyecto
+### 9. Patrones de Grep eficientes para este proyecto
 
 ```bash
-# Buscar función render específica
-grep -n "function render" muebles_rafaela.html
+# Buscar un store o export específico
+grep -n "export const\|export function" app/src/lib/stores.js
 
-# Ver todos los event listeners
-grep -n "\.addEventListener\|onclick=" muebles_rafaela.html
+# Ver todas las operaciones Firestore en un archivo
+grep -n "addDoc\|updateDoc\|deleteDoc\|setDoc\|onSnapshot" app/src/routes/admin/+page.svelte
 
-# Ver sección de Firebase (imports y config)
-grep -n "import\|firebaseConfig\|const db\|const auth" muebles_rafaela.html
+# Ver todo el estado reactivo de un componente
+grep -n "\$state\|\$derived\|\$props\|\$effect" app/src/routes/catalogo/+page.svelte
 
-# Ver todos los IDs de elementos HTML
-grep -n 'id="' muebles_rafaela.html
+# Ver una clase CSS específica
+grep -n "\.card-name" app/src/app.css
 
-# Ver todas las variables de estado globales
-grep -n "^let \|^const \|^var " muebles_rafaela.html
+# Ver todos los tabs del admin
+grep -n "tab ===" app/src/routes/admin/+page.svelte
 
-# Ver todos los modales/overlays
-grep -n "showOverlay\|closeOverlay\|mlogin\|madmin\|mdet" muebles_rafaela.html
+# Ver todas las rutas existentes
+find app/src/routes -name "+page.svelte" -o -name "+layout.svelte"
 ```
 
 $ARGUMENTS

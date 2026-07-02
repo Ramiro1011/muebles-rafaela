@@ -1,13 +1,30 @@
 # Firebase & Firestore — Muebles Rafaela
 
-Eres un experto en Firebase para este catálogo de mueblería. El "backend" es 100% Firebase (Firestore + Auth), sin servidor propio.
+Eres un experto en Firebase para este catálogo de mueblería. El "backend" es 100% Firebase (Firestore + Auth) + Cloudinary para imágenes, sin servidor propio. La app es SvelteKit 5 con `adapter-static` — no hay rutas server (`+page.server.js`, `+server.js`), todo corre en el cliente.
 
 ## Stack
-- **Firebase v10.12.2** (modular SDK via CDN)
-- **Firebase Auth** — autenticación email/password (un único admin)
+- **Firebase v12** (modular SDK, instalado vía npm — no CDN)
+- **Firebase Auth** — email/password, un único admin
 - **Firebase Firestore** — base de datos NoSQL en tiempo real
-- **Netlify** — hosting estático
-- **Sin Firebase Storage actualmente** — las imágenes se cargan por URL externa
+- **Cloudinary** — upload unsigned de imágenes (reemplaza URLs externas pegadas a mano del sistema anterior)
+- **Netlify** — hosting estático del build de `adapter-static`
+
+Init centralizado en `app/src/lib/firebase.js`:
+```javascript
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
+
+export const app  = initializeApp(firebaseConfig);
+export const db   = getFirestore(app);
+export const auth = getAuth(app);
+
+export const CLOUDINARY_CLOUD_NAME    = 'dc74ogekb';
+export const CLOUDINARY_UPLOAD_PRESET = 'muebles-rafaela';
+
+export async function subirImagenCloudinary(file, onProgress) { /* XHR a api.cloudinary.com */ }
+```
+Importar `db`, `auth`, `subirImagenCloudinary` desde `$lib/firebase.js` — nunca reinicializar la app en otro archivo.
 
 ---
 
@@ -16,64 +33,74 @@ Eres un experto en Firebase para este catálogo de mueblería. El "backend" es 1
 ### Colección `productos`
 ```javascript
 {
-  id: "auto-generado-por-firestore",  // DocumentReference ID
-  nombre: "Sillón 3 Cuerpos",         // string, requerido
-  descripcion: "Tapizado en tela...",  // string, opcional
-  precio: 85000,                       // number, nullable (null = "Consultar")
-  categoria: "Sillones",              // string, debe existir en categorias[]
-  imagen: "https://...",              // string URL, nullable
-  destacado: true                     // boolean, opcional (para futura sección de destacados)
+  id: "auto-generado",
+  nombre: "Sillón 3 Cuerpos",        // string, requerido
+  descripcion: "Tapizado en...",     // string, opcional
+  precio: 85000,                     // number, nullable (null = "Consultar")
+  precioAnterior: 95000,             // number, nullable — precio tachado si no hay descuento %
+  descuento: 10,                     // number (%), 0 = sin descuento activo
+  stock: 5,                          // number, nullable
+  categoria: "Sillones",             // string, LEGACY — igual a categorias[0]
+  categorias: ["Sillones", "Living"],// array de strings — fuente de verdad actual
+  material: "Madera",                // string, opcional
+  imagen: "https://res.cloudinary.com/...", // URL de Cloudinary, nullable
+  imagenes: ["https://...", "..."],  // array de URLs adicionales (galería)
+  nuevo: true,                       // boolean, opcional — badge "Novedad"
+  destacado: true,                   // boolean, opcional
+  activo: true,                      // boolean — false = oculto del catálogo público
+  colores: [{ nombre: "Gris", hex: "#888888" }] // array de objetos, opcional
 }
 ```
 
+Al guardar desde el admin (`guardarProd()` en `admin/+page.svelte`) siempre se escriben **ambos** `categoria` y `categorias` — mantener esa doble escritura al tocar ese código, ya que hay lectores (derived, filtros) que todavía consultan el campo legacy como fallback.
+
 ### Colección `categorias`
 ```javascript
-{
-  id: "auto-generado",
-  nombre: "Sillones"  // string, requerido, único (no hay constraint en Firestore, validar en JS)
-}
+{ id: "auto-generado", nombre: "Sillones" }
 ```
+
+### Documentos de configuración (`config/landing`, `config/nosotros`, `config/contacto`)
+Documentos con ID fijo, no colecciones — se leen/escriben con `doc(db, 'config', 'landing')`, no con `collection()`. Cada uno mapea 1:1 a un store (`configLanding`, `configNosotros`, `configContacto`) con sus valores por defecto ya definidos en `stores.js` (se usan como fallback si el doc no existe todavía).
 
 ---
 
 ## Operaciones Firestore disponibles
 
-### Imports ya disponibles en el script
+### Imports típicos
 ```javascript
-import { getFirestore, collection, doc, getDocs, addDoc, updateDoc, deleteDoc, onSnapshot, query, orderBy } from "firebase-firestore";
+import { collection, doc, addDoc, updateDoc, deleteDoc, setDoc, onSnapshot, query, orderBy } from 'firebase/firestore';
 ```
 
-### Leer datos (en tiempo real)
+### Leer datos en tiempo real (patrón del proyecto: centralizado en `+layout.svelte`)
 ```javascript
-// onSnapshot se actualiza automáticamente cuando hay cambios
-const unsub = onSnapshot(
-  query(collection(db, 'productos'), orderBy('nombre')),
-  snap => {
-    productos = snap.docs.map(d => ({ id: d.id, ...d.data() }));
-    renderGrid();
-  },
-  err => toast('Error: ' + err.message, 'err')
-);
-// Para cancelar: unsub()
+// Dentro de onMount() en app/src/routes/+layout.svelte
+const u1 = onSnapshot(query(collection(db, 'productos'), orderBy('nombre')), snap => {
+  productos.set(snap.docs.map(d => ({ id: d.id, ...d.data() })));
+});
+// return del onMount desuscribe automáticamente al desmontar el layout
 ```
+**No** volver a suscribirse con `onSnapshot` dentro de páginas individuales — los stores ya están poblados globalmente.
 
-### Crear documento
+### Crear documento (ID autogenerado)
 ```javascript
 await addDoc(collection(db, 'productos'), {
   nombre: 'Nuevo producto',
   precio: 50000,
-  categoria: 'Sillones'
-  // Firestore agrega el ID automáticamente
+  categorias: ['Sillones'],
+  categoria: 'Sillones',
 });
 ```
 
-### Actualizar documento
+### Actualizar documento (parcial)
 ```javascript
 await updateDoc(doc(db, 'productos', id), {
-  nombre: 'Nombre actualizado',
-  precio: 60000
-  // Solo los campos incluidos se actualizan; el resto no cambia
+  activo: false, // solo los campos incluidos cambian
 });
+```
+
+### Reemplazar documento completo con ID fijo (config)
+```javascript
+await setDoc(doc(db, 'config', 'landing'), formCompleto); // reemplaza TODO el doc
 ```
 
 ### Eliminar documento
@@ -93,27 +120,25 @@ const lista = snap.docs.map(d => ({ id: d.id, ...d.data() }));
 
 ### Patrón actual
 ```javascript
-// Login
+// Login (admin/login/+page.svelte)
 await signInWithEmailAndPassword(auth, email, password);
 
-// Logout
+// Logout (botón "Salir" en admin/+layout.svelte)
 await signOut(auth);
 
-// Escuchar cambios de auth
-onAuthStateChanged(auth, user => {
-  isAdmin = !!user;
-  // mostrar/ocultar botones admin
+// Escuchar cambios de auth — centralizado en +layout.svelte raíz
+onAuthStateChanged(auth, u => {
+  usuario.set(u);
+  authCargando.set(false);
 });
 ```
 
-### Consideraciones de seguridad
-- La protección REAL está en las **Firestore Security Rules**, no en `isAdmin`
-- Un usuario puede ejecutar `isAdmin = true` en la consola del browser — eso no le da acceso a Firestore si las reglas están bien configuradas
-- Firebase Auth maneja rate limiting de intentos de login automáticamente
+### Guard de rutas admin
+`admin/+layout.svelte` usa un `$effect` reactivo a los stores `usuario`/`authCargando` para redirigir a `/admin/login` con `goto()` si no hay sesión. Esto es protección **de UX**, no de seguridad — la seguridad real vive en las Firestore Security Rules (`request.auth != null` en escritura).
 
 ---
 
-## Firestore Security Rules (configurar en Firebase Console)
+## Firestore Security Rules (configurar en Firebase Console — no versionado en el repo)
 
 ```javascript
 rules_version = '2';
@@ -127,54 +152,22 @@ service cloud.firestore {
       allow read: if true;
       allow write: if request.auth != null;
     }
+    match /config/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
   }
 }
 ```
 
 ---
 
-## Paginación para 1500 productos
+## Paginación (ya implementada)
 
-Con 1500 productos, cargar todo en memoria es posible pero genera:
-- ~100-300 KB de JSON
-- ~1500 Firestore reads en la carga inicial
-- Posible lentitud en el primer render
+- **Catálogo público** (`catalogo/+page.svelte`): `POR_PAG = 24`, paginación numerada client-side sobre `$productosFiltrados` (todos los productos ya están en memoria vía `onSnapshot`, se hace slice en el derived)
+- **Admin** (`admin/+page.svelte`): `POR_PAG_ADMIN = 20`, mismo patrón de slice client-side sobre `prodsFiltrados`
 
-### Opción 1: Paginación con cursor (recomendada)
-```javascript
-import { limit, startAfter } from "firebase-firestore";
-
-let ultimoDoc = null;
-const PAGE_SIZE = 24;
-
-async function cargarMas() {
-  let q = query(collection(db, 'productos'), orderBy('nombre'), limit(PAGE_SIZE));
-  if (ultimoDoc) q = query(q, startAfter(ultimoDoc));
-
-  const snap = await getDocs(q);
-  ultimoDoc = snap.docs[snap.docs.length - 1];
-  const nuevos = snap.docs.map(d => ({ id: d.id, ...d.data() }));
-  productos = [...productos, ...nuevos];
-  renderGrid();
-
-  document.getElementById('btn-cargar-mas').style.display =
-    snap.docs.length < PAGE_SIZE ? 'none' : 'block';
-}
-```
-
-### Opción 2: Cargar todo pero renderizar en lotes (virtual scroll simple)
-```javascript
-// Cargar todo de Firestore pero mostrar solo N productos
-let paginaActual = 0;
-const POR_PAGINA = 24;
-
-function renderGrid() {
-  const ps = productosFiltrados();
-  const visibles = ps.slice(0, (paginaActual + 1) * POR_PAGINA);
-  // renderizar solo 'visibles'
-  // Mostrar "Ver más" si hay más
-}
-```
+Con ~1500 productos esto sigue siendo client-side (un solo `onSnapshot` inicial trae todo). Si el catálogo crece significativamente más, considerar mover a paginación por cursor de Firestore (`limit` + `startAfter`) en vez de traer todo de una vez — pero no es necesario en la escala actual.
 
 ---
 
@@ -183,46 +176,37 @@ function renderGrid() {
 | Operación | Costo en plan gratuito |
 |-----------|----------------------|
 | Lectura (getDocs/onSnapshot) | 50.000/día gratis |
-| Escritura (addDoc/updateDoc) | 20.000/día gratis |
+| Escritura (addDoc/updateDoc/setDoc) | 20.000/día gratis |
 | Eliminación | 20.000/día gratis |
-| Almacenamiento | 1 GB gratis |
+| Almacenamiento Firestore | 1 GB gratis |
 
-Con 1500 productos:
-- onSnapshot inicial: 1500 reads
-- Cada cambio en Firestore dispara nuevo snapshot: 1500 reads más
-- Con paginación de 24: 24 reads por carga
+Con ~1500 productos: el `onSnapshot` inicial de `+layout.svelte` cuesta ~1500 reads, y cada escritura desde el admin dispara un nuevo snapshot completo (~1500 reads más) para todos los clientes conectados en ese momento. Con tráfico normal el plan gratuito alcanza.
 
-**Recomendación**: con 1500 productos y tráfico normal, el plan gratuito es suficiente. Si se acerca al límite, implementar paginación.
+Cloudinary tiene su propia cuota separada (créditos mensuales en el plan free) — no consume quota de Firebase.
 
 ---
 
 ## Índices Firestore
 
-Para `orderBy` combinado con `where`, Firestore requiere índices compuestos (se crean en Firebase Console o automáticamente con error en consola).
-
-Índices que podrían necesitarse al escalar:
-```
-productos: categoria ASC, precio ASC  (para filtrar por cat y ordenar por precio)
-productos: destacado ASC, nombre ASC  (para sección de destacados)
-```
+Para `orderBy` combinado con `where`, Firestore requiere índices compuestos (se crean en Firebase Console o automáticamente con link de error en consola del browser). No hay `where` combinado con `orderBy` en el código actual — los filtros (categoría, material, precio, destacados) se hacen client-side sobre los datos ya cargados, así que no se necesitan índices compuestos hoy.
 
 ---
 
 ## Instrucciones al trabajar con Firebase
 
-1. **Siempre usar try/catch** en operaciones Firestore — pueden fallar por permisos, red, etc.
-2. **Cancelar onSnapshot** al desmontar (el código ya usa `unsubProds` y `unsubCats`)
-3. **Retrocompatibilidad**: campos nuevos pueden no existir en documentos viejos → siempre usar `p.campo ?? defaultValue`
-4. **No duplicar listeners**: verificar si ya hay un `onSnapshot` activo antes de crear otro
-5. **No exponer credenciales**: la Firebase config con apiKey es pública e intencional — la seguridad está en Firestore Rules
-6. **Batch writes** para operaciones múltiples atómicas (ej: renombrar categoría en todos los productos):
+1. **Siempre usar try/catch/finally** en operaciones Firestore — pueden fallar por permisos, red, etc. Ver patrón en `guardarProd()`.
+2. **No duplicar `onSnapshot`**: toda suscripción en tiempo real vive en `app/src/routes/+layout.svelte`. Las páginas leen stores, no vuelven a suscribirse.
+3. **Retrocompatibilidad**: campos nuevos pueden no existir en documentos viejos → usar `p.campo ?? default` o `p.campo != null`.
+4. **Mantener la doble escritura `categoria`/`categorias`** al modificar `guardarProd()` — hay lectores que dependen del fallback legacy.
+5. **No exponer credenciales adicionales**: la Firebase config con `apiKey` es pública e intencional — la seguridad está en Firestore Rules. El preset de Cloudinary unsigned también es público por diseño; su mitigación son las restricciones configuradas en el dashboard de Cloudinary, no el código.
+6. **Batch writes** para operaciones múltiples atómicas (ej: renombrar categoría en cascada sobre todos los productos que la usan):
 
 ```javascript
-import { writeBatch } from "firebase-firestore";
+import { writeBatch } from 'firebase/firestore';
 
 const batch = writeBatch(db);
 productosAfectados.forEach(p => {
-  batch.update(doc(db, 'productos', p.id), { categoria: nuevaCategoria });
+  batch.update(doc(db, 'productos', p.id), { categoria: nuevoNombre });
 });
 await batch.commit(); // Máximo 500 docs por batch
 ```

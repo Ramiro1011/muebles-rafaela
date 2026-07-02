@@ -1,152 +1,127 @@
 # Refactor & Calidad de Código — Muebles Rafaela
 
-Mejora la calidad del código sin cambiar su comportamiento. Foco en legibilidad, mantenibilidad y eliminación de código duplicado en el archivo HTML único.
+Mejora la calidad del código sin cambiar su comportamiento. Foco en legibilidad, mantenibilidad y eliminación de código duplicado en la app SvelteKit.
 
-## Stack: Vanilla HTML + CSS3 + ES6+ + Firebase v10.12.2
+## Stack: SvelteKit 5 (runes) + Firebase v12 + Cloudinary
 
 ---
 
 ## Principios de refactor para este proyecto
 
-### 1. Eliminar duplicación en funciones render
-Buscar HTML repetido entre `renderGrid()`, `renderAdminPanel()`, `renderAList()` y `openDet()`.
-Extraer a funciones helper o template functions.
+### 1. Eliminar duplicación entre componentes
+Buscar markup/lógica repetida entre `catalogo/+page.svelte` y `admin/+page.svelte` (ej: el cálculo de categorías legacy `p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : []` aparece en varios lugares — candidato a extraer como helper en `stores.js`).
 
 ```javascript
-// MAL: mismo bloque de card generado en 2 funciones distintas
-function renderGrid() { ... `<div class="card">...<span>${p.categoria}</span>...` ... }
-function openDet(id) { ... `<span class="cat-tag">${p.categoria}</span>...` ... }
+// MAL: el mismo cálculo repetido en catalogo/+page.svelte, admin/+page.svelte y stores.js
+const cats = p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : [];
 
-// BIEN: función helper reutilizable
-function catTag(cat) {
-  return `<span class="cat-tag">${cat || 'Sin categoría'}</span>`;
+// BIEN: helper exportado desde stores.js, reutilizado en todos lados
+export function categoriasDe(p) {
+  return p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : [];
 }
 ```
 
-### 2. Separar generación de HTML de lógica de negocio
-Las funciones render no deben hacer lógica de negocio. Filtrar datos ANTES de pasarlos a render.
-
+### 2. Derived stores para lógica de filtrado, nunca dentro del markup
 ```javascript
-// MAL: filtrar dentro de la función render
-function renderGrid() {
-  let ps = productos;
-  if (filtro !== 'todos') ps = ps.filter(p => p.categoria === filtro);
-  if (busqueda) ps = ps.filter(p => p.nombre.toLowerCase().includes(busqueda));
-  // render...
-}
+// MAL: filtrar dentro de un $derived.by disperso en el componente cuando ya existe uno central
+const ps = $derived.by(() => $productos.filter(p => p.categoria === $filtroCategoria));
 
-// BIEN: función de filtrado separada
-function productosFiltrados() {
-  return productos
-    .filter(p => filtro === 'todos' || p.categoria === filtro)
-    .filter(p => !busqueda || p.nombre.toLowerCase().includes(busqueda.toLowerCase()));
-}
-
-function renderGrid() {
-  const ps = productosFiltrados();
-  // solo render...
-}
+// BIEN: si el filtro es genérico y reutilizable, va en productosFiltrados (stores.js)
+// Si es específico de una vista puntual (ej. admin), un $derived.by local está bien —
+// pero evitar reimplementar lógica que productosFiltrados ya resuelve.
 ```
 
-### 3. Sanitizar HTML dinámico
-Datos de usuario no deben insertarse directamente en innerHTML.
-
+### 3. Runes, no reactividad de Svelte 4
 ```javascript
-// MAL: XSS si p.nombre contiene <script>...
-grid.innerHTML = `<div class="card-nombre">${p.nombre}</div>`;
+// MAL (Svelte 4, no usar en este proyecto)
+export let producto;
+$: precioMostrado = producto.descuento > 0 ? precioFinal(producto) : producto.precio;
 
-// BIEN: sanitizar con función helper
-function esc(str) {
-  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-grid.innerHTML = `<div class="card-nombre">${esc(p.nombre)}</div>`;
+// BIEN (Svelte 5, runes)
+let { producto } = $props();
+const precioMostrado = $derived(producto.descuento > 0 ? precioFinal(producto) : producto.precio);
 ```
 
-### 4. Constantes para magic strings
+### 4. Constantes para magic strings/numbers
 ```javascript
-// MAL: strings repetidos en múltiples lugares
-if (filtro === 'todos') { ... }
-// En otro lado:
-filtros.push('todos');
+// MAL: número mágico repetido
+const paginados = $productosFiltrados.slice(0, 24);
+// en otro lugar:
+if (pagina > totalProd / 24) ...
 
 // BIEN: constante
-const FILTRO_TODOS = 'todos';
-if (filtro === FILTRO_TODOS) { ... }
+const POR_PAG = 24;
+const paginados = $productosFiltrados.slice(0, POR_PAG);
 ```
 
 ### 5. Async/await limpio con try/catch/finally
 ```javascript
-// MAL: sin finally → botón queda deshabilitado si hay error
+// MAL: sin finally → guardando queda en true si hay error
 async function guardar() {
-  btn.disabled = true;
+  guardando = true;
   try {
-    await addDoc(...);
+    await addDoc(collection(db, 'productos'), data);
     toast('Guardado');
-  } catch(e) {
+    guardando = false; // no se ejecuta si addDoc lanza
+  } catch (e) {
     toast(e.message, 'err');
-    btn.disabled = false; // olvidado si no hay catch
   }
 }
 
-// BIEN: finally garantiza que el botón se re-habilita siempre
+// BIEN: finally garantiza reseteo del estado siempre
 async function guardar() {
-  btn.disabled = true;
+  guardando = true;
   try {
-    await addDoc(...);
+    await addDoc(collection(db, 'productos'), data);
     toast('Guardado correctamente');
-  } catch(e) {
+  } catch (e) {
     toast('Error: ' + e.message, 'err');
   } finally {
-    btn.disabled = false;
+    guardando = false;
   }
 }
 ```
 
-### 6. Event delegation para listas dinámicas
+### 6. Evitar suscripciones Firestore duplicadas
 ```javascript
-// MAL: listener por elemento → memory leaks con 1500 productos
-productos.forEach(p => {
-  document.getElementById('card-' + p.id).addEventListener('click', () => openDet(p.id));
+// MAL: volver a suscribirse con onSnapshot dentro de una página cuando +layout.svelte ya llena el store
+onMount(() => {
+  const unsub = onSnapshot(collection(db, 'productos'), snap => { /* ... */ });
+  return unsub;
 });
 
-// BIEN: un solo listener en el contenedor
-document.getElementById('grid').addEventListener('click', e => {
-  const card = e.target.closest('[data-id]');
-  if (card) openDet(card.dataset.id);
-});
-// En el template: <div class="card" data-id="${p.id}">
+// BIEN: leer el store ya poblado
+import { productos } from '$lib/stores.js';
+// usar $productos directamente en el markup
 ```
 
 ### 7. Guard clauses en lugar de anidación
 ```javascript
 // MAL: anidación profunda
-function openDet(id) {
-  const p = productos.find(x => x.id === id);
+function abrirDetalle(id) {
+  const p = $productos.find(x => x.id === id);
   if (p) {
-    const overlay = document.getElementById('overlay');
-    if (overlay) {
-      // lógica...
+    if (p.activo !== false) {
+      productoSel = p;
     }
   }
 }
 
 // BIEN: early returns
-function openDet(id) {
-  const p = productos.find(x => x.id === id);
-  if (!p) return;
-  const overlay = document.getElementById('overlay');
-  if (!overlay) return;
-  // lógica...
+function abrirDetalle(id) {
+  const p = $productos.find(x => x.id === id);
+  if (!p || p.activo === false) return;
+  productoSel = p;
 }
 ```
 
 ### 8. Fallbacks explícitos para campos opcionales de Firestore
 ```javascript
-// MAL: ReferenceError si el campo no existe en el documento
+// MAL: puede fallar si el documento viejo no tiene el campo
 const precio = p.precio.toLocaleString();
 
-// BIEN: fallback explícito
-const precio = p.precio ? pesos(p.precio) : '<span class="consultar">Consultar precio</span>';
+// BIEN: fallback explícito, coherente con precioFinal() y pesos() existentes
+const precio = p.precio != null ? pesos(p.precio) : 'Consultar';
 ```
 
 ### 9. CSS: variables en lugar de valores repetidos
@@ -155,38 +130,27 @@ const precio = p.precio ? pesos(p.precio) : '<span class="consultar">Consultar p
 .btn-wsp { background: #25d366; }
 .footer-wsp { background: #25d366; }
 
-/* BIEN: variable CSS */
-:root { --verde-wsp: #25d366; --verde-wsp-hover: #1da851; }
+/* BIEN: variable CSS agregada a :root en app.css */
+:root { --verde-wsp: #25d366; }
 .btn-wsp, .footer-wsp { background: var(--verde-wsp); }
-.btn-wsp:hover, .footer-wsp:hover { background: var(--verde-wsp-hover); }
 ```
 
 ### 10. Nombres de funciones y variables expresivos
-```javascript
-// MAL: nombres crípticos
-function rAP() { ... }
-const c = document.getElementById('alist');
-let f = 'todos';
-
-// BIEN: nombres que comunican intención
-function renderAdminPanel() { ... }
-const listaAdmin = document.getElementById('alist');
-let filtroActivo = 'todos';
-```
+Seguir la convención en español ya establecida en el proyecto (`guardarProd`, `eliminarProd`, `abrirDetalle`, `seleccionarCat`) — no mezclar inglés/español dentro de la misma función.
 
 ---
 
 ## Checklist de refactor
 
-- [ ] ¿Hay HTML generado que se repite en varias funciones render? → Extraer helper
-- [ ] ¿Hay datos de usuario insertados en innerHTML sin sanitizar? → Agregar esc()
-- [ ] ¿Los magic strings aparecen en varios lugares? → Extraer constante
-- [ ] ¿Los operaciones async tienen finally para re-habilitar botones?
-- [ ] ¿Las listas dinámicas usan event delegation?
+- [ ] ¿Hay lógica de filtrado/transformación repetida en varios componentes que debería vivir en un derived de `stores.js`?
+- [ ] ¿Hay sintaxis de Svelte 4 (`export let`, `$:`) que debería migrarse a runes?
+- [ ] ¿Hay una suscripción `onSnapshot` fuera de `+layout.svelte` que debería leer un store existente en su lugar?
+- [ ] ¿Los magic strings/numbers (paginación, nombres de colección) aparecen en varios lugares? → Extraer constante
+- [ ] ¿Las operaciones async tienen `finally` para resetear el estado de carga?
 - [ ] ¿Hay anidación profunda que se puede aplanar con early returns?
-- [ ] ¿Los campos de Firestore tienen fallbacks para cuando no existen?
+- [ ] ¿Los campos de Firestore tienen fallbacks para cuando no existen (documentos viejos)?
 - [ ] ¿Los colores CSS repetidos tienen sus variables?
-- [ ] ¿Las funciones tienen nombres que describen su intención?
+- [ ] ¿Las funciones tienen nombres que describen su intención, consistentes con el resto del proyecto?
 
 ---
 
@@ -199,26 +163,26 @@ Restricción absoluta: **nunca cambiar el comportamiento, solo cómo se expresa.
 ### Regla 2: Eliminar variables temporales que solo se usan para retornar
 ```javascript
 // MAL
-const resultado = productos.filter(p => p.categoria === filtro);
+const resultado = $productos.filter(p => p.destacado);
 return resultado;
 // BIEN
-return productos.filter(p => p.categoria === filtro);
+return $productos.filter(p => p.destacado);
 ```
 
 ### Regla 3: Template literals sobre concatenación
 ```javascript
 // MAL
-'Hola! Consulto por: ' + nombre + ' - ' + precio;
+'Hola! Consulto por: ' + nombre;
 // BIEN
-`Hola! Consulto por: ${nombre} - ${precio}`;
+`Hola! Consulto por: ${nombre}`;
 ```
 
 ### Regla 4: Optional chaining para accesos encadenados
 ```javascript
-// MAL: TypeError si p o p.imagen es undefined
-if (p && p.imagen && p.imagen.url) { ... }
+// MAL
+if (p && p.colores && p.colores.length) { ... }
 // BIEN
-if (p?.imagen?.url) { ... }
+if (p?.colores?.length) { ... }
 ```
 
 ### Regla 5: Nullish coalescing para fallbacks
@@ -241,10 +205,10 @@ const nombre = p.nombre ?? 'Sin nombre';
 ```javascript
 // MAL: comentario que dice lo mismo
 // Obtener el producto por id
-const p = productos.find(x => x.id === id);
+const p = $productos.find(x => x.id === id);
 
 // BIEN: sin comentario (el código ya es claro)
-const p = productos.find(x => x.id === id);
+const p = $productos.find(x => x.id === id);
 ```
 
 $ARGUMENTS

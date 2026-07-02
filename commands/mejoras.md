@@ -1,400 +1,118 @@
 # Investigación y Propuesta de Mejoras — Muebles Rafaela
 
 ## Contexto de análisis
-Catálogo de ~1500 productos y ~30 categorías. Referentes analizados: IKEA, Ashley Furniture,
-Sodimac, Megatone, Easy, y catálogos regionales de mueblería argentina.
+Catálogo de ~1500 productos y ~30 categorías, ahora sobre **SvelteKit 5 + Firebase v12 + Cloudinary**. Este documento listaba mejoras frente al viejo SPA de archivo único; gran parte de la Fase 1 y 2 de la hoja de ruta original **ya está implementada** tras la migración. Referentes originales: IKEA, Ashley Furniture, Sodimac, Megatone, Easy, catálogos regionales de mueblería argentina.
 
 ---
 
-## PROBLEMAS CRÍTICOS CON LA ESCALA ACTUAL
+## ESTADO ACTUAL — qué ya está resuelto
 
-### Problema 1 — Los filtros de categoría no escalan a 30 categorías
-**Estado actual**: botones `.fbtn` en fila horizontal en la toolbar.
-**Con 30 categorías**: se rompe el layout, overflow horizontal invisible, experiencia terrible en móvil.
-
-**Solución**: Sidebar de categorías (desktop) + Bottom sheet (móvil).
-
-### Problema 2 — Cargar 1500 productos de una sola vez
-**Estado actual**: `onSnapshot` carga todos los documentos de Firestore en memoria.
-**Con 1500 productos**: ~300-500ms de espera, ~200-400 KB de JSON, 1500 reads de Firestore por visita.
-
-**Solución**: Paginación de 24 productos con "Cargar más" o scroll infinito.
-
-### Problema 3 — Búsqueda solo en memoria (client-side)
-**Estado actual**: filtra `productos[]` en el browser por `nombre.includes(busqueda)`.
-**Con 1500 productos**: funciona pero limita la búsqueda a lo que está cargado en memoria.
-Si hay paginación, la búsqueda no encuentra productos en páginas no cargadas.
-
-**Solución**: Si se implementa paginación, mover búsqueda a Firestore con `.where()` o integrar Algolia.
+| Item original | Estado | Dónde |
+|---|---|---|
+| F1 Paginación | ✅ Implementado | `catalogo/+page.svelte` (`POR_PAG = 24`), `admin/+page.svelte` (`POR_PAG_ADMIN = 20`) — client-side slice sobre datos ya cargados por `onSnapshot` |
+| V1 Sidebar de categorías | ✅ Implementado | `catalogo/+page.svelte`, con contador por categoría (`conteoCategoria`) y bottom-sheet/overlay en móvil (`sidebarOpen`) |
+| F2 Filtros múltiples + orden | ✅ Implementado | Stores `filtroCategoria`, `filtroMaterial`, `precioMin/Max`, `soloDestacados`, `ordenamiento` combinados en el derived `productosFiltrados` |
+| V2 Toolbar mejorada | ✅ Implementado | `catalog-controls`: sort select, toggle grid/lista, contador de resultados |
+| V3 Cards mejoradas | ✅ Implementado (parcial) | Badges (`nuevo`, `descuento`), colores (`colores[]`), lazy loading. **Falta**: botón de favoritos |
+| V4 Modal de detalle | ✅ Implementado | Layout 2 columnas, galería con thumbs (`imagenesModal`), URL compartible (`?p=id`), botón copiar enlace |
+| F3 URL compartible por producto | ✅ Implementado | `history.pushState` en `abrirDetalle()`/`cerrarDetalle()`, lectura de `?p=` en `onMount` |
+| F5a Imágenes vía servicio externo | ✅ Implementado (con Cloudinary, no Firebase Storage) | `subirImagenCloudinary()` en `$lib/firebase.js`, con barra de progreso |
+| F5b Búsqueda en admin | ✅ Implementado | `busquedaAdmin` + `catAdmin` filtrando `prodsFiltrados` en `admin/+page.svelte` |
+| F6 Producto destacado | ✅ Implementado | Campo `destacado`, filtro `soloDestacados` |
+| F7 WhatsApp mejorado | ✅ Implementado (parcial) | Mensaje con nombre del producto; **no** incluye categoría/precio como proponía el plan original |
+| "Vistos recientemente" (no estaba en el plan original) | ✅ Implementado | `localStorage` (`mr_vistos`), sección debajo del grid |
+| Múltiples categorías por producto (no estaba en el plan original) | ✅ Implementado | Campo `categorias[]` + legacy `categoria` string, checkboxes en el form admin |
+| Stock / badges de últimas unidades (no estaba en el plan original) | ✅ Implementado | Campo `stock`, badges condicionales en card y modal |
 
 ---
 
-## MEJORAS VISUALES
-
-### V1 — Sidebar de Navegación por Categorías ⭐⭐⭐ (IMPACTO ALTO)
-
-**Referente**: IKEA usa sidebar fija con categorías agrupadas.
-
-```
-[DESKTOP]
-+--sidebar (240px)--+-------grid de productos---------+
-| 🪑 Sillones (124) |  [card] [card] [card] [card]    |
-| 🛋️ Sofás (87)     |  [card] [card] [card] [card]    |
-| 🛏️ Dormitorio     |  ...                            |
-|   > Camas (45)    |                                 |
-|   > Placard (32)  |                                 |
-| 🍽️ Comedor (76)   |                                 |
-+-------------------+---------------------------------+
-
-[MÓVIL]
-[Filtrar ▼]  ← botón que abre bottom sheet
-Bottom sheet con lista scrollable de categorías
-```
-
-**Beneficios**:
-- 30 categorías visibles sin overflow
-- Contador de productos por categoría genera confianza
-- Sub-categorías (acordeón) para organización jerárquica
-- En móvil: bottom sheet es patrón nativo y moderno
-
----
-
-### V2 — Barra de Herramientas Mejorada ⭐⭐ (IMPACTO MEDIO)
-
-**Estado actual**: search input + botones de categoría en fila.
-**Mejora**: Search + Sort + View toggle + contador de resultados.
-
-```
-[🔍 Buscar productos...] [Ordenar: Nombre ▼] [⊞] [☰]   24 de 1500 productos
-```
-
-**Elementos a agregar**:
-- **Ordenar por**: Nombre A-Z / Nombre Z-A / Precio menor / Precio mayor / Más recientes
-- **Toggle de vista**: Grid (4 columnas) / Lista (1 columna con más detalle)
-- **Rango de precio**: slider o inputs min/max (filtro muy pedido en mueblería)
-- **Mostrar solo**: "Con precio" / "Consultar precio" / "Destacados"
-
----
-
-### V3 — Cards Mejoradas ⭐⭐ (IMPACTO MEDIO)
-
-**Referente**: Sodimac y Ashley muestran más info sin abrir detalle.
-
-**Mejoras en el card**:
-```
-+--card (hover levanta + naranja border)---+
-| [imagen 220px, lazy loading]             |
-| [badge NUEVO] [badge DESTACADO]          |
-|                                          |
-| SILLONES                                 |
-| Sillón 3 Cuerpos Premium                 |
-| Tapizado en tela beige...                |
-|                                          |
-| $ 85.000                                 |
-| [💬 Consultar]     [❤ Favorito]          |
-+------------------------------------------+
-```
-
-**Cambios concretos**:
-- Badges de estado (NUEVO, DESTACADO, OFERTA) con color semántico
-- Botón de favoritos (guardado en localStorage, sin login requerido)
-- Imagen con `loading="lazy"` y placeholder elegante (no emoji solitario)
-- Al hover: mostrar overlay con "Ver detalle" en lugar de todo el card clickeable
-
----
-
-### V4 — Modal de Detalle Mejorado ⭐⭐ (IMPACTO MEDIO)
-
-**Estado actual**: modal simple con imagen y datos básicos.
-
-**Mejora**:
-```
-+--------modal (max-width: 900px)----------------------------+
-|                                        [✕]                |
-| [imagen grande]  | SILLONES                               |
-| [thumb] [thumb]  | Sillón 3 Cuerpos Premium               |
-|                  |                                         |
-|                  | $ 85.000                                |
-|                  |                                         |
-|                  | Descripción completa del producto...    |
-|                  |                                         |
-|                  | Colores: [⬛] [⬜] [🟤]                 |
-|                  |                                         |
-|                  | [💬 Consultar por WhatsApp]             |
-|                  | [📋 Copiar enlace del producto]         |
-+------------------------------------------------------------+
-```
-
-**Cambios concretos**:
-- Layout 2 columnas en desktop (imagen | info)
-- URL única por producto (`?producto=ID`) para compartir directamente
-- Galería de imágenes (múltiples fotos por producto)
-- Campos opcionales: dimensiones, materiales, colores disponibles
-
----
-
-### V5 — Sección Hero Mejorada ⭐ (IMPACTO BAJO)
-
-**Estado actual**: hero estático con texto y badges.
-
-**Mejora**:
-- Carousel de banners (promociones, novedades)
-- O simplificar: hero más pequeño para priorizar el catálogo
-- Buscador grande centrado al estilo Google/Amazon ("Buscá tu mueble ideal")
-
----
-
-### V6 — Vista de Lista ⭐ (IMPACTO BAJO-MEDIO)
-
-**Referente**: Megatone tiene toggle grid/lista. En lista se ve más info sin hacer click.
-
-```
-[lista view]
-+--imagen 120x90--+--nombre + descripción larga--+--precio--+--[consultar]--+
-|    [img]        | Sillón 3 Cuerpos Premium      | $ 85.000 | [💬 WhatsApp] |
-|                 | Tapizado en tela beige, con   |          |               |
-|                 | estructura de madera maciza   |          |               |
-+-----------------+-------------------------------+----------+---------------+
-```
-
----
-
-## MEJORAS FUNCIONALES
-
-### F1 — Paginación / Scroll Infinito ⭐⭐⭐ (CRÍTICO para 1500 productos)
-
-**Recomendación**: "Cargar más" (mejor UX que paginación numerada para catálogo).
-
-```javascript
-// Implementación con cursor de Firestore
-import { limit, startAfter } from "firebase-firestore";
-const PAGE_SIZE = 24;
-let ultimoCursor = null;
-let hayMas = true;
-
-async function cargarPagina() {
-  let q = query(collection(db, 'productos'), orderBy('nombre'), limit(PAGE_SIZE));
-  if (ultimoCursor) q = query(q, startAfter(ultimoCursor));
-  const snap = await getDocs(q);
-  ultimoCursor = snap.docs.at(-1);
-  hayMas = snap.docs.length === PAGE_SIZE;
-  productos = [...productos, ...snap.docs.map(d => ({ id: d.id, ...d.data() }))];
-  renderGrid();
-}
-```
-
-**Alternativa más simple**: cargar todo pero mostrar de a 24 con "Cargar más" client-side.
-No resuelve el problema de Firestore reads pero sí el problema de render lento.
-
----
-
-### F2 — Filtros Múltiples ⭐⭐⭐ (IMPACTO ALTO)
-
-**Estado actual**: filtro por UNA categoría a la vez.
-**Mejora**: filtros combinables.
-
-```javascript
-let filtros = {
-  categorias: [],      // Array de categorías seleccionadas (multi-select)
-  precioMin: null,     // número
-  precioMax: null,     // número
-  soloConPrecio: false,
-  soloDestacados: false,
-  ordenamiento: 'nombre-asc'  // 'nombre-asc' | 'nombre-desc' | 'precio-asc' | 'precio-desc'
-};
-
-function productosFiltrados() {
-  return productos
-    .filter(p => !filtros.categorias.length || filtros.categorias.includes(p.categoria))
-    .filter(p => filtros.precioMin === null || (p.precio && p.precio >= filtros.precioMin))
-    .filter(p => filtros.precioMax === null || (p.precio && p.precio <= filtros.precioMax))
-    .filter(p => !filtros.soloDestacados || p.destacado)
-    .sort((a, b) => {
-      if (filtros.ordenamiento === 'precio-asc') return (a.precio || 0) - (b.precio || 0);
-      if (filtros.ordenamiento === 'precio-desc') return (b.precio || 0) - (a.precio || 0);
-      return a.nombre.localeCompare(b.nombre, 'es');
-    });
-}
-```
-
----
-
-### F3 — URL Compartible por Producto ⭐⭐ (IMPACTO ALTO para negocio)
-
-**Problema actual**: no se puede compartir un producto específico (no hay URL).
-**Solución**: usar hash o query params.
-
-```javascript
-// Al abrir detalle: actualizar URL
-function openDet(id) {
-  history.pushState(null, '', '?p=' + id);
-  // ... mostrar modal
-}
-
-// Al cargar la página: revisar si hay ID en URL
-window.addEventListener('load', () => {
-  const params = new URLSearchParams(location.search);
-  const id = params.get('p');
-  if (id) {
-    // Esperar a que los productos carguen, luego abrir el detalle
-    // (manejar con Promise o callback en escucharDatos)
-  }
-});
-
-// Al cerrar modal: limpiar URL
-function closeOverlay() {
-  history.pushState(null, '', location.pathname);
-  // ... ocultar modal
-}
-```
-
----
+## PENDIENTE — lo que sigue sin resolver
 
 ### F4 — Favoritos (sin login) ⭐⭐ (IMPACTO MEDIO)
+No implementado. El patrón sigue siendo válido:
+```javascript
+// stores.js — nuevo store
+export const favoritos = writable(JSON.parse(localStorage.getItem('mr_favs') || '[]'));
+export function toggleFavorito(id) {
+  favoritos.update(favs => {
+    const nuevo = favs.includes(id) ? favs.filter(x => x !== id) : [...favs, id];
+    localStorage.setItem('mr_favs', JSON.stringify(nuevo));
+    return nuevo;
+  });
+}
+```
+Agregar botón de corazón en `.product-card` (ver `V3` arriba) y un filtro "Ver mis favoritos" en la sidebar del catálogo, junto a "Solo destacados".
 
-**Referente**: IKEA tiene lista de deseos sin login (localStorage).
+### F5c — Renombrar categoría en cascada ⭐⭐ (IMPACTO MEDIO)
+**Riesgo real detectado**: `guardarCat()` en `admin/+page.svelte` (línea ~247) actualiza el campo `nombre` del documento en `categorias`, pero **no** actualiza el string correspondiente en el array `categorias[]`/`categoria` de los productos que la referencian. Resultado: al renombrar una categoría, los productos existentes quedan apuntando al nombre viejo y "desaparecen" de ese filtro hasta que se editan uno por uno.
 
 ```javascript
-// Guardar en localStorage
-function toggleFavorito(id, event) {
-  event.stopPropagation();
-  const favs = JSON.parse(localStorage.getItem('favs') || '[]');
-  const idx = favs.indexOf(id);
-  if (idx === -1) favs.push(id);
-  else favs.splice(idx, 1);
-  localStorage.setItem('favs', JSON.stringify(favs));
-  renderGrid(); // actualizar ícono de corazón
-}
+import { writeBatch } from 'firebase/firestore';
 
-function esFavorito(id) {
-  return JSON.parse(localStorage.getItem('favs') || '[]').includes(id);
+async function guardarCat(id) {
+  if (!editCatNombre.trim()) return;
+  const catActual = $categorias.find(c => c.id === id);
+  const nombreViejo = catActual?.nombre;
+  const nombreNuevo = editCatNombre.trim();
+  try {
+    const batch = writeBatch(db);
+    batch.update(doc(db, 'categorias', id), { nombre: nombreNuevo });
+    $productos.filter(p => getCats(p).includes(nombreViejo)).forEach(p => {
+      const cats = getCats(p).map(c => c === nombreViejo ? nombreNuevo : c);
+      batch.update(doc(db, 'productos', p.id), { categorias: cats, categoria: cats[0] });
+    });
+    await batch.commit();
+    toast('Categoría actualizada');
+    editCatId = '';
+  } catch (err) {
+    toast('Error: ' + err.message, 'err');
+  }
 }
 ```
+Máximo 500 docs por batch — si alguna categoría llegara a tener más productos que eso, habría que dividir en múltiples batches.
 
-**En el card**:
-```html
-<button class="btn-fav ${esFavorito(p.id) ? 'activo' : ''}" 
-        onclick="toggleFavorito('${p.id}', event)">
-  ♥
-</button>
-```
+### V5 — Sección Hero Mejorada ⭐ (IMPACTO BAJO)
+La landing (`+page.svelte`) sigue siendo un hero configurable desde `configLanding`, sin carousel de banners. Si se quiere, es una mejora de UI pura, no de arquitectura.
 
-**Filtro adicional**: "Ver mis favoritos" en la toolbar.
+### V6 — Vista de Lista
+Parcialmente cubierto por el toggle grid/lista de V2 (`vistaLista` + clase `.list-view`) — verificar si el CSS de `.list-view` realmente muestra más info por fila (descripción larga, precio, botón) como proponía el mockup original, o si solo cambia el layout del grid sin agregar contenido.
 
 ---
 
-### F5 — Panel Admin Mejorado ⭐⭐ (IMPACTO MEDIO para el cliente)
+## NUEVAS OPORTUNIDADES (post-migración, no estaban en el análisis original)
 
-**Problemas actuales**:
-- Sin imágenes reales (solo URL externa)
-- Sin búsqueda en el admin
-- Sin bulk operations
-- Sin paginación en lista de 1500 productos
+### N1 — Validación de formularios en el admin
+`guardarProd()` valida solo que el nombre no esté vacío. Ver `commands/seguridad.md` punto 7 para validaciones concretas a agregar (precio no negativo, longitud de nombre).
 
-**Mejoras**:
+### N2 — Restricciones en el preset unsigned de Cloudinary
+Ver `commands/seguridad.md` — el preset unsigned permite subir archivos desde fuera de la app. Configurar límites de tamaño/tipo en el dashboard de Cloudinary, no en código.
 
-#### F5a — Carga de imágenes via Firebase Storage
-```javascript
-import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase-storage";
-const storage = getStorage(app);
-
-async function subirImagen(file) {
-  const storageRef = ref(storage, 'productos/' + Date.now() + '_' + file.name);
-  await uploadBytes(storageRef, file);
-  return getDownloadURL(storageRef);
-}
-```
-
-#### F5b — Búsqueda en admin
-```javascript
-let busquedaAdmin = '';
-function renderAList() {
-  let ps = productos;
-  if (busquedaAdmin) ps = ps.filter(p => p.nombre.toLowerCase().includes(busquedaAdmin.toLowerCase()));
-  // ... render
-}
-```
-
-#### F5c — Renombrar categoría en cascada
-Al renombrar una categoría, actualizar todos los productos que la usan (batch write):
-```javascript
-async function renombrarCat(viejo, nuevo) {
-  const batch = writeBatch(db);
-  productos.filter(p => p.categoria === viejo)
-           .forEach(p => batch.update(doc(db, 'productos', p.id), { categoria: nuevo }));
-  batch.update(doc(db, 'categorias', catId), { nombre: nuevo });
-  await batch.commit();
-}
-```
+### N3 — Loading states en navegación entre rutas
+Con `adapter-static`, la navegación es client-side vía SvelteKit router — verificar si hay algún indicador de carga entre rutas (`/` → `/catalogo`) o si se siente instantáneo por el tamaño actual del bundle.
 
 ---
 
-### F6 — Producto Destacado / Sección Especial ⭐ (IMPACTO BAJO-MEDIO)
+## HOJA DE RUTA ACTUALIZADA
 
-**Campo** `destacado: true` en documentos de Firestore.
+### Ya completado (no requiere trabajo)
+- [x] F1 Paginación
+- [x] V1 Sidebar de categorías
+- [x] F2 Filtros múltiples + ordenamiento
+- [x] F3 URLs compartibles
+- [x] V2 Toolbar mejorada
+- [x] V3 Cards mejoradas (badges, lazy loading) — falta favoritos
+- [x] V4 Modal de detalle 2 columnas
+- [x] F5a Imágenes vía Cloudinary
+- [x] F5b Admin con búsqueda
+- [x] F6 Sección de destacados
+- [x] F7 WhatsApp con mensaje básico
 
-**Sección** "Productos Destacados" arriba del grid principal (carousel horizontal o grid 4col).
+### Pendiente — priorizado
+- [ ] **F5c** Renombrar categoría en cascada (bug latente, no solo feature — ver arriba) ⭐⭐⭐
+- [ ] **N1** Validación de formularios admin (seguridad, no solo UX) ⭐⭐
+- [ ] **N2** Restricciones del preset Cloudinary (seguridad) ⭐⭐
+- [ ] **F4** Favoritos en localStorage ⭐⭐
+- [ ] **V6** Confirmar que la vista de lista muestra info adicional real ⭐
+- [ ] **V5** Hero con carousel o banner rotativo ⭐
 
-Permite al cliente administrar qué productos mostrar primero sin afectar el catálogo completo.
-
----
-
-### F7 — WhatsApp Mejorado ⭐ (IMPACTO ALTO para negocio)
-
-**Estado actual**: mensaje simple con nombre del producto.
-**Mejora**: mensaje más completo para facilitar la consulta.
-
-```javascript
-function wsp(producto) {
-  const lines = [`Hola! Me comunico desde el catálogo online.`];
-  lines.push(`Consulto por: *${producto.nombre}*`);
-  if (producto.categoria) lines.push(`Categoría: ${producto.categoria}`);
-  if (producto.precio) lines.push(`Precio visto: ${pesos(producto.precio)}`);
-  lines.push(`¿Está disponible?`);
-  const msg = encodeURIComponent(lines.join('\n'));
-  window.open(`https://wa.me/5493492XXXXXX?text=${msg}`, '_blank');
-}
-```
-
----
-
-## HOJA DE RUTA SUGERIDA
-
-### Fase 1 — Crítico (escala) 
-- [ ] **F1** Paginación / "Cargar más" (sin esto, 1500 productos no funcionan bien)
-- [ ] **V1** Sidebar de categorías (30 categorías no caben en botones horizontales)
-- [ ] **F2** Filtros múltiples + ordenamiento
-
-### Fase 2 — Alto impacto visual y de negocio
-- [ ] **F3** URLs compartibles por producto
-- [ ] **V2** Toolbar mejorada (sort, view toggle, contador)
-- [ ] **V3** Cards mejoradas (badges, lazy loading, favoritos)
-- [ ] **F7** WhatsApp con mensaje mejorado
-
-### Fase 3 — Mejoras de experiencia
-- [ ] **F4** Favoritos en localStorage
-- [ ] **F5a** Imágenes via Firebase Storage
-- [ ] **V4** Modal de detalle 2 columnas
-- [ ] **F5b/c** Admin con búsqueda y renombrado en cascada
-
-### Fase 4 — Nice to have
-- [ ] **F6** Sección de destacados / carousel
-- [ ] **V6** Vista de lista
-- [ ] **V5** Hero simplificado o con banner rotativo
-
----
-
-## ESTIMACIÓN DE ESFUERZO
-
-| Feature | Esfuerzo | Impacto |
-|---------|----------|---------|
-| Paginación client-side (cargar todo, mostrar de a 24) | 1h | CRÍTICO |
-| Sidebar categorías desktop + bottom sheet móvil | 3h | ALTO |
-| Filtros múltiples + sort | 2h | ALTO |
-| URLs compartibles | 1h | ALTO |
-| Cards con lazy loading + badges | 1h | MEDIO |
-| Firebase Storage para imágenes | 2h | MEDIO |
-| Favoritos localStorage | 1h | MEDIO |
-| Admin: búsqueda + renombrado en cascada | 2h | MEDIO |
-| Modal detalle 2 columnas | 1h | MEDIO |
-| WhatsApp mensaje mejorado | 30min | ALTO |
+$ARGUMENTS

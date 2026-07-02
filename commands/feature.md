@@ -1,20 +1,20 @@
-# Implementar Feature — Muebles Rafaela (Firebase SPA)
+# Implementar Feature — Muebles Rafaela (SvelteKit + Firebase)
 
-Implementa una funcionalidad de punta a punta en la SPA de archivo único.
+Implementa una funcionalidad de punta a punta en la app SvelteKit 5.
 
 ## Arquitectura del sistema
 ```
 Firestore collection
         ↓
-  onSnapshot listener (escucharDatos)
+  onSnapshot listener (en app/src/routes/+layout.svelte)
         ↓
-  Estado JS (productos[], categorias[])
+  Store Svelte (productos, categorias, configLanding, ... en $lib/stores.js)
         ↓
-  Función render (renderGrid, renderFiltros, etc.)
+  derived store si hace falta filtrar/transformar (ej: productosFiltrados)
         ↓
-  HTML dinámico (innerHTML con template literals)
+  Componente .svelte que lee el store con $store
         ↓
-  Event listeners (delegación en contenedor o onclick inline)
+  Markup Svelte 5 (runes, {#each}, {#if}, eventos onclick={})
 ```
 
 ---
@@ -23,175 +23,145 @@ Firestore collection
 
 ### Paso 1: Entender y planificar
 Antes de escribir código:
-1. Usar Grep para encontrar las funciones y secciones CSS relevantes
-2. Identificar si la feature necesita: nueva colección Firestore, nuevos campos en documentos existentes, nueva sección HTML, nuevo CSS, nueva función JS
+1. Usar Grep para encontrar el store, componente o función relevante en `app/src/`
+2. Identificar si la feature necesita: nueva colección/campo en Firestore, nuevo store o derived, nueva ruta, nuevo componente, nuevo bloque CSS en `app.css`
 3. Confirmar con el usuario si hay ambigüedad
 
 ### Paso 2: Estructura de datos Firestore (si aplica)
 
 Colecciones actuales:
-- `productos` — documentos con campos: `nombre`, `descripcion`, `precio`, `categoria`, `imagen` (URL), `destacado`
-- `categorias` — documentos con campos: `nombre`
+- `productos` — `{ nombre, descripcion, precio, precioAnterior, descuento, stock, categoria (legacy string), categorias (array), material, imagen, imagenes[], nuevo, destacado, activo, colores[{nombre,hex}] }`
+- `categorias` — `{ nombre }`
+- `config/landing`, `config/nosotros`, `config/contacto` — documentos únicos con campos de configuración de página, sincronizados a `configLanding`/`configNosotros`/`configContacto`
 
-Para agregar una nueva colección:
 ```javascript
-// Siempre usar addDoc con collection() — Firestore genera el ID
-await addDoc(collection(db, 'nueva_coleccion'), {
-  campo: valor,
-  creado: new Date().toISOString()
+// Crear documento — Firestore genera el ID
+await addDoc(collection(db, 'productos'), { nombre: 'x', precio: 1000, categorias: ['Sillones'], categoria: 'Sillones' });
+
+// Documento único con ID fijo (config)
+await setDoc(doc(db, 'config', 'landing'), datosCompletos);
+```
+
+Firestore es schema-less — no hay migración. Manejar ausencia de campo con `p.campo ?? default` o `p.campo || default`.
+
+### Paso 3: Store (si el estado se comparte entre rutas)
+
+Agregar a `app/src/lib/stores.js`:
+```javascript
+export const nuevoEstado = writable(valorInicial);
+
+export const nuevoDerived = derived(
+  [productos, nuevoEstado],
+  ([$productos, $nuevoEstado]) => {
+    // transformar/filtrar
+    return $productos.filter(p => /* condición usando $nuevoEstado */);
+  }
+);
+```
+
+Si el estado es local a un solo componente (ej. un formulario), usar `$state`/`$derived` dentro del componente en vez de un store global.
+
+### Paso 4: Suscripción a Firestore (si es una colección/doc nuevo)
+
+Agregar dentro de `onMount` en `app/src/routes/+layout.svelte` (no en páginas individuales, para evitar resuscribirse en cada navegación):
+
+```javascript
+onMount(() => {
+  const u = onSnapshot(query(collection(db, 'nueva_coleccion'), orderBy('nombre')), snap => {
+    nuevoStore.set(snap.docs.map(d => ({ id: d.id, ...d.data() })));
+  });
+  return u; // SvelteKit llama esta función de cleanup al desmontar
 });
 ```
 
-Para agregar un campo nuevo a documentos existentes:
-- No hay migración — Firestore es schema-less
-- Manejar la ausencia del campo con `p.campo || valorDefault`
-- Documentar qué campos opcionales pueden ser undefined
+### Paso 5: Componente / ruta
 
-### Paso 3: HTML (sección nueva o modal)
+- Feature pública nueva → nueva carpeta en `app/src/routes/<nombre>/+page.svelte`
+- Feature admin nueva → nuevo tab dentro de `app/src/routes/admin/+page.svelte` (`tab = 'nuevo'` en el `$state` de pestañas existente)
+- Modal → seguir el patrón de `productoSel` en `catalogo/+page.svelte`: una variable `$state(null)`, `{#if seleccion}` renderiza el overlay, cerrar con función dedicada + `Escape`
 
-Agregar la sección en `muebles_rafaela.html`. Estructura de modal:
-```html
-<!-- Modal nueva feature -->
-<div id="m-nueva" style="display:none; ...">
-  <div class="modal-content">
-    <button class="modal-close" onclick="closeOverlay()">✕</button>
-    <h2>Título</h2>
-    <!-- contenido -->
-  </div>
-</div>
+```svelte
+<script>
+  let { children } = $props();
+  let miEstado = $state(valorInicial);
+  const derivado = $derived(/* cálculo a partir de miEstado u otros $state */);
+</script>
 ```
 
-Para secciones en el catálogo público, agregar dentro de `<main>` después del grid.
+### Paso 6: CSS
 
-### Paso 4: CSS
-
-Agregar al final del bloque `<style>` existente:
+Agregar al final de la sección correspondiente en `app/src/app.css`:
 ```css
 /* === NOMBRE DE FEATURE === */
 .nueva-clase {
-  /* propiedades */
+  /* propiedades, usando var(--naranja), var(--azul), var(--radius), etc. */
 }
-/* Sin dark mode por ahora — el proyecto no lo usa actualmente */
-```
-
-Reglas obligatorias:
-- Usar variables CSS existentes (`var(--naranja)`, `var(--azul)`, etc.)
-- Respetar `var(--radius)` para bordes redondeados
-- Animaciones con `transition: all .2s ease` o específicas (no `.3s` para hover simple)
-- Media query para móvil si el componente necesita adaptación: `@media(max-width:768px)`
-
-### Paso 5: Funciones JS
-
-Agregar dentro del `<script type="module">`. Patrones obligatorios:
-
-**Función render (genera HTML):**
-```javascript
-function renderNuevaSeccion() {
-  const contenedor = document.getElementById('id-contenedor');
-  if (!datos.length) {
-    contenedor.innerHTML = `<div class="empty"><div class="ico">📦</div><p>No hay datos aún</p></div>`;
-    return;
-  }
-  contenedor.innerHTML = datos.map(item => `
-    <div class="nueva-card" data-id="${item.id}">
-      <span>${item.nombre}</span>
-      <!-- más contenido -->
-    </div>
-  `).join('');
-  lucide.createIcons(); // Siempre después de innerHTML con íconos Lucide
+@media (max-width: 768px) {
+  .nueva-clase { /* ajuste móvil */ }
 }
 ```
 
-**Operación async (CRUD en Firestore):**
+### Paso 7: Operación async (CRUD en Firestore)
+
 ```javascript
+let guardando = $state(false);
+
 async function guardarNuevo(datos) {
-  const btn = document.getElementById('btn-guardar-nuevo');
-  btn.disabled = true;
-  btn.textContent = 'Guardando...';
+  guardando = true;
   try {
     await addDoc(collection(db, 'nueva_coleccion'), datos);
     toast('Guardado correctamente');
-    closeOverlay();
-  } catch(e) {
-    toast('Error al guardar: ' + e.message, 'err');
+  } catch (err) {
+    toast('Error al guardar: ' + err.message, 'err');
   } finally {
-    btn.disabled = false;
-    btn.textContent = 'Guardar';
+    guardando = false;
   }
 }
 ```
 
-**Escuchar nueva colección en Firestore (si aplica):**
-```javascript
-// Agregar dentro de escucharDatos() o como función separada
-let unsubNuevo = null;
-function escucharNuevos() {
-  if (unsubNuevo) unsubNuevo(); // desuscribir antes de re-suscribir
-  unsubNuevo = onSnapshot(
-    query(collection(db, 'nueva_coleccion'), orderBy('nombre')),
-    snap => {
-      nuevos = snap.docs.map(d => ({ id: d.id, ...d.data() }));
-      renderNuevaSeccion();
-    },
-    err => toast('Error al cargar: ' + err.message, 'err')
-  );
-}
-```
+`toast` se importa de `$lib/stores.js`.
 
-### Paso 6: Event listeners
+### Paso 8: Verificación
 
-Agregar en la zona de event listeners al final del script (después de la sección existente):
-```javascript
-// Botón que abre la nueva sección
-document.getElementById('btn-nueva').addEventListener('click', () => {
-  showOverlay('m-nueva');
-  // cargar datos si es necesario
-});
-
-// Delegación de eventos para listas dinámicas
-document.getElementById('id-contenedor').addEventListener('click', e => {
-  const card = e.target.closest('.nueva-card');
-  if (!card) return;
-  const id = card.dataset.id;
-  // manejar click
-});
-```
-
-### Paso 7: Verificación
-
-- [ ] ¿La función render maneja el caso de lista vacía (empty state)?
-- [ ] ¿Las operaciones async deshabilitan el botón y muestran feedback?
-- [ ] ¿Se llama `lucide.createIcons()` después de cada `innerHTML` con íconos?
-- [ ] ¿Los event listeners usan `data-id` y delegación (no listeners por elemento)?
-- [ ] ¿Los campos opcionales de Firestore tienen fallback (`p.campo || ''`)?
-- [ ] ¿Los inputs del usuario se sanitizan antes de insertar en innerHTML? (usar `textContent` o escapar)
-- [ ] ¿El modal/sección cierra correctamente con `closeOverlay()` o `Escape`?
-- [ ] ¿Los unsubscribe se llaman al cerrar para evitar memory leaks?
+- [ ] ¿El derived/filtro maneja el caso de lista vacía (empty state)?
+- [ ] ¿Las operaciones async deshabilitan el botón (`disabled={guardando}`) y muestran feedback con `toast()`?
+- [ ] ¿Los eventos usan sintaxis Svelte 5 (`onclick={}`, no `on:click`)?
+- [ ] ¿Los campos opcionales de Firestore tienen fallback (`p.campo ?? ''`)?
+- [ ] ¿El modal/sección cierra correctamente y limpia estado (`productoSel = null`, URL, etc.)?
+- [ ] ¿La suscripción `onSnapshot` nueva vive en `+layout.svelte`, no duplicada en una página?
+- [ ] ¿Se usaron variables CSS existentes en vez de valores hardcodeados?
 
 ---
 
-## Patrones comunes
+## Patrones comunes en este proyecto
 
 ### Nuevo campo en producto existente
 ```
-1. Agregar el campo al formulario de admin (fn, fc, etc. → nuevo input)
-2. Incluir en el objeto `data` de guardarProducto()
-3. Mostrar en renderGrid() con fallback: `p.nuevoCampo || ''`
-4. Mostrar en openDet() en el modal de detalle
+1. Agregar el input/checkbox al formulario de admin (app/src/routes/admin/+page.svelte, sección "Form de producto")
+2. Incluir en el objeto `data` de guardarProd()
+3. Leer con fallback en el card y en el modal de detalle (catalogo/+page.svelte)
+4. Si afecta filtros, incorporarlo a productosFiltrados en stores.js
 ```
 
-### Nueva sección pública (sin auth)
+### Nueva vista pública
 ```
-1. Agregar HTML después del grid o como sección separada
-2. Función render que lee de productos[] o categorias[] (ya en memoria)
-3. Sin necesidad de nueva consulta Firestore — los datos ya están suscritos
+1. Nueva carpeta app/src/routes/<ruta>/+page.svelte
+2. Leer datos de los stores ya poblados (productos, categorias) — no crear una nueva query salvo que sea información distinta
+3. Agregar el link en la navegación de +layout.svelte (header y mobile-menu)
 ```
 
-### Nueva funcionalidad solo admin
+### Nueva funcionalidad de filtrado/búsqueda
 ```
-1. Agregar pestaña o botón en renderAdminPanel()
-2. Verificar isAdmin antes de renderizar
-3. Operaciones CRUD con try/catch y toast
+1. writable en stores.js para el nuevo criterio
+2. Incorporarlo a la cadena de .filter() dentro de productosFiltrados (derived)
+3. UI de control (select, input, checkbox) en catalogo/+page.svelte con bind:value o onchange al store
+```
+
+### Nuevo campo de configuración (landing/nosotros/contacto)
+```
+1. Agregar el campo al objeto inicial del store correspondiente (configLanding, etc.) en stores.js
+2. Agregar el input al formulario del tab correspondiente en admin/+page.svelte
+3. Se persiste con setDoc(doc(db, 'config', 'landing'), formCompleto) — reemplaza el doc entero, no usar updateDoc parcial salvo que sea intencional
 ```
 
 $ARGUMENTS

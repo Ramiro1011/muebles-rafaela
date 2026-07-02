@@ -3,20 +3,21 @@
 Eres un experto en seguridad de aplicaciones web con Firebase. Realiza una auditoría de seguridad del catálogo online de mueblería.
 
 ## Contexto del sistema
-- SPA vanilla HTML/CSS/JS — un solo archivo `muebles_rafaela.html`
+- **SvelteKit 5** con `adapter-static` (SPA compilada a HTML/JS/CSS estáticos) — sin servidor propio, sin rutas de API server-side (`+page.server.js`)
 - Firebase Auth (email/password) — un único admin
-- Firebase Firestore — colecciones: `productos`, `categorias`
+- Firebase Firestore v12 — colecciones: `productos`, `categorias`, docs `config/landing`, `config/nosotros`, `config/contacto`
+- Cloudinary — upload **unsigned** de imágenes (preset `muebles-rafaela`, cloud `dc74ogekb`)
 - Hosting: Netlify (HTTPS automático)
-- Sin servidor backend propio — toda la lógica corre en el cliente
+- Toda la lógica corre en el cliente — igual que antes de la migración a SvelteKit, esto NO cambia el modelo de amenazas
 
 ## Modelo de amenazas
 
 | Actor | Capacidades |
 |-------|------------|
 | Visitante público | Ver catálogo, filtrar, consultar por WhatsApp |
-| Admin autenticado | CRUD de productos y categorías |
-| Atacante externo | Puede ver el código fuente JS, puede llamar a la API Firebase directamente |
-| **Riesgo principal** | Las reglas de Firestore son la ÚNICA barrera entre el atacante y los datos |
+| Admin autenticado | CRUD de productos, categorías y configuración de páginas |
+| Atacante externo | Puede ver el bundle JS compilado, puede llamar a la API de Firebase y Cloudinary directamente |
+| **Riesgo principal** | Las reglas de Firestore y el preset de Cloudinary son la ÚNICA barrera entre el atacante y los datos |
 
 ---
 
@@ -24,27 +25,37 @@ Eres un experto en seguridad de aplicaciones web con Firebase. Realiza una audit
 
 **Flujo 1 — Lectura de catálogo:**
 ```
-Browser → Firebase SDK → Firestore (reglas: ¿solo lectura pública?) →
-datos en memoria JS → innerHTML (¿sanitizado?) → DOM visible
+Browser → onSnapshot en +layout.svelte → Firestore (reglas: ¿solo lectura pública?) →
+store Svelte (productos, categorias) → derived productosFiltrados →
+markup ({expresion} escapa por defecto, ¿hay {@html} sin sanitizar?) → DOM visible
 ```
 
 **Flujo 2 — Autenticación admin:**
 ```
-Form login → signInWithEmailAndPassword() → Firebase Auth token →
-onAuthStateChanged() → isAdmin = true → botones admin visibles →
+admin/login/+page.svelte → signInWithEmailAndPassword() → Firebase Auth token →
+onAuthStateChanged() en +layout.svelte → store `usuario` →
+admin/+layout.svelte usa $effect para redirigir si !$usuario →
 CRUD operations → Firestore (reglas: ¿solo con auth?)
 ```
 
 **Flujo 3 — Escritura desde admin:**
 ```
-Form de admin → datos JS → addDoc/updateDoc/deleteDoc →
-Firestore (reglas verifican auth?) → onSnapshot actualiza UI pública
+Form en admin/+page.svelte → addDoc/updateDoc/deleteDoc/setDoc →
+Firestore (reglas verifican auth?) → onSnapshot en +layout.svelte actualiza store → UI pública se actualiza en vivo
 ```
 
-**Flujo 4 — API key Firebase en código fuente:**
+**Flujo 4 — Upload de imagen a Cloudinary:**
 ```
-Código fuente público → firebaseConfig visible → atacante usa config →
-llama Firestore REST API directamente → ¿qué puede hacer sin auth?
+Input file en admin → subirImagenCloudinary() (XHR directo a Cloudinary, sin pasar por backend propio) →
+upload_preset UNSIGNED → Cloudinary acepta el archivo → URL pública devuelta →
+esa URL se guarda en el documento de Firestore (imagen / imagenes[])
+```
+Un preset unsigned significa que **cualquiera con la cloud name y el preset name (ambos visibles en el bundle JS) puede subir archivos a esa cuenta de Cloudinary**, esté o no autenticado como admin.
+
+**Flujo 5 — Firebase config en código fuente:**
+```
+Bundle JS público → firebaseConfig visible (apiKey, projectId, etc.) →
+atacante usa la config → llama Firestore REST API o el SDK directamente → ¿qué puede hacer sin auth?
 ```
 
 Para cada flujo: identificar dónde falta validación, escapado o control de acceso.
@@ -72,13 +83,15 @@ service cloud.firestore {
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Productos: lectura pública, escritura solo admin autenticado
     match /productos/{prodId} {
       allow read: if true;
       allow write: if request.auth != null;
     }
-    // Categorías: lectura pública, escritura solo admin autenticado
     match /categorias/{catId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    match /config/{docId} {
       allow read: if true;
       allow write: if request.auth != null;
     }
@@ -86,91 +99,75 @@ service cloud.firestore {
 }
 ```
 
-Verificar en Firebase Console → Firestore → Rules.
+Verificar en Firebase Console → Firestore → Rules (no está versionado en el repo, así que no se puede auditar solo leyendo código — hay que pedirle al usuario que confirme el estado actual en la consola).
 
-### 2. XSS — innerHTML con datos de Firestore
+### 2. Cloudinary — preset unsigned sin restricciones
 
-Cualquier dato de Firestore que se inserta en innerHTML puede ser XSS si no está sanitizado.
-Un atacante con acceso de escritura a Firestore podría inyectar `<script>` en un nombre de producto.
+El preset unsigned (`muebles-rafaela`) permite subir archivos desde cualquier origen, sin necesidad de estar autenticado como admin en la app.
 
-```javascript
-// PELIGROSO: datos de usuario directamente en innerHTML
-grid.innerHTML = `<div class="card-nombre">${p.nombre}</div>`;
+Mitigaciones a verificar en el dashboard de Cloudinary (no en el código):
+- **Restricciones de tipo de archivo** en el preset (solo `image/*`)
+- **Límite de tamaño** de archivo
+- **Restricción de dominio/referrer** si Cloudinary lo soporta para el preset
+- **Moderación** o revisión manual si el volumen de abuso lo justifica
 
-// SEGURO: sanitizar strings antes de insertar
-function esc(str) {
-  return String(str || '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
-grid.innerHTML = `<div class="card-nombre">${esc(p.nombre)}</div>`;
+El código cliente (`subirImagenCloudinary` en `$lib/firebase.js`) ya valida `file.type.startsWith('image/')` antes de subir, pero eso es solo una guía de UX — un atacante puede saltarse el frontend y pegarle directo a la API de Cloudinary con el preset expuesto.
 
-// ALTERNATIVA SEGURA: usar textContent para texto plano
-const div = document.createElement('div');
-div.className = 'card-nombre';
-div.textContent = p.nombre;
-```
+### 3. XSS — `{@html}` o datos sin escapar
 
-Buscar con Grep todos los `innerHTML` que incluyen `p.` o `c.` (datos de Firestore):
+Svelte escapa automáticamente `{expresion}` en el markup. El riesgo real está en:
+- Cualquier uso de `{@html ...}` con datos de Firestore (nombre, descripción de producto) sin sanitizar
+- `innerHTML` manual dentro de un `<script>` si en algún punto se manipula el DOM directamente
+
 ```bash
-grep -n "innerHTML.*\${p\." muebles_rafaela.html
-grep -n "innerHTML.*\${c\." muebles_rafaela.html
+# Buscar usos de @html en todos los componentes
+grep -rn "{@html" app/src/
 ```
 
-### 3. Firebase API key expuesta en código fuente
+Si no hay ningún `{@html}` con datos de usuario, el riesgo de XSS almacenado vía Firestore es bajo por defecto — pero **un admin comprometido o malicioso podría igual inyectar contenido** que se muestra en la página pública, así que vale la pena revisar cada `{@html}` que aparezca.
+
+### 4. Firebase API key expuesta en el bundle
 
 La API key de Firebase EN EL CLIENTE ES INTENCIONAL — no es un secreto. Pero hay que protegerla con:
 - **Firebase Security Rules** (ya cubierto arriba)
 - **Dominios autorizados** en Firebase Console → Authentication → Settings → Authorized domains
-  - Solo agregar el dominio de Netlify y localhost. Nunca `*`.
-- **Firebase App Check** (opcional, para prevenir abuso)
+  - Solo agregar el dominio de Netlify y `localhost`. Nunca `*`.
+- **Firebase App Check** (opcional, para prevenir abuso de la API)
 
-### 4. Autenticación y sesión
+### 5. Autenticación y sesión
 
-- [ ] ¿El `isAdmin` se verifica SERVER-SIDE (en Firestore Rules) o solo CLIENT-SIDE?
-  - **Client-side `isAdmin = true` NO es suficiente** — un atacante puede ejecutar `isAdmin = true` en la consola
-  - La protección real debe ser en Firestore Rules con `request.auth != null`
-- [ ] ¿El `signOut()` limpia correctamente el estado local? (`isAdmin = false`, ocultar botones admin)
-- [ ] ¿Hay protección contra fuerza bruta en el login? Firebase Auth tiene rate limiting incorporado, pero verificar.
+- [ ] La protección real de rutas admin está en `admin/+layout.svelte` vía `$effect` que hace `goto('/admin/login')` si `!$usuario` — esto es **solo UX client-side**, no seguridad real. La seguridad real debe estar en Firestore Rules con `request.auth != null`.
+- [ ] Un atacante puede ejecutar JS en la consola del browser y bypassear cualquier chequeo de `$usuario` en el cliente — si las reglas de Firestore no exigen auth, igual podría escribir datos.
+- [ ] ¿`signOut()` limpia correctamente el store `usuario`? (ya lo hace vía `onAuthStateChanged`)
+- [ ] Firebase Auth tiene rate limiting incorporado contra fuerza bruta en el login — no hay protección adicional propia y no hace falta.
 
-### 5. WhatsApp link — validación del número
+### 6. WhatsApp — validación del número
 
 ```javascript
-// Verificar que el número de WhatsApp no sea manipulable por usuario
-function wsp(nombre) {
-  const msg = encodeURIComponent('Hola! Consulto por: ' + nombre);
-  // El número debe estar hardcodeado, no venir de Firestore
-  return `https://wa.me/5493492XXXXXX?text=${msg}`;
-}
+// El número viene de Firestore (config/contacto → wsp_num), NO está hardcodeado
+// Esto es una decisión de diseño consciente (el cliente lo edita desde el admin)
 ```
 
-Si el número viene de Firestore, un atacante podría redirigir consultas a otro número.
+Como el número de WhatsApp se lee de Firestore y se edita desde el admin, un atacante que comprometa las credenciales de admin (o que explote reglas de Firestore laxas) podría redirigir todas las consultas a otro número. La mitigación es la misma que para el resto: reglas de escritura restringidas a `request.auth != null`.
 
-### 6. Validación de datos en admin
+### 7. Validación de datos en admin
 
-Los formularios de admin solo tienen validación client-side. Un atacante autenticado podría:
+Los formularios de admin (`admin/+page.svelte`) validan poco más allá de "nombre no vacío". Un atacante autenticado (o con reglas laxas) podría:
 - Subir precios negativos
-- Crear nombres de producto con scripts
-- Agregar URLs de imagen con `javascript:` protocol
+- Crear nombres de producto extremadamente largos
+- Agregar URLs de imagen arbitrarias si en el futuro se permite pegar URL a mano (actualmente las imágenes se suben vía Cloudinary, lo cual mitiga esto)
 
 ```javascript
-// MAL: sin validación
-const data = { nombre: document.getElementById('fn').value, precio: document.getElementById('fp').value };
-
-// BIEN: validar antes de guardar
-const nombre = document.getElementById('fn').value.trim();
+// Reforzar antes de guardar en guardarProd()
+const nombre = formNombre.trim();
 if (!nombre || nombre.length > 200) { toast('Nombre inválido', 'err'); return; }
-const precio = parseFloat(document.getElementById('fp').value);
-if (isNaN(precio) || precio < 0) { toast('Precio inválido', 'err'); return; }
-const imagen = document.getElementById('fi').value.trim();
-if (imagen && !imagen.startsWith('https://')) { toast('URL de imagen debe ser HTTPS', 'err'); return; }
+const precio = formPrecio !== '' ? Number(formPrecio) : null;
+if (precio !== null && (isNaN(precio) || precio < 0)) { toast('Precio inválido', 'err'); return; }
 ```
 
-### 7. Content Security Policy (Netlify)
+### 8. Content Security Policy (Netlify)
 
-Agregar headers en `netlify.toml`:
+Agregar headers en `netlify.toml` (raíz del repo):
 ```toml
 [[headers]]
   for = "/*"
@@ -178,28 +175,26 @@ Agregar headers en `netlify.toml`:
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self' https://www.gstatic.com https://firebasestorage.googleapis.com; script-src 'self' 'unsafe-inline' https://www.gstatic.com https://unpkg.com; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com; img-src 'self' https: data:; style-src 'self' 'unsafe-inline';"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com https://api.cloudinary.com; img-src 'self' https: data:; style-src 'self' 'unsafe-inline';"
 ```
+Ajustar `script-src`/`style-src` según lo que SvelteKit genere en el build (puede necesitar hashes o `'unsafe-inline'` para estilos inyectados).
 
-### 8. Imágenes — URLs externas
+### 9. Imágenes — Cloudinary vs URLs arbitrarias
 
-Si se permiten URLs de imagen externas, un atacante podría usar URLs de rastreo o contenido inapropiado.
-- Considerar Firebase Storage para subir imágenes (control total)
-- O aceptar solo URLs de dominios específicos (whitelist)
+A diferencia del sistema anterior (URLs externas pegadas a mano), ahora las imágenes pasan por Cloudinary, lo cual ya mitiga el riesgo de URLs de rastreo o contenido arbitrario en el campo `imagen`. Verificar que no haya quedado ningún input de texto libre para pegar URL de imagen sin pasar por `subirImagenCloudinary()`.
 
 ---
 
 ## Checklist de auditoría
 
-- [ ] Firestore Rules revisadas: lectura pública OK, escritura solo con `request.auth != null`
+- [ ] Firestore Rules revisadas en la consola: lectura pública OK, escritura solo con `request.auth != null` (incluye `config/*`)
 - [ ] Dominios autorizados en Firebase Auth (no `*`)
-- [ ] Todos los `innerHTML` con datos de Firestore sanitizados con `esc()`
-- [ ] Número de WhatsApp hardcodeado, no de Firestore
-- [ ] Validación server-side de auth en reglas Firestore (no solo `isAdmin` client-side)
-- [ ] Logout limpia `isAdmin` y oculta la UI de admin
-- [ ] Validación de datos antes de escribir en Firestore (nombre, precio, URL imagen)
-- [ ] Headers de seguridad en Netlify (X-Frame-Options, CSP)
-- [ ] URLs de imagen validadas como HTTPS
+- [ ] Preset unsigned de Cloudinary revisado: restricciones de tipo/tamaño de archivo configuradas en el dashboard
+- [ ] Sin usos de `{@html}` con datos de Firestore sin sanitizar (`grep -rn "{@html" app/src/`)
+- [ ] Validación server-side de auth en reglas Firestore (no solo el guard de `admin/+layout.svelte`, que es client-side)
+- [ ] Logout limpia el store `usuario` y la ruta admin redirige correctamente
+- [ ] Validación de datos antes de escribir en Firestore (nombre, precio)
+- [ ] Headers de seguridad en `netlify.toml` (X-Frame-Options, CSP)
 
 ---
 
@@ -210,7 +205,7 @@ Para cada hallazgo:
 ### [CRÍTICO/ALTO/MEDIO/BAJO] — Nombre del hallazgo
 
 **Descripción**: Qué es y por qué es un problema
-**Ubicación**: Línea o sección en muebles_rafaela.html
+**Ubicación**: Archivo y línea en app/src/...
 **Impacto**: Qué puede hacer un atacante
 **Remediación**: Código concreto para solucionar
 ```
