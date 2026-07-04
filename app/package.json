@@ -4,11 +4,14 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
+		"predev": "node scripts/generate-catalog.js",
 		"dev": "vite dev",
+		"prebuild": "node scripts/generate-catalog.js",
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"backup": "node scripts/backup-firestore.js"
+		"backup": "node scripts/backup-firestore.js",
+		"generate-catalog": "node scripts/generate-catalog.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.1",

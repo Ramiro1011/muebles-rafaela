@@ -3,12 +3,10 @@
   import { onMount }    from 'svelte';
   import { page }       from '$app/stores';
   import { goto }       from '$app/navigation';
-  import { db, auth }   from '$lib/firebase.js';
+  import { auth }       from '$lib/firebase.js';
   import { onAuthStateChanged } from 'firebase/auth';
-  import { collection, query, orderBy, onSnapshot } from 'firebase/firestore';
-  import { doc, onSnapshot as onSnap } from 'firebase/firestore';
   import {
-    productos, categorias, proveedores, usuario, authCargando,
+    productos, categorias, usuario, authCargando,
     textoBusqueda, toasts, toast, configLanding, configNosotros, configContacto
   } from '$lib/stores.js';
 
@@ -16,16 +14,27 @@
   let busqueda = $state('');
   let menuOpen = $state(false);
 
-  // Evita mostrar el mismo toast de error varias veces si fallan varios listeners a la vez
-  let errorFirestoreMostrado = false;
-  function manejarErrorFirestore(err) {
-    console.error('Error de Firestore:', err);
-    if (errorFirestoreMostrado) return;
-    errorFirestoreMostrado = true;
+  const CATALOGO_CACHE_KEY = 'catalogo_cache_v1';
+
+  function aplicarCatalogo(json) {
+    productos.set(json.productos ?? []);
+    categorias.set(json.categorias ?? []);
+    if (json.config?.landing)  configLanding.update(prev => ({ ...prev, ...json.config.landing }));
+    if (json.config?.nosotros) configNosotros.update(prev => ({ ...prev, ...json.config.nosotros }));
+    if (json.config?.contacto) configContacto.update(prev => ({ ...prev, ...json.config.contacto }));
+  }
+
+  // Evita mostrar el mismo toast de error varias veces si el fetch falla
+  let errorCatalogoMostrado = false;
+  function manejarErrorCatalogo(err) {
+    console.error('Error al cargar el catálogo:', err);
+    if (errorCatalogoMostrado) return;
+    errorCatalogoMostrado = true;
     toast('No pudimos cargar los datos del catálogo. Probá de nuevo en unos minutos.', 'err');
   }
 
-  // Escuchar auth state
+  // Escuchar auth state (Firebase Auth, no consume cuota de Firestore — se
+  // necesita en /catalogo para diferenciar qué ve un admin logueado)
   onMount(() => {
     const unsub = onAuthStateChanged(auth, u => {
       usuario.set(u);
@@ -39,30 +48,28 @@
     return unsub;
   });
 
-  // Escuchar Firestore en tiempo real
+  // Catálogo público: se sirve estático desde Netlify (CDN), cero lecturas
+  // de Firestore para el visitante. Firestore en vivo solo corre dentro del
+  // panel de admin (ver admin/+layout.svelte), una vez autenticado.
   onMount(() => {
-    const q1 = query(collection(db, 'productos'),   orderBy('nombre'));
-    const q2 = query(collection(db, 'categorias'),  orderBy('nombre'));
-    const q3 = query(collection(db, 'proveedores'), orderBy('nombre'));
-    const u1 = onSnapshot(q1, snap => {
-      productos.set(snap.docs.map(d => ({ id: d.id, ...d.data() })));
-    }, manejarErrorFirestore);
-    const u2 = onSnapshot(q2, snap => {
-      categorias.set(snap.docs.map(d => ({ id: d.id, ...d.data() })));
-    }, manejarErrorFirestore);
-    const u3 = onSnapshot(q3, snap => {
-      proveedores.set(snap.docs.map(d => ({ id: d.id, ...d.data() })));
-    }, manejarErrorFirestore);
-    const u4 = onSnap(doc(db, 'config', 'landing'), snap => {
-      if (snap.exists()) configLanding.update(prev => ({ ...prev, ...snap.data() }));
-    }, manejarErrorFirestore);
-    const u5 = onSnap(doc(db, 'config', 'nosotros'), snap => {
-      if (snap.exists()) configNosotros.update(prev => ({ ...prev, ...snap.data() }));
-    }, manejarErrorFirestore);
-    const u6 = onSnap(doc(db, 'config', 'contacto'), snap => {
-      if (snap.exists()) configContacto.update(prev => ({ ...prev, ...snap.data() }));
-    }, manejarErrorFirestore);
-    return () => { u1(); u2(); u3(); u4(); u5(); u6(); };
+    // Hidratar rápido con lo último cacheado en esta pestaña, y siempre
+    // refrescar en segundo plano por si se publicó algo nuevo mientras
+    // la pestaña estaba abierta (stale-while-revalidate).
+    try {
+      const cacheado = sessionStorage.getItem(CATALOGO_CACHE_KEY);
+      if (cacheado) aplicarCatalogo(JSON.parse(cacheado));
+    } catch { /* sessionStorage no disponible o dato corrupto — seguimos con el fetch */ }
+
+    fetch('/catalogo.json')
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then(json => {
+        aplicarCatalogo(json);
+        try { sessionStorage.setItem(CATALOGO_CACHE_KEY, JSON.stringify(json)); } catch { /* no crítico */ }
+      })
+      .catch(manejarErrorCatalogo);
   });
 
   function handleSearch(e) {

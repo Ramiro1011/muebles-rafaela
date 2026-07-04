@@ -8,6 +8,9 @@ node_modules
 /.svelte-kit
 /build
 
+# Catálogo generado en build/dev (ver scripts/generate-catalog.js) — nunca commitear
+static/catalogo.json
+
 # OS
 .DS_Store
 Thumbs.db
