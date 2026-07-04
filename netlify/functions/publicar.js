@@ -2,14 +2,15 @@
 // Valida el ID token de Firebase del admin server-side antes de tocar el
 // build hook real, así la URL del hook nunca queda expuesta en el cliente.
 
-import admin from 'firebase-admin';
+import { initializeApp, cert, getApps } from 'firebase-admin/app';
+import { getAuth } from 'firebase-admin/auth';
 
-let app;
-function getAdminApp() {
-  if (app) return app;
-  const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
-  app = admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
-  return app;
+function getAdminAuth() {
+  if (getApps().length === 0) {
+    const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+    initializeApp({ credential: cert(serviceAccount) });
+  }
+  return getAuth();
 }
 
 export const handler = async (event) => {
@@ -28,8 +29,16 @@ export const handler = async (event) => {
     return { statusCode: 401, body: JSON.stringify({ error: 'Falta el token de autenticación.' }) };
   }
 
+  let adminAuth;
   try {
-    await getAdminApp().auth().verifyIdToken(token);
+    adminAuth = getAdminAuth();
+  } catch (err) {
+    console.error('FIREBASE_SERVICE_ACCOUNT inválida:', err.message);
+    return { statusCode: 500, body: JSON.stringify({ error: 'Configuración inválida del servidor.' }) };
+  }
+
+  try {
+    await adminAuth.verifyIdToken(token);
   } catch (err) {
     console.error('Token inválido:', err.message);
     return { statusCode: 401, body: JSON.stringify({ error: 'Sesión inválida o expirada.' }) };

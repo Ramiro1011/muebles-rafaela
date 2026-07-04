@@ -6,7 +6,8 @@
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { readdirSync, unlinkSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
-import admin from 'firebase-admin';
+import { initializeApp, cert } from 'firebase-admin/app';
+import { getFirestore } from 'firebase-admin/firestore';
 
 const __dirname = dirname(fileURLToPath(import.meta.url)); // app/scripts
 const REPO_ROOT = join(__dirname, '..', '..');
@@ -19,8 +20,8 @@ if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
 }
 
 const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
-admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
-const db = admin.firestore();
+const app = initializeApp({ credential: cert(serviceAccount) });
+const db = getFirestore(app);
 
 // El email del admin no debe quedar expuesto en un repo público.
 function enmascararUsuario(usuario) {

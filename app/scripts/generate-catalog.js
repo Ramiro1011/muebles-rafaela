@@ -10,7 +10,8 @@
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
-import admin from 'firebase-admin';
+import { initializeApp, cert } from 'firebase-admin/app';
+import { getFirestore } from 'firebase-admin/firestore';
 
 const __dirname = dirname(fileURLToPath(import.meta.url)); // app/scripts
 const APP_DIR = join(__dirname, '..');
@@ -45,9 +46,17 @@ if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
   process.exit(0);
 }
 
-const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
-admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
-const db = admin.firestore();
+let db;
+try {
+  const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+  const app = initializeApp({ credential: cert(serviceAccount) });
+  db = getFirestore(app);
+} catch (err) {
+  console.error('FIREBASE_SERVICE_ACCOUNT inválida:', err.message);
+  if (ES_NETLIFY) process.exit(1);
+  if (!existsSync(OUTPUT_FILE)) escribir(catalogoVacio());
+  process.exit(0);
+}
 
 async function leerColeccionOrdenada(nombre) {
   const snap = await db.collection(nombre).orderBy('nombre').get();
