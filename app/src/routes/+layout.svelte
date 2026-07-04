@@ -6,7 +6,7 @@
   import { auth }       from '$lib/firebase.js';
   import { onAuthStateChanged } from 'firebase/auth';
   import {
-    productos, categorias, usuario, authCargando,
+    productos, categorias, usuario, authCargando, catalogoGeneradoEn,
     textoBusqueda, toasts, toast, configLanding, configNosotros, configContacto
   } from '$lib/stores.js';
 
@@ -22,6 +22,7 @@
     if (json.config?.landing)  configLanding.update(prev => ({ ...prev, ...json.config.landing }));
     if (json.config?.nosotros) configNosotros.update(prev => ({ ...prev, ...json.config.nosotros }));
     if (json.config?.contacto) configContacto.update(prev => ({ ...prev, ...json.config.contacto }));
+    if (json.generadoEn) catalogoGeneradoEn.set(json.generadoEn);
   }
 
   // Evita mostrar el mismo toast de error varias veces si el fetch falla

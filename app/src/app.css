@@ -1112,6 +1112,27 @@ img { display: block; max-width: 100%; }
   white-space: nowrap;
 }
 
+/* Indicador de "cambios sin publicar" junto al botón Publicar cambios */
+.publicar-wrap { display: flex; align-items: center; gap: .6rem; }
+.publicar-pendiente-texto {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .7rem;
+  color: var(--naranja);
+  white-space: nowrap;
+}
+.publicar-pendiente-dot,
+.publicar-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--naranja);
+  flex-shrink: 0;
+  display: inline-block;
+}
+.publicar-dot { margin-left: .1rem; }
+
 .admin-layout { display: flex; flex: 1; min-height: 0; }
 
 /* Sidebar rediseñado */
@@ -2188,6 +2209,8 @@ img { display: block; max-width: 100%; }
   .admin-header-brand-sub { font-size: .58rem; letter-spacing: .06em; margin-top: .2rem; }
   .admin-header-actions { gap: .35rem; }
   .admin-header-actions .btn-sm { padding: .4rem .65rem; font-size: .68rem; }
+  .publicar-wrap { gap: 0; }
+  .publicar-pendiente-texto { display: none; } /* en mobile alcanza con el puntito en el botón */
 
   /* Admin */
   .admin-wrap { overflow-x: hidden; }

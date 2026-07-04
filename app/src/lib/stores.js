@@ -5,6 +5,10 @@ export const productos   = writable([]);
 export const categorias  = writable([]);
 export const proveedores = writable([]);
 
+// Fecha (ISO) en la que se generó el catalogo.json que está sirviendo la
+// vista pública ahora mismo — usado para saber si hay cambios sin publicar.
+export const catalogoGeneradoEn = writable(null);
+
 // ── Auth ────────────────────────────────────────────────────────────
 export const usuario = writable(null);
 export const authCargando = writable(true);
