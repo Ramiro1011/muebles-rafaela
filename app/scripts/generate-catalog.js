@@ -1,13 +1,15 @@
 // Genera app/static/catalogo.json a partir de Firestore, para que la vista
-// pública lo sirva desde el CDN de Cloudflare Pages en vez de leer Firestore
-// en vivo. Corre antes de "build" y "dev" (ver "prebuild"/"predev" en
-// package.json).
+// pública lo sirva desde el CDN en vez de leer Firestore en vivo. Corre
+// antes de "build" y "dev" (ver "prebuild"/"predev" en package.json).
 //
-// En Cloudflare Pages (build real) es fatal si falta la credencial: nunca
-// deployar con un catálogo vacío o desactualizado en silencio. En dev local
-// es tolerante: si falta la credencial, avisa y deja lo que ya haya (o
-// escribe un catálogo vacío la primera vez), para no romper "cloná y npm run
-// dev".
+// "prebuild" pasa --strict: ahí es fatal si falta la credencial o es
+// inválida — nunca deployar con un catálogo vacío o desactualizado en
+// silencio. No se puede detectar esto con una variable de entorno del
+// hosting (CF_PAGES es específica de Cloudflare Pages y no existe en
+// Workers Builds ni en Netlify), por eso el flag explícito. En dev local
+// ("predev", sin --strict) es tolerante: si falta la credencial, avisa y
+// deja lo que ya haya (o escribe un catálogo vacío la primera vez), para
+// no romper "cloná y npm run dev".
 
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -19,7 +21,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url)); // app/scripts
 const APP_DIR = join(__dirname, '..');
 const STATIC_DIR = join(APP_DIR, 'static');
 const OUTPUT_FILE = join(STATIC_DIR, 'catalogo.json');
-const ES_CF_PAGES = process.env.CF_PAGES === '1';
+const ES_STRICT = process.argv.includes('--strict');
 
 function catalogoVacio() {
   return {
@@ -36,7 +38,7 @@ function escribir(catalogo) {
 }
 
 if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
-  if (ES_CF_PAGES) {
+  if (ES_STRICT) {
     console.error('Falta la variable de entorno FIREBASE_SERVICE_ACCOUNT (JSON de la cuenta de servicio). Abortando build.');
     process.exit(1);
   }
@@ -55,7 +57,7 @@ try {
   db = getFirestore(app);
 } catch (err) {
   console.error('FIREBASE_SERVICE_ACCOUNT inválida:', err.message);
-  if (ES_CF_PAGES) process.exit(1);
+  if (ES_STRICT) process.exit(1);
   if (!existsSync(OUTPUT_FILE)) escribir(catalogoVacio());
   process.exit(0);
 }
@@ -92,7 +94,7 @@ async function main() {
 
 main().catch(err => {
   console.error('Error al generar catalogo.json:', err);
-  if (ES_CF_PAGES) process.exit(1);
+  if (ES_STRICT) process.exit(1);
   if (!existsSync(OUTPUT_FILE)) escribir(catalogoVacio());
   process.exit(0);
 });
