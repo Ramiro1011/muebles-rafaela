@@ -2,6 +2,9 @@
 	"name": "muebles-rafaela",
 	"compatibility_date": "2026-07-06",
 	"main": "worker/index.js",
+	"vars": {
+		"FIREBASE_PROJECT_ID": "muebles-rafaela"
+	},
 	"assets": {
 		"directory": "./build",
 		"binding": "ASSETS",

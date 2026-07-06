@@ -32,8 +32,9 @@ export default {
 };
 
 async function handlePublicar(request, env) {
-  if (!env.FIREBASE_PROJECT_ID || !env.CF_DEPLOY_HOOK_URL) {
-    console.error('Faltan las variables de entorno FIREBASE_PROJECT_ID o CF_DEPLOY_HOOK_URL');
+  const faltantes = ['FIREBASE_PROJECT_ID', 'CF_DEPLOY_HOOK_URL'].filter((k) => !env[k]);
+  if (faltantes.length) {
+    console.error(`Faltan las variables de entorno: ${faltantes.join(', ')}`);
     return json({ error: 'Configuración incompleta del servidor.' }, 500);
   }
 
