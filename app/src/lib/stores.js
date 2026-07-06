@@ -14,7 +14,9 @@ export const usuario = writable(null);
 export const authCargando = writable(true);
 
 // ── Filtros del catálogo ────────────────────────────────────────────
-export const filtroCategoria  = writable('todos');
+// Conjunto de nombres de categoría seleccionados a la vez (AND): vacío
+// = "todos". Ej. {Exterior, Sillas} = productos que tengan ambas.
+export const filtroCategorias = writable(new Set());
 export const textoBusqueda    = writable('');
 export const filtroMaterial   = writable('');
 export const precioMin        = writable('');
@@ -39,16 +41,30 @@ export function precioFinal(p) {
   return p.precio;
 }
 
+// ── Grupos de categorías (muchos-a-muchos, sin encadenar) ───────────
+// Una categoría puede pertenecer a varios grupos a la vez (ej. "Sillas"
+// en "Muebles" y en "Exterior"), pero un grupo no puede a la vez ser
+// miembro de otro grupo. "Grupos" para el árbol = categorías sin
+// gruposIds propio; sus "hijas" son las que la tienen en su gruposIds.
+export const categoriasTree = derived(categorias, $cats => {
+  const grupos = $cats.filter(c => !c.gruposIds?.length);
+  return grupos.map(grupo => ({
+    ...grupo,
+    hijas: $cats.filter(c => c.gruposIds?.includes(grupo.id)),
+  }));
+});
+
 // ── Productos filtrados (derived store) ─────────────────────────────
 export const productosFiltrados = derived(
-  [productos, filtroCategoria, textoBusqueda, filtroMaterial, precioMin, precioMax, soloDestacados, ordenamiento],
-  ([$productos, $cat, $texto, $material, $pMin, $pMax, $dest, $orden]) => {
+  [productos, filtroCategorias, textoBusqueda, filtroMaterial, precioMin, precioMax, soloDestacados, ordenamiento],
+  ([$productos, $catsFiltro, $texto, $material, $pMin, $pMax, $dest, $orden]) => {
     let ps = $productos.filter(p => p.activo !== false);
 
-    if ($cat !== 'todos') {
+    if ($catsFiltro.size > 0) {
+      const nombres = [...$catsFiltro];
       ps = ps.filter(p => {
         const cats = p.categorias?.length ? p.categorias : p.categoria ? [p.categoria] : [];
-        return cats.includes($cat);
+        return nombres.every(n => cats.includes(n));
       });
     }
     if ($material) {

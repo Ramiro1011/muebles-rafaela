@@ -1,9 +1,9 @@
 <script>
   import { db, subirImagenCloudinary } from '$lib/firebase.js';
-  import { productos, categorias, proveedores, toast, configLanding, configNosotros, configContacto } from '$lib/stores.js';
+  import { productos, categorias, categoriasTree, conteoCategoria, proveedores, toast, configLanding, configNosotros, configContacto } from '$lib/stores.js';
   import {
     collection, addDoc, updateDoc, deleteDoc, doc, setDoc, writeBatch,
-    getDocs, query, orderBy, limit
+    getDocs, query, orderBy, limit, arrayUnion, arrayRemove
   } from 'firebase/firestore';
   import { goto } from '$app/navigation';
   import { usuario } from '$lib/stores.js';
@@ -275,10 +275,59 @@
   }
 
   // ── Categorías ──────────────────────────────────────────────
-  let nuevaCat     = $state('');
-  let agregandoCat = $state(false);
-  let editCatId    = $state('');
+  let nuevaCat      = $state('');
+  let agregandoCat  = $state(false);
+  let editCatId     = $state('');
   let editCatNombre = $state('');
+  let raicesCatAbiertas  = $state(new Set());
+  let asignandoPadreId   = $state('');
+  let seleccionAsignar   = $state([]);
+
+  // Una categoría es "grupo" si alguna otra la tiene en su gruposIds. Los
+  // grupos no se encadenan: una categoría que ya es grupo no puede a la vez
+  // pertenecer a otro grupo, y viceversa.
+  function esGrupo(id) {
+    return $categorias.some(c => c.gruposIds?.includes(id));
+  }
+  function toggleRaizCat(id) {
+    raicesCatAbiertas = new Set(raicesCatAbiertas.has(id) ? [...raicesCatAbiertas].filter(x => x !== id) : [...raicesCatAbiertas, id]);
+  }
+
+  // Categorías existentes que se le pueden sumar a `grupoId` como miembros:
+  // ella misma no, las que ya son grupo de otros no (no se encadena), y las
+  // que ya pertenecen a este grupo tampoco (ya están) — pero sí pueden ser
+  // candidatas aunque ya pertenezcan a OTRO grupo distinto (muchos-a-muchos).
+  function candidatasParaAsignar(grupoId) {
+    return $categorias.filter(c => c.id !== grupoId && !c.gruposIds?.includes(grupoId) && !esGrupo(c.id));
+  }
+  function abrirAsignarPadre(grupoId) {
+    asignandoPadreId = asignandoPadreId === grupoId ? '' : grupoId;
+    seleccionAsignar = [];
+  }
+  async function confirmarAsignarPadre(grupoId) {
+    if (seleccionAsignar.length === 0) { asignandoPadreId = ''; return; }
+    const nombreGrupo = $categorias.find(c => c.id === grupoId)?.nombre;
+    try {
+      const batch = writeBatch(db);
+      for (const id of seleccionAsignar) batch.update(doc(db, 'categorias', id), { gruposIds: arrayUnion(grupoId) });
+      await batch.commit();
+      toast('Subcategorías asignadas');
+      await registrarHistorial('categoria_editada', `Asignó ${seleccionAsignar.length} categoría(s) al grupo "${nombreGrupo}"`);
+      asignandoPadreId = '';
+      seleccionAsignar = [];
+    } catch(err) {
+      toast('Error: ' + err.message, 'err');
+    }
+  }
+  async function quitarDeCategoria(hija, grupo) {
+    try {
+      await updateDoc(doc(db, 'categorias', hija.id), { gruposIds: arrayRemove(grupo.id) });
+      toast('Categoría desasignada');
+      await registrarHistorial('categoria_editada', `Quitó "${hija.nombre}" del grupo "${grupo.nombre}"`);
+    } catch(err) {
+      toast('Error: ' + err.message, 'err');
+    }
+  }
 
   async function agregarCategoria(e) {
     e.preventDefault();
@@ -316,10 +365,21 @@
   }
 
   async function eliminarCategoria(cat) {
+    const hijas = $categorias.filter(h => h.gruposIds?.includes(cat.id));
+    if (hijas.length > 0) {
+      const nombres = hijas.map(h => h.nombre).join(', ');
+      if (!confirm(`"${cat.nombre}" tiene ${hijas.length} subcategoría(s) (${nombres}) que van a perder esta pertenencia. ¿Continuar?`)) return;
+    }
     const n = $productos.filter(p => getCats(p).includes(cat.nombre)).length;
-    if (n > 0 && !confirm(`Esta categoría tiene ${n} producto(s). ¿Eliminarla de todos modos?`)) return;
+    const mensaje = n > 0
+      ? `¿Estás seguro que deseas eliminar la categoría "${cat.nombre}"? Tiene ${n} producto(s) asignado(s).`
+      : `¿Estás seguro que deseas eliminar la categoría "${cat.nombre}"?`;
+    if (!confirm(mensaje)) return;
     try {
-      await deleteDoc(doc(db, 'categorias', cat.id));
+      const batch = writeBatch(db);
+      for (const hija of hijas) batch.update(doc(db, 'categorias', hija.id), { gruposIds: arrayRemove(cat.id) });
+      batch.delete(doc(db, 'categorias', cat.id));
+      await batch.commit();
       toast('Categoría eliminada');
       await registrarHistorial('categoria_eliminada', `Eliminó la categoría "${cat.nombre}"`);
     } catch(err) {
@@ -1046,30 +1106,53 @@
           <thead>
             <tr>
               <th>Nombre</th>
+              <th>Subcategorías</th>
               <th>Productos</th>
               <th>Acciones</th>
             </tr>
           </thead>
           <tbody>
-            {#each $categorias as cat (cat.id)}
+            {#each $categoriasTree as raiz (raiz.id)}
               <tr>
                 <td class="bold">
-                  {#if editCatId === cat.id}
-                    <form onsubmit={(e) => { e.preventDefault(); guardarCat(cat.id); }} style="display:flex;gap:.5rem">
-                      <input class="form-input" type="text" bind:value={editCatNombre} style="padding:.35rem .6rem;font-size:.82rem" />
-                      <button type="submit" class="btn btn-primary btn-sm">✓</button>
-                      <button type="button" class="btn btn-ghost btn-sm" onclick={() => editCatId = ''}>✕</button>
-                    </form>
+                  <div style="display:flex;align-items:center;gap:.4rem">
+                    {#if raiz.hijas.length > 0}
+                      <button class="btn btn-ghost btn-sm btn-icon" onclick={() => toggleRaizCat(raiz.id)} title="Mostrar subcategorías" style="transform:rotate({raicesCatAbiertas.has(raiz.id) ? 90 : 0}deg)">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                      </button>
+                    {/if}
+                    {#if editCatId === raiz.id}
+                      <form onsubmit={(e) => { e.preventDefault(); guardarCat(raiz.id); }} style="display:flex;gap:.5rem;align-items:center">
+                        <input class="form-input" type="text" bind:value={editCatNombre} style="padding:.35rem .6rem;font-size:.82rem" />
+                        <button type="submit" class="btn btn-primary btn-sm">✓</button>
+                        <button type="button" class="btn btn-ghost btn-sm" onclick={() => editCatId = ''}>✕</button>
+                      </form>
+                    {:else}
+                      {raiz.nombre}
+                    {/if}
+                  </div>
+                </td>
+                <td>
+                  {#if raiz.hijas.length > 0}
+                    <div class="cat-tags">
+                      {#each raiz.hijas as hija (hija.id)}
+                        <span class="cat-tag">
+                          {hija.nombre}
+                          <button type="button" onclick={() => quitarDeCategoria(hija, raiz)} title="Quitar de esta categoría principal">×</button>
+                        </span>
+                      {/each}
+                    </div>
                   {:else}
-                    {cat.nombre}
+                    <span style="color:var(--text-3);font-size:.78rem">—</span>
                   {/if}
                 </td>
-                <td>{$productos.filter(p => p.categoria === cat.nombre).length}</td>
+                <td>{$conteoCategoria[raiz.nombre] || 0}</td>
                 <td>
                   <div style="display:flex;gap:.35rem">
+                    <button class="btn btn-ghost btn-sm" onclick={() => abrirAsignarPadre(raiz.id)} title="Asignar categorías existentes como hijas">Asignar categoría principal</button>
                     <button
                       class="btn btn-ghost btn-sm btn-icon"
-                      onclick={() => { editCatId = cat.id; editCatNombre = cat.nombre; }}
+                      onclick={() => { editCatId = raiz.id; editCatNombre = raiz.nombre; }}
                       title="Editar"
                     >
                       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1079,7 +1162,7 @@
                     </button>
                     <button
                       class="btn btn-danger btn-sm btn-icon"
-                      onclick={() => eliminarCategoria(cat)}
+                      onclick={() => eliminarCategoria(raiz)}
                       title="Eliminar"
                     >
                       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1092,6 +1175,79 @@
                   </div>
                 </td>
               </tr>
+              {#if asignandoPadreId === raiz.id}
+                {@const candidatas = candidatasParaAsignar(raiz.id)}
+                <tr>
+                  <td colspan="4">
+                    {#if candidatas.length === 0}
+                      <p style="font-size:.8rem;color:var(--text-3);margin:0">No hay categorías disponibles para asignar (ya pertenecen a este grupo, o son grupo de otras categorías).</p>
+                    {:else}
+                      <div class="cat-checkboxes">
+                        {#each candidatas as c (c.id)}
+                          <label class="filter-check">
+                            <input type="checkbox"
+                              checked={seleccionAsignar.includes(c.id)}
+                              onchange={e => {
+                                if (e.currentTarget.checked) seleccionAsignar = [...seleccionAsignar, c.id];
+                                else seleccionAsignar = seleccionAsignar.filter(x => x !== c.id);
+                              }} />
+                            <span>{c.nombre}</span>
+                          </label>
+                        {/each}
+                      </div>
+                    {/if}
+                    <div style="display:flex;gap:.5rem;margin-top:.75rem">
+                      <button class="btn btn-primary btn-sm" onclick={() => confirmarAsignarPadre(raiz.id)} disabled={seleccionAsignar.length === 0}>Guardar</button>
+                      <button class="btn btn-ghost btn-sm" onclick={() => { asignandoPadreId = ''; seleccionAsignar = []; }}>Cancelar</button>
+                    </div>
+                  </td>
+                </tr>
+              {/if}
+              {#if raiz.hijas.length > 0 && raicesCatAbiertas.has(raiz.id)}
+                {#each raiz.hijas as hija (hija.id)}
+                  <tr>
+                    <td class="bold" style="padding-left:2.2rem">
+                      {#if editCatId === hija.id}
+                        <form onsubmit={(e) => { e.preventDefault(); guardarCat(hija.id); }} style="display:flex;gap:.5rem;align-items:center">
+                          <input class="form-input" type="text" bind:value={editCatNombre} style="padding:.35rem .6rem;font-size:.82rem" />
+                          <button type="submit" class="btn btn-primary btn-sm">✓</button>
+                          <button type="button" class="btn btn-ghost btn-sm" onclick={() => editCatId = ''}>✕</button>
+                        </form>
+                      {:else}
+                        {hija.nombre}
+                      {/if}
+                    </td>
+                    <td><span style="color:var(--text-3);font-size:.78rem">—</span></td>
+                    <td>{$productos.filter(p => getCats(p).includes(hija.nombre)).length}</td>
+                    <td>
+                      <div style="display:flex;gap:.35rem">
+                        <button
+                          class="btn btn-ghost btn-sm btn-icon"
+                          onclick={() => { editCatId = hija.id; editCatNombre = hija.nombre; }}
+                          title="Editar"
+                        >
+                          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/>
+                            <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                          </svg>
+                        </button>
+                        <button
+                          class="btn btn-danger btn-sm btn-icon"
+                          onclick={() => eliminarCategoria(hija)}
+                          title="Eliminar"
+                        >
+                          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="3 6 5 6 21 6"/>
+                            <path d="M19 6l-1 14H6L5 6"/>
+                            <path d="M10 11v6M14 11v6"/>
+                            <path d="M9 6V4h6v2"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                {/each}
+              {/if}
             {/each}
           </tbody>
         </table>

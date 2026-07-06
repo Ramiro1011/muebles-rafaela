@@ -3,8 +3,8 @@
   import { goto }     from '$app/navigation';
   import { onMount }  from 'svelte';
   import {
-    categorias, conteoCategoria, usuario,
-    filtroCategoria, textoBusqueda, filtroMaterial,
+    categoriasTree, conteoCategoria, usuario,
+    filtroCategorias, textoBusqueda, filtroMaterial,
     precioMin, precioMax, soloDestacados,
     ordenamiento, productosFiltrados, productos, precioFinal,
     configContacto
@@ -19,14 +19,38 @@
   let pMinLocal    = $state('');
   let pMaxLocal    = $state('');
   let catsOpen     = $state(true);
+  // Solo puede haber 1 categoría padre activa a la vez (su id = la que está
+  // desplegada) y, dentro de ella, a lo sumo 1 subcategoría hija.
+  let raizAbierta  = $state(null);
+  let padreSel     = $state(null);
+  let hijaSel      = $state(null);
   let imagenActiva = $state(0);
   let vistosIds    = $state([]);
+
+  function aplicarFiltro() {
+    const nombres = [padreSel, hijaSel].filter(Boolean);
+    filtroCategorias.set(new Set(nombres));
+    paginaActual = 1;
+    syncUrl({ cat: nombres.length ? nombres.join(',') : null, pagina: null });
+  }
 
   onMount(() => {
     const params = $page.url.searchParams;
     paginaActual = Number(params.get('pagina')) || 1;
     const catInicial = params.get('cat');
-    if (catInicial) filtroCategoria.set(catInicial);
+    if (catInicial) {
+      const nombres = catInicial.split(',');
+      filtroCategorias.set(new Set(nombres));
+      const unsub = categoriasTree.subscribe(tree => {
+        for (const n of nombres) {
+          const raiz = tree.find(r => r.nombre === n);
+          if (raiz) { padreSel = raiz.nombre; raizAbierta = raiz.id; continue; }
+          const raizDeHija = tree.find(r => r.hijas.some(h => h.nombre === n));
+          if (raizDeHija) { hijaSel = n; padreSel = raizDeHija.nombre; raizAbierta = raizDeHija.id; }
+        }
+      });
+      unsub();
+    }
     try { vistosIds = JSON.parse(localStorage.getItem(VISTOS_KEY) || '[]'); } catch { vistosIds = []; }
     const pId = params.get('p');
     if (pId) {
@@ -54,21 +78,38 @@
   const paginas    = $derived(Array.from({ length: Math.min(totalPags, 7) }, (_, i) => i + 1));
   const materiales = $derived([...new Set($productos.map(p => p.material).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'es')));
   const vistosProductos = $derived(vistosIds.map(id => $productos.find(p => p.id === id)).filter(Boolean).slice(0, 6));
-  const tituloSeccion   = $derived($filtroCategoria === 'todos' ? 'Todos los productos' : $filtroCategoria);
+  const tituloSeccion   = $derived($filtroCategorias.size === 0 ? 'Todos los productos' : [...$filtroCategorias].join(' + '));
   const subtituloSeccion = $derived(`${totalProd} ${totalProd === 1 ? 'producto' : 'productos'}`);
   const imagenesModal   = $derived(productoSel ? [productoSel.imagen, ...(productoSel.imagenes || [])].filter(Boolean) : []);
   const categoriasModal = $derived(
     productoSel ? (productoSel.categorias?.length ? productoSel.categorias : productoSel.categoria ? [productoSel.categoria] : []) : []
   );
 
-  function seleccionarCat(cat) {
-    filtroCategoria.set(cat); paginaActual = 1; sidebarOpen = false;
-    syncUrl({ cat: cat === 'todos' ? null : cat, pagina: null });
+  function seleccionarTodos() {
+    padreSel = null; hijaSel = null; raizAbierta = null; sidebarOpen = false;
+    aplicarFiltro();
+  }
+  // El nombre y la flechita de una categoría padre hacen lo mismo: es la
+  // única forma de activarla, y al hacerlo se despliega mostrando sus
+  // subcategorías (no puede haber más de un padre activo a la vez).
+  function toggleRaiz(raiz) {
+    if (raizAbierta === raiz.id) {
+      raizAbierta = null; padreSel = null; hijaSel = null;
+    } else {
+      raizAbierta = raiz.id; padreSel = raiz.nombre; hijaSel = null;
+    }
+    aplicarFiltro();
+  }
+  function seleccionarHija(raiz, hija) {
+    hijaSel = hijaSel === hija.nombre ? null : hija.nombre;
+    padreSel = raiz.nombre; raizAbierta = raiz.id;
+    aplicarFiltro();
   }
   function seleccionarMaterial(mat) { filtroMaterial.set($filtroMaterial === mat ? '' : mat); paginaActual = 1; }
   function aplicarPrecio() { precioMin.set(pMinLocal); precioMax.set(pMaxLocal); paginaActual = 1; }
   function limpiarFiltros() {
-    filtroCategoria.set('todos'); textoBusqueda.set(''); precioMin.set(''); precioMax.set('');
+    padreSel = null; hijaSel = null; raizAbierta = null;
+    filtroCategorias.set(new Set()); textoBusqueda.set(''); precioMin.set(''); precioMax.set('');
     soloDestacados.set(false); filtroMaterial.set(''); pMinLocal = ''; pMaxLocal = ''; paginaActual = 1;
     syncUrl({ cat: null, pagina: null });
   }
@@ -106,13 +147,31 @@
       {#if catsOpen}
         <ul class="cat-list">
           <li class="cat-item">
-            <button class:active={$filtroCategoria === 'todos'} onclick={() => seleccionarCat('todos')}><span>Todos</span></button>
+            <button class:active={padreSel === null} onclick={seleccionarTodos}><span>Todos</span></button>
           </li>
-          {#each $categorias as cat (cat.id)}
+          {#each $categoriasTree as raiz (raiz.id)}
             <li class="cat-item">
-              <button class:active={$filtroCategoria === cat.nombre} onclick={() => seleccionarCat(cat.nombre)}>
-                <span>{cat.nombre}</span><span class="cat-count">{$conteoCategoria[cat.nombre] || 0}</span>
-              </button>
+              <div class="cat-item-row">
+                <button class:active={padreSel === raiz.nombre} class:has-expand={raiz.hijas.length > 0} onclick={() => toggleRaiz(raiz)}>
+                  <span>{raiz.nombre}</span><span class="cat-count">{$conteoCategoria[raiz.nombre] || 0}</span>
+                </button>
+                {#if raiz.hijas.length > 0}
+                  <button class="cat-item-expand" class:open={raizAbierta === raiz.id} onclick={() => toggleRaiz(raiz)} aria-label="Mostrar subcategorías">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                  </button>
+                {/if}
+              </div>
+              {#if raiz.hijas.length > 0 && raizAbierta === raiz.id}
+                <ul class="cat-list cat-list--hijas">
+                  {#each raiz.hijas as hija (hija.id)}
+                    <li class="cat-item cat-item--child">
+                      <button class:active={hijaSel === hija.nombre} onclick={() => seleccionarHija(raiz, hija)}>
+                        <span>{hija.nombre}</span><span class="cat-count">{$conteoCategoria[hija.nombre] || 0}</span>
+                      </button>
+                    </li>
+                  {/each}
+                </ul>
+              {/if}
             </li>
           {/each}
         </ul>
@@ -145,7 +204,7 @@
           <span>Solo destacados</span>
         </label>
       </div>
-      {#if $filtroCategoria !== 'todos' || $textoBusqueda || $precioMin || $precioMax || $soloDestacados || $filtroMaterial}
+      {#if $filtroCategorias.size > 0 || $textoBusqueda || $precioMin || $precioMax || $soloDestacados || $filtroMaterial}
         <button class="btn" style="margin-top:1rem;width:100%;justify-content:center;font-size:.7rem" onclick={limpiarFiltros}>Limpiar filtros</button>
       {/if}
     </div>
