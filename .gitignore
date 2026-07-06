@@ -1,3 +1,9 @@
 muebles_rafaela/
 netlify/functions/node_modules/
 
+# Claude / IA
+CLAUDE.md
+commands/
+.claude/
+.claude/**
+
