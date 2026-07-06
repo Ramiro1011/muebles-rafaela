@@ -98,7 +98,7 @@
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       toast('Publicando cambios — el sitio se actualiza en 1-2 minutos.');
-      // Netlify tarda un rato en buildear y deployar — reconsultamos
+      // Cloudflare tarda un rato en buildear y deployar — reconsultamos
       // catalogo.json más tarde para confirmar que ya se publicó.
       setTimeout(async () => {
         await refrescarCatalogoGeneradoEn();
