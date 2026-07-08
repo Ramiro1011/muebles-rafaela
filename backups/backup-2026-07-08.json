@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-05T12:13:55.535Z",
+  "fecha": "2026-07-08T12:18:24.936Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -9,9 +9,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782996682/muebles_rafaela/px180sm9ozttw9xyxvih.jpg",
@@ -33,7 +30,38 @@
           "hex": "#000000"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "CÓMODAS"
+      ]
+    },
+    {
+      "id": "0kutNcziAXEBKQQvfr3f",
+      "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
+      "precio": 468300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783374430/muebles_rafaela/y0mmmqwtijxmvwxt5xo0.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ],
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 30L A.R"
     },
     {
       "id": "1Ra8LxE8JSFa6NFraQJi",
@@ -43,9 +71,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783083631/muebles_rafaela/helhr3flqujm900wwmhs.jpg",
@@ -64,7 +89,11 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "3WFmGukvmkTpeSvOcOb1",
@@ -74,9 +103,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783029090/muebles_rafaela/z5xvauonm9pa6xlg8k6z.jpg",
@@ -95,19 +121,19 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "4LVW5xrhrVFgFP4Xiqsg",
-      "nombre": "Cocina Escorial Master Style 56CM Multigas",
       "descripcion": "Diseño\nLa cocina Escorial Master Style ofrece 4 hornallas: 1 grande y 3 medianas, y encendido electrónico de una mano. El interior del horno está enlozado en polvo electrostático y tiene una práctica luz, mientras que en su exterior dispone de puerta con doble vidrio. Por otro lado, posee doble parrilla extraíble.\n\nCaracterísticas\nEsta cocina cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASST56 está preparado para Multigas.\n\nReja de fundición\nRespaldo de vidrio\nQuemadores de aluminio con tapa esmaltada",
       "precio": 748330,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "nuevo": false,
@@ -130,7 +156,66 @@
         }
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783170162/muebles_rafaela/umdf2yncs5wcgyo0xvif.jpg",
-      "proveedor": "ESCORIAL"
+      "proveedor": "ESCORIAL",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "COCINA"
+      ],
+      "nombre": "COCINA ESCORIAL MASTER STYLE 56CM"
+    },
+    {
+      "id": "5FwpLB98CoCb20Ay25uc",
+      "nombre": "COCINA INDUSTRIAL USMAN CARLI PLANCHA 85CM",
+      "descripcion": "Cocina Industrial en Acero Inoxidable con Plancha\nVidrio templado en puerta, mecheros industriales, rejas de fundición y plancheta, horno con piso de ladrillos refractarios y válvulas de seguridad en horno y plancha.\n\nInformación\nAncho\t\n85 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
+      "precio": 888700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COCINA",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "COCINA",
+      "material": null,
+      "proveedor": "USMAN",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783349345/muebles_rafaela/jrtwnl2xvh0inylgca8h.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
+      "id": "63Jj7miReP1J05VUEGnN",
+      "nombre": "COCINA INDUSTRIAL USMAN SONIC XXL 55CM",
+      "descripcion": "Cocina Industrial en Acero Inoxidable con bandeja.\nCon vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, válvula de seguridad, pirómetro y bandeja de gratinado. Ideal para uso gastronómico intensivo.\n\nAncho\t\n55 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
+      "precio": 826700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COCINA",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "COCINA",
+      "material": null,
+      "proveedor": "USMAN",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783349273/muebles_rafaela/gouncjejn1zwgq18eibc.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
     },
     {
       "id": "7cPvir11M0S5Rb8tkVFB",
@@ -140,9 +225,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783030556/muebles_rafaela/jbrd7l6eu5nbkosiznw7.jpg",
@@ -160,7 +242,11 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "7xoOglfBWnUBWSOYTuP3",
@@ -170,9 +256,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ECOTERMO",
@@ -192,6 +275,64 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
+      ],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
+    },
+    {
+      "id": "94GarddO5saVjQEfU1g9",
+      "nombre": "COCINA INDUSTRIAL USMAN COMPACT 52CM",
+      "descripcion": "Cocina Industrial en Acero Inoxidable.\nPuerta visor con vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, pirómetro en puerta y válvula de seguridad.\n\nAncho\t\n52 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
+      "precio": 533600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COCINA",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "COCINA",
+      "material": null,
+      "proveedor": "USMAN",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783349850/muebles_rafaela/gywvwzxdjxn40hnoqlwz.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
+      "id": "95IULm39XYXeUd2mCBZc",
+      "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 95L",
+      "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
+      "precio": 476300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783374287/muebles_rafaela/u6z1hh6faod9uopqtxsn.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
       ]
     },
     {
@@ -202,9 +343,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782936925/muebles_rafaela/bmiuz8iciqc5eglaiemg.jpg",
@@ -220,7 +358,12 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "9z2NPLwRX3DQcqx7OnLZ",
@@ -256,9 +399,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783031346/muebles_rafaela/rlw2wm3u2btv2jy2svu9.jpg",
@@ -275,19 +415,19 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "FjPXgsp0tSczRTWMdAZO",
-      "nombre": "Cocina Escorial Master Classic  Inox 56CM",
       "descripcion": "Diseño\nLa cocina Escorial Master Classic ofrece un diseño elegante realizado en acero inoxidable con tapa de horno de vidrio negro y laterales negros. Tiene 4 hornallas: 1 grande y 3 medianas. El interior del horno está enlozado en polvo electrostático y su reja se encuentra esmaltada. Por otro lado, posee una puerta de vidrio y cajón parrilla con puerta rebatible.\n\nCaracteristicas\nEsta cocina cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASCL56BN está preparado para sistema de gas natural.",
       "precio": 648309,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -304,7 +444,12 @@
           "nombre": "gris",
           "hex": "#b6a4a4"
         }
-      ]
+      ],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "COCINA"
+      ],
+      "nombre": "COCINA ESCORIAL MASTER CLASSIC INOX 56CM"
     },
     {
       "id": "FsiA49icJLtxjWrtbq4X",
@@ -314,9 +459,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782997417/muebles_rafaela/drv84agegqaj1izt1q2k.jpg",
@@ -334,7 +476,33 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "CÓMODAS"
+      ]
+    },
+    {
+      "id": "GFiUWOMKYT1Ux5cCFwxb",
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 85L",
+      "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
+      "precio": 481900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783374814/muebles_rafaela/cd6aq88crnabj1kdfx1y.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "GPDcwPmzxYsqQYIj17yU",
@@ -411,9 +579,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783030666/muebles_rafaela/etzew3xzblzwjkcvg8le.jpg",
@@ -432,7 +597,11 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "Ig16syZEzRT0FHMX5jc1",
@@ -442,9 +611,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782996990/muebles_rafaela/gdmjywpk3zshcqfasrjm.jpg",
@@ -466,19 +632,19 @@
           "hex": "#b18259"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "CÓMODAS"
+      ]
     },
     {
       "id": "JIV53pvVXniveS91ySpC",
-      "nombre": "Termotanque Escorial 120Lt conexion superior multigas",
       "descripcion": "Seguridad y consumo\nPara evitar cualquier tipo de accidentes, viene con una válvula de seguridad por termocupla que cierra totalmente el paso de gas al artefacto si por alguna razón se apaga la llama piloto. A su vez, posee un piloto analizador de oxígeno que detecta gases tóxicos. Por otro lado, a la hora de elegir un termotanque hay que tener en cuenta que se calculan aproximadamente 50 litros para 3 personas; 75 litros, de 3 a 5 personas; y 120, de 5 a 7 personas.\nCapacidad y confort\nEscorial 120LT es un termotanque a gas con capacidad para 120 litros. A diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Su tanque está construido con protección anti corrosión que elimina los depósitos de óxido que causan las picaduras internas. Puede utilizarse con gas natural o con gas envasado. Este modelo incluye patas para colocarlo de pie, asegurando su estabilidad.\nSistema de calentamiento\nEl Escorial tiene un tanque con capacidad para 120 litros, que calienta a través de un quemador con chapa de recubrimiento específico para altas temperaturas. Una vez que se alcanza la temperatura ideal, el agua caliente viaja desde el termotanque por la red doméstica hasta el grifo que fue activado.",
       "precio": 493668,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -489,7 +655,12 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "nombre": "TERMOTANQUE ESCORIAL A GAS 120L"
     },
     {
       "id": "KAG5WMC8uvl0ysRFBziA",
@@ -499,9 +670,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782995470/muebles_rafaela/myyutxm5zqjbyvwefsfy.jpg",
@@ -525,7 +693,38 @@
           "hex": "#000000"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "ROPEROS"
+      ]
+    },
+    {
+      "id": "KYECYbp33Bj2ZL8VV0J9",
+      "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 90L A.R",
+      "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
+      "precio": 633000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783377082/muebles_rafaela/bmlss8jwr8zlrunpkkmm.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
     },
     {
       "id": "L52sZAgzGrshZ24FgZMW",
@@ -535,9 +734,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783027744/muebles_rafaela/p5yfqoq5ezllioypjpmj.jpg",
@@ -556,7 +752,11 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "LgHST6WbpwuDOdM6iUjZ",
@@ -593,9 +793,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ECOTERMO",
@@ -613,7 +810,33 @@
           "hex": "#ffffff"
         }
       ],
-      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783085529/muebles_rafaela/grdh4ojvjvhvcydbxqbm.jpg"
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783085529/muebles_rafaela/grdh4ojvjvhvcydbxqbm.jpg",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
+    },
+    {
+      "id": "P1sYkeoAS3DRwx2rJJVb",
+      "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 40L",
+      "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783374101/muebles_rafaela/gjjnog6jjvei0sw2yiud.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "precio": 396800,
+      "precioAnterior": 0
     },
     {
       "id": "PH2zsaEbPCUDaywwiA3I",
@@ -673,6 +896,33 @@
       "colores": []
     },
     {
+      "id": "Qbp7VK8l9teGzU9NFxFq",
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L BLACK",
+      "descripcion": "Aislamiento con poliuretano.\nIndicador de temperatura digital.\nPiloto analizador.\nMultigas: Kit para instalación de gas natural o envasado.",
+      "precio": 750400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783377900/muebles_rafaela/plwoojwmznk4lvku2xiq.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Negro",
+          "hex": "#000000"
+        }
+      ]
+    },
+    {
       "id": "RW69VK9eJTTgue82vIWv",
       "nombre": "HELADERA GRIS C/FREEZER BRIKET 257LTS",
       "descripcion": "Nuestra heladera con freezer de 257 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\n\nDimensiones (mm): Ancho: 550 | Alto: 1495 | Profundidad: 660\n\nPeso: 44,2 Kg\n\nClasificación Energética: A\n\nCapacidad: 257 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 270",
@@ -680,9 +930,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782938044/muebles_rafaela/fqf5otf23afvu2yd6pbb.jpg",
@@ -698,7 +945,12 @@
           "hex": "#888888"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "SCJp8a50UIXQJEzJE05x",
@@ -708,9 +960,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783030474/muebles_rafaela/xwvle0j9iwhbqeretl9w.jpg",
@@ -729,7 +978,11 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "SgSaz4I5JXjfxc8qyGK1",
@@ -760,15 +1013,11 @@
     },
     {
       "id": "T5aATJlmrpY0w3h1uu3u",
-      "nombre": "Cocina Escorial Master Classic 56CM",
       "descripcion": "Diseño\nLa cocina Escorial a gas Master Classic ofrece 4 hornallas: 1 grande y 3 medianas. El interior del horno está enlozado en polvo electrostático y su reja se encuentra esmaltada. Por otro lado, la cocina a gas Escorial posee una puerta de vidrio y cajón parrilla con puerta rebatible.\n\nCaracteristicas\nLa cocina Escorial Master Classic cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASCL56BN está preparado para Gas Natural.",
       "precio": 549485,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783169455/muebles_rafaela/lff8ahrn8ejnoeq0viy8.jpg",
@@ -792,19 +1041,20 @@
           "hex": "#fbf9f9"
         }
       ],
-      "proveedor": "ESCORIAL"
+      "proveedor": "ESCORIAL",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "COCINA"
+      ],
+      "nombre": "COCINA ESCORIAL MASTER CLASSIC 56CM"
     },
     {
       "id": "U9TRwKeBkuqbtdijAUI5",
-      "nombre": "Termotanque  Escorial  Electrico 55 LT conexion inferior",
       "descripcion": "Capacidad y confort\nEl termotanque eléctrico Escorial tiene una capacidad para 55 litros. A diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Para funcionar, sólo hay que enchufarlo a la red eléctrica convencional. Automáticamente, el artefacto calentará el agua hasta un punto prefijado. Cuenta con un tanque con aislamiento de espuma de poliuretano que asegura un consumo eficiente de energía. Puede colgarse. Conexión inferior.\n\nSeguridad y consumo\nUna de las principales características de este tipo de calentadores es que pueden instalarse en cualquier espacio y no necesitan ventilación como los equipos que utilizan llamas de combustión para generar calor. Este artefacto no produce gases tóxicos y tampoco consume oxígeno del ambiente en el que se lo ubique. A la hora de elegir un termotanque hay que tener en cuenta que se calculan aproximadamente 50 litros para 3 personas; 75 litros, de 3 a 5 personas; y 120, de 5 a 7 personas. Escorial\n\nSistema de calentamiento\nA diferencia de los equipos a gas que calientan el agua a través de un quemador y generan gases tóxicos, este termotanque produce calor a través de una resistencia eléctrica hasta que se alcanza la temperatura deseada. Luego, el aislamiento del tanque se encarga de que no se enfríe demasiado rápido. Cuando la temperatura baja, por el paso del tiempo o porque se usó el agua caliente y entra agua fría, la resistencia vuelve a entrar en funcionamiento. Termotanque Electrico Escorial",
       "precio": 389803,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -820,7 +1070,12 @@
           "nombre": "blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 55L"
     },
     {
       "id": "UZ5mEvicfq008ptPX3kH",
@@ -850,14 +1105,38 @@
       "proveedor": "TANDIL"
     },
     {
+      "id": "UnyrKb8OjMh5YbiR4ztT",
+      "descripcion": "Bajo consumo. Piloto analizador.\nTriple barrera anti-fuga. Válvula de seguridad por sobrepresión, unidad magnética y termocupla.\nDetector de monóxido de carbono.\nMultigas: Kit de instalación de gas natural o envasado.",
+      "precio": 613000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783377628/muebles_rafaela/u40qkdmtn8hyntbygihu.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ],
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L FAMILY A.R"
+    },
+    {
       "id": "VSzMjDJft4zMDQc17Mq2",
       "precio": 691900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782916639/muebles_rafaela/fk5o6sfwdnytxon8kiuy.jpg",
@@ -875,7 +1154,12 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "ViskTFgSHNHPY3qCtPOm",
@@ -885,9 +1169,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783001330/muebles_rafaela/mxlpbfei5e9yo1jes29w.jpg",
@@ -909,7 +1190,11 @@
           "hex": "#574633"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "MESAS DE LUZ"
+      ]
     },
     {
       "id": "WgoIyGVpA1emPexjZxhy",
@@ -952,9 +1237,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783027620/muebles_rafaela/hbpfxtkwqs71zfrlmoh8.jpg",
@@ -973,7 +1255,11 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "XNXljq5gPntto8RFONZg",
@@ -998,16 +1284,39 @@
       "proveedor": "YUTE"
     },
     {
+      "id": "Y3a3e3MOJippNfl9Kxup",
+      "nombre": "COCINA INDUSTRIAL USMAN WIN 550",
+      "descripcion": "Cocina Industrial en Acero Inoxidable.\nPuerta visor con vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, pirómetro en puerta y válvula de seguridad.\n\nAncho\t\n55 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
+      "precio": 685800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COCINA",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "COCINA",
+      "material": null,
+      "proveedor": "USMAN",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783349167/muebles_rafaela/dou6eotvctuzb8ls4zir.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
       "id": "YGAJEAqTOdoj9zvjeXth",
-      "nombre": "Cocina Escorial Candor",
       "descripcion": "Diseño\nLa Escorial Candor S2 es una cocina de diseño clásico en color blanco que cuenta con cuatro hornallas; horno y cajón parrilla independiente. Dispone de 1 quemador grande y 3 medianas. Por otro lado, está preparada para Gas Natural.\n\nCaracterísticas especiales\nLa cocina Escorial está totalmente enlozada en polvo electroestático y cuenta con puerta de horno con visor; bisagra desmontable y reja de plancha con apoya ollas. Por otro lado, dispone perillas de plástico inyectado, manija de plástico, respaldo extraible, horno y parrilla con sistema fácil limpieza (easy to clean).\n\nDimensiones\nSus medidas estándar de 95 cm de alto; 51 cm de ancho y 60 cm de profundidad hacen que se ajuste a cualquier tipo de cocina.",
       "precio": 459177,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -1031,7 +1340,12 @@
           "nombre": "negro",
           "hex": "#0f0f0f"
         }
-      ]
+      ],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "COCINA"
+      ],
+      "nombre": "COCINA ESCORIAL CANDOR"
     },
     {
       "id": "aQz40FIaE97IbZxsV8Cy",
@@ -1041,9 +1355,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782937092/muebles_rafaela/ma4nrtciy1ahikebun3c.jpg",
@@ -1054,7 +1365,12 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "bZLB3Q23dJ7d6kFBC8Hc",
@@ -1064,9 +1380,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783030365/muebles_rafaela/honkx1rdb1ysrzykmjnq.jpg",
@@ -1084,7 +1397,11 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "bqFSYJSLFDkOVH1QxlMk",
@@ -1094,9 +1411,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782940465/muebles_rafaela/fedxjxd8w5fgakuc64vh.webp",
@@ -1112,7 +1426,12 @@
           "hex": "#000000"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "e8bT1VEfIfoSzel927gP",
@@ -1122,9 +1441,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783001490/muebles_rafaela/uxg9xs4xzban41mraczu.jpg",
@@ -1149,7 +1465,11 @@
           "hex": "#000000"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "MESAS DE LUZ"
+      ]
     },
     {
       "id": "e8vIpQkCgEagmlvhJiEY",
@@ -1185,9 +1505,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782937906/muebles_rafaela/ybr1qaiautemxhokq2i3.webp",
@@ -1203,7 +1520,12 @@
           "hex": "#888888"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "eHzKAmWBDu4fqapNYo4l",
@@ -1213,9 +1535,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782937375/muebles_rafaela/ue01vmry1bnuph3f8syu.webp",
@@ -1226,19 +1545,20 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "fP8TnBW0NPvzNb0SHyyZ",
-      "nombre": "Cocina Escorial Master Style 56CM Inoxidable Multigas",
       "descripcion": "Diseño\nLa cocina Escorial Master Style multigas ofrece 4 hornallas: 1 grande y 3 medianas. El interior del horno está enlozado en polvo electrostático y tiene una práctica luz, mientras que en su exterior dispone de puerta con doble vidrio. Por otro lado, posee doble parrilla extraíble y encendido de una mano.\n\nCaracterísticas\nEsta cocina cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASST56 está preparado para Multigas.\n\nReja de fundición\nRespaldo de vidrio\nQuemadores de aluminio con tapa esmaltada",
       "precio": 844534,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -1256,7 +1576,12 @@
           "nombre": "gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "COCINA"
+      ],
+      "nombre": "COCINA ESCORIAL MASTER STYLE 56CM INOX"
     },
     {
       "id": "fo9IkPqKHps4GGHfmnEN",
@@ -1265,9 +1590,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -1284,7 +1606,11 @@
           "hex": "#ffffff"
         }
       ],
-      "nombre": "Termotanque Escorial Electrico 90 Lt conexion inferior"
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 90L"
     },
     {
       "id": "gA399wsvguMIcVQL4ui9",
@@ -1294,9 +1620,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782996412/muebles_rafaela/o89e2m1ceap5k6mirfzj.jpg",
@@ -1326,7 +1649,11 @@
           "hex": "#483226"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "CÓMODAS"
+      ]
     },
     {
       "id": "h9HzlQ9hnNuWaWTyml6G",
@@ -1336,9 +1663,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783029179/muebles_rafaela/xnwwnzza1z0tvttftu18.jpg",
@@ -1356,7 +1680,11 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "ECOTERMO"
+      "proveedor": "ECOTERMO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ]
     },
     {
       "id": "hYtqNZ5NfJDCl3SMcPzv",
@@ -1366,9 +1694,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782940393/muebles_rafaela/rymc2jokvydzomhyu3po.jpg",
@@ -1384,7 +1709,12 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "iLf7ufI9tnosP58mK9Bz",
@@ -1413,15 +1743,49 @@
       "proveedor": "COPPENS"
     },
     {
+      "id": "k1D8XmzVTfps0E1qfKGn",
+      "nombre": "BIBLIOTECA MELAMINA 60CM",
+      "descripcion": "Organizá tus libros, apuntes, revistas, usalo de repisa para tus portarretratos y objetos de deco o lo que más te guste. En el living, en tu cuarto, junto a tu escritorio o en cualquier rincón de tu casa. De líneas sencillas, esta biblioteca combina estantes con un sector de guardado, lo que la hace por demás práctica y funcional.",
+      "precio": 161000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783345480/muebles_rafaela/wri198qvzz9qfn31zjm4.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783345488/muebles_rafaela/m5isvvhwftiuagvd3ekm.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783345492/muebles_rafaela/r95qgncbbnlfzqdyalfc.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783345495/muebles_rafaela/ncljt2skl6hrsygqnoes.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783345498/muebles_rafaela/upxuybs6kqtoa4rvtovo.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783345528/muebles_rafaela/ufdmmwd2cf4tglv3xtxy.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Negro",
+          "hex": "#000000"
+        }
+      ],
+      "categorias": [
+        "MUEBLES",
+        "BIBLIOTECA"
+      ],
+      "activo": true
+    },
+    {
       "id": "kEUKZFoY0VkRJARlrP5c",
       "descripcion": "Seguridad y consumo\nPara evitar cualquier tipo de accidentes, viene con una válvula de seguridad por termocupla que cierra totalmente el paso de gas al artefacto si por alguna razón se apaga la llama piloto. A su vez, posee un piloto analizador de oxígeno que detecta gases tóxicos.\n\nCapacidad y confort\nEl termotanque a gas Escorial 45 litros, a diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Su tanque está construido con protección anti corrosión que elimina los depósitos de óxido que causan las picaduras internas. Puede utilizarse con gas natural o con gas envasado. Es apto para colgar con patas opcionales para apoyarlo.\n\nSistema de calentamiento\nEl Escorial tiene un tanque que calienta a través de un quemador con chapa de recubrimiento específico para altas temperaturas. Una vez que se alcanza la temperatura ideal, el agua caliente viaja desde el termotanque por la red doméstica hasta el grifo que fue activado.\n\nCaracteristicas\nSistema de conexión Multigas (Gas natural convertible a gas licuado).\nPeso vacío: 20kg.\nAislación térmica de eficiencia elevada.\nTanque de acero enlozado en polvo electrostático.\nBarra de protección anti- corrosión (ánodo de magnesio). \nVálvula de alivio de sobrepresión. \nConexión de agua superior.\nAltura conexión agua: 18,5cm.\nPiloto analizador de oxígeno.\nTermocupla de seguridad.\nSistema de colgar.\nAlta eficiencia energética.",
       "precio": 385273,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -1433,7 +1797,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "nombre": "Termotanque  Escorial 45Lt conexion superior multigas"
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "nombre": "TERMOTANQUE ESCORIAL A GAS 45L"
     },
     {
       "id": "lSlvZG6fz8g5aZVHzv1w",
@@ -1441,9 +1809,6 @@
       "descripcion": "Organizá tus zapatos para tenerlos ordenados y siempre a mano. El estilo clásico de este zapatero combina fácilmente con cualquier ambiente. Ubicalo en tu cuarto, en tu vestidor o en el hall de distribución.\n\nDimensiones del mueble (cm): 121 x 62 x 25",
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782998990/muebles_rafaela/nwzgm03ikl6apyit1oq2.jpg",
@@ -1482,7 +1847,11 @@
       "precioAnterior": 0,
       "precio": 160902,
       "proveedor": "CENTRO ESTANT",
-      "activo": true
+      "activo": true,
+      "categorias": [
+        "MUEBLES",
+        "BOTINEROS"
+      ]
     },
     {
       "id": "mvOlTASNvW4CTUCj8z9Y",
@@ -1492,9 +1861,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782999892/muebles_rafaela/wkffjs8xhcbvzww64yub.jpg",
@@ -1516,7 +1882,11 @@
         }
       ],
       "proveedor": "CENTRO ESTANT",
-      "activo": true
+      "activo": true,
+      "categorias": [
+        "MUEBLES",
+        "BOTINEROS"
+      ]
     },
     {
       "id": "psoAxXRcdN70quk2pgBd",
@@ -1552,15 +1922,39 @@
       "proveedor": "UNICAN"
     },
     {
+      "id": "qDtc5QsmHlHvXA4KnfcZ",
+      "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 120L A.R",
+      "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
+      "precio": 785200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783377252/muebles_rafaela/wqd8kjwvaeuebil9rxj0.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
       "id": "rjqWyVEqmv9V5tb5HzP9",
       "descripcion": "CARACTERÍSTICAS\n\n• Sistema de conexión Multigas (Gas natural convertible a gas licuado).\n• Peso vacío: 27kg.\n• Aislación térmica de eficiencia elevada.\n• Tanque de acero enlozado en polvo electrostático.\n• Barra de protección anti- corrosión (ánodo de magnesio).\n• Válvula de alivio de sobrepresión.\n• Conexión de agua superior.\n• Altura conexión agua: 18,5cm.\n• Piloto analizador de oxígeno.\n• Termocupla de seguridad.\n• Sistema de colgar.\n• Garantía de 3 años.\n• Alta eficiencia energética.",
       "precio": 427187,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -1577,7 +1971,38 @@
           "hex": "#fffafa"
         }
       ],
-      "nombre": "Termotanque Escorial 80Lt Conexion superior multigas"
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "nombre": "TERMOTANQUE ESCORIAL A GAS 80L"
+    },
+    {
+      "id": "sWWbR9SmB8FAreGg6l0C",
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 160L",
+      "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
+      "precio": 737600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783376483/muebles_rafaela/yabmidxrurm5asqod70j.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
     },
     {
       "id": "tKPvv2j7MwRSoNYBhj2P",
@@ -1587,9 +2012,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782940174/muebles_rafaela/ounxac8a6larjfihfaxv.jpg",
@@ -1605,7 +2027,12 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "uGHpdveIm88ixPEi0F2Z",
@@ -1615,9 +2042,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782995756/muebles_rafaela/coxpc4tkdo0ynam0guwh.jpg",
@@ -1639,7 +2063,11 @@
           "hex": "#000000"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "ROPEROS"
+      ]
     },
     {
       "id": "ubci9iI3vP2J0qUE0Vpm",
@@ -1649,9 +2077,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782939677/muebles_rafaela/q3mzaauajjfkcf97ydmu.jpg",
@@ -1667,7 +2092,12 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     },
     {
       "id": "ucuGY49tKyZRVwtxfrN1",
@@ -1676,9 +2106,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "proveedor": "ESCORIAL",
@@ -1690,7 +2117,38 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "nombre": "Cocina Escorial Palace Cristal"
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "COCINA"
+      ],
+      "nombre": "COCINA ESCORIAL PALACE CRISTAL"
+    },
+    {
+      "id": "uoEQcaOhUT14Iri46G6G",
+      "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
+      "precio": 539200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783374686/muebles_rafaela/kt9upx57jakmyccxrzy4.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ],
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L A.R"
     },
     {
       "id": "urfRoZtDB4FpEx9FQj7x",
@@ -1715,6 +2173,33 @@
       "colores": [],
       "proveedor": "COPPENS",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783112199/muebles_rafaela/elghjsjdoes6gov7rdhq.jpg"
+    },
+    {
+      "id": "vSk3OVIGhHE44Ys3vDJm",
+      "nombre": "COCINA INDUSTRIAL USMAN WIN 850",
+      "descripcion": "Cocina Industrial en Acero Inoxidable.\nPuerta visor con vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, pirómetro en puerta y válvula de seguridad.\n\nAncho\t\n85 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
+      "precio": 991150,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "COCINA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783348115/muebles_rafaela/mesni6xbgqlc2flbdt3d.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ],
+      "proveedor": "USMAN"
     },
     {
       "id": "w6TjN6r9giYNLrjlTYyA",
@@ -1750,15 +2235,93 @@
       "proveedor": "UNICAN"
     },
     {
+      "id": "weHYPAfDCXsCox92iMFF",
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 120L",
+      "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
+      "precio": 583100,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783376362/muebles_rafaela/oay6ve1m6y8bpgl3heht.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "yIfHhtnpd4phVAhBNHaz",
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 85L FAMILY",
+      "descripcion": "Bajo consumo. Piloto analizador.\nTriple barrera anti-fuga. Válvula de seguridad por sobrepresión, unidad magnética y termocupla.\nDetector de monóxido de carbono.\nMultigas: Kit de instalación de gas natural o envasado.",
+      "precio": 530000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783377791/muebles_rafaela/syzguumwobtoto2ngi7v.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
+      "id": "ybS7xDZ5qR4P33lgkI0c",
+      "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 65L",
+      "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
+      "precio": 429800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783374216/muebles_rafaela/oxtmol0fbhuxrp6nbwr0.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ],
+      "proveedor": "SEÑORIAL"
+    },
+    {
       "id": "yrx0gKlQUSZlJXzctG4p",
       "descripcion": "Ropero clásico, pensado para aprovechar cualquier rincón de tu habitación. Cuenta con un espacio de perchero, dos cajones y un compartimento inferior para calzados. Ideal para habitaciones pequeñas.\n\nDimensiones del mueble (cm): 180 x 60 x 50",
       "precio": 220900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "MUEBLES"
-      ],
       "categoria": "MUEBLES",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782995239/muebles_rafaela/wlooclvblxr8vmiqwuen.jpg",
@@ -1781,7 +2344,38 @@
         }
       ],
       "nombre": "ROPERO MELAMINA 2 PUERTAS ABRIR",
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "categorias": [
+        "MUEBLES",
+        "ROPEROS"
+      ]
+    },
+    {
+      "id": "zgcPb5rSvgxV3FujGkZP",
+      "descripcion": "Bajo consumo. Piloto analizador.\nTriple barrera anti-fuga. Válvula de seguridad por sobrepresión, unidad magnética y termocupla.\nDetector de monóxido de carbono.\nMultigas: Kit de instalación de gas natural o envasado.",
+      "precio": 515000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TERMOTANQUE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "SEÑORIAL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783377558/muebles_rafaela/vhalcfdtwjza5vb62twu.png",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ],
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 30L FAMILY A.R"
     },
     {
       "id": "zk0Uwxzptd4bYcRNHaan",
@@ -1791,9 +2385,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "ELECTRODOMESTICOS"
-      ],
       "categoria": "ELECTRODOMESTICOS",
       "material": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782939831/muebles_rafaela/v4tglhna5ntqygffvt7t.jpg",
@@ -1809,45 +2400,179 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "BRIKET"
+      "proveedor": "BRIKET",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS",
+        "HELADERAS Y FREEZER"
+      ]
     }
   ],
   "categorias": [
     {
+      "id": "7Qp9xuAoPvQkJKqDDbZu",
+      "nombre": "BOTINEROS",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
       "id": "BxQWxauDrMBwKRPaAiss",
-      "nombre": "SILLAS"
+      "nombre": "SILLAS",
+      "padreId": "yLCpvttuCZXS1lbjMb9E",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E",
+        "olIMfF1BocxYydxUHhrU"
+      ]
     },
     {
       "id": "C4M3dfRmsJMehnU1GxJh",
-      "nombre": "ALACENA"
+      "nombre": "ALACENA",
+      "padreId": null,
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "CVn4Dc4XkZUjSxLchEPU",
+      "nombre": "TERMOTANQUE",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
     },
     {
       "id": "GIv0VA4zt92dq9XlM2S0",
       "nombre": "ELECTRODOMESTICOS"
     },
     {
+      "id": "NWf4EIqdAw7ItrswFC9I",
+      "nombre": "BOX CON CAJONES",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "QG8FyBJn3pS2BeakphGn",
+      "nombre": "RACK TV",
+      "padreId": "yLCpvttuCZXS1lbjMb9E",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
       "id": "Sd9i0f6gUpNZz2YHTI2v",
       "nombre": "COLCHONES"
     },
     {
+      "id": "UMlT4DjX3jcZxUptoSOo",
+      "nombre": "CÓMODAS",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "XG8497DJ6MvZhRC2mnZ7",
+      "nombre": "ROPEROS",
+      "padreId": "yLCpvttuCZXS1lbjMb9E",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "aEPAkIw5AV05obOTZ0ZI",
+      "nombre": "ESCOBERO",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "brY4rmnvVKasXRxz4GiF",
+      "nombre": "BAJO MESADA",
+      "padreId": "yLCpvttuCZXS1lbjMb9E",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
       "id": "cKpJ1Os6Aa7pgHrGcUSk",
-      "nombre": "MUEBLE DE COCINA"
+      "nombre": "MUEBLE DE COCINA",
+      "padreId": "yLCpvttuCZXS1lbjMb9E",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
     },
     {
       "id": "fKk1bwphgMG9V0RqDSM8",
-      "nombre": "MESAS"
+      "nombre": "MESAS",
+      "padreId": "yLCpvttuCZXS1lbjMb9E",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "i6xdrT2myKmjsDkhC4Aw",
+      "nombre": "DESPENSERO",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
     },
     {
       "id": "ob3b9N0xnTGZcVz5bbHi",
-      "nombre": "CALEFACCION"
+      "nombre": "CALEFACCION",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "oempB7nrZSUSwGDXU1SJ",
+      "nombre": "HELADERAS Y FREEZER",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
     },
     {
       "id": "olIMfF1BocxYydxUHhrU",
       "nombre": "EXTERIOR"
     },
     {
+      "id": "qfelcPGV4w75vHmT2qrS",
+      "nombre": "CUBOS",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "rOanNfYjjM04z4HH7l4B",
+      "nombre": "COCINA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "segUsE6fP8gY6d4nNm5u",
+      "nombre": "BIBLIOTECA",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "vSCH5ehlA05fwI7Ybcjt",
+      "nombre": "MESAS DE LUZ",
+      "padreId": "yLCpvttuCZXS1lbjMb9E",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
       "id": "yLCpvttuCZXS1lbjMb9E",
       "nombre": "MUEBLES"
+    },
+    {
+      "id": "ym9ZF3N09Isb886xGcHc",
+      "nombre": "ESCRITORIO",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
     }
   ],
   "proveedores": [
@@ -1862,6 +2587,10 @@
     {
       "id": "CnVfV5ukSPDFsiLek9gu",
       "nombre": "TOPACIO"
+    },
+    {
+      "id": "HgyYCAuhRrENyip3SvkU",
+      "nombre": "USMAN"
     },
     {
       "id": "gGNAKy4ArDPYQfTOQAyr",
@@ -1894,11 +2623,25 @@
   ],
   "historial": [
     {
+      "id": "0raSI90Cu57HJFUKG12H",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"BOX\" a \"BOX CON CAJONES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:47:52.445Z"
+    },
+    {
       "id": "0yYb1de3fB4ASb24L26n",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE POPULI A GAS 45LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:09:36.325Z"
+    },
+    {
+      "id": "170qGgzfSOhNGYw4UZAP",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 53LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:53:50.063Z"
     },
     {
       "id": "1CQc2zvUb2f7i6WfMG2S",
@@ -1908,11 +2651,53 @@
       "fecha": "2026-07-03T14:00:31.905Z"
     },
     {
+      "id": "1ldLxmeSKJER253c1spy",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN CARLI PLANCHA 85CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:49:24.601Z"
+    },
+    {
+      "id": "2Ahys7MCvpXFT00ASWg0",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ROPERO MELAMINA 3 PUERTAS ABRIR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:55:56.099Z"
+    },
+    {
+      "id": "2BlGRxwHnaAY1EbtLT7n",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Cocina Escorial Candor\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:49:48.050Z"
+    },
+    {
       "id": "2HrqO5lCDgUmZ8ojCESm",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 53LTS A.R\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:06:42.313Z"
+    },
+    {
+      "id": "2MojFebS2R6gyQnxsMSX",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"BOTINERO MELAMINA 18PARES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:51:00.712Z"
+    },
+    {
+      "id": "3ACwySMzCvbyGWMLg0vX",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L FAMILY A.R\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:43:30.738Z"
+    },
+    {
+      "id": "3jeJwrhCPIDiuZ2PnqcT",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:56:50.476Z"
     },
     {
       "id": "4K4xZMO6t5Hh1aU0fkcp",
@@ -1943,11 +2728,81 @@
       "fecha": "2026-07-04T13:35:07.803Z"
     },
     {
+      "id": "5UnGnnVzhJTfRM8Q30Bu",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L A.R\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:52:32.405Z"
+    },
+    {
+      "id": "5a8QwQxJDNk1T5oPo26C",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 40L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:42:31.262Z"
+    },
+    {
+      "id": "6IMzgGT0sakcpSv93IJj",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 85L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:53:44.929Z"
+    },
+    {
       "id": "6OcHfEsLvHzPU7jq1mNX",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"JUEGO SILLON YUTE\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:03:45.514Z"
+    },
+    {
+      "id": "6VYtLsIwaF09iBVG0A2o",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN WIN 850\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:31:56.101Z"
+    },
+    {
+      "id": "6eXRqxFCG9H0wznZLXHU",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COMODA MELAMINA 3CAJONES/1PUERTA 1,20M\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:51:42.556Z"
+    },
+    {
+      "id": "7EoKAANQTfpN5heiVIe5",
+      "tipo": "producto_estado",
+      "descripcion": "Activó el producto \"BIBLIOTECA MELAMINA 60CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:23:55.415Z"
+    },
+    {
+      "id": "7YWXxDbmckcMvl31sAc7",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 106LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:54:04.711Z"
+    },
+    {
+      "id": "7cPiJ8m9Zs0fgs3R4KOh",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"MUEBLE DE COCINA\" a \"MUEBLE DE COCINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:36:57.256Z"
+    },
+    {
+      "id": "7hqtE53Rn9tyH9CS25h2",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 350LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:45:51.519Z"
+    },
+    {
+      "id": "8G3TrTdzeCE07OnaWFnl",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"BOX\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:47:17.667Z"
     },
     {
       "id": "8MaXhmoP3Ms0Yu4UeoPc",
@@ -1957,6 +2812,20 @@
       "fecha": "2026-07-03T13:06:49.935Z"
     },
     {
+      "id": "8ZVz8Y0B9Q90wc8FO1h0",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA C/CONGELADOR BRIKET 290LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:57:04.364Z"
+    },
+    {
+      "id": "8mq0g6UWsKnLygtGlSG1",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 90L A.R\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:31:30.324Z"
+    },
+    {
       "id": "9C0wO3s81vkkHPd0Lnxg",
       "tipo": "aumento_masivo",
       "descripcion": "Bajó 9.09% el precio de 1 producto(s) de \"muebles123\"",
@@ -1964,11 +2833,39 @@
       "fecha": "2026-07-02T18:31:41.904Z"
     },
     {
+      "id": "9fJZn8DCmSjU0FNmLlca",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:51:31.285Z"
+    },
+    {
       "id": "AFeN7svp5GQj5bRdaO7z",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 80LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:06:35.985Z"
+    },
+    {
+      "id": "AVVGrwMKFAprj1yZkWxY",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"RACK TV\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:50:22.500Z"
+    },
+    {
+      "id": "AqjbkEY9nVnIsHXq1QF8",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 4 categoría(s) al grupo \"ELECTRODOMESTICOS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:58:49.768Z"
+    },
+    {
+      "id": "B4hniPmuwiNlHZOhyI0U",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"BOTINEROS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:50:39.597Z"
     },
     {
       "id": "BAqhh35ElYQZSqPwbiQi",
@@ -1983,6 +2880,20 @@
       "descripcion": "Actualizó los datos de Contacto",
       "usuario": "admin",
       "fecha": "2026-07-02T19:22:07.304Z"
+    },
+    {
+      "id": "CGxiNg8nPLf8ouXZ1miQ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L A.R\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:52:42.942Z"
+    },
+    {
+      "id": "Cnb6mDn1laSxUy0MiVHD",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 120L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:19:38.731Z"
     },
     {
       "id": "DEiUF5C2wx3a03RJUC0W",
@@ -2013,6 +2924,13 @@
       "fecha": "2026-07-02T18:59:49.680Z"
     },
     {
+      "id": "E79znlD4IpsYRh2YUy5d",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 0,80M\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:51:22.959Z"
+    },
+    {
       "id": "EMCjYYFQCymTu956rH3u",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ROPERO MELAMINA 3 PUERTAS ABRIR\"",
@@ -2027,11 +2945,32 @@
       "fecha": "2026-07-04T22:20:44.895Z"
     },
     {
+      "id": "F0OohLrge8s8JUhVOTH9",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS NEGRA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:56:58.558Z"
+    },
+    {
       "id": "F7ZFcqbzB2KCfpqhwR2R",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 257LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:02:04.881Z"
+    },
+    {
+      "id": "FD9nqAqS5AIXi62wLCYS",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MESA DE LUZ MELAMINA C/BOTINERO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:56:50.797Z"
+    },
+    {
+      "id": "FE8RxAQutnrxBn6jQ50d",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"DESPENSERO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:48:29.643Z"
     },
     {
       "id": "FMAWXY6j02Iz9vdqXzpR",
@@ -2055,11 +2994,67 @@
       "fecha": "2026-07-03T14:03:13.186Z"
     },
     {
+      "id": "GRs772iE1vf4hsW69Crz",
+      "tipo": "producto_estado",
+      "descripcion": "Desactivó el producto \"BIBLIOTECA MELAMINA 60CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:12:48.438Z"
+    },
+    {
+      "id": "GlcNhcFEJNu6hO9gATYW",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"MESAS\" a \"MESAS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:37:05.170Z"
+    },
+    {
+      "id": "HNwZC6AwGev6za3BE2ns",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL ELECTRICO 90L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:01:05.482Z"
+    },
+    {
       "id": "Hh4U5L8ToPFs1IFVztQR",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Cocina Escorial Master Classic 56CM\"",
       "usuario": "admin",
       "fecha": "2026-07-04T12:53:26.167Z"
+    },
+    {
+      "id": "I2tocAX5Uj0NG4iMlQbb",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 120L A.R\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:34:20.387Z"
+    },
+    {
+      "id": "IvNn4hYwfCtFmMECkCy0",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA C/CONGELADOR BRIKET 290LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:46:35.523Z"
+    },
+    {
+      "id": "JyZKjH4Yka6d0X2iSH5C",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"COCINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:48:14.232Z"
+    },
+    {
+      "id": "K5ZdtpbpzfWyuEY2htkd",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 120LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:52:33.773Z"
+    },
+    {
+      "id": "KXKiceS3QAoVq8g31Dvh",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"SILLAS\" a \"SILLAS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:42:39.024Z"
     },
     {
       "id": "KcOFQk8XxcOIfTsR8STi",
@@ -2076,11 +3071,39 @@
       "fecha": "2026-07-04T22:28:07.470Z"
     },
     {
+      "id": "KkG5aj6PN54YwaS184i3",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"TERMOTANQUE\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:50:45.947Z"
+    },
+    {
+      "id": "KkhiADCpnunuyVXDNGOp",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"USMAN\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:32:12.707Z"
+    },
+    {
       "id": "LCoQIuohLYnyZihs3Sxz",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 230LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:17.913Z"
+    },
+    {
+      "id": "LGwfTrjrszB8jNl2nZBB",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 150LTS AP\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:54:37.577Z"
+    },
+    {
+      "id": "LKp3tRrnwicQkB2gGumY",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"CUBOS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:48:09.319Z"
     },
     {
       "id": "LSBb8fHe2KY33uUfLICn",
@@ -2097,11 +3120,53 @@
       "fecha": "2026-07-03T13:06:14.312Z"
     },
     {
+      "id": "LvaGM4AGnyQxTkT14cTb",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"BAJO MESADA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:46:56.574Z"
+    },
+    {
+      "id": "LxmZGdxAbVFRILtEVMy8",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COCINA ESCORIAL CANDOR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:55:47.938Z"
+    },
+    {
+      "id": "M6ilylyZC4rlREEOagFR",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COCINA ESCORIAL MASTER CLASSIC 56CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:57:36.503Z"
+    },
+    {
       "id": "M8yBPp54PFWC0uUDFUWf",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:44.415Z"
+    },
+    {
+      "id": "MAvwWP8DbOCZMlAxbJMK",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 257LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:46:20.760Z"
+    },
+    {
+      "id": "MBI4k3VXuVuzRgycBvWl",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 70LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:53:42.792Z"
+    },
+    {
+      "id": "MaGevHqmsFWR82fxuAa5",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 350LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:57:26.045Z"
     },
     {
       "id": "Mu47SNrKygckVhFoksaU",
@@ -2116,6 +3181,13 @@
       "descripcion": "Creó el proveedor \"BRIKET\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:09.370Z"
+    },
+    {
+      "id": "NC9NsOkvaBh0VdL4ugen",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"RACK TV\" a \"RACK TV\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:37:08.543Z"
     },
     {
       "id": "NQqfyz2ude78IICSKhfB",
@@ -2139,6 +3211,13 @@
       "fecha": "2026-07-03T14:02:35.690Z"
     },
     {
+      "id": "OXHZt8MkMtkcILydjPgf",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COCINA ESCORIAL MASTER CLASSIC INOX 56CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:56:38.628Z"
+    },
+    {
       "id": "OoS8VeNchzAbmpMB5sv9",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"Termotanque Escorial Electrico 90 Lt conexion inferior\"",
@@ -2160,11 +3239,46 @@
       "fecha": "2026-07-02T18:27:04.582Z"
     },
     {
+      "id": "PFgmDrvJKAedLeCK8oz7",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"ROPEROS\" a \"SILLAS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:42:34.278Z"
+    },
+    {
+      "id": "PIPtLp9ZjQUMhJ7wUe85",
+      "tipo": "categoria_editada",
+      "descripcion": "Quitó \"MESAS\" del grupo \"HELADERAS Y FREEZER\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:01:10.382Z"
+    },
+    {
+      "id": "PUj4Fa878tt9NPnTKUKk",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:47:25.066Z"
+    },
+    {
       "id": "QKl0KA6gXkM9IOL0iIXc",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"Termotanque Escorial Electrico 90L conexion inferior\"",
       "usuario": "admin",
       "fecha": "2026-07-04T13:50:37.579Z"
+    },
+    {
+      "id": "QKwQRIBziQfoo0K7NfL3",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL ELECTRICO 55L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:02:26.912Z"
+    },
+    {
+      "id": "QOIPvNNVhCsfXOxcKdLD",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 65L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:43:51.716Z"
     },
     {
       "id": "QRsau5fONPnWXIel1JyC",
@@ -2195,11 +3309,39 @@
       "fecha": "2026-07-03T20:46:07.148Z"
     },
     {
+      "id": "Ro7mGR3pVN6uFpRotlUP",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COCINA INDUSTRIAL USMAN WIN 850\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:32:30.689Z"
+    },
+    {
+      "id": "SIGPOVUnOGTn6JIHfSI2",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"HELADERAS\" a \"HELADERAS Y FREZZER\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:57:09.051Z"
+    },
+    {
+      "id": "SQNgIKExztjlNQsX5kTP",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 51LTS L.E\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:54:51.809Z"
+    },
+    {
       "id": "Scn77ZOKH5s8D3KSrOJW",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 3CAJONES/1PUERTA 1,20M\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:59:54.136Z"
+    },
+    {
+      "id": "SqtK21eiO2eOjnqP25dC",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"HELADERAS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:45:09.946Z"
     },
     {
       "id": "T3AbDbyZz7kl9CttXXG9",
@@ -2216,6 +3358,34 @@
       "fecha": "2026-07-03T13:58:38.626Z"
     },
     {
+      "id": "T8pSBYRZeBqJgDYQNdbT",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 14 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:00:41.767Z"
+    },
+    {
+      "id": "T9ovNSUbOZQaFHPfGSof",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 322LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:45:32.803Z"
+    },
+    {
+      "id": "TWS5pxDDCzOF4FVs7lWP",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MESA DE LUZ MELAMINA C/DESAYUNADOR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:56:42.218Z"
+    },
+    {
+      "id": "TtcdyaKllYW0b92mnjUQ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 257LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:57:31.278Z"
+    },
+    {
       "id": "U13I1jFaD3ZfX6I8LS8c",
       "tipo": "aumento_masivo",
       "descripcion": "Aumentó 10% el precio de 1 producto(s) de \"muebles123\"",
@@ -2230,11 +3400,39 @@
       "fecha": "2026-07-03T13:59:27.426Z"
     },
     {
+      "id": "Ucw3StGQskQnKUANV0jz",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COMODA MELAMINA 6 CAJONES 1,20M\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:51:55.577Z"
+    },
+    {
       "id": "V9e4cBYieivW5iV76oFh",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE POPULI A GAS 45LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:32:13.526Z"
+    },
+    {
+      "id": "VBHhGe11Mm2z0oQmasJg",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L FAMILY A.R\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:43:40.705Z"
+    },
+    {
+      "id": "VsYpArBETkByK1PFY2T6",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"MESAS DE LUZ\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:56:30.625Z"
+    },
+    {
+      "id": "WFl7KLp1eOTo2ZYDEkTL",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"MESAS DE LUZ\" a \"MESAS DE LUZ\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:37:01.362Z"
     },
     {
       "id": "WXjZvrVYjb3QVzR2YC0z",
@@ -2244,11 +3442,25 @@
       "fecha": "2026-07-04T13:40:05.055Z"
     },
     {
+      "id": "WnuIHYGlZHnk9LF8PEwG",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L FAMILY\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:40:36.672Z"
+    },
+    {
       "id": "WxCMEdLl6mJFjw1Q5Pcj",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESTUFA COPPENS 2500KCAL TB/TBU\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:45:06.031Z"
+    },
+    {
+      "id": "XBxqTutXYZ2OTVyEd4Df",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN SONIC XXL 55CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:48:03.357Z"
     },
     {
       "id": "XGoGR8rYmElmo0mbS6gN",
@@ -2258,11 +3470,39 @@
       "fecha": "2026-07-04T22:41:55.393Z"
     },
     {
+      "id": "Y9DhzCMkv7Ow5Q9DHYpo",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN WIN 550\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:46:18.252Z"
+    },
+    {
+      "id": "Y9WqVuzA3BP7gwsCS3Nb",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 230LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:47:25.184Z"
+    },
+    {
+      "id": "YKNcEBxFRWlgcTR5PTqn",
+      "tipo": "categoria_editada",
+      "descripcion": "Quitó \"SILLAS\" del grupo \"HELADERAS Y FREEZER\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:01:11.002Z"
+    },
+    {
       "id": "Z3gwFXjtf4Lju8uny6dQ",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Cocina Escorial Master Classic  Inox 56CM\"",
       "usuario": "admin",
       "fecha": "2026-07-04T12:58:06.932Z"
+    },
+    {
+      "id": "Z8h320HYgeKDyhkfP7o7",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"ESTANTE\" a \"ESTANTE\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:38:47.755Z"
     },
     {
       "id": "ZLhqrc5ypVcE9gJTRnTr",
@@ -2277,6 +3517,20 @@
       "descripcion": "Activó el producto \"BOTINERO MELAMINA 24PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:42:07.740Z"
+    },
+    {
+      "id": "ZhAsDLZNoX7q8GoiezUo",
+      "tipo": "categoria_eliminada",
+      "descripcion": "Eliminó la categoría \"ESTANTE\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:39:36.367Z"
+    },
+    {
+      "id": "ZmfCPqeJKdPMYcdy7tgi",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 2 categoría(s) al grupo \"HELADERAS Y FREEZER\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:01:07.586Z"
     },
     {
       "id": "ZngnUXaCOHS1Xzv4M6ek",
@@ -2300,11 +3554,32 @@
       "fecha": "2026-07-04T13:49:30.929Z"
     },
     {
+      "id": "aqHywplxk9A2u3e2D3Kz",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"ALACENA\" a \"ALACENA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:39:04.860Z"
+    },
+    {
+      "id": "b5jAB0NCGorvG1RmsnkO",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Cocina Escorial Master Classic 56CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:48:38.585Z"
+    },
+    {
       "id": "bCftnYUDMCz55qRVcpP0",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:59:45.788Z"
+    },
+    {
+      "id": "bdxKIkt6iVADeEI37Pqa",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"BIBLIOTECA MELAMINA 60CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:46:06.321Z"
     },
     {
       "id": "buKMVDH79mYxixUMroLS",
@@ -2328,11 +3603,67 @@
       "fecha": "2026-07-03T20:47:18.276Z"
     },
     {
+      "id": "cH3jHkU4ioOaCbL0tAqI",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Cocina Escorial Master Style 56CM Multigas\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:49:00.475Z"
+    },
+    {
+      "id": "cNgTs1nQssIuRCwCuz1m",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"ESTANTE\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:50:09.116Z"
+    },
+    {
+      "id": "cc89MwnE4zvzJqshGb2o",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 80LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:54:14.231Z"
+    },
+    {
+      "id": "ciEH8KwpJVDC2U5v3MSP",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 2 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:59:02.611Z"
+    },
+    {
+      "id": "crDwi3l8NWYPT8vQaS3b",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COCINA ESCORIAL MASTER STYLE 56CM INOX\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:59:13.101Z"
+    },
+    {
+      "id": "d2eKP0yOdup9ApgcuhTw",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"BOTINERO MELAMINA 24PARES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:51:12.659Z"
+    },
+    {
       "id": "dFeEvbYVEHLndytD9MJO",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 350LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:02:20.643Z"
+    },
+    {
+      "id": "dMNvfSQDrjy8lFPIsanh",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"ALACENA\" a \"ALACENA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:39:21.717Z"
+    },
+    {
+      "id": "dNZnc2CMz0f6XgKzEuyN",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS NEGRA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:46:46.935Z"
     },
     {
       "id": "dTbIXj9WQcVH8iCxpQ1L",
@@ -2370,6 +3701,20 @@
       "fecha": "2026-07-03T13:59:19.455Z"
     },
     {
+      "id": "ehLiDWbgvMPLgOGC7ouq",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ROPERO MELAMINA 4 PUERTAS ABRIR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:56:03.848Z"
+    },
+    {
+      "id": "epbkT0hbyaQhqCXdFyun",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE POPULI A GAS 45LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:53:35.934Z"
+    },
+    {
       "id": "f2H6vdp3DFXiuiAghRZ1",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 6000KCAL TB/TBU\"",
@@ -2377,11 +3722,25 @@
       "fecha": "2026-07-03T20:47:46.173Z"
     },
     {
+      "id": "f6gInCdq8HvmMbpsn7qg",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:46:55.180Z"
+    },
+    {
       "id": "fCbl7R4cCi31imQrv1J3",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 390LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:36.494Z"
+    },
+    {
+      "id": "fFbYIEXvYNIDeUN3I8eF",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"BIBLIOTECA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:46:21.704Z"
     },
     {
       "id": "fzXhZptIO2rfYlPDyx7V",
@@ -2398,6 +3757,13 @@
       "fecha": "2026-07-04T12:58:22.104Z"
     },
     {
+      "id": "gNWSl2SlCOz6dHi7tgrb",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 160L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:21:35.593Z"
+    },
+    {
       "id": "gTWohEehPpVd0ZspLTf7",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"Termotanque  Escorial 45Lt conexion superior multigas\"",
@@ -2405,11 +3771,25 @@
       "fecha": "2026-07-04T13:36:18.976Z"
     },
     {
+      "id": "h9XpnXd4K5zuBc1TsKJZ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 257LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:45:42.703Z"
+    },
+    {
       "id": "hepLREEOP2zKhlkewoBQ",
       "tipo": "producto_estado",
       "descripcion": "Desactivó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:21:56.076Z"
+    },
+    {
+      "id": "iA1wWi8ETgUDGuwPlMAw",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"ROPEROS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:55:19.970Z"
     },
     {
       "id": "iEpk4dnIvS9EeN5y5IIW",
@@ -2440,11 +3820,39 @@
       "fecha": "2026-07-03T20:45:30.604Z"
     },
     {
+      "id": "jFSQZUfZouI8LV6laq20",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"RACK TV\" a \"RACK TV\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:37:12.801Z"
+    },
+    {
       "id": "jZTUDu1gTt0ISQHHHORu",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESTUFA COPPENS 5000KCAL SIN TIRO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:57:37.461Z"
+    },
+    {
+      "id": "jvrh2NM54Fc7BE4p7sAO",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL A GAS 120L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:01:43.846Z"
+    },
+    {
+      "id": "jx4HUEWVdmvG5gYYlqd4",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"ESCRITORIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:48:49.266Z"
+    },
+    {
+      "id": "kBYKx6jLtwvKPei39PJC",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 390LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:47:42.380Z"
     },
     {
       "id": "kL9UeeVsfWnZ8YTEBmFA",
@@ -2461,6 +3869,20 @@
       "fecha": "2026-07-03T14:02:27.123Z"
     },
     {
+      "id": "klglEJsF6wJYY8CX2zce",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:51:35.521Z"
+    },
+    {
+      "id": "lCSSapsyDrZvmQR3kZwV",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"ALACENA\" a \"ALACENA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:38:56.931Z"
+    },
+    {
       "id": "lQPyp1Mpr71ct4MgNQ22",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 106LTS\"",
@@ -2468,11 +3890,53 @@
       "fecha": "2026-07-03T13:06:28.429Z"
     },
     {
+      "id": "lRQk2pUogtzZCpHiAp1m",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Termotanque  Escorial  Electrico 55 LT conexion inferior\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:53:27.531Z"
+    },
+    {
+      "id": "lX07eogRQVG9YtUUIst7",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL A GAS 45L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:02:03.354Z"
+    },
+    {
       "id": "maNem1TUFYTH6kso28I4",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 4000KCAL TB/TBU\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:46:52.151Z"
+    },
+    {
+      "id": "mpRCIM1IdnAUw90OvJzw",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"ESCOBERO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:48:40.997Z"
+    },
+    {
+      "id": "ms5IqcPRWyq0ythqKnrI",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Termotanque Escorial 80Lt Conexion superior multigas\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:52:53.128Z"
+    },
+    {
+      "id": "mt98uHWMBKRMbgs2sBdS",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"BAJO MESADA\" a \"BAJO MESADA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:36:23.031Z"
+    },
+    {
+      "id": "mwOVpvlwOJipQpnSndXz",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Cocina Escorial Master Style 56CM Inoxidable Multigas\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:48:48.218Z"
     },
     {
       "id": "n91m8IVwfJrYftYVGIL1",
@@ -2503,11 +3967,39 @@
       "fecha": "2026-07-03T20:45:22.342Z"
     },
     {
+      "id": "nPuPFcSFDA9WZeb9x1wb",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"BIBLIOTECA MELAMINA 60CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:35:36.934Z"
+    },
+    {
+      "id": "nZ9X7RZOAgHaEzJefRyk",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 95L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:44:57.940Z"
+    },
+    {
+      "id": "nnuXCKDBk2YYw20Lh69h",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN COMPACT 52CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:57:38.924Z"
+    },
+    {
       "id": "o3BH6auSt63w5xSMMcfj",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 0,80M\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:59:35.938Z"
+    },
+    {
+      "id": "o4wPuAOnhi3RWLneNAY0",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Termotanque  Escorial 45Lt conexion superior multigas\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:53:11.738Z"
     },
     {
       "id": "oS3BEg63GW6rPJiKZLBC",
@@ -2531,11 +4023,46 @@
       "fecha": "2026-07-03T14:03:29.282Z"
     },
     {
+      "id": "opz1ayD2GVb7Ihi24rz0",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"CÓMODAS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:50:33.362Z"
+    },
+    {
       "id": "pEjUHxR5b3wuPbLvD86U",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"Cocina Escorial Master Style 56CM Multigas\"",
       "usuario": "admin",
       "fecha": "2026-07-04T13:04:04.573Z"
+    },
+    {
+      "id": "pJ35W9vclMFSMAsq9s1J",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL A GAS 80L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:01:26.676Z"
+    },
+    {
+      "id": "pi92mBdr1XF2Bp0CXsG6",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L BLACK\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:45:12.453Z"
+    },
+    {
+      "id": "poqWl75q90BcF0ZiERVc",
+      "tipo": "producto_estado",
+      "descripcion": "Desactivó el producto \"BIBLIOTECA MELAMINA 60CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:23:55.348Z"
+    },
+    {
+      "id": "q12FOxgVdZiWlMQC7igw",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Cocina Escorial Palace Cristal\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:49:33.030Z"
     },
     {
       "id": "qFlB0xrCEF4HmrOP7xQj",
@@ -2559,6 +4086,13 @@
       "fecha": "2026-07-03T20:55:45.813Z"
     },
     {
+      "id": "qWoMImJATQmhnylmRCDC",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 40L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:41:54.515Z"
+    },
+    {
       "id": "qcElQm2dyeaY6Mg6joSj",
       "tipo": "proveedor_creado",
       "descripcion": "Creó el proveedor \"SEÑORIAL\"",
@@ -2573,11 +4107,53 @@
       "fecha": "2026-07-03T13:01:25.394Z"
     },
     {
+      "id": "rEX7QsGBsiSXyAAEUwX4",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:46:11.411Z"
+    },
+    {
+      "id": "rTM2OTVXKPlSVyaNQFpa",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COCINA ESCORIAL MASTER STYLE 56CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T13:59:54.727Z"
+    },
+    {
+      "id": "rfRfF5csd4RtPE36HIUG",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 85L FAMILY\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:43:20.290Z"
+    },
+    {
       "id": "rwDtrQgFc7uffjHyIbTF",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:56:43.054Z"
+    },
+    {
+      "id": "sIJZBewcPDf6C7eLq4MV",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:57:18.407Z"
+    },
+    {
+      "id": "sLIPyduFbn5vhPZsrKA5",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 390LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:56:43.841Z"
+    },
+    {
+      "id": "si3I6IGaGFA4QRX06tqS",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COCINA ESCORIAL PALACE CRISTAL\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T14:00:14.806Z"
     },
     {
       "id": "tADXeYtLvv66WmIxkqxS",
@@ -2594,6 +4170,48 @@
       "fecha": "2026-07-03T14:03:38.664Z"
     },
     {
+      "id": "tabq4icGUwDUVkCz0ci1",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 322LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:57:38.055Z"
+    },
+    {
+      "id": "td7rgEKrSpBehrHEMmUl",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Termotanque Escorial 120Lt conexion superior multigas\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:53:01.115Z"
+    },
+    {
+      "id": "thYneFrrLRdff6KHCg4z",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 60LTS A.P\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:54:22.245Z"
+    },
+    {
+      "id": "u6t6O5eSf7HWd3yZBedU",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 20LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:53:57.333Z"
+    },
+    {
+      "id": "uGghMaqjyc8OmzfDzkxC",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 295LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:47:33.132Z"
+    },
+    {
+      "id": "uMFhwlwXiKafSB2oDWns",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"EXTERIOR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:01:15.282Z"
+    },
+    {
       "id": "uW3BAecV8NYTY8qI8Jsn",
       "tipo": "proveedor_creado",
       "descripcion": "Creó el proveedor \"TOPACIO\"",
@@ -2601,11 +4219,60 @@
       "fecha": "2026-07-03T15:09:26.183Z"
     },
     {
+      "id": "vGcecR5tzYCtNdWy2OCk",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 23LTS A.R\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:54:44.150Z"
+    },
+    {
+      "id": "vWRhgJf4nHHCuTYcgGmc",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 257LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:57:10.787Z"
+    },
+    {
+      "id": "viZjHUsU1N5c0bA7vJL1",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Cocina Escorial Master Classic  Inox 56CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:48:27.935Z"
+    },
+    {
+      "id": "vpp6RHkKeG4UzOnQHSyP",
+      "tipo": "producto_estado",
+      "descripcion": "Activó el producto \"BIBLIOTECA MELAMINA 60CM\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:12:48.497Z"
+    },
+    {
       "id": "wGEybEZQxoosuvR3DDcd",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Termotanque  Escorial  Electrico 55 LT conexion inferior\"",
       "usuario": "admin",
       "fecha": "2026-07-04T13:45:44.509Z"
+    },
+    {
+      "id": "wyYPhSrZLkB0abhWb3Yw",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 230LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:56:24.743Z"
+    },
+    {
+      "id": "x3BF5qJWoya1dxYYduHJ",
+      "tipo": "config_landing",
+      "descripcion": "Actualizó la página de Inicio",
+      "usuario": "admin",
+      "fecha": "2026-07-07T13:02:12.848Z"
+    },
+    {
+      "id": "x7A1hEs2ZYRPvDyA1ipW",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 53LTS A.R\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:54:29.908Z"
     },
     {
       "id": "xIVqaKVppmo1wH84JSVG",
@@ -2622,6 +4289,27 @@
       "fecha": "2026-07-03T13:58:32.573Z"
     },
     {
+      "id": "xhuokFMBL0BISnFmXkNn",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L FAMILY\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:39:28.120Z"
+    },
+    {
+      "id": "xkzCCtgC12xAeupJ9kem",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ROPERO MELAMINA 2 PUERTAS ABRIR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:55:48.951Z"
+    },
+    {
+      "id": "y2kvqjYC1JfA93uAnDwJ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 295LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T22:56:35.175Z"
+    },
+    {
       "id": "yDiDxhHKYEk7FUPzOuGu",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 150LTS AP\"",
@@ -2629,11 +4317,25 @@
       "fecha": "2026-07-03T13:07:02.533Z"
     },
     {
+      "id": "yHuJdHAv4dRmsCQAEOrT",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 65L\"",
+      "usuario": "admin",
+      "fecha": "2026-07-06T21:45:05.001Z"
+    },
+    {
       "id": "yXmmy6Nlc2LPfLqjer6Y",
       "tipo": "producto_estado",
       "descripcion": "Activó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:21:17.771Z"
+    },
+    {
+      "id": "yaNBotMzo08eEddtjfDt",
+      "tipo": "categoria_editada",
+      "descripcion": "Renombró la categoría \"HELADERAS Y FREZZER\" a \"HELADERAS Y FREEZER\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:57:31.158Z"
     },
     {
       "id": "ygQDNP3kzbl3L9pxRcQa",
@@ -2648,12 +4350,19 @@
       "descripcion": "Editó el producto \"SILLA UNICAN MASTER\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:58:26.770Z"
+    },
+    {
+      "id": "zmdYzT3y2E6MF9LqeBPu",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"Termotanque Escorial Electrico 90 Lt conexion inferior\"",
+      "usuario": "admin",
+      "fecha": "2026-07-05T16:52:45.108Z"
     }
   ],
   "config": {
     "landing": {
       "hero_badge": "SIEMPRE EN TU HOGAR",
-      "hero_titulo": "MUEBLERÍA RAFAELA ",
+      "hero_titulo": "MUEBLES RAFAELA ",
       "hero_subtitulo": "MÁS DE 30 AÑOS BRINDÁNDOLE COMODIDAD A TU HOGAR ",
       "hero_imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782870953/muebles_rafaela/aniks9ahmrfsvjbxpo1g.jpg",
       "hero_btn1": "Ver Catálogo",
