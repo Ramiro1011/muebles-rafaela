@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-09T13:47:04.925Z",
+  "fecha": "2026-07-12T11:56:33.390Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -125,6 +125,36 @@
         "ESCOBERO",
         "MUEBLES"
       ]
+    },
+    {
+      "id": "2WhMWGtomrHYbiOh0nRQ",
+      "nombre": "CALOVENTOR LILIANA \"BLACKSUN\"",
+      "descripcion": "Termostato regulable.\n· Potente forzador de aire de 1600 RMP.\n· 2 intensidades de calor.\n· Ultraliviano.\n· Manija para traslado.\n· Modo ventilación.\n· Ocupa poco espacio.",
+      "precio": 83400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CALEFACCION"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778458/muebles_rafaela/ga8lxqi974vxtibh8fxa.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778461/muebles_rafaela/dioulvwlvrnaeaqc9neu.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778463/muebles_rafaela/h3uwalif0fqhswwemmmb.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Negro",
+          "hex": "#000000"
+        }
+      ],
+      "proveedor": "LILIANA"
     },
     {
       "id": "3WFmGukvmkTpeSvOcOb1",
@@ -289,6 +319,35 @@
       ]
     },
     {
+      "id": "5HbeONkfc3s0HuiuWBcN",
+      "descripcion": "COLCHON 1.30X1.90\n26CM DE ALTO\n120KG POR PLAZA",
+      "precio": 491800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606357/muebles_rafaela/lzgyafgqzz8v5mdve19y.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606351/muebles_rafaela/qcxgx2emjsyt0grlj7qf.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606353/muebles_rafaela/naj0ftegxfpk46i23yoc.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ],
+      "nombre": "COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO"
+    },
+    {
       "id": "63Jj7miReP1J05VUEGnN",
       "nombre": "COCINA INDUSTRIAL USMAN SONIC XXL 55CM",
       "descripcion": "Cocina Industrial en Acero Inoxidable con bandeja.\nCon vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, válvula de seguridad, pirómetro y bandeja de gratinado. Ideal para uso gastronómico intensivo.\n\nAncho\t\n55 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
@@ -378,6 +437,30 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ]
+    },
+    {
+      "id": "8dKknVyYitOqiWRvXZNF",
+      "nombre": "COLCHON KING SIZE ESPUMA MARTINICA TOPACIO",
+      "descripcion": "COLCHON 2X2 + BOX SOMMIER\n31CM DE ALTO\n120KG POR PLAZA",
+      "precio": 1999000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783692024/muebles_rafaela/ybop58jts6wrgkqoqtts.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783692035/muebles_rafaela/tcjlp6qmdfufizp5ur9r.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783692037/muebles_rafaela/bjbcx5ae4mqafqygdxf7.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "94GarddO5saVjQEfU1g9",
@@ -486,7 +569,8 @@
       "colores": [],
       "categoria": "CALEFACCION",
       "categorias": [
-        "CALEFACCION"
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
       ]
     },
     {
@@ -668,6 +752,36 @@
       "proveedor": "UNICAN"
     },
     {
+      "id": "ICZoTklPV3fLvVfd6BSF",
+      "nombre": "COLCHON KING SIZE ESPUMA MARFIL PLUS TOPACIO (completo)",
+      "descripcion": "COLCHON 2X2 + BOX SOMMIER\n30CM DE ALTO\n130KG POR PLAZA",
+      "precio": 1468000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691772/muebles_rafaela/fb9lud03jdlj26apdkkr.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691773/muebles_rafaela/jyvhzj64ebllaoihnuyr.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691777/muebles_rafaela/mzicfrg56pm17448iy8l.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691783/muebles_rafaela/pv9zsohqiti23bhnaqn1.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
       "id": "IKgENFkEy4oFZ8JNOQ29",
       "nombre": "SILLA UNICAN MILÁN",
       "descripcion": null,
@@ -815,6 +929,31 @@
       "nombre": "TERMOTANQUE ESCORIAL A GAS 120L"
     },
     {
+      "id": "JwX0xrdNKKpq08WyDgSp",
+      "nombre": "ESTUFA INFRARROJA \"SPINHOT\" LILIANA",
+      "descripcion": "· Amplia radiación frontal. 3 tubos.\n· Frente mallado.\n· Iluminación atenuada.\n· 2 intensidades de calor.\n· Diseño compacto.",
+      "precio": 107000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "CALEFACCION",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779026/muebles_rafaela/pumbwv4cna57jzmynhlg.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779030/muebles_rafaela/fuug32qsubbhhpxf5itd.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779032/muebles_rafaela/cnvlqcmtvv3h4thfufyk.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "KAG5WMC8uvl0ysRFBziA",
       "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR",
       "descripcion": "Ropero clásico de tres puertas. Cuenta con dos secciones definidas, un espacio de percheros para colgar tu ropa y estantes regulables para que los coloques de la manera que más te guste. Incluye, además, dos cajones y un compartimento inferior para calzados. Una solución dos en uno: perchero + estante.\n\nDimensiones del mueble (cm): 180 x 90 x 50",
@@ -849,6 +988,35 @@
       "categorias": [
         "MUEBLES",
         "ROPEROS"
+      ]
+    },
+    {
+      "id": "KLo5ce3zNs0EiCS3SFhs",
+      "nombre": "COLCHON 2 ½ PLAZAS ESPUMA MARFIL TOPACIO",
+      "descripcion": "COLCHON 1.40X1.90\n26CM DE ALTO\n120KG POR PLAZA",
+      "precio": 511800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783608071/muebles_rafaela/l23ibcnumgqtsnwyny1o.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783608079/muebles_rafaela/xjc9yqfpzhwcnntn75sn.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783608081/muebles_rafaela/uk75ylm9canri0j3y3pg.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
       ]
     },
     {
@@ -1135,6 +1303,30 @@
       "precioAnterior": 0
     },
     {
+      "id": "P6UlvX8Oh4MKB1EwM5Oh",
+      "nombre": "ESTUFA CONVECTOR \"CONVECTORY\" LILIANA",
+      "descripcion": "· Diseño moderno y decorativo.\n· Gran poder calórico.\n· Termostato regulable que ahorra energía.\n· Selector de temperatura: 3 intensidades de calor.",
+      "precio": 137300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CALEFACCION"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779702/muebles_rafaela/zm3gkepx75rbqevgljnv.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779705/muebles_rafaela/s2t2gou1fgukdxk8ep7g.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "PH2zsaEbPCUDaywwiA3I",
       "descripcion": null,
       "precioAnterior": null,
@@ -1204,9 +1396,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "CALEFACCION"
-      ],
       "categoria": "CALEFACCION",
       "material": null,
       "proveedor": "COPPENS",
@@ -1218,7 +1407,11 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
     },
     {
       "id": "QVr3I5sA6IgO3IywvfKx",
@@ -1276,6 +1469,29 @@
           "hex": "#000000"
         }
       ]
+    },
+    {
+      "id": "QsWWu3Mh1NdYjoDZJ6HG",
+      "nombre": "COLCHON 2 ½ PLAZAS RESORTE AXIS TOPACIO",
+      "descripcion": "COLCHON 1.40X1.90\n85KG-90KG POR LADO",
+      "precio": 505600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606837/muebles_rafaela/ntepnk6dtl5mo0euqdxd.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606839/muebles_rafaela/xqvrdmywtobyusehjaql.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "RW69VK9eJTTgue82vIWv",
@@ -1464,6 +1680,31 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 55L"
+    },
+    {
+      "id": "UP7tM3Cn4PhWk35PzYv7",
+      "nombre": "ESTUFA INFRARROJA \"CALORE\" LILIANA",
+      "descripcion": "· Amplia radiación frontal. 3 tubos.\n· Frente mallado.\n· Iluminación atenuada.\n· Selector de temperatura: 2 intensidades de calor.\n· Diseño compacto.",
+      "precio": 96000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "CALEFACCION",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778620/muebles_rafaela/xkp6e78yxcepob68rnts.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778625/muebles_rafaela/vcbybnk1csweuvssv4qq.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778627/muebles_rafaela/qbafkti3uxei0oqn3tth.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "proveedor": "LILIANA"
     },
     {
       "id": "UZ5mEvicfq008ptPX3kH",
@@ -1951,6 +2192,35 @@
       ]
     },
     {
+      "id": "cGDc4dYeud6SaqHm98Kq",
+      "nombre": "COLCHON 2 ½ PLAZAS ESPUMA ESMERALDA TOPACIO",
+      "descripcion": "COLCHON 1.40X1.90\n23CM DE ALTURA\n85KG-90KG POR PLAZA",
+      "precio": 441000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783607751/muebles_rafaela/bymx9jifdubcjdbem4l7.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783607754/muebles_rafaela/udrntwqp7250ifhwv5t1.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783607757/muebles_rafaela/gbsz2b4wnsltcai0qweu.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Violeta",
+          "hex": "#5e566f"
+        }
+      ]
+    },
+    {
       "id": "e8bT1VEfIfoSzel927gP",
       "nombre": "MESA DE LUZ MELAMINA C/DESAYUNADOR",
       "descripcion": "Si sos fan de desayunar en la cama esta es la mesita de luz para vos. Contiene una bandeja corrediza que podés usar para apoyar lo que necesites. Además cuenta con un cajón y un estante regulable en altura para ubicar según tus necesidades.\n\nDimensiones del mueble (cm): 71 x 42 x 37",
@@ -2008,11 +2278,12 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1783111661/muebles_rafaela/gvezbf4lculexrmlm1cp.jpg"
       ],
       "categoria": "CALEFACCION",
-      "categorias": [
-        "CALEFACCION"
-      ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783111654/muebles_rafaela/j8c0qf787pcesr9hmjpr.jpg",
-      "proveedor": "COPPENS"
+      "proveedor": "COPPENS",
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
     },
     {
       "id": "eFbKlOlaLPbeku1C1Hia",
@@ -2268,6 +2539,35 @@
       ]
     },
     {
+      "id": "hEWGdb8QiBV41xbhmTyp",
+      "nombre": "COLCHON 2 PLAZAS ESPUMA AGUAMARINA TOPACIO",
+      "descripcion": "COLCHON 1.30X1.90\n18CM DE ALTO\n70KG-75K POR PLAZA",
+      "precio": 282300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606071/muebles_rafaela/xrclenyuov3tinwxhrrs.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606073/muebles_rafaela/lujkmwayktg2qut6kksi.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606076/muebles_rafaela/fmaom8o2ar2nrbiym5r7.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Celeste",
+          "hex": "#8da2c3"
+        }
+      ]
+    },
+    {
       "id": "hYtqNZ5NfJDCl3SMcPzv",
       "nombre": "HELADERA BAJO MESADA BRIKET 125LTS",
       "descripcion": "Nuestra heladera con congelador de 125 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A+ y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 550 | Alto: 820 | Profundidad: 620\nPeso: 40 Kg\nClasificación Energética: A+\nCapacidad: 125 Litros\nGas Refrigerante Ecológico R600a\nConsumo (kw/año): 122",
@@ -2317,11 +2617,12 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1783111603/muebles_rafaela/q0qizll3rklarsvoclse.jpg"
       ],
       "categoria": "CALEFACCION",
-      "categorias": [
-        "CALEFACCION"
-      ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783111592/muebles_rafaela/vshnnvkmvdszohoh8yk8.jpg",
-      "proveedor": "COPPENS"
+      "proveedor": "COPPENS",
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
     },
     {
       "id": "k1D8XmzVTfps0E1qfKGn",
@@ -2383,6 +2684,35 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL A GAS 45L"
+    },
+    {
+      "id": "kJ2wxxDejpg1aIsvfMU4",
+      "nombre": "COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO",
+      "descripcion": "COLCHON 1.40X1.90\n18CM DE ALTO\n70KG-75KG POR PLAZA",
+      "precio": 301500,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783607466/muebles_rafaela/ncpnnfn28qr5wn74nfpa.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783607468/muebles_rafaela/z4if3xub4tqpnzajysrj.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783607470/muebles_rafaela/f4ihfmxbwfwopx2dghsd.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Celeste",
+          "hex": "#90a1b7"
+        }
+      ]
     },
     {
       "id": "lSlvZG6fz8g5aZVHzv1w",
@@ -2499,6 +2829,35 @@
         "BOTINEROS"
       ],
       "nombre": "BOTINERO MELAMINA 24 PARES CENTRO ESTANT"
+    },
+    {
+      "id": "nZtMKxp6vSSEmmH4kQYe",
+      "nombre": "COLCHON 2 PLAZAS ESPUMA ESMERALDA TOPACIO",
+      "descripcion": "COLCHON 1.30X1.90\n23CM DE ALTO\n85KG-90KG POR LADO",
+      "precio": 398700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606178/muebles_rafaela/rqn56dbxbtj6zk7svwgm.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606181/muebles_rafaela/nxdtmzsew3wsfjgftplk.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783606184/muebles_rafaela/m5fifzwkce0dwm6ec87w.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Violeta",
+          "hex": "#6c6580"
+        }
+      ]
     },
     {
       "id": "oOVzIs9FoY1I388xj04P",
@@ -2779,6 +3138,36 @@
       ]
     },
     {
+      "id": "tnkj7OeOcGDtbOfDOT3w",
+      "nombre": "COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO",
+      "descripcion": "COLCHON 1.60X2.00\n26CM DE ALTO\n120KG POR PLAZA",
+      "precio": 719500,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691082/muebles_rafaela/c2kqepexz2usqyit1mhk.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691086/muebles_rafaela/enghrwbov8xqlbscdra3.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691088/muebles_rafaela/tm2irgjucvpzuwwdodp3.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691091/muebles_rafaela/n82ebj3qqw5huopfj3zk.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
       "id": "uGHpdveIm88ixPEi0F2Z",
       "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR",
       "descripcion": "Ropero clásico de cuatro puertas. Pensado con dos secciones de estantes regulables y, en el centro, un perchero para prendas de colgado. En su parte inferior, dos cajones y un espacio para guardar el calzado. Ideal para compartir.\n\nDimensiones del mueble (cm): 180 x 120 x 50",
@@ -2931,9 +3320,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "CALEFACCION"
-      ],
       "categoria": "CALEFACCION",
       "material": null,
       "imagenes": [
@@ -2945,7 +3331,11 @@
       "activo": true,
       "colores": [],
       "proveedor": "COPPENS",
-      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783112199/muebles_rafaela/elghjsjdoes6gov7rdhq.jpg"
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783112199/muebles_rafaela/elghjsjdoes6gov7rdhq.jpg",
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
     },
     {
       "id": "v2sMXaaUXkyOgYQvGztE",
@@ -3037,6 +3427,59 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913261/muebles_rafaela/mqebravqhowflsnsej77.jpg"
       ],
       "proveedor": "UNICAN"
+    },
+    {
+      "id": "wVeYUi2ya2d4U5gRVXIc",
+      "nombre": "COLCHON QUEEN SIZE ESPUMA MARFIL PLUS TOPACIO",
+      "descripcion": "COLCHON 1.60X2.00\n30CM DE ALTO\n130KG POR PLAZA",
+      "precio": 821900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783690997/muebles_rafaela/tqzpuxw4ojk0hbezln5d.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691001/muebles_rafaela/l8raz5v4xmi7kjs86x3s.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691002/muebles_rafaela/a0dcevlzerp84s7wosy2.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783691005/muebles_rafaela/ltsz5cc5aycelcuunzsi.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Gris",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
+      "id": "wXeKQXudlWUxxJLNyTlY",
+      "nombre": "COLCHON 1 PLAZA RESORTE SIMETRIC TOPACIO",
+      "descripcion": "COLCHON 0.80X1.90\n85KG DENSIDAD",
+      "precio": 347800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783777032/muebles_rafaela/jwsp3fvmu272bjvikwre.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783777037/muebles_rafaela/gbtboiqntl2gzq66vhin.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "weHYPAfDCXsCox92iMFF",
@@ -3381,6 +3824,10 @@
   ],
   "proveedores": [
     {
+      "id": "1olpERv84wLuGWHmEKBv",
+      "nombre": "LILIANA"
+    },
+    {
       "id": "6kQX0MDj8sTugomuFUBe",
       "nombre": "SEÑORIAL"
     },
@@ -3426,6 +3873,13 @@
     }
   ],
   "historial": [
+    {
+      "id": "0HBbCAV56OANVL2l9flg",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 2500KCAL TB/TBU\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:23.330Z"
+    },
     {
       "id": "0ZKbU9KtnFIKNwHX2rhc",
       "tipo": "producto_creado",
@@ -3560,6 +4014,13 @@
       "fecha": "2026-07-06T21:52:32.405Z"
     },
     {
+      "id": "5Z8yeADXD0QwhypsHZhE",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTUFA CONVECTOR \"CONVECTORY\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:21:51.154Z"
+    },
+    {
       "id": "5a8QwQxJDNk1T5oPo26C",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 40L\"",
@@ -3672,6 +4133,20 @@
       "fecha": "2026-07-03T13:06:49.935Z"
     },
     {
+      "id": "8OYnUEfzN5KQ8Xv0VEWT",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:04:11.597Z"
+    },
+    {
+      "id": "8TNa1gOnrpKhFl6qqW9h",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 4000KCAL TB/TBU\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:37.536Z"
+    },
+    {
       "id": "8ZVz8Y0B9Q90wc8FO1h0",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/CONGELADOR BRIKET 290LTS\"",
@@ -3684,6 +4159,13 @@
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 90L A.R\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:31:30.324Z"
+    },
+    {
+      "id": "94KjnMvBJBn77qfDo8DW",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:31:24.441Z"
     },
     {
       "id": "9C0wO3s81vkkHPd0Lnxg",
@@ -3812,6 +4294,13 @@
       "fecha": "2026-07-03T14:00:38.818Z"
     },
     {
+      "id": "Eh5YG8UhBaJZQMgK3VpM",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 5000KCAL SIN TIRO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:45.260Z"
+    },
+    {
       "id": "EovF1DvRZT3Gk6KHTwt9",
       "tipo": "producto_estado",
       "descripcion": "Desactivó el producto \"BOTINERO MELAMINA 18PARES\"",
@@ -3868,6 +4357,13 @@
       "fecha": "2026-07-02T18:27:04.649Z"
     },
     {
+      "id": "GKSNEMbShunZAND5GJjU",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 2 ½ PLAZAS ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:36:41.869Z"
+    },
+    {
       "id": "GMEsR5bZlT6W0bdpb40j",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"SILLA PINO TANDIL S/TAPIZAR\"",
@@ -3889,6 +4385,20 @@
       "fecha": "2026-07-06T21:37:05.170Z"
     },
     {
+      "id": "GmiLHyQglf2KcI5PeTJA",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 2 ½ PLAZAS RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:20:48.777Z"
+    },
+    {
+      "id": "H1brnE5VhtxKUaYZ6Ory",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTUFA INFRARROJA \"SPINHOT\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:10:40.302Z"
+    },
+    {
       "id": "H8IEZuZPQOIyHYO8lOoD",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 ½ PLAZA ESPUMA AGUAMARINA TOPACIO\"",
@@ -3896,11 +4406,25 @@
       "fecha": "2026-07-09T13:17:58.019Z"
     },
     {
+      "id": "HDfT4ZuHlZC9KhcB1r4M",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:14:41.820Z"
+    },
+    {
       "id": "HNwZC6AwGev6za3BE2ns",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL ELECTRICO 90L\"",
       "usuario": "admin",
       "fecha": "2026-07-06T14:01:05.482Z"
+    },
+    {
+      "id": "HXEUlw3MGJtqztxwXRYO",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"CALOVENTOR LILIANA \"BLACKSUN\"\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:04:52.576Z"
     },
     {
       "id": "Hh4U5L8ToPFs1IFVztQR",
@@ -3957,6 +4481,13 @@
       "descripcion": "Renombró la categoría \"SILLAS\" a \"SILLAS\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:42:39.024Z"
+    },
+    {
+      "id": "KXOQWQ5sLkDE5vuon0QY",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-10T13:45:03.714Z"
     },
     {
       "id": "KcOFQk8XxcOIfTsR8STi",
@@ -4113,6 +4644,13 @@
       "fecha": "2026-07-04T22:42:04.695Z"
     },
     {
+      "id": "NZ5RrlJ3FrdrXRa9tvpN",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTUFA INFRARROJA \"CALORE\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:03:54.741Z"
+    },
+    {
       "id": "NeCZHMGdvmJltHyA1O5W",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Cocina Escorial Master Style 56CM Inoxidable Multigas\"",
@@ -4246,6 +4784,13 @@
       "fecha": "2026-07-03T20:46:07.148Z"
     },
     {
+      "id": "Rc55CSR9qi09wcHyrHm4",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA INFRARROJA \"CALORE\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:04:33.370Z"
+    },
+    {
       "id": "Ro7mGR3pVN6uFpRotlUP",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COCINA INDUSTRIAL USMAN WIN 850\"",
@@ -4265,6 +4810,13 @@
       "descripcion": "Renombró la categoría \"HELADERAS\" a \"HELADERAS Y FREZZER\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:57:09.051Z"
+    },
+    {
+      "id": "SP6BHt5YHcxxOvmyfIJf",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 2 PLAZAS ESPUMA MARFIL\"",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:12:48.970Z"
     },
     {
       "id": "SQNgIKExztjlNQsX5kTP",
@@ -4370,6 +4922,13 @@
       "descripcion": "Creó el producto \"DESPENSERO 0.60X1.80\"",
       "usuario": "admin",
       "fecha": "2026-07-08T21:23:33.962Z"
+    },
+    {
+      "id": "VjHCIg6lKPTh3TmYJxNg",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CALOVENTOR LILIANA \"BLACKSUN\"\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:01:47.496Z"
     },
     {
       "id": "VsYpArBETkByK1PFY2T6",
@@ -4561,11 +5120,25 @@
       "fecha": "2026-07-08T20:54:51.947Z"
     },
     {
+      "id": "bX3TQWmnjAu83yyhG21M",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:30.854Z"
+    },
+    {
       "id": "bdxKIkt6iVADeEI37Pqa",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"BIBLIOTECA MELAMINA 60CM\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:46:06.321Z"
+    },
+    {
+      "id": "bnBULL32gOqqDyr96HLY",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 1 PLAZA RESORTE SIMETRIC TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:37:27.215Z"
     },
     {
       "id": "buKMVDH79mYxixUMroLS",
@@ -4897,6 +5470,13 @@
       "fecha": "2026-07-06T21:38:56.931Z"
     },
     {
+      "id": "lLsP1i3Wab72pJIZiYLs",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON KING SIZE ESPUMA MARFIL PLUS TOPACIO (completo)\"",
+      "usuario": "admin",
+      "fecha": "2026-07-10T13:56:39.168Z"
+    },
+    {
       "id": "lQPyp1Mpr71ct4MgNQ22",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 106LTS\"",
@@ -4916,6 +5496,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL A GAS 45L\"",
       "usuario": "admin",
       "fecha": "2026-07-06T14:02:03.354Z"
+    },
+    {
+      "id": "m3cjc6TFo1KSCzfNUSRM",
+      "tipo": "config_contacto",
+      "descripcion": "Actualizó los datos de Contacto",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:52:17.162Z"
     },
     {
       "id": "m8Tlduu8pqfbY2n32HIU",
@@ -4993,6 +5580,13 @@
       "descripcion": "Editó el producto \"BIBLIOTECA MELAMINA 60CM\"",
       "usuario": "admin",
       "fecha": "2026-07-06T14:35:36.934Z"
+    },
+    {
+      "id": "nXWKd49Xjj8StXB4rhkK",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 2 PLAZAS ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:10:18.291Z"
     },
     {
       "id": "nZ9X7RZOAgHaEzJefRyk",
@@ -5093,6 +5687,13 @@
       "fecha": "2026-07-06T22:23:55.348Z"
     },
     {
+      "id": "puyizDplIkvisTJXoqzX",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 2 PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:08:18.952Z"
+    },
+    {
       "id": "q12FOxgVdZiWlMQC7igw",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"Cocina Escorial Palace Cristal\"",
@@ -5142,6 +5743,13 @@
       "fecha": "2026-07-03T13:01:25.394Z"
     },
     {
+      "id": "quK69tkDiNAJ4JgfLn0n",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 2 ½ PLAZAS ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-09T14:41:44.534Z"
+    },
+    {
       "id": "rEX7QsGBsiSXyAAEUwX4",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
@@ -5182,6 +5790,13 @@
       "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 390LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:56:43.841Z"
+    },
+    {
+      "id": "sZZD2RjCTZNbjicAA9jj",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 6000KCAL TB/TBU\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:50.711Z"
     },
     {
       "id": "sfu6T821jrzPDZ6tViJk",
@@ -5317,6 +5932,13 @@
       "fecha": "2026-07-04T13:45:44.509Z"
     },
     {
+      "id": "wbDANyXv8JDMwQ2aPnDP",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL PLUS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-10T13:43:38.058Z"
+    },
+    {
       "id": "woiE1IjeGlzzgatrS6aA",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT MILAN SC1260\"",
@@ -5434,6 +6056,13 @@
       "descripcion": "Editó el producto \"Termotanque Escorial Electrico 90 Lt conexion inferior\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:52:45.108Z"
+    },
+    {
+      "id": "zofByAwYFq2oE1jUZNZ5",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON KING SIZE ESPUMA MARTINICA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-10T14:01:37.088Z"
     }
   ],
   "config": {
@@ -5491,11 +6120,11 @@
       "locales": [
         {
           "nombre": "San Clemente",
-          "direccion": ""
+          "direccion": "Avda. San Martín N°780"
         },
         {
-          "nombre": "Las Toninas",
-          "direccion": ""
+          "direccion": "Calle 7 N°1852",
+          "nombre": "Las Toninas"
         }
       ]
     }
