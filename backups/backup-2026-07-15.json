@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-11T11:50:37.991Z",
+  "fecha": "2026-07-15T12:12:44.581Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -96,6 +96,31 @@
       ]
     },
     {
+      "id": "1wx7ATLWnLPNe8ywQv4H",
+      "nombre": "ORGANIZADOR APARADOR BH152 MELAMINA",
+      "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 150 x 60 x 32",
+      "precio": 274600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034572/muebles_rafaela/d52ij7ywgpnn8dt9o917.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034597/muebles_rafaela/skjkq8xobeptwi7kufoj.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034601/muebles_rafaela/amrmal9scwdzkkdyvy62.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "1zPE2nwCz39dnEbDAA2i",
       "descripcion": "Mueble organizador de 1,80mts. de altura pensado para que tengas los productos de limpieza organizados y siempre a mano. En su interior cuenta con tres estantes regulables, un estante fijo superior y un espacio libre para escoba, escurridor o lo que uses para la limpieza de tu hogar.\n\nDimensiones del mueble (cm): 180 x 60 x 32",
       "precio": 183300,
@@ -125,6 +150,36 @@
         "ESCOBERO",
         "MUEBLES"
       ]
+    },
+    {
+      "id": "2WhMWGtomrHYbiOh0nRQ",
+      "nombre": "CALOVENTOR LILIANA \"BLACKSUN\"",
+      "descripcion": "Termostato regulable.\n· Potente forzador de aire de 1600 RMP.\n· 2 intensidades de calor.\n· Ultraliviano.\n· Manija para traslado.\n· Modo ventilación.\n· Ocupa poco espacio.",
+      "precio": 83400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CALEFACCION"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778458/muebles_rafaela/ga8lxqi974vxtibh8fxa.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778461/muebles_rafaela/dioulvwlvrnaeaqc9neu.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778463/muebles_rafaela/h3uwalif0fqhswwemmmb.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Negro",
+          "hex": "#000000"
+        }
+      ],
+      "proveedor": "LILIANA"
     },
     {
       "id": "3WFmGukvmkTpeSvOcOb1",
@@ -318,6 +373,42 @@
       "nombre": "COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO"
     },
     {
+      "id": "62W8J2zuNOVIhSTlaeX1",
+      "nombre": "ESCRITORIO MELAMINA CENTRO ESTANT PRAGA SC8009",
+      "descripcion": "Escritorio de melamina de un tamaño ideal para ubicarlo en cualquier rincón de la casa. Contiene un cajón para organizar tus apuntes o material de trabajo. Podés combinarlo con nuestros estantes flotantes para poder también organizar tus libros.\n\nDimensiones del mueble (cm): 77 x 90 x 44",
+      "precio": 140400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ESCRITORIO"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947113/muebles_rafaela/b0ljzkokqjz1hfjgek5t.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947116/muebles_rafaela/fbfhbuib1m3hge9swr8x.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947122/muebles_rafaela/etlqquizhpo2fdjyu0ul.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947126/muebles_rafaela/ddhzejkoqkkzvpn5mswi.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947128/muebles_rafaela/f30b1yxt56upzshxcmdh.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Paraiso/Blanco",
+          "hex": "#bc926c"
+        },
+        {
+          "nombre": "Wengue/Blanco",
+          "hex": "#66544a"
+        }
+      ],
+      "proveedor": "CENTRO ESTANT"
+    },
+    {
       "id": "63Jj7miReP1J05VUEGnN",
       "nombre": "COCINA INDUSTRIAL USMAN SONIC XXL 55CM",
       "descripcion": "Cocina Industrial en Acero Inoxidable con bandeja.\nCon vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, válvula de seguridad, pirómetro y bandeja de gratinado. Ideal para uso gastronómico intensivo.\n\nAncho\t\n55 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
@@ -343,6 +434,33 @@
           "hex": "#888888"
         }
       ]
+    },
+    {
+      "id": "6Mn66A7hZUYaVhcEYtpf",
+      "nombre": "ALACENA/ORGANIZADOR",
+      "descripcion": "Mueble de guardado ideal para organizar tu cocina. El T6 es un módulo totalmente versátil, puede ser utilizado con patas de apoyo (incluídas) o colgado como alacena. Sus líneas clásicas permiten combinarla fácilmente con cualquier estilo de cocina.\n\nDimensiones del mueble (cm): 65 x 60 x 32",
+      "precio": 105900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ALACENA",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034999/muebles_rafaela/guygnmmwff9um72ifikq.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035002/muebles_rafaela/p2njouwx97mlvexpivqi.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035004/muebles_rafaela/gkkm43wqmbbw2ruvoyd8.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035006/muebles_rafaela/mh2q8yk46ieqykuo6ig3.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "7cPvir11M0S5Rb8tkVFB",
@@ -539,7 +657,39 @@
       "colores": [],
       "categoria": "CALEFACCION",
       "categorias": [
-        "CALEFACCION"
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
+    },
+    {
+      "id": "B98nf83kkR2ExsfvDNpR",
+      "descripcion": "Dimensiones del mueble (cm): 73 x 54 x 45",
+      "precio": 140400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032309/muebles_rafaela/qzbdb9gy1spftqzmtr9s.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032314/muebles_rafaela/qzhhtoxqzznhljpowz7r.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032315/muebles_rafaela/rp9njyf0kahkpuhuz4bq.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ],
+      "nombre": "MULTIUSO PORTA MICROONDA G10 MELAMINA",
+      "categorias": [
+        "MUEBLES",
+        "MULTIUSO",
+        "ORGANIZADOR"
       ]
     },
     {
@@ -602,6 +752,74 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ]
+    },
+    {
+      "id": "EVak4duV98z3I2qMLUd1",
+      "nombre": "RACK TV MELAMINA MT5000",
+      "descripcion": "De líneas sencillas, este mueble de TV combina con todo tipo de ambiente. Cuenta con tres compartimientos y cajones que se ajustan a tus necesidades de guardado. Ideal para tener organizados tus dispositivos multimedia. Medidas aptas para TV de hasta 55”.\n\nDimensiones del mueble (cm): 51 x 130 x 34",
+      "precio": 172400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "RACK TV"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035948/muebles_rafaela/ha92o0lmjzl6g5j9cnuz.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035951/muebles_rafaela/mr7err7tkftx1g6kc4sw.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035953/muebles_rafaela/bxsrenolwpbl6h9ezzu2.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035959/muebles_rafaela/k7kzbz5n1aplxip1tc9e.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035964/muebles_rafaela/y6gybhg9mncvv7jd0cc0.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035969/muebles_rafaela/xixdvl2zxcn8bav4xquv.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035971/muebles_rafaela/j1hmkczdhwyivjmig33x.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Paraiso/Blanco",
+          "hex": "#886e53"
+        },
+        {
+          "nombre": "Negro/Paraiso",
+          "hex": "#000000"
+        }
+      ]
+    },
+    {
+      "id": "EZctlstB1OP0bPus8CvX",
+      "nombre": "ORGANIZADOR PARA BAÑO BT1 MELAMINA",
+      "descripcion": "Organizador ideal para incorporar espacio de guardado en tu baño, sobre todo si se trata de un espacio pequeño. Podrás guardar y ordenar todas esas cosas que ya no te entran en tus muebles actuales. Incluye estantes al descubierto y uno con puertas para proteger objetos más delicados.\n\nDimensiones del mueble (cm): 166 x 63,2 x 20",
+      "precio": 109700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033836/muebles_rafaela/sulo2dwluyh6egtagnlq.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033843/muebles_rafaela/gdkkx1mk5utgnhyvhoi2.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033845/muebles_rafaela/fbqnlyecwthbjxebtxye.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033854/muebles_rafaela/xedzktledk2v0onkdqkc.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "FjPXgsp0tSczRTWMdAZO",
@@ -896,6 +1114,31 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL A GAS 120L"
+    },
+    {
+      "id": "JwX0xrdNKKpq08WyDgSp",
+      "nombre": "ESTUFA INFRARROJA \"SPINHOT\" LILIANA",
+      "descripcion": "· Amplia radiación frontal. 3 tubos.\n· Frente mallado.\n· Iluminación atenuada.\n· 2 intensidades de calor.\n· Diseño compacto.",
+      "precio": 107000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "CALEFACCION",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779026/muebles_rafaela/pumbwv4cna57jzmynhlg.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779030/muebles_rafaela/fuug32qsubbhhpxf5itd.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779032/muebles_rafaela/cnvlqcmtvv3h4thfufyk.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "KAG5WMC8uvl0ysRFBziA",
@@ -1225,6 +1468,42 @@
       "nombre": "COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO"
     },
     {
+      "id": "NWdM03OKrzlNWrVdujmF",
+      "nombre": "ESTANTE MELAMINA 60X20 C/MENSULA",
+      "descripcion": null,
+      "precio": 46000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ESTANTES",
+        "MUEBLES"
+      ],
+      "categoria": "ESTANTES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783948029/muebles_rafaela/cerbcyo1grnqu9iumr7j.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783948031/muebles_rafaela/iajkmzudxm4cgdfegqhf.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783948036/muebles_rafaela/cqmbrktjc5phsvcsbjjp.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783948040/muebles_rafaela/rk9vpmchv2mgdowjr8ki.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783948042/muebles_rafaela/u3oakdreo1x3ag3oxnby.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Wengue",
+          "hex": "#4c3e2a"
+        },
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
       "id": "P1sYkeoAS3DRwx2rJJVb",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 40L",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
@@ -1245,6 +1524,30 @@
       "colores": [],
       "precio": 396800,
       "precioAnterior": 0
+    },
+    {
+      "id": "P6UlvX8Oh4MKB1EwM5Oh",
+      "nombre": "ESTUFA CONVECTOR \"CONVECTORY\" LILIANA",
+      "descripcion": "· Diseño moderno y decorativo.\n· Gran poder calórico.\n· Termostato regulable que ahorra energía.\n· Selector de temperatura: 3 intensidades de calor.",
+      "precio": 137300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CALEFACCION"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779702/muebles_rafaela/zm3gkepx75rbqevgljnv.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783779705/muebles_rafaela/s2t2gou1fgukdxk8ep7g.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "PH2zsaEbPCUDaywwiA3I",
@@ -1309,6 +1612,66 @@
       ]
     },
     {
+      "id": "PW2KzaBbWD0Wnq99Jf80",
+      "nombre": "ESTANTE MELAMINA 60X40 C/MENSULA",
+      "descripcion": "Con estos estantes vas a poder lograr un espacio de almacenamiento o de exhibición de una manera moderna, práctica y rápida en cualquier ambiente de tu hogar.",
+      "precio": 56200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947812/muebles_rafaela/s4hrsviy8gkbgvlt1df0.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947814/muebles_rafaela/fdbh4iu8dschsi9brvur.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947816/muebles_rafaela/sqtflqv2ycobe4snht2k.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783947845/muebles_rafaela/itgw8apssbf1l2ckxir1.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Wengue",
+          "hex": "#54452b"
+        },
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ],
+      "categorias": [
+        "MUEBLES",
+        "ESTANTES"
+      ]
+    },
+    {
+      "id": "Pqgo22iX0snTz3NwphHM",
+      "descripcion": "Organizador ideal para incorporar espacio de guardado en tu baño, sobre todo si se trata de un espacio pequeño. Ideal para el guardado de toallas, papel higiénico, botiquín, etc. Este mueble es la solución perfecta para mantener tu baño ordenado y con estilo.\n\nDimensiones del mueble (cm): 175 x 30 x 30",
+      "precio": 128900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033969/muebles_rafaela/qkqskuy9qgjrfs9lnura.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033970/muebles_rafaela/sa6kaxn4e7zfawa9if6s.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033972/muebles_rafaela/lhwrijrqt19bysfsvdzd.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "nombre": "ORGANIZADOR PARA BAÑO BT2 MELAMINA"
+    },
+    {
       "id": "PsEg1OXWIOq60V5jxdbp",
       "nombre": "ESTUFA COPPENS 5000KCAL SIN TIRO",
       "descripcion": "Ideal para ambientes medianos y grandes.\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y con piloto atmosférico",
@@ -1316,9 +1679,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "CALEFACCION"
-      ],
       "categoria": "CALEFACCION",
       "material": null,
       "proveedor": "COPPENS",
@@ -1330,7 +1690,41 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
+    },
+    {
+      "id": "QHitVWBYMjfNoSjo9SmB",
+      "nombre": "MESA DE LUZ MELAMINA VALENCIA MLE10",
+      "descripcion": "Dimensiones del mueble (cm): 63 x 50 x 35",
+      "precio": 115700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MESAS DE LUZ",
+        "MUEBLES"
+      ],
+      "categoria": "MESAS DE LUZ",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783950564/muebles_rafaela/tfsrzkwypywx7iwokzyw.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783950569/muebles_rafaela/ecjyqohkiqidgr7fzjat.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783950575/muebles_rafaela/tkqc1pcozqay0opit3fa.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco/Paraiso",
+          "hex": "#c59972"
+        }
+      ]
     },
     {
       "id": "QVr3I5sA6IgO3IywvfKx",
@@ -1572,6 +1966,31 @@
       "nombre": "DESPENSERO 0.40x1.50 MELAMINA"
     },
     {
+      "id": "U3P3rPe1AcPOlumMo5mR",
+      "nombre": "ORGANIZADOR APARADOR BH132 MELAMINA",
+      "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 132 x 90 x 46",
+      "precio": 279200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034396/muebles_rafaela/mrydql1k94xscqkanjqh.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034399/muebles_rafaela/ctaly6vd07i4ykvmtrbg.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034404/muebles_rafaela/bos3udwo0yn7sekd3s8a.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "U9TRwKeBkuqbtdijAUI5",
       "descripcion": "Capacidad y confort\nEl termotanque eléctrico Escorial tiene una capacidad para 55 litros. A diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Para funcionar, sólo hay que enchufarlo a la red eléctrica convencional. Automáticamente, el artefacto calentará el agua hasta un punto prefijado. Cuenta con un tanque con aislamiento de espuma de poliuretano que asegura un consumo eficiente de energía. Puede colgarse. Conexión inferior.\n\nSeguridad y consumo\nUna de las principales características de este tipo de calentadores es que pueden instalarse en cualquier espacio y no necesitan ventilación como los equipos que utilizan llamas de combustión para generar calor. Este artefacto no produce gases tóxicos y tampoco consume oxígeno del ambiente en el que se lo ubique. A la hora de elegir un termotanque hay que tener en cuenta que se calculan aproximadamente 50 litros para 3 personas; 75 litros, de 3 a 5 personas; y 120, de 5 a 7 personas. Escorial\n\nSistema de calentamiento\nA diferencia de los equipos a gas que calientan el agua a través de un quemador y generan gases tóxicos, este termotanque produce calor a través de una resistencia eléctrica hasta que se alcanza la temperatura deseada. Luego, el aislamiento del tanque se encarga de que no se enfríe demasiado rápido. Cuando la temperatura baja, por el paso del tiempo o porque se usó el agua caliente y entra agua fría, la resistencia vuelve a entrar en funcionamiento. Termotanque Electrico Escorial",
       "precio": 389803,
@@ -1599,6 +2018,31 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 55L"
+    },
+    {
+      "id": "UP7tM3Cn4PhWk35PzYv7",
+      "nombre": "ESTUFA INFRARROJA \"CALORE\" LILIANA",
+      "descripcion": "· Amplia radiación frontal. 3 tubos.\n· Frente mallado.\n· Iluminación atenuada.\n· Selector de temperatura: 2 intensidades de calor.\n· Diseño compacto.",
+      "precio": 96000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "CALEFACCION",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778620/muebles_rafaela/xkp6e78yxcepob68rnts.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778625/muebles_rafaela/vcbybnk1csweuvssv4qq.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783778627/muebles_rafaela/qbafkti3uxei0oqn3tth.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "proveedor": "LILIANA"
     },
     {
       "id": "UZ5mEvicfq008ptPX3kH",
@@ -1963,6 +2407,36 @@
       "nombre": "COCINA ESCORIAL CANDOR"
     },
     {
+      "id": "ZgEG9o9hhZPG1J6LN42z",
+      "nombre": "MESA DE LUZ MELAMINA GRANADA MLE30",
+      "descripcion": "Dimensiones del mueble (cm): 62 x 50 x 32",
+      "precio": 122600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MESAS DE LUZ",
+        "MUEBLES"
+      ],
+      "categoria": "MESAS DE LUZ",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783951814/muebles_rafaela/hix6isk7plynazkkhnev.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783951818/muebles_rafaela/zrfuyzyxnywabhzqfye6.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783951820/muebles_rafaela/n6c6paxcub4tvpjtvrtt.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Paraiso/Negro",
+          "hex": "#b88e68"
+        }
+      ]
+    },
+    {
       "id": "aQz40FIaE97IbZxsV8Cy",
       "nombre": "HELADERA C/FREEZER BRIKET 322LTS",
       "descripcion": "Nuestra heladera con freezer de 322 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A+ y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 660 | Alto: 1640 | Profundidad: 682\n\nPeso: 54,4 Kg\n\nClasificación Energética: A+\n\nCapacidad: 322 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 239",
@@ -1985,6 +2459,71 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
+      ]
+    },
+    {
+      "id": "alBCbmkUqbOHwjYG4j4p",
+      "nombre": "RACK TV MELAMINA MT4002",
+      "descripcion": "Resolvé tus necesidades de entretenimiento y guardado con un look moderno. Ya sea que estés viendo el partido o escuchar música, esta mesa es la mejor opción para tu espacio. Medidas aptas para TV de hasta 55″.\n\nDimensiones del mueble (cm): 50,7 x 128 x 45",
+      "precio": 165200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "RACK TV"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035277/muebles_rafaela/hmitdmgjwjibc3vqqyy4.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035282/muebles_rafaela/bjoa3usd8ua951uvbcbh.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035284/muebles_rafaela/xf0eedwzmmbqqz7fsw82.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035286/muebles_rafaela/d0kziq2gnthrbfekymyr.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Wengue",
+          "hex": "#4a3b31"
+        },
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "bMr4gTQqejw96fWDvVjB",
+      "nombre": "RACK TV MELAMINA MT6000 (2 MODULOS)",
+      "descripcion": "Mueble organizador con dos módulos para combinar como quieras. Uno de los modelos más versátiles de la línea Original, ideal para utilizar como rack de TV. Combina con todo tipo de ambiente y cuenta con seis compartimientos para organizar todo lo que necesites.\n\nDimensiones del mueble (cm): 116 x 145 x 30",
+      "precio": 144700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "RACK TV"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784036127/muebles_rafaela/si3ckgid1bythy7vypm3.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784036131/muebles_rafaela/oceqlywicou8n3bqhyxd.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784036135/muebles_rafaela/xla9wtt1zpubl9ql9yeu.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
       ]
     },
     {
@@ -2115,6 +2654,42 @@
       ]
     },
     {
+      "id": "dZhbautOVG0fJVhDndce",
+      "nombre": "ESCRITORIO MELAMINA CENTRO ESTANT ROMA SC109",
+      "descripcion": "Escritorio de melamina de un tamaño ideal para ubicarlo en cualquier rincón de la casa. Contiene un cajón y una gaveta para organizar tus apuntes o material de trabajo. Podés combinarlo con nuestros estantes flotantes para poder también organizar tus libros.\n\nDimensiones del mueble (cm): 76 x 90 x 44",
+      "precio": 140400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "material": null,
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783946696/muebles_rafaela/wqoihcv0yizlt6by4kjd.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783946698/muebles_rafaela/sx5glnmkhpushr3lvhee.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783946700/muebles_rafaela/gbsqxnnm2w6rmpvzwqck.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783946702/muebles_rafaela/wkv6mvqbdw1ply233i2x.jpg"
+      ],
+      "categoria": "MUEBLES",
+      "categorias": [
+        "MUEBLES",
+        "ESCRITORIO"
+      ],
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Wengue",
+          "hex": "#554834"
+        }
+      ],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783946706/muebles_rafaela/ki4la3pfqdbxxxnvszgj.jpg",
+      "proveedor": "CENTRO ESTANT"
+    },
+    {
       "id": "e8bT1VEfIfoSzel927gP",
       "nombre": "MESA DE LUZ MELAMINA C/DESAYUNADOR",
       "descripcion": "Si sos fan de desayunar en la cama esta es la mesita de luz para vos. Contiene una bandeja corrediza que podés usar para apoyar lo que necesites. Además cuenta con un cajón y un estante regulable en altura para ubicar según tus necesidades.\n\nDimensiones del mueble (cm): 71 x 42 x 37",
@@ -2172,11 +2747,12 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1783111661/muebles_rafaela/gvezbf4lculexrmlm1cp.jpg"
       ],
       "categoria": "CALEFACCION",
-      "categorias": [
-        "CALEFACCION"
-      ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783111654/muebles_rafaela/j8c0qf787pcesr9hmjpr.jpg",
-      "proveedor": "COPPENS"
+      "proveedor": "COPPENS",
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
     },
     {
       "id": "eFbKlOlaLPbeku1C1Hia",
@@ -2510,11 +3086,62 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1783111603/muebles_rafaela/q0qizll3rklarsvoclse.jpg"
       ],
       "categoria": "CALEFACCION",
-      "categorias": [
-        "CALEFACCION"
-      ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783111592/muebles_rafaela/vshnnvkmvdszohoh8yk8.jpg",
-      "proveedor": "COPPENS"
+      "proveedor": "COPPENS",
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
+    },
+    {
+      "id": "iXQkMZvr4nGtB4Q6WbIx",
+      "nombre": "ORGANIZADOR APARADOR BH180 MELAMINA",
+      "descripcion": null,
+      "precio": 325800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034711/muebles_rafaela/h1bpk2aku1i08tvqzawa.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034713/muebles_rafaela/pmghflmlnkqk1gui3otv.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034714/muebles_rafaela/urgmwtnbvinree00hk7z.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "jZIvb4DJypn0Ld1pfyAO",
+      "nombre": "ORGANIZADOR APARADOR BH182 MELAMINA",
+      "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 180 x 60 x 30",
+      "precio": 337400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034843/muebles_rafaela/gfso25jineonevyvvl6w.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034845/muebles_rafaela/mnzu6hu6pluizyvlcpz9.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034847/muebles_rafaela/rwxeitnso2ggg8gc16r2.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "k1D8XmzVTfps0E1qfKGn",
@@ -2607,6 +3234,31 @@
       ]
     },
     {
+      "id": "koIz1vwjUQoLhRUKOMbV",
+      "nombre": "MULTIUSO PORTA MICROONDA KP50 MELAMINA",
+      "descripcion": "Dimensiones del mueble (cm): 146 x 60 x 47",
+      "precio": 189700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033590/muebles_rafaela/jtmrl0wzwtxthu3jartc.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033592/muebles_rafaela/umtabyyrgodgospymrvo.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033594/muebles_rafaela/iwgvsbemph7hrmevt6da.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "lSlvZG6fz8g5aZVHzv1w",
       "descripcion": "Organizá tus zapatos para tenerlos ordenados y siempre a mano. El estilo clásico de este zapatero combina fácilmente con cualquier ambiente. Ubicalo en tu cuarto, en tu vestidor o en el hall de distribución.\n\nDimensiones del mueble (cm): 121 x 62 x 25",
       "descuento": 0,
@@ -2655,6 +3307,40 @@
         "BOTINEROS"
       ],
       "nombre": "BOTINERO MELAMINA 18 PARES CENTRO ESTANT"
+    },
+    {
+      "id": "lf0jebF1YFs3BweRS938",
+      "nombre": "ESTANTE MELAMINA 96X25 SIN MENSULA",
+      "descripcion": null,
+      "precio": 75900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ESTANTES"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783949335/muebles_rafaela/tza7ukg9yfjul52rq788.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783949338/muebles_rafaela/wqz3762qan7j3rblusjd.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783949345/muebles_rafaela/hmyw9ckq1h0yziftzdup.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Wengue",
+          "hex": "#5a4e35"
+        }
+      ]
     },
     {
       "id": "mRlSl9rxQqy0GmDZ3RTi",
@@ -2790,6 +3476,32 @@
       ]
     },
     {
+      "id": "paa1HMg1B554uXLMR57v",
+      "nombre": "MULTIUSO PARA COCINA G14 MELAMINA",
+      "descripcion": "Dimensiones del mueble (cm): 180 x 40 x 32",
+      "precio": 130800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MULTIUSO",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032711/muebles_rafaela/enlq0hnta5qklo23hqki.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032713/muebles_rafaela/pbpjuowlzn6mewiqxank.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032715/muebles_rafaela/abrkp7vm1sq97vwnygmt.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "categorias": [
+        "MULTIUSO",
+        "MUEBLES",
+        "ORGANIZADOR"
+      ]
+    },
+    {
       "id": "psoAxXRcdN70quk2pgBd",
       "nombre": "SILLA UNICAN CALEGARI",
       "descripcion": null,
@@ -2823,6 +3535,32 @@
       "proveedor": "UNICAN"
     },
     {
+      "id": "q1izzNhxFXHHCyPpzmeu",
+      "nombre": "MULTIUSO PORTA MICROONDA G11 MELAMINA",
+      "descripcion": "Dimensiones del mueble (cm): 109 x 59 x 45",
+      "precio": 164000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032521/muebles_rafaela/deuuy1msxtqr41ym7bkf.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032526/muebles_rafaela/mlzaszbuyndlrpov8dgt.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032528/muebles_rafaela/aqahpaicin91qwt5zgj2.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "categorias": [
+        "MUEBLES",
+        "MULTIUSO",
+        "ORGANIZADOR"
+      ]
+    },
+    {
       "id": "qDtc5QsmHlHvXA4KnfcZ",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 120L A.R",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
@@ -2846,6 +3584,40 @@
         {
           "nombre": "Gris",
           "hex": "#888888"
+        }
+      ]
+    },
+    {
+      "id": "qxrXIKiwiPnt4mughbMd",
+      "nombre": "ESTANTE MELAMINA 60X25 SIN MENSULA",
+      "descripcion": null,
+      "precio": 57500,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ESTANTES",
+        "MUEBLES"
+      ],
+      "categoria": "ESTANTES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783949159/muebles_rafaela/qcywo73lj0faerw0nvmy.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783949145/muebles_rafaela/jailwbrsp4rss5wbtyof.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783949147/muebles_rafaela/rpoomgejgon9w3egvnsx.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Wengue",
+          "hex": "#5e4c2b"
         }
       ]
     },
@@ -3212,9 +3984,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "CALEFACCION"
-      ],
       "categoria": "CALEFACCION",
       "material": null,
       "imagenes": [
@@ -3226,7 +3995,11 @@
       "activo": true,
       "colores": [],
       "proveedor": "COPPENS",
-      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783112199/muebles_rafaela/elghjsjdoes6gov7rdhq.jpg"
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783112199/muebles_rafaela/elghjsjdoes6gov7rdhq.jpg",
+      "categorias": [
+        "CALEFACCION",
+        "ELECTRODOMESTICOS"
+      ]
     },
     {
       "id": "v2sMXaaUXkyOgYQvGztE",
@@ -3350,6 +4123,29 @@
       ]
     },
     {
+      "id": "wXeKQXudlWUxxJLNyTlY",
+      "nombre": "COLCHON 1 PLAZA RESORTE SIMETRIC TOPACIO",
+      "descripcion": "COLCHON 0.80X1.90\n85KG DENSIDAD",
+      "precio": 347800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COLCHONES"
+      ],
+      "categoria": "COLCHONES",
+      "material": null,
+      "proveedor": "TOPACIO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783777032/muebles_rafaela/jwsp3fvmu272bjvikwre.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783777037/muebles_rafaela/gbtboiqntl2gzq66vhin.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "weHYPAfDCXsCox92iMFF",
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 120L",
       "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
@@ -3373,6 +4169,41 @@
         {
           "nombre": "Blanco",
           "hex": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "wtJsH7nekuXEoFWLDYUF",
+      "nombre": "MESA DE LUZ MELAMINA MURCIA MLY",
+      "descripcion": "Dimensiones del mueble (cm): 67 x 43 x 36",
+      "precio": 97100,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MESAS DE LUZ",
+        "MUEBLES"
+      ],
+      "categoria": "MESAS DE LUZ",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783950450/muebles_rafaela/hnr0mdgcflyirjodyftc.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783950452/muebles_rafaela/q4kx1rlcg2xn0iygpdbh.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783950456/muebles_rafaela/zf1gpzqes1dhydyo16it.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1783950458/muebles_rafaela/s9g5qvbfuc4ftgjuigwa.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Negro",
+          "hex": "#000000"
         }
       ]
     },
@@ -3466,6 +4297,40 @@
       ]
     },
     {
+      "id": "zVOzHPQdqB4aWrhVwPO8",
+      "nombre": "RACK TV MELAMINA MT4001",
+      "descripcion": "Dimensiones del mueble (cm): 50,7 x 128 x 45",
+      "precio": 168200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "RACK TV",
+        "MUEBLES"
+      ],
+      "categoria": "RACK TV",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035460/muebles_rafaela/cyul1iicgceg4hal60ra.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035464/muebles_rafaela/vruwmh3e2ys0fpmeynha.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035474/muebles_rafaela/onxnnhmnwcwmzx6gcjpl.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Blanco/Paraiso",
+          "hex": "#c1a467"
+        }
+      ]
+    },
+    {
       "id": "zgcPb5rSvgxV3FujGkZP",
       "descripcion": "Bajo consumo. Piloto analizador.\nTriple barrera anti-fuga. Válvula de seguridad por sobrepresión, unidad magnética y termocupla.\nDetector de monóxido de carbono.\nMultigas: Kit de instalación de gas natural o envasado.",
       "precio": 515000,
@@ -3532,6 +4397,13 @@
       ]
     },
     {
+      "id": "BbvgughFAWKIsXpVEgtt",
+      "nombre": "MULTIUSO",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
       "id": "BxQWxauDrMBwKRPaAiss",
       "nombre": "SILLAS",
       "padreId": "yLCpvttuCZXS1lbjMb9E",
@@ -3576,11 +4448,25 @@
     },
     {
       "id": "Sd9i0f6gUpNZz2YHTI2v",
-      "nombre": "COLCHONES"
+      "nombre": "COLCHONES",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "TD8nV77Gq6Y7YtZcA7xv",
+      "nombre": "ORGANIZADOR"
     },
     {
       "id": "UMlT4DjX3jcZxUptoSOo",
       "nombre": "CÓMODAS",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "WrgSuVCSDQxCxIdMMLH0",
+      "nombre": "ESTANTES",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
       ]
@@ -3692,6 +4578,10 @@
   ],
   "proveedores": [
     {
+      "id": "1olpERv84wLuGWHmEKBv",
+      "nombre": "LILIANA"
+    },
+    {
       "id": "6kQX0MDj8sTugomuFUBe",
       "nombre": "SEÑORIAL"
     },
@@ -3737,6 +4627,13 @@
     }
   ],
   "historial": [
+    {
+      "id": "0HBbCAV56OANVL2l9flg",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 2500KCAL TB/TBU\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:23.330Z"
+    },
     {
       "id": "0ZKbU9KtnFIKNwHX2rhc",
       "tipo": "producto_creado",
@@ -3822,6 +4719,13 @@
       "fecha": "2026-07-05T16:51:00.712Z"
     },
     {
+      "id": "2tprGobcZItLnKs21qt5",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT PRAGA SC8009\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:05:11.039Z"
+    },
+    {
       "id": "3ACwySMzCvbyGWMLg0vX",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L FAMILY A.R\"",
@@ -3871,6 +4775,13 @@
       "fecha": "2026-07-06T21:52:32.405Z"
     },
     {
+      "id": "5Z8yeADXD0QwhypsHZhE",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTUFA CONVECTOR \"CONVECTORY\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:21:51.154Z"
+    },
+    {
       "id": "5a8QwQxJDNk1T5oPo26C",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 40L\"",
@@ -3883,6 +4794,13 @@
       "descripcion": "Creó el producto \"ESCRITORIO GAMER MELAMINA CENTRO ESTANT\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:25:35.657Z"
+    },
+    {
+      "id": "6CxoNgGtlqp4osX5mPdQ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTIUSO PORTA MICROONDA G11 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:35:37.994Z"
     },
     {
       "id": "6IMzgGT0sakcpSv93IJj",
@@ -3962,6 +4880,20 @@
       "fecha": "2026-07-08T20:47:15.564Z"
     },
     {
+      "id": "7uqOUpIFEQWQxD5yZO8q",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH182 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:14:12.278Z"
+    },
+    {
+      "id": "8374Os1wgzUiu4Omeshl",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PORTA MICROONDA G10 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:49:16.526Z"
+    },
+    {
       "id": "8APYllIrgh2UnZxNWkkp",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"BAJO MESADA MELAMINA 1.20M CENTRO ESTANT\"",
@@ -3983,6 +4915,20 @@
       "fecha": "2026-07-03T13:06:49.935Z"
     },
     {
+      "id": "8OYnUEfzN5KQ8Xv0VEWT",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:04:11.597Z"
+    },
+    {
+      "id": "8TNa1gOnrpKhFl6qqW9h",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 4000KCAL TB/TBU\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:37.536Z"
+    },
+    {
       "id": "8ZVz8Y0B9Q90wc8FO1h0",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/CONGELADOR BRIKET 290LTS\"",
@@ -3995,6 +4941,13 @@
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 90L A.R\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:31:30.324Z"
+    },
+    {
+      "id": "8tCeZ6lPbSOH1olTU4RO",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RACK TV MELAMINA MT4001\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:25:18.451Z"
     },
     {
       "id": "94KjnMvBJBn77qfDo8DW",
@@ -4016,6 +4969,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:31.285Z"
+    },
+    {
+      "id": "9x1r4jeaTOMoL5lLuM46",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTIUSO PORTA MICROONDA KP50 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:53:21.771Z"
     },
     {
       "id": "AFeN7svp5GQj5bRdaO7z",
@@ -4046,6 +5006,20 @@
       "fecha": "2026-07-08T21:31:55.048Z"
     },
     {
+      "id": "B1VoEJghHrY6Q0PCE0rb",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH180 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:12:30.821Z"
+    },
+    {
+      "id": "B39InKS1n54iKGgiLCFQ",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:04:59.669Z"
+    },
+    {
       "id": "B4hniPmuwiNlHZOhyI0U",
       "tipo": "categoria_creada",
       "descripcion": "Creó la categoría \"BOTINEROS\"",
@@ -4058,6 +5032,13 @@
       "descripcion": "Editó el producto \"MESA DE LUZ MELAMINA C/DESAYUNADOR\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:00:26.129Z"
+    },
+    {
+      "id": "BZRxMptiscdp8aPtM9H2",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PORTA MICROONDA MELAMINA G10\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:33:32.117Z"
     },
     {
       "id": "BtLnEX2z7IX0AQlf8MPm",
@@ -4116,6 +5097,13 @@
       "fecha": "2026-07-02T18:59:49.680Z"
     },
     {
+      "id": "DvryrhpgVQr9I3oN8Thc",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT ROMA SC109\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T12:41:50.268Z"
+    },
+    {
       "id": "E79znlD4IpsYRh2YUy5d",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 0,80M\"",
@@ -4123,11 +5111,32 @@
       "fecha": "2026-07-05T16:51:22.959Z"
     },
     {
+      "id": "EDVM0n6LXgxC9PSljM3a",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTIUSO PARA COCINA G14 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:38:41.212Z"
+    },
+    {
       "id": "EMCjYYFQCymTu956rH3u",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ROPERO MELAMINA 3 PUERTAS ABRIR\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:00:38.818Z"
+    },
+    {
+      "id": "ESa9TKJRLnA8fsgVDKxv",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"MULTIUSO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:32:43.297Z"
+    },
+    {
+      "id": "Eh5YG8UhBaJZQMgK3VpM",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 5000KCAL SIN TIRO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:45.260Z"
     },
     {
       "id": "EovF1DvRZT3Gk6KHTwt9",
@@ -4149,6 +5158,13 @@
       "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS NEGRA\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:56:58.558Z"
+    },
+    {
+      "id": "F2WgHqpGvlQfwCdCVemc",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH152 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:10:16.935Z"
     },
     {
       "id": "F7ZFcqbzB2KCfpqhwR2R",
@@ -4186,6 +5202,13 @@
       "fecha": "2026-07-02T18:27:04.649Z"
     },
     {
+      "id": "G5MJTo3NsbbK53152SnL",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:33:02.261Z"
+    },
+    {
       "id": "GKSNEMbShunZAND5GJjU",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 2 ½ PLAZAS ESPUMA ESMERALDA TOPACIO\"",
@@ -4221,6 +5244,13 @@
       "fecha": "2026-07-09T14:20:48.777Z"
     },
     {
+      "id": "H1brnE5VhtxKUaYZ6Ory",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTUFA INFRARROJA \"SPINHOT\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:10:40.302Z"
+    },
+    {
       "id": "H8IEZuZPQOIyHYO8lOoD",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 ½ PLAZA ESPUMA AGUAMARINA TOPACIO\"",
@@ -4242,6 +5272,13 @@
       "fecha": "2026-07-06T14:01:05.482Z"
     },
     {
+      "id": "HXEUlw3MGJtqztxwXRYO",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"CALOVENTOR LILIANA \"BLACKSUN\"\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:04:52.576Z"
+    },
+    {
       "id": "Hh4U5L8ToPFs1IFVztQR",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Cocina Escorial Master Classic 56CM\"",
@@ -4249,11 +5286,25 @@
       "fecha": "2026-07-04T12:53:26.167Z"
     },
     {
+      "id": "Ht2UhdSvgR8vSi0n1HrG",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ALACENA/ORGANIZADOR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:16:52.469Z"
+    },
+    {
       "id": "I2tocAX5Uj0NG4iMlQbb",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 120L A.R\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:34:20.387Z"
+    },
+    {
+      "id": "IU2WQtFsaR5rIvGESLJd",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MESA DE LUZ MELAMINA VALENCIA MLE10\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:49:57.698Z"
     },
     {
       "id": "IVVFjwEVTmpLZWaQZWCI",
@@ -4368,6 +5419,13 @@
       "fecha": "2026-07-03T13:06:14.312Z"
     },
     {
+      "id": "Lgr8pVojY8PrS0hLFdUn",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH132 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:06:52.023Z"
+    },
+    {
       "id": "LvaGM4AGnyQxTkT14cTb",
       "tipo": "categoria_creada",
       "descripcion": "Creó la categoría \"BAJO MESADA\"",
@@ -4417,6 +5475,20 @@
       "fecha": "2026-07-05T16:53:42.792Z"
     },
     {
+      "id": "MIkCSiQrGQeWEU6bdvKo",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PORTA MICROONDA G10 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:44:45.706Z"
+    },
+    {
+      "id": "MNNQjCCUaj7TSKdwQk6w",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RACK TV MELAMINA MT5000\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:33:43.912Z"
+    },
+    {
       "id": "MY4wuMsFEJqYnEXmTo9K",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 PLAZA ESMERALDA TOPACIO\"",
@@ -4445,6 +5517,13 @@
       "fecha": "2026-07-03T14:01:09.370Z"
     },
     {
+      "id": "NAEK4qf1AzyFqt9WF8uE",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MESA DE LUZ MELAMINA GRANADA MLE30\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T14:10:49.887Z"
+    },
+    {
       "id": "NC9NsOkvaBh0VdL4ugen",
       "tipo": "categoria_editada",
       "descripcion": "Renombró la categoría \"RACK TV\" a \"RACK TV\"",
@@ -4452,11 +5531,32 @@
       "fecha": "2026-07-06T21:37:08.543Z"
     },
     {
+      "id": "NF896L3DlUKIfQGyCTwh",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTANTE MELAMINA 60X40 C/MENSULA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:04:38.763Z"
+    },
+    {
       "id": "NQqfyz2ude78IICSKhfB",
       "tipo": "producto_estado",
       "descripcion": "Activó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:42:04.695Z"
+    },
+    {
+      "id": "NTb2lq2X1MyN2qGlYSYc",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTANTE MELAMINA 60X25 SIN MENSULA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:26:31.046Z"
+    },
+    {
+      "id": "NZ5RrlJ3FrdrXRa9tvpN",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTUFA INFRARROJA \"CALORE\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:03:54.741Z"
     },
     {
       "id": "NeCZHMGdvmJltHyA1O5W",
@@ -4592,6 +5692,13 @@
       "fecha": "2026-07-03T20:46:07.148Z"
     },
     {
+      "id": "Rc55CSR9qi09wcHyrHm4",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA INFRARROJA \"CALORE\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:04:33.370Z"
+    },
+    {
       "id": "Ro7mGR3pVN6uFpRotlUP",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COCINA INDUSTRIAL USMAN WIN 850\"",
@@ -4627,6 +5734,13 @@
       "fecha": "2026-07-05T16:54:51.809Z"
     },
     {
+      "id": "SWGEPgWqkrBtrVfiYqF6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ORGANIZADOR PARA BAÑO BT2 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:04:31.749Z"
+    },
+    {
       "id": "Scn77ZOKH5s8D3KSrOJW",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 3CAJONES/1PUERTA 1,20M\"",
@@ -4653,6 +5767,13 @@
       "descripcion": "Editó el producto \"SILLA UNICAN CALEGARI\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:58:38.626Z"
+    },
+    {
+      "id": "T7EBeufZ9tN9UJIVgJTV",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PARA COCINA G14 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:49:23.410Z"
     },
     {
       "id": "T8pSBYRZeBqJgDYQNdbT",
@@ -4697,6 +5818,13 @@
       "fecha": "2026-07-03T13:59:27.426Z"
     },
     {
+      "id": "UNsM5xWpvXdMfeq0Z5ma",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MESA DE LUZ MELAMINA MURCIA MLY\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:47:57.693Z"
+    },
+    {
       "id": "Ucw3StGQskQnKUANV0jz",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 6 CAJONES 1,20M\"",
@@ -4723,6 +5851,13 @@
       "descripcion": "Creó el producto \"DESPENSERO 0.60X1.80\"",
       "usuario": "admin",
       "fecha": "2026-07-08T21:23:33.962Z"
+    },
+    {
+      "id": "VjHCIg6lKPTh3TmYJxNg",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CALOVENTOR LILIANA \"BLACKSUN\"\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T14:01:47.496Z"
     },
     {
       "id": "VsYpArBETkByK1PFY2T6",
@@ -4760,6 +5895,13 @@
       "fecha": "2026-07-04T13:40:05.055Z"
     },
     {
+      "id": "WdfjGrjsDZ97ErX2gkGq",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:46:26.061Z"
+    },
+    {
       "id": "WnuIHYGlZHnk9LF8PEwG",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L FAMILY\"",
@@ -4786,6 +5928,13 @@
       "descripcion": "Desactivó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:41:55.393Z"
+    },
+    {
+      "id": "XP8ZB4hz8oUZztEXxtne",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"ESTANTES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:04:49.639Z"
     },
     {
       "id": "Y6TBpN93kSc1MyrSQbxt",
@@ -4872,6 +6021,13 @@
       "fecha": "2026-07-03T13:01:36.069Z"
     },
     {
+      "id": "aVWpvENoz1dk7BWoNOVo",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTANTE MELAMINA 60X20 C/MENSULA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:07:58.432Z"
+    },
+    {
       "id": "am0O8sDCgO0spFZbiBol",
       "tipo": "proveedor_editado",
       "descripcion": "Renombró el proveedor \"muebles123\" a \"UNICAN\"",
@@ -4891,6 +6047,13 @@
       "descripcion": "Renombró la categoría \"ALACENA\" a \"ALACENA\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:39:04.860Z"
+    },
+    {
+      "id": "avah953teAHdpyLOJglg",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT ROMA SC109\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T12:46:07.456Z"
     },
     {
       "id": "b5jAB0NCGorvG1RmsnkO",
@@ -4914,11 +6077,32 @@
       "fecha": "2026-07-08T20:54:51.947Z"
     },
     {
+      "id": "bQ4Im1x8iBdZKOWG0fgv",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTANTE MELAMINA 60X40 C/MENSULA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:05:20.988Z"
+    },
+    {
+      "id": "bX3TQWmnjAu83yyhG21M",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:30.854Z"
+    },
+    {
       "id": "bdxKIkt6iVADeEI37Pqa",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"BIBLIOTECA MELAMINA 60CM\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:46:06.321Z"
+    },
+    {
+      "id": "bnBULL32gOqqDyr96HLY",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"COLCHON 1 PLAZA RESORTE SIMETRIC TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:37:27.215Z"
     },
     {
       "id": "buKMVDH79mYxixUMroLS",
@@ -5173,6 +6357,13 @@
       "fecha": "2026-07-03T20:42:26.258Z"
     },
     {
+      "id": "j0Bp9ZSH9kE6XfapvYTT",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTIUSO PORTA MICROONDA MELAMINA G10\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:32:08.313Z"
+    },
+    {
       "id": "j9jtjaqCW6yxQF0IVaQU",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 2500KCAL TB/TBU\"",
@@ -5192,6 +6383,13 @@
       "descripcion": "Creó el producto \"ESTUFA COPPENS 5000KCAL SIN TIRO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:57:37.461Z"
+    },
+    {
+      "id": "jbhlVrB9rDuFvoDbkYEi",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT PRAGA SC8009\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T12:52:59.390Z"
     },
     {
       "id": "jhF30u7AMGGlgAvj5lOo",
@@ -5376,6 +6574,13 @@
       "fecha": "2026-07-06T21:44:57.940Z"
     },
     {
+      "id": "naA8vhoDi51eH2FB7kg0",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR PARA BAÑO BT12 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:59:37.402Z"
+    },
+    {
       "id": "nnuXCKDBk2YYw20Lh69h",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN COMPACT 52CM\"",
@@ -5416,6 +6621,13 @@
       "descripcion": "Creó el proveedor \"CENTRO ESTANT\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:59:08.810Z"
+    },
+    {
+      "id": "ojgMfyxDTHjHg7FHWOEB",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR PARA BAÑO BT1 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:57:54.534Z"
     },
     {
       "id": "okJ3JIeh16qnjlKh0Uq5",
@@ -5460,6 +6672,13 @@
       "fecha": "2026-07-06T22:45:12.453Z"
     },
     {
+      "id": "pkcIRNkcmjViJ7cYLR03",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PORTA MICROONDA G11 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:49:31.696Z"
+    },
+    {
       "id": "poqWl75q90BcF0ZiERVc",
       "tipo": "producto_estado",
       "descripcion": "Desactivó el producto \"BIBLIOTECA MELAMINA 60CM\"",
@@ -5486,6 +6705,13 @@
       "descripcion": "Desactivó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:42:20.572Z"
+    },
+    {
+      "id": "qQKe2hODHbF9xjm4d1gZ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RACK TV MELAMINA MT4002\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:22:05.365Z"
     },
     {
       "id": "qSkCcztrVCjtgLjTbvyP",
@@ -5523,6 +6749,13 @@
       "fecha": "2026-07-03T13:01:25.394Z"
     },
     {
+      "id": "qkhjJS4pYQ2vC0YvEnjU",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ESTANTE MELAMINA 96X25 SIN MENSULA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-13T13:29:35.118Z"
+    },
+    {
       "id": "quK69tkDiNAJ4JgfLn0n",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 2 ½ PLAZAS ESPUMA MARFIL TOPACIO\"",
@@ -5558,6 +6791,13 @@
       "fecha": "2026-07-03T20:56:43.054Z"
     },
     {
+      "id": "s8ysybF8ZQdEsWkw5vVP",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RACK TV MELAMINA MT6000 (2 MODULOS)\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:35:48.937Z"
+    },
+    {
       "id": "sIJZBewcPDf6C7eLq4MV",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
@@ -5570,6 +6810,13 @@
       "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 390LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:56:43.841Z"
+    },
+    {
+      "id": "sZZD2RjCTZNbjicAA9jj",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ESTUFA COPPENS 6000KCAL TB/TBU\"",
+      "usuario": "admin",
+      "fecha": "2026-07-11T13:34:50.711Z"
     },
     {
       "id": "sfu6T821jrzPDZ6tViJk",
@@ -5738,6 +6985,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 53LTS A.R\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:54:29.908Z"
+    },
+    {
+      "id": "x9QAQcypz7mfA9TwgUGH",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"ORGANIZADOR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:45:50.159Z"
     },
     {
       "id": "xIVqaKVppmo1wH84JSVG",
