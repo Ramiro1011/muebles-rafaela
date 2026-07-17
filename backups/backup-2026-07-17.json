@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-14T12:08:29.192Z",
+  "fecha": "2026-07-17T12:06:19.864Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -94,6 +94,31 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ]
+    },
+    {
+      "id": "1wx7ATLWnLPNe8ywQv4H",
+      "nombre": "ORGANIZADOR APARADOR BH152 MELAMINA",
+      "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 150 x 60 x 32",
+      "precio": 274600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034572/muebles_rafaela/d52ij7ywgpnn8dt9o917.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034597/muebles_rafaela/skjkq8xobeptwi7kufoj.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034601/muebles_rafaela/amrmal9scwdzkkdyvy62.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "1zPE2nwCz39dnEbDAA2i",
@@ -292,6 +317,36 @@
       "nombre": "COCINA ESCORIAL MASTER STYLE 56CM"
     },
     {
+      "id": "4d8OKYHwSpWheTOuQBbt",
+      "nombre": "VANITORY FLOTANTE DE MELAMINA",
+      "descripcion": "Vanitory flotante ideal para aquellos que buscan funcionalidad y estilo en su baño. Con su diseño moderno y elegante, este vanitory se adapta a cualquier tipo de decoración. Cuenta con un espacio de guardado para toallas, papel higiénico y todo tipo de artículos de higiene.\n\nDimensiones del mueble (cm): 49,5 x 60 x 39,5",
+      "precio": 120100,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "VANITORY"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784122816/muebles_rafaela/zcreoxipkftjaacp0txd.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784122818/muebles_rafaela/ysnpgeen7avq2wo2ggo1.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784122821/muebles_rafaela/ew0mlteipwqag3hahi5s.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
       "id": "5FwpLB98CoCb20Ay25uc",
       "nombre": "COCINA INDUSTRIAL USMAN CARLI PLANCHA 85CM",
       "descripcion": "Cocina Industrial en Acero Inoxidable con Plancha\nVidrio templado en puerta, mecheros industriales, rejas de fundición y plancheta, horno con piso de ladrillos refractarios y válvulas de seguridad en horno y plancha.\n\nInformación\nAncho\t\n85 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
@@ -321,7 +376,6 @@
     {
       "id": "5HbeONkfc3s0HuiuWBcN",
       "descripcion": "COLCHON 1.30X1.90\n26CM DE ALTO\n120KG POR PLAZA",
-      "precio": 491800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -345,7 +399,8 @@
           "hex": "#888888"
         }
       ],
-      "nombre": "COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO"
+      "nombre": "COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO",
+      "precio": 511472
     },
     {
       "id": "62W8J2zuNOVIhSTlaeX1",
@@ -409,6 +464,33 @@
           "hex": "#888888"
         }
       ]
+    },
+    {
+      "id": "6Mn66A7hZUYaVhcEYtpf",
+      "nombre": "ALACENA/ORGANIZADOR",
+      "descripcion": "Mueble de guardado ideal para organizar tu cocina. El T6 es un módulo totalmente versátil, puede ser utilizado con patas de apoyo (incluídas) o colgado como alacena. Sus líneas clásicas permiten combinarla fácilmente con cualquier estilo de cocina.\n\nDimensiones del mueble (cm): 65 x 60 x 32",
+      "precio": 105900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ALACENA",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034999/muebles_rafaela/guygnmmwff9um72ifikq.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035002/muebles_rafaela/p2njouwx97mlvexpivqi.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035004/muebles_rafaela/gkkm43wqmbbw2ruvoyd8.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035006/muebles_rafaela/mh2q8yk46ieqykuo6ig3.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "7cPvir11M0S5Rb8tkVFB",
@@ -478,7 +560,6 @@
       "id": "8dKknVyYitOqiWRvXZNF",
       "nombre": "COLCHON KING SIZE ESPUMA MARTINICA TOPACIO",
       "descripcion": "COLCHON 2X2 + BOX SOMMIER\n31CM DE ALTO\n120KG POR PLAZA",
-      "precio": 1999000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -496,7 +577,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 2078960
     },
     {
       "id": "94GarddO5saVjQEfU1g9",
@@ -610,6 +692,73 @@
       ]
     },
     {
+      "id": "B98nf83kkR2ExsfvDNpR",
+      "descripcion": "Dimensiones del mueble (cm): 73 x 54 x 45",
+      "precio": 140400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032309/muebles_rafaela/qzbdb9gy1spftqzmtr9s.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032314/muebles_rafaela/qzhhtoxqzznhljpowz7r.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032315/muebles_rafaela/rp9njyf0kahkpuhuz4bq.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ],
+      "nombre": "MULTIUSO PORTA MICROONDA G10 MELAMINA",
+      "categorias": [
+        "MUEBLES",
+        "MULTIUSO",
+        "ORGANIZADOR"
+      ]
+    },
+    {
+      "id": "C9lRXcuQrgAG1IUirTVo",
+      "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR R3",
+      "descripcion": "Ropero de líneas clásicas, de 180 cm de alto por 90 cm de ancho y 55 cm de profundidad. En su interior, cuenta con un espacio principal con perchero, dos cajones en su parte inferior y un lateral con estantes regulables para que todo quede ordenado puertas hacia adentro.\n\nDimensiones del mueble (cm): 180 x 90 x 55",
+      "precio": 277700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ROPEROS",
+        "MUEBLES"
+      ],
+      "categoria": "ROPEROS",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784120689/muebles_rafaela/cvn8gl9tbbbxhhrk3duk.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121137/muebles_rafaela/yijamkb7xamvqxtdwrdc.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121140/muebles_rafaela/abmtcmayhf8ezjtizz61.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121148/muebles_rafaela/igfvehckk7h8rgceimuw.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121151/muebles_rafaela/mmxsknib8phfyuepzdbo.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Wengue",
+          "hex": "#564b3e"
+        },
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
       "id": "CJBfwQYYcC5T1BI4lUfQ",
       "nombre": "ALACENA MELAMINA 1.20M CENTRO ESTANT",
       "descripcion": "De líneas sencillas, esta alacena funcional de 120cm combina con todo tipo de cocina. En su interior estantes, en su exterior manijas de PVC color negro. Ideal para cualquier tipo de cocina.\n\nDimensiones del mueble (cm): 60 x 120 x 32",
@@ -669,6 +818,74 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ]
+    },
+    {
+      "id": "EVak4duV98z3I2qMLUd1",
+      "nombre": "RACK TV MELAMINA MT5000",
+      "descripcion": "De líneas sencillas, este mueble de TV combina con todo tipo de ambiente. Cuenta con tres compartimientos y cajones que se ajustan a tus necesidades de guardado. Ideal para tener organizados tus dispositivos multimedia. Medidas aptas para TV de hasta 55”.\n\nDimensiones del mueble (cm): 51 x 130 x 34",
+      "precio": 172400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "RACK TV"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035948/muebles_rafaela/ha92o0lmjzl6g5j9cnuz.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035951/muebles_rafaela/mr7err7tkftx1g6kc4sw.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035953/muebles_rafaela/bxsrenolwpbl6h9ezzu2.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035959/muebles_rafaela/k7kzbz5n1aplxip1tc9e.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035964/muebles_rafaela/y6gybhg9mncvv7jd0cc0.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035969/muebles_rafaela/xixdvl2zxcn8bav4xquv.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035971/muebles_rafaela/j1hmkczdhwyivjmig33x.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Paraiso/Blanco",
+          "hex": "#886e53"
+        },
+        {
+          "nombre": "Negro/Paraiso",
+          "hex": "#000000"
+        }
+      ]
+    },
+    {
+      "id": "EZctlstB1OP0bPus8CvX",
+      "nombre": "ORGANIZADOR PARA BAÑO BT1 MELAMINA",
+      "descripcion": "Organizador ideal para incorporar espacio de guardado en tu baño, sobre todo si se trata de un espacio pequeño. Podrás guardar y ordenar todas esas cosas que ya no te entran en tus muebles actuales. Incluye estantes al descubierto y uno con puertas para proteger objetos más delicados.\n\nDimensiones del mueble (cm): 166 x 63,2 x 20",
+      "precio": 109700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033836/muebles_rafaela/sulo2dwluyh6egtagnlq.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033843/muebles_rafaela/gdkkx1mk5utgnhyvhoi2.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033845/muebles_rafaela/fbqnlyecwthbjxebtxye.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033854/muebles_rafaela/xedzktledk2v0onkdqkc.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "FjPXgsp0tSczRTWMdAZO",
@@ -788,10 +1005,39 @@
       "proveedor": "UNICAN"
     },
     {
+      "id": "GuC6EQY95FYkuhFNgWrC",
+      "nombre": "RESPALDO MELAMINA C/MESA DE LUZ RC5",
+      "descripcion": "De líneas sencillas, este respaldo está pensado para resolver dos necesidades en una única pieza. Cuenta con dos que mesitas vienen incorporadas combinando con el resto de la pieza.\n\nDimensiones del mueble (cm): 85 x 230 x 35",
+      "precio": 181300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121829/muebles_rafaela/nuef3frowusz66sccimg.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121831/muebles_rafaela/ld8yjfwbqoaxteqhagyz.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121832/muebles_rafaela/v9sdquvlh0rutrsttqbr.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ],
+      "categorias": [
+        "MUEBLES",
+        "RESPALDO"
+      ]
+    },
+    {
       "id": "ICZoTklPV3fLvVfd6BSF",
       "nombre": "COLCHON KING SIZE ESPUMA MARFIL PLUS TOPACIO (completo)",
       "descripcion": "COLCHON 2X2 + BOX SOMMIER\n30CM DE ALTO\n130KG POR PLAZA",
-      "precio": 1468000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -815,7 +1061,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 1526720
     },
     {
       "id": "IKgENFkEy4oFZ8JNOQ29",
@@ -921,7 +1168,6 @@
       "id": "JE6owNJdaMzDi7LP1EUb",
       "nombre": "COLCHON 1 ½ PLAZA RESORTE AXIS TOPACIO",
       "descripcion": "COLCHON 1.00X1.90\nP/ 85KG",
-      "precio": 375900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -938,7 +1184,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 390936
     },
     {
       "id": "JIV53pvVXniveS91ySpC",
@@ -991,7 +1238,6 @@
     },
     {
       "id": "KAG5WMC8uvl0ysRFBziA",
-      "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR",
       "descripcion": "Ropero clásico de tres puertas. Cuenta con dos secciones definidas, un espacio de percheros para colgar tu ropa y estantes regulables para que los coloques de la manera que más te guste. Incluye, además, dos cajones y un compartimento inferior para calzados. Una solución dos en uno: perchero + estante.\n\nDimensiones del mueble (cm): 180 x 90 x 50",
       "precio": 284400,
       "precioAnterior": null,
@@ -1024,13 +1270,13 @@
       "categorias": [
         "MUEBLES",
         "ROPEROS"
-      ]
+      ],
+      "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR LIBE30"
     },
     {
       "id": "KLo5ce3zNs0EiCS3SFhs",
       "nombre": "COLCHON 2 ½ PLAZAS ESPUMA MARFIL TOPACIO",
       "descripcion": "COLCHON 1.40X1.90\n26CM DE ALTO\n120KG POR PLAZA",
-      "precio": 511800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1053,7 +1299,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 532272
     },
     {
       "id": "KYECYbp33Bj2ZL8VV0J9",
@@ -1152,7 +1399,6 @@
     {
       "id": "LCNqtWIwBVNnmesSFVyS",
       "descripcion": "COLCHON DE 0.80X1.90\n18CM DE ALTO\nP/70KG-75KG",
-      "precio": 173100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1176,7 +1422,8 @@
           "hex": "#63748c"
         }
       ],
-      "nombre": "COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO"
+      "nombre": "COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO",
+      "precio": 180024
     },
     {
       "id": "LE3reaxc65bc78FrR8Sn",
@@ -1240,7 +1487,6 @@
       "id": "MzxF5ohybRqa9WrVVIvh",
       "nombre": "COLCHON 1 PLAZA RESORTE AXIS TOPACIO",
       "descripcion": "COLCHON DE RESORTE 1 PLAZA\nS/ PILLOW",
-      "precio": 295100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1255,7 +1501,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 306904
     },
     {
       "id": "N4uP9b5o7aPAr5hKqPbD",
@@ -1291,7 +1538,6 @@
     {
       "id": "N5oMueoFXUvyrAACMibx",
       "descripcion": "COLCHON 0.80X1.90\n23CM DE ALTO\nP/85KG-90KG",
-      "precio": 249200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1314,7 +1560,8 @@
           "hex": "#a889d7"
         }
       ],
-      "nombre": "COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO"
+      "nombre": "COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO",
+      "precio": 259168
     },
     {
       "id": "NWdM03OKrzlNWrVdujmF",
@@ -1435,7 +1682,6 @@
       "id": "PR8UIgEEJlXWr8Uz29g7",
       "nombre": "COLCHON 1 ½ PLAZA ESPUMA MARFIL TOPACIO",
       "descripcion": "COLCHON 1.00X1.90 \n26CM DE ALTO\nP/ 120KG",
-      "precio": 371500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1458,7 +1704,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 386360
     },
     {
       "id": "PW2KzaBbWD0Wnq99Jf80",
@@ -1494,6 +1741,31 @@
         "MUEBLES",
         "ESTANTES"
       ]
+    },
+    {
+      "id": "Pqgo22iX0snTz3NwphHM",
+      "descripcion": "Organizador ideal para incorporar espacio de guardado en tu baño, sobre todo si se trata de un espacio pequeño. Ideal para el guardado de toallas, papel higiénico, botiquín, etc. Este mueble es la solución perfecta para mantener tu baño ordenado y con estilo.\n\nDimensiones del mueble (cm): 175 x 30 x 30",
+      "precio": 128900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033969/muebles_rafaela/qkqskuy9qgjrfs9lnura.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033970/muebles_rafaela/sa6kaxn4e7zfawa9if6s.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033972/muebles_rafaela/lhwrijrqt19bysfsvdzd.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "nombre": "ORGANIZADOR PARA BAÑO BT2 MELAMINA"
     },
     {
       "id": "PsEg1OXWIOq60V5jxdbp",
@@ -1611,7 +1883,6 @@
       "id": "QsWWu3Mh1NdYjoDZJ6HG",
       "nombre": "COLCHON 2 ½ PLAZAS RESORTE AXIS TOPACIO",
       "descripcion": "COLCHON 1.40X1.90\n85KG-90KG POR LADO",
-      "precio": 505600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1628,7 +1899,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 525824
     },
     {
       "id": "RW69VK9eJTTgue82vIWv",
@@ -1788,6 +2060,31 @@
         }
       ],
       "nombre": "DESPENSERO 0.40x1.50 MELAMINA"
+    },
+    {
+      "id": "U3P3rPe1AcPOlumMo5mR",
+      "nombre": "ORGANIZADOR APARADOR BH132 MELAMINA",
+      "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 132 x 90 x 46",
+      "precio": 279200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034396/muebles_rafaela/mrydql1k94xscqkanjqh.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034399/muebles_rafaela/ctaly6vd07i4ykvmtrbg.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034404/muebles_rafaela/bos3udwo0yn7sekd3s8a.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "U9TRwKeBkuqbtdijAUI5",
@@ -2094,7 +2391,6 @@
       "id": "XDwxE9Jny3wNwrSZYew0",
       "nombre": "COLCHON 1 ½ PLAZA ESPUMA AGUAMARINA TOPACIO",
       "descripcion": "COLCHON 1.00X1.90\n18CM DE ALTO\nP/ 70KG-75KG",
-      "precio": 212500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2117,7 +2413,8 @@
           "nombre": "Celeste",
           "hex": "#92acce"
         }
-      ]
+      ],
+      "precio": 221000
     },
     {
       "id": "XNXljq5gPntto8RFONZg",
@@ -2261,6 +2558,71 @@
       ]
     },
     {
+      "id": "alBCbmkUqbOHwjYG4j4p",
+      "nombre": "RACK TV MELAMINA MT4002",
+      "descripcion": "Resolvé tus necesidades de entretenimiento y guardado con un look moderno. Ya sea que estés viendo el partido o escuchar música, esta mesa es la mejor opción para tu espacio. Medidas aptas para TV de hasta 55″.\n\nDimensiones del mueble (cm): 50,7 x 128 x 45",
+      "precio": 165200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "RACK TV"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035277/muebles_rafaela/hmitdmgjwjibc3vqqyy4.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035282/muebles_rafaela/bjoa3usd8ua951uvbcbh.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035284/muebles_rafaela/xf0eedwzmmbqqz7fsw82.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035286/muebles_rafaela/d0kziq2gnthrbfekymyr.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Wengue",
+          "hex": "#4a3b31"
+        },
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "bMr4gTQqejw96fWDvVjB",
+      "nombre": "RACK TV MELAMINA MT6000 (2 MODULOS)",
+      "descripcion": "Mueble organizador con dos módulos para combinar como quieras. Uno de los modelos más versátiles de la línea Original, ideal para utilizar como rack de TV. Combina con todo tipo de ambiente y cuenta con seis compartimientos para organizar todo lo que necesites.\n\nDimensiones del mueble (cm): 116 x 145 x 30",
+      "precio": 144700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "RACK TV"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784036127/muebles_rafaela/si3ckgid1bythy7vypm3.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784036131/muebles_rafaela/oceqlywicou8n3bqhyxd.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784036135/muebles_rafaela/xla9wtt1zpubl9ql9yeu.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
       "id": "bYzPK25xNkUnr5w5irfI",
       "nombre": "CUBO ORGANIZADOR X6 MELAMINA",
       "descripcion": "Apilá y combiná como quieras. Estos cubos ofrecen un sinfín de posiblidades para organizar tus libros, revistas y cualquier objeto de decoración. Se adaptan a todos los espacios y podes usarlo colgado, en piso o como separador de ambientes. Son super fáciles de armar, nunca pasan de moda y combina perfecto con cualquier estilo de hogar.\n\nDimensiones del mueble (cm): 89 x 60 x 30",
@@ -2362,7 +2724,6 @@
       "id": "cGDc4dYeud6SaqHm98Kq",
       "nombre": "COLCHON 2 ½ PLAZAS ESPUMA ESMERALDA TOPACIO",
       "descripcion": "COLCHON 1.40X1.90\n23CM DE ALTURA\n85KG-90KG POR PLAZA",
-      "precio": 441000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2385,7 +2746,8 @@
           "nombre": "Violeta",
           "hex": "#5e566f"
         }
-      ]
+      ],
+      "precio": 458640
     },
     {
       "id": "dZhbautOVG0fJVhDndce",
@@ -2745,7 +3107,6 @@
       "id": "hEWGdb8QiBV41xbhmTyp",
       "nombre": "COLCHON 2 PLAZAS ESPUMA AGUAMARINA TOPACIO",
       "descripcion": "COLCHON 1.30X1.90\n18CM DE ALTO\n70KG-75K POR PLAZA",
-      "precio": 282300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2768,7 +3129,8 @@
           "nombre": "Celeste",
           "hex": "#8da2c3"
         }
-      ]
+      ],
+      "precio": 293592
     },
     {
       "id": "hYtqNZ5NfJDCl3SMcPzv",
@@ -2801,6 +3163,46 @@
       ]
     },
     {
+      "id": "hjj3v4NGyz5maCB0M46y",
+      "nombre": "RESPALDO MELAMINA 1.40m-1.60m RC6",
+      "descripcion": "Con un diseño completamente innovador, este respaldo está pensado para resolver dos necesidades en una única pieza. El respaldo es regulable hasta 2,28mts. de ancho. Las mesitas vienen incorporadas combinando con el resto de la pieza.\n\nDimensiones del mueble (cm): 100 x 228 x 34",
+      "precio": 191000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121398/muebles_rafaela/gvyajb92raliqdauozsn.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121401/muebles_rafaela/uuyhrrk3xfznnedacxo7.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121403/muebles_rafaela/pbdvoe11iz0c0vlyhotz.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121410/muebles_rafaela/wswt2m2ardh2ozrirqxt.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784121414/muebles_rafaela/xd1wxsdneb7uikucqlpb.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Negro/Paraiso",
+          "hex": "#000000"
+        },
+        {
+          "nombre": "Wengue/Blanco",
+          "hex": "#64553f"
+        },
+        {
+          "nombre": "Paraiso/Blanco",
+          "hex": "#ceb083"
+        }
+      ],
+      "categorias": [
+        "MUEBLES",
+        "RESPALDO"
+      ]
+    },
+    {
       "id": "iLf7ufI9tnosP58mK9Bz",
       "nombre": "ESTUFA COPPENS 4000KCAL TB/TBU",
       "descripcion": "Único con tiraje lateral opcional.\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y tiro balanceado.",
@@ -2826,6 +3228,56 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ]
+    },
+    {
+      "id": "iXQkMZvr4nGtB4Q6WbIx",
+      "nombre": "ORGANIZADOR APARADOR BH180 MELAMINA",
+      "descripcion": null,
+      "precio": 325800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034711/muebles_rafaela/h1bpk2aku1i08tvqzawa.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034713/muebles_rafaela/pmghflmlnkqk1gui3otv.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034714/muebles_rafaela/urgmwtnbvinree00hk7z.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "jZIvb4DJypn0Ld1pfyAO",
+      "nombre": "ORGANIZADOR APARADOR BH182 MELAMINA",
+      "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 180 x 60 x 30",
+      "precio": 337400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034843/muebles_rafaela/gfso25jineonevyvvl6w.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034845/muebles_rafaela/mnzu6hu6pluizyvlcpz9.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784034847/muebles_rafaela/rwxeitnso2ggg8gc16r2.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "k1D8XmzVTfps0E1qfKGn",
@@ -2892,7 +3344,6 @@
       "id": "kJ2wxxDejpg1aIsvfMU4",
       "nombre": "COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO",
       "descripcion": "COLCHON 1.40X1.90\n18CM DE ALTO\n70KG-75KG POR PLAZA",
-      "precio": 301500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2915,7 +3366,33 @@
           "nombre": "Celeste",
           "hex": "#90a1b7"
         }
-      ]
+      ],
+      "precio": 313560
+    },
+    {
+      "id": "koIz1vwjUQoLhRUKOMbV",
+      "nombre": "MULTIUSO PORTA MICROONDA KP50 MELAMINA",
+      "descripcion": "Dimensiones del mueble (cm): 146 x 60 x 47",
+      "precio": 189700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ORGANIZADOR"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033590/muebles_rafaela/jtmrl0wzwtxthu3jartc.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033592/muebles_rafaela/umtabyyrgodgospymrvo.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784033594/muebles_rafaela/iwgvsbemph7hrmevt6da.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "lSlvZG6fz8g5aZVHzv1w",
@@ -3071,7 +3548,6 @@
       "id": "nZtMKxp6vSSEmmH4kQYe",
       "nombre": "COLCHON 2 PLAZAS ESPUMA ESMERALDA TOPACIO",
       "descripcion": "COLCHON 1.30X1.90\n23CM DE ALTO\n85KG-90KG POR LADO",
-      "precio": 398700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3094,7 +3570,8 @@
           "nombre": "Violeta",
           "hex": "#6c6580"
         }
-      ]
+      ],
+      "precio": 414648
     },
     {
       "id": "oOVzIs9FoY1I388xj04P",
@@ -3135,6 +3612,62 @@
       ]
     },
     {
+      "id": "pOED0odhyogZQqZQPpFU",
+      "nombre": "VANITORY CON PATAS DE MELAMINA",
+      "descripcion": "Vanitory ideal para aquellos que buscan funcionalidad y estilo en su baño. Con su diseño moderno y elegante, este vanitory se adapta a cualquier tipo de decoración. Cuenta con un espacio de guardado para toallas, papel higiénico y todo tipo de artículos de higiene.\n\nDimensiones del mueble (cm): 74,5 x 50,5 x 39,5",
+      "precio": 124600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "VANITORY"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784122915/muebles_rafaela/y2zj1fp3yycemcq1m5yk.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784122916/muebles_rafaela/dre0r4o9ybm4qeggc3zr.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784122918/muebles_rafaela/rhqt5nlhiggclcguq6px.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "paa1HMg1B554uXLMR57v",
+      "nombre": "MULTIUSO PARA COCINA G14 MELAMINA",
+      "descripcion": "Dimensiones del mueble (cm): 180 x 40 x 32",
+      "precio": 130800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MULTIUSO",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032711/muebles_rafaela/enlq0hnta5qklo23hqki.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032713/muebles_rafaela/pbpjuowlzn6mewiqxank.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032715/muebles_rafaela/abrkp7vm1sq97vwnygmt.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "categorias": [
+        "MULTIUSO",
+        "MUEBLES",
+        "ORGANIZADOR"
+      ]
+    },
+    {
       "id": "psoAxXRcdN70quk2pgBd",
       "nombre": "SILLA UNICAN CALEGARI",
       "descripcion": null,
@@ -3166,6 +3699,32 @@
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782912999/muebles_rafaela/ug1kgot3c2qsb0jq5hds.jpg",
       "proveedor": "UNICAN"
+    },
+    {
+      "id": "q1izzNhxFXHHCyPpzmeu",
+      "nombre": "MULTIUSO PORTA MICROONDA G11 MELAMINA",
+      "descripcion": "Dimensiones del mueble (cm): 109 x 59 x 45",
+      "precio": 164000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032521/muebles_rafaela/deuuy1msxtqr41ym7bkf.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032526/muebles_rafaela/mlzaszbuyndlrpov8dgt.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784032528/muebles_rafaela/aqahpaicin91qwt5zgj2.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "categorias": [
+        "MUEBLES",
+        "MULTIUSO",
+        "ORGANIZADOR"
+      ]
     },
     {
       "id": "qDtc5QsmHlHvXA4KnfcZ",
@@ -3354,7 +3913,6 @@
       "id": "t1r0MCNR6bqahqHdKnUz",
       "nombre": "COLCHON 1 ½ PLAZA ESPUMA ESMERALDA TOPACIO",
       "descripcion": "COLCHON 1.00X.1.90M\n23CM DE ALTO\nP/ 85KG-90KG",
-      "precio": 306000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3376,7 +3934,8 @@
           "nombre": "Violeta",
           "hex": "#897db5"
         }
-      ]
+      ],
+      "precio": 318240
     },
     {
       "id": "tKPvv2j7MwRSoNYBhj2P",
@@ -3412,7 +3971,6 @@
       "id": "tnkj7OeOcGDtbOfDOT3w",
       "nombre": "COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO",
       "descripcion": "COLCHON 1.60X2.00\n26CM DE ALTO\n120KG POR PLAZA",
-      "precio": 719500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3436,11 +3994,11 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 748280
     },
     {
       "id": "uGHpdveIm88ixPEi0F2Z",
-      "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR",
       "descripcion": "Ropero clásico de cuatro puertas. Pensado con dos secciones de estantes regulables y, en el centro, un perchero para prendas de colgado. En su parte inferior, dos cajones y un espacio para guardar el calzado. Ideal para compartir.\n\nDimensiones del mueble (cm): 180 x 120 x 50",
       "precio": 349600,
       "precioAnterior": null,
@@ -3471,12 +4029,12 @@
       "categorias": [
         "MUEBLES",
         "ROPEROS"
-      ]
+      ],
+      "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR LIBE40"
     },
     {
       "id": "uS1igxMDBUGWZ8Upv22m",
       "descripcion": "COLCHON 0.80X1.90\n26CM DE ALTO\nP/ 120KG",
-      "precio": 313400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3500,7 +4058,8 @@
           "hex": "#888888"
         }
       ],
-      "nombre": "COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO"
+      "nombre": "COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO",
+      "precio": 325936
     },
     {
       "id": "ubci9iI3vP2J0qUE0Vpm",
@@ -3703,7 +4262,6 @@
       "id": "wVeYUi2ya2d4U5gRVXIc",
       "nombre": "COLCHON QUEEN SIZE ESPUMA MARFIL PLUS TOPACIO",
       "descripcion": "COLCHON 1.60X2.00\n30CM DE ALTO\n130KG POR PLAZA",
-      "precio": 821900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3727,13 +4285,13 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 854776
     },
     {
       "id": "wXeKQXudlWUxxJLNyTlY",
       "nombre": "COLCHON 1 PLAZA RESORTE SIMETRIC TOPACIO",
       "descripcion": "COLCHON 0.80X1.90\n85KG DENSIDAD",
-      "precio": 347800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3750,7 +4308,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 361712
     },
     {
       "id": "weHYPAfDCXsCox92iMFF",
@@ -3896,11 +4455,81 @@
           "hex": "#000000"
         }
       ],
-      "nombre": "ROPERO MELAMINA 2 PUERTAS ABRIR",
       "proveedor": "CENTRO ESTANT",
       "categorias": [
         "MUEBLES",
         "ROPEROS"
+      ],
+      "nombre": "ROPERO MELAMINA 2 PUERTAS ABRIR LIBE20"
+    },
+    {
+      "id": "zV95BfNifjdUwR4chyoX",
+      "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR R4",
+      "descripcion": "Ropero de línea clásica de 180 cm de alto, 120 cm de ancho y 55 cm de profundidad. En su interior dos espacios independientes de colgado, en la parte inferior dos cajones y un espacio para zapatos y, en su espacio superior, un estante. Un ropero de buen tamaño, ideal para compartir.\n\nDimensiones del mueble (cm): 180 x 120 x 55",
+      "precio": 331400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "MUEBLES",
+        "ROPEROS"
+      ],
+      "categoria": "MUEBLES",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784120239/muebles_rafaela/yzaqp7kq50jrfevt9kzi.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784120241/muebles_rafaela/uyhwopcmbvt58jab2afx.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784120244/muebles_rafaela/fnjczovpqppxz7utudzl.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784120245/muebles_rafaela/yk3jvjyapxon9emhdusl.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784120247/muebles_rafaela/dmc6bwqkyafljwj4jqpd.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Wengue",
+          "hex": "#615442"
+        },
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "zVOzHPQdqB4aWrhVwPO8",
+      "nombre": "RACK TV MELAMINA MT4001",
+      "descripcion": "Dimensiones del mueble (cm): 50,7 x 128 x 45",
+      "precio": 168200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "RACK TV",
+        "MUEBLES"
+      ],
+      "categoria": "RACK TV",
+      "material": null,
+      "proveedor": "CENTRO ESTANT",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035460/muebles_rafaela/cyul1iicgceg4hal60ra.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035464/muebles_rafaela/vruwmh3e2ys0fpmeynha.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784035474/muebles_rafaela/onxnnhmnwcwmzx6gcjpl.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "nombre": "Blanco",
+          "hex": "#ffffff"
+        },
+        {
+          "nombre": "Blanco/Paraiso",
+          "hex": "#c1a467"
+        }
       ]
     },
     {
@@ -3970,6 +4599,13 @@
       ]
     },
     {
+      "id": "BbvgughFAWKIsXpVEgtt",
+      "nombre": "MULTIUSO",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
       "id": "BxQWxauDrMBwKRPaAiss",
       "nombre": "SILLAS",
       "padreId": "yLCpvttuCZXS1lbjMb9E",
@@ -4014,7 +4650,14 @@
     },
     {
       "id": "Sd9i0f6gUpNZz2YHTI2v",
-      "nombre": "COLCHONES"
+      "nombre": "COLCHONES",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "TD8nV77Gq6Y7YtZcA7xv",
+      "nombre": "ORGANIZADOR"
     },
     {
       "id": "UMlT4DjX3jcZxUptoSOo",
@@ -4046,6 +4689,13 @@
       ]
     },
     {
+      "id": "bQ9lDIHWf57Fs2IlKIUF",
+      "nombre": "VANITORY",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
       "id": "brY4rmnvVKasXRxz4GiF",
       "nombre": "BAJO MESADA",
       "padreId": "yLCpvttuCZXS1lbjMb9E",
@@ -4065,6 +4715,13 @@
       "id": "fKk1bwphgMG9V0RqDSM8",
       "nombre": "MESAS",
       "padreId": "yLCpvttuCZXS1lbjMb9E",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "g89m0OnkdIXmxVSewMsm",
+      "nombre": "RESPALDO",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
       ]
@@ -4250,6 +4907,13 @@
       "fecha": "2026-07-08T15:15:44.980Z"
     },
     {
+      "id": "1utXnVBYbFIHxgMhAjdl",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:25:09.575Z"
+    },
+    {
       "id": "2Ahys7MCvpXFT00ASWg0",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ROPERO MELAMINA 3 PUERTAS ABRIR\"",
@@ -4355,6 +5019,13 @@
       "fecha": "2026-07-08T22:25:35.657Z"
     },
     {
+      "id": "6CxoNgGtlqp4osX5mPdQ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTIUSO PORTA MICROONDA G11 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:35:37.994Z"
+    },
+    {
       "id": "6IMzgGT0sakcpSv93IJj",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 85L\"",
@@ -4432,6 +5103,20 @@
       "fecha": "2026-07-08T20:47:15.564Z"
     },
     {
+      "id": "7uqOUpIFEQWQxD5yZO8q",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH182 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:14:12.278Z"
+    },
+    {
+      "id": "8374Os1wgzUiu4Omeshl",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PORTA MICROONDA G10 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:49:16.526Z"
+    },
+    {
       "id": "8APYllIrgh2UnZxNWkkp",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"BAJO MESADA MELAMINA 1.20M CENTRO ESTANT\"",
@@ -4481,6 +5166,13 @@
       "fecha": "2026-07-06T22:31:30.324Z"
     },
     {
+      "id": "8tCeZ6lPbSOH1olTU4RO",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RACK TV MELAMINA MT4001\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:25:18.451Z"
+    },
+    {
       "id": "94KjnMvBJBn77qfDo8DW",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
@@ -4500,6 +5192,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:31.285Z"
+    },
+    {
+      "id": "9x1r4jeaTOMoL5lLuM46",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTIUSO PORTA MICROONDA KP50 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:53:21.771Z"
     },
     {
       "id": "AFeN7svp5GQj5bRdaO7z",
@@ -4530,6 +5229,13 @@
       "fecha": "2026-07-08T21:31:55.048Z"
     },
     {
+      "id": "B1VoEJghHrY6Q0PCE0rb",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH180 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:12:30.821Z"
+    },
+    {
       "id": "B39InKS1n54iKGgiLCFQ",
       "tipo": "categoria_editada",
       "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
@@ -4549,6 +5255,13 @@
       "descripcion": "Editó el producto \"MESA DE LUZ MELAMINA C/DESAYUNADOR\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:00:26.129Z"
+    },
+    {
+      "id": "BZRxMptiscdp8aPtM9H2",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PORTA MICROONDA MELAMINA G10\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:33:32.117Z"
     },
     {
       "id": "BtLnEX2z7IX0AQlf8MPm",
@@ -4621,11 +5334,25 @@
       "fecha": "2026-07-05T16:51:22.959Z"
     },
     {
+      "id": "EDVM0n6LXgxC9PSljM3a",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTIUSO PARA COCINA G14 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:38:41.212Z"
+    },
+    {
       "id": "EMCjYYFQCymTu956rH3u",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ROPERO MELAMINA 3 PUERTAS ABRIR\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:00:38.818Z"
+    },
+    {
+      "id": "ESa9TKJRLnA8fsgVDKxv",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"MULTIUSO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:32:43.297Z"
     },
     {
       "id": "Eh5YG8UhBaJZQMgK3VpM",
@@ -4654,6 +5381,13 @@
       "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS NEGRA\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:56:58.558Z"
+    },
+    {
+      "id": "F2WgHqpGvlQfwCdCVemc",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH152 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:10:16.935Z"
     },
     {
       "id": "F7ZFcqbzB2KCfpqhwR2R",
@@ -4689,6 +5423,13 @@
       "descripcion": "Activó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-02T18:27:04.649Z"
+    },
+    {
+      "id": "G5MJTo3NsbbK53152SnL",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:33:02.261Z"
     },
     {
       "id": "GKSNEMbShunZAND5GJjU",
@@ -4747,6 +5488,13 @@
       "fecha": "2026-07-09T14:14:41.820Z"
     },
     {
+      "id": "HDpJTYQtYtrpqNsjwycw",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RESPALDO MELAMINA 1.40m-1.60m RC6\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:18:24.957Z"
+    },
+    {
       "id": "HNwZC6AwGev6za3BE2ns",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL ELECTRICO 90L\"",
@@ -4768,11 +5516,25 @@
       "fecha": "2026-07-04T12:53:26.167Z"
     },
     {
+      "id": "Ht2UhdSvgR8vSi0n1HrG",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ALACENA/ORGANIZADOR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:16:52.469Z"
+    },
+    {
       "id": "I2tocAX5Uj0NG4iMlQbb",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 120L A.R\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:34:20.387Z"
+    },
+    {
+      "id": "IEnzfs0Vo5PVYaxfi7W4",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"RESPALDO MELAMINA C/MESA DE LUZ RC5\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:25:25.355Z"
     },
     {
       "id": "IU2WQtFsaR5rIvGESLJd",
@@ -4894,6 +5656,20 @@
       "fecha": "2026-07-03T13:06:14.312Z"
     },
     {
+      "id": "Lgr8pVojY8PrS0hLFdUn",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH132 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:06:52.023Z"
+    },
+    {
+      "id": "LkEgQYmU7f0F2VTzvRJm",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ROPERO MELAMINA 4 PUERTAS ABRIR LIBE40\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:02:38.865Z"
+    },
+    {
       "id": "LvaGM4AGnyQxTkT14cTb",
       "tipo": "categoria_creada",
       "descripcion": "Creó la categoría \"BAJO MESADA\"",
@@ -4943,6 +5719,20 @@
       "fecha": "2026-07-05T16:53:42.792Z"
     },
     {
+      "id": "MIkCSiQrGQeWEU6bdvKo",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PORTA MICROONDA G10 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:44:45.706Z"
+    },
+    {
+      "id": "MNNQjCCUaj7TSKdwQk6w",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RACK TV MELAMINA MT5000\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:33:43.912Z"
+    },
+    {
       "id": "MY4wuMsFEJqYnEXmTo9K",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 PLAZA ESMERALDA TOPACIO\"",
@@ -4962,6 +5752,13 @@
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:02:12.421Z"
+    },
+    {
+      "id": "N40u5jZJ6rO8WiMamxrr",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ROPERO MELAMINA 2 PUERTAS ABRIR LIBE20\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:03:02.510Z"
     },
     {
       "id": "N7LMBvewW9woURtBQjpN",
@@ -5027,6 +5824,13 @@
       "fecha": "2026-07-03T14:02:35.690Z"
     },
     {
+      "id": "OMoPW2hR3Dysjnd4sZzq",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:25:57.453Z"
+    },
+    {
       "id": "OXHZt8MkMtkcILydjPgf",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COCINA ESCORIAL MASTER CLASSIC INOX 56CM\"",
@@ -5083,6 +5887,13 @@
       "fecha": "2026-07-06T21:47:25.066Z"
     },
     {
+      "id": "PzabIVlARA3yn884Rm5y",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VANITORY FLOTANTE DE MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:40:34.401Z"
+    },
+    {
       "id": "QKl0KA6gXkM9IOL0iIXc",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"Termotanque Escorial Electrico 90L conexion inferior\"",
@@ -5130,6 +5941,13 @@
       "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT LONDRES SC8000\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:31:38.783Z"
+    },
+    {
+      "id": "QmC8XAYfmkVKQ9KX0Ut6",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ROPERO MELAMINA 3 PUERTAS ABRIR R3\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:13:04.718Z"
     },
     {
       "id": "ROuwjPHexRb0tmO32e20",
@@ -5188,6 +6006,13 @@
       "fecha": "2026-07-05T16:54:51.809Z"
     },
     {
+      "id": "SWGEPgWqkrBtrVfiYqF6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ORGANIZADOR PARA BAÑO BT2 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:04:31.749Z"
+    },
+    {
       "id": "Scn77ZOKH5s8D3KSrOJW",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 3CAJONES/1PUERTA 1,20M\"",
@@ -5202,6 +6027,13 @@
       "fecha": "2026-07-05T16:45:09.946Z"
     },
     {
+      "id": "Sv6dvvqG1RiX65eBxVoB",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ROPERO DE MELAMINA 0.60m LIBE20\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T12:29:55.114Z"
+    },
+    {
       "id": "T3AbDbyZz7kl9CttXXG9",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 6 CAJONES 1,20M\"",
@@ -5214,6 +6046,13 @@
       "descripcion": "Editó el producto \"SILLA UNICAN CALEGARI\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:58:38.626Z"
+    },
+    {
+      "id": "T7EBeufZ9tN9UJIVgJTV",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PARA COCINA G14 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:49:23.410Z"
     },
     {
       "id": "T8pSBYRZeBqJgDYQNdbT",
@@ -5270,6 +6109,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 6 CAJONES 1,20M\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:55.577Z"
+    },
+    {
+      "id": "UtLXwpobac8Xy3Fs3KJZ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"ROPERO MELAMINA 3 PUERTAS ABRIR LIBE30\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:02:48.376Z"
     },
     {
       "id": "V9e4cBYieivW5iV76oFh",
@@ -5333,6 +6179,13 @@
       "descripcion": "Editó el producto \"Termotanque Escorial 80Lt Conexion superior multigas\"",
       "usuario": "admin",
       "fecha": "2026-07-04T13:40:05.055Z"
+    },
+    {
+      "id": "WdfjGrjsDZ97ErX2gkGq",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:46:26.061Z"
     },
     {
       "id": "WnuIHYGlZHnk9LF8PEwG",
@@ -5424,6 +6277,13 @@
       "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS NEGRA\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:51.883Z"
+    },
+    {
+      "id": "ZXnT21HGAQnvFQx92zGq",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 4% el precio de 20 producto(s) de \"TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T14:22:06.064Z"
     },
     {
       "id": "ZYVJ9fYsCe3rfFdg3phm",
@@ -5713,6 +6573,13 @@
       "fecha": "2026-07-08T21:28:08.635Z"
     },
     {
+      "id": "ffapJpc35XpprVh4jdFR",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RESPALDO MELAMINA C/MESA DE LUZ RC5\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:24:14.798Z"
+    },
+    {
       "id": "fzXhZptIO2rfYlPDyx7V",
       "tipo": "producto_estado",
       "descripcion": "Desactivó el producto \"BOTINERO MELAMINA 18PARES\"",
@@ -5746,6 +6613,13 @@
       "descripcion": "Editó el producto \"Termotanque  Escorial 45Lt conexion superior multigas\"",
       "usuario": "admin",
       "fecha": "2026-07-04T13:36:18.976Z"
+    },
+    {
+      "id": "gbHGx72tJHUF3x4NhiVc",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ROPERO MELAMINA 4 PUERTAS ABRIR R4\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T12:58:13.230Z"
     },
     {
       "id": "h9XpnXd4K5zuBc1TsKJZ",
@@ -5788,6 +6662,13 @@
       "descripcion": "Creó el proveedor \"COPPENS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:42:26.258Z"
+    },
+    {
+      "id": "j0Bp9ZSH9kE6XfapvYTT",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTIUSO PORTA MICROONDA MELAMINA G10\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:32:08.313Z"
     },
     {
       "id": "j9jtjaqCW6yxQF0IVaQU",
@@ -6000,6 +6881,13 @@
       "fecha": "2026-07-06T21:44:57.940Z"
     },
     {
+      "id": "naA8vhoDi51eH2FB7kg0",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR PARA BAÑO BT12 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:59:37.402Z"
+    },
+    {
       "id": "nnuXCKDBk2YYw20Lh69h",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN COMPACT 52CM\"",
@@ -6040,6 +6928,13 @@
       "descripcion": "Creó el proveedor \"CENTRO ESTANT\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:59:08.810Z"
+    },
+    {
+      "id": "ojgMfyxDTHjHg7FHWOEB",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ORGANIZADOR PARA BAÑO BT1 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:57:54.534Z"
     },
     {
       "id": "okJ3JIeh16qnjlKh0Uq5",
@@ -6084,6 +6979,13 @@
       "fecha": "2026-07-06T22:45:12.453Z"
     },
     {
+      "id": "pkcIRNkcmjViJ7cYLR03",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"MULTIUSO PORTA MICROONDA G11 MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:49:31.696Z"
+    },
+    {
       "id": "poqWl75q90BcF0ZiERVc",
       "tipo": "producto_estado",
       "descripcion": "Desactivó el producto \"BIBLIOTECA MELAMINA 60CM\"",
@@ -6110,6 +7012,13 @@
       "descripcion": "Desactivó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:42:20.572Z"
+    },
+    {
+      "id": "qQKe2hODHbF9xjm4d1gZ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RACK TV MELAMINA MT4002\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:22:05.365Z"
     },
     {
       "id": "qSkCcztrVCjtgLjTbvyP",
@@ -6182,11 +7091,25 @@
       "fecha": "2026-07-06T22:43:20.290Z"
     },
     {
+      "id": "roiyaCOdR5Wry3r97vqB",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"RESPALDO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:25:03.101Z"
+    },
+    {
       "id": "rwDtrQgFc7uffjHyIbTF",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:56:43.054Z"
+    },
+    {
+      "id": "s8ysybF8ZQdEsWkw5vVP",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RACK TV MELAMINA MT6000 (2 MODULOS)\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T13:35:48.937Z"
     },
     {
       "id": "sIJZBewcPDf6C7eLq4MV",
@@ -6224,6 +7147,13 @@
       "fecha": "2026-07-06T14:00:14.806Z"
     },
     {
+      "id": "stjruGq8MnzjoUjUdoid",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VANITORY CON PATAS DE MELAMINA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:42:08.812Z"
+    },
+    {
       "id": "sug6kKDyvurZGOlT1fN3",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 ½ PLAZA RESORTE AXIS TOPACIO\"",
@@ -6243,6 +7173,13 @@
       "descripcion": "Creó el proveedor \"YUTE\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:03:38.664Z"
+    },
+    {
+      "id": "tVjSLfCotK0A1ZoE8B6f",
+      "tipo": "producto_eliminado",
+      "descripcion": "Eliminó el producto \"ROPERO DE MELAMINA 0.60m LIBE20\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T12:31:36.172Z"
     },
     {
       "id": "tabq4icGUwDUVkCz0ci1",
@@ -6271,6 +7208,13 @@
       "descripcion": "Creó el producto \"BOX DE MELAMINA CON CAJONES 0.80X1.90 (sin colchon)\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:42:26.202Z"
+    },
+    {
+      "id": "twBhzOmPAh7Q940tvoJM",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"VANITORY\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:25:51.722Z"
     },
     {
       "id": "u6t6O5eSf7HWd3yZBedU",
@@ -6378,6 +7322,13 @@
       "fecha": "2026-07-05T16:54:29.908Z"
     },
     {
+      "id": "x9QAQcypz7mfA9TwgUGH",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"ORGANIZADOR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-14T12:45:50.159Z"
+    },
+    {
       "id": "xIVqaKVppmo1wH84JSVG",
       "tipo": "producto_estado",
       "descripcion": "Activó el producto \"BOTINERO MELAMINA 18PARES\"",
@@ -6453,6 +7404,13 @@
       "descripcion": "Creó el producto \"BOX DE MELAMINA CON CAJONES 1.40X1.90 (sin colchon)\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:36:02.035Z"
+    },
+    {
+      "id": "zJ63L9SRq3KGTO9vlQYq",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"RESPALDO MELAMINA 1.40m-1.60m RC6\"",
+      "usuario": "admin",
+      "fecha": "2026-07-15T13:25:20.103Z"
     },
     {
       "id": "zjSVnwNQchzedTvsry1N",
