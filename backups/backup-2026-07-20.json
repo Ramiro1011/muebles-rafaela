@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-17T12:06:19.864Z",
+  "fecha": "2026-07-20T13:03:19.778Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -635,6 +635,28 @@
       ]
     },
     {
+      "id": "96Pfq1pRV0Xo2UQQIbkC",
+      "proveedor": "PINARCIS",
+      "precio": 150300,
+      "material": null,
+      "descuento": 0,
+      "destacado": false,
+      "descripcion": "Cama de 1 plaza modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 5 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 0.80 x 1.90 mts. Medida final 0.90 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784323588/muebles_rafaela/yxnbmor4yt9cwfolf7ao.jpg",
+      "colores": [],
+      "activo": true,
+      "stock": null,
+      "imagenes": [],
+      "categoria": "CAMAS",
+      "nuevo": false,
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precioAnterior": null,
+      "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)"
+    },
+    {
       "id": "9jAisInJCds0UtI1FAli",
       "nombre": "HELADERA C/FREEZER BRIKET 257LTS",
       "descripcion": "Nuestra heladera con freezer de 257 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 550 | Alto: 1495 | Profundidad: 660\n\nPeso: 44,2 Kg\n\nClasificación Energética: A\n\nCapacidad: 257 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 270",
@@ -788,6 +810,50 @@
           "hex": "#ffffff"
         }
       ]
+    },
+    {
+      "id": "ClxFikwNyO4y0AxHnLsv",
+      "nuevo": false,
+      "colores": [],
+      "activo": true,
+      "precioAnterior": null,
+      "descuento": 0,
+      "material": null,
+      "proveedor": "PINARCIS",
+      "destacado": false,
+      "categoria": "CAMAS",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784551159/muebles_rafaela/tnvxbrsebebczcgja6uy.jpg",
+      "stock": null,
+      "imagenes": [],
+      "descripcion": "Cama de 1 ½ plaza o cama twin modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 7 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.00 x 1.90 mts. Medida final 1.10 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
+      "nombre": "CAMA DE PINO 1 ½ PLAZA MAVIC (1.00M)",
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precio": 174800
+    },
+    {
+      "id": "DZUb3ALLoXqsPVyV238O",
+      "categorias": [
+        "MUEBLES",
+        "CAMAS"
+      ],
+      "precioAnterior": null,
+      "descripcion": "Cama de 2 plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 9 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.30 x 1.90 mts. Medida final 1.40 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
+      "nuevo": false,
+      "descuento": 0,
+      "precio": 202350,
+      "destacado": false,
+      "activo": true,
+      "nombre": "CAMA DE PINO 2 PLAZAS MAVIC (1.30M)",
+      "categoria": "MUEBLES",
+      "proveedor": "PINARCIS",
+      "imagenes": [],
+      "material": null,
+      "colores": [],
+      "stock": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg"
     },
     {
       "id": "EMKDBdQqX3ByS4twRTaL",
@@ -1600,6 +1666,30 @@
       ]
     },
     {
+      "id": "NdS6jpb5wKgnTNlzEA8t",
+      "material": null,
+      "colores": [],
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precioAnterior": null,
+      "destacado": false,
+      "categoria": "CAMAS",
+      "descripcion": "Cama de 2 ½ plazas modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 10 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.40 x 1.90 mts. Medida final 1.50 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm",
+      "nuevo": false,
+      "proveedor": "PINARCIS",
+      "stock": null,
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549444/muebles_rafaela/imw8twqyhozfbcuc4mb4.jpg",
+      "activo": true,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549449/muebles_rafaela/olw7j7icobcmxco56qym.png"
+      ],
+      "precio": 101000,
+      "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)"
+    },
+    {
       "id": "P1sYkeoAS3DRwx2rJJVb",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 40L",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
@@ -1643,6 +1733,28 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
+      "colores": []
+    },
+    {
+      "id": "P6sbDngY9nUiejSPovOB",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549868/muebles_rafaela/scqbgxjiswurozgt4en1.jpg",
+      "categoria": "CAMAS",
+      "activo": true,
+      "imagenes": [],
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "destacado": false,
+      "proveedor": "PINARCIS",
+      "nombre": "CAMA DE PINO 2 ½ PLAZAS MAVIC (1.40M)",
+      "stock": null,
+      "descuento": 0,
+      "material": null,
+      "nuevo": false,
+      "descripcion": "Cama de 2 ½ plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 10 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.40 x 1.90 mts. Medida final 1.50 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
+      "precioAnterior": null,
+      "precio": 214800,
       "colores": []
     },
     {
@@ -2593,6 +2705,28 @@
       ]
     },
     {
+      "id": "b8fYfOIWK7EyjbMtKLvd",
+      "material": null,
+      "precio": 152700,
+      "stock": null,
+      "activo": true,
+      "categorias": [
+        "MUEBLES",
+        "CAMAS"
+      ],
+      "precioAnterior": null,
+      "colores": [],
+      "imagenes": [],
+      "proveedor": "PINARCIS",
+      "categoria": "MUEBLES",
+      "nuevo": false,
+      "nombre": "DIVAN CAMA 1 PLAZA TAFI (sin carro)",
+      "descuento": 0,
+      "destacado": false,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324453/muebles_rafaela/txefvox6rxslbzumd0sf.png",
+      "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts."
+    },
+    {
       "id": "bMr4gTQqejw96fWDvVjB",
       "nombre": "RACK TV MELAMINA MT6000 (2 MODULOS)",
       "descripcion": "Mueble organizador con dos módulos para combinar como quieras. Uno de los modelos más versátiles de la línea Original, ideal para utilizar como rack de TV. Combina con todo tipo de ambiente y cuenta con seis compartimientos para organizar todo lo que necesites.\n\nDimensiones del mueble (cm): 116 x 145 x 30",
@@ -2935,6 +3069,30 @@
           "hex": "#ffffff"
         }
       ]
+    },
+    {
+      "id": "etm1mqhi44QnisEmq3BE",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549302/muebles_rafaela/wpkkc8rlrdlswhbjyj4a.jpg"
+      ],
+      "destacado": false,
+      "material": null,
+      "colores": [],
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precioAnterior": null,
+      "descripcion": "Cama de 2 plazas modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 9 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.30 x 1.90 mts. Medida final 1.40 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm",
+      "proveedor": "PINARCIS",
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549300/muebles_rafaela/c5s3lxdztref0lkajwkj.png",
+      "stock": null,
+      "nombre": "CAMA DE PINO 2 PLAZAS ECO (1.30M)",
+      "activo": true,
+      "precio": 93000,
+      "nuevo": false,
+      "categoria": "CAMAS"
     },
     {
       "id": "fP8TnBW0NPvzNb0SHyyZ",
@@ -3788,6 +3946,28 @@
       ]
     },
     {
+      "id": "qzl5EIyYR2I8MMKwykq2",
+      "destacado": false,
+      "nuevo": false,
+      "nombre": "CAMA NIDO X2 1 PLAZA ECO",
+      "stock": null,
+      "imagenes": [],
+      "precio": 192800,
+      "descripcion": "Cama superpuesta o cama cucheta o cama paralela o cama litera modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  Cada parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 5 varillas y 4 travesaños de distintas maderas duras.\n\nLa cama superior está fabricada para colchón de 0.80 x 2.00 mts. La cama inferior está fabricada para colchón de 0.80 x 1.90 mts alto máximo de colchón 16 cm. Medida final 0.90 x 2.08 mts.\n\nPodes combinar la cama con carricama, carrocajón, cajonera Fën o baranda Huapi.",
+      "categoria": "CAMAS",
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "proveedor": "PINARCIS",
+      "activo": true,
+      "colores": [],
+      "material": null,
+      "precioAnterior": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324550/muebles_rafaela/afw4jxhrg2r5zarbbunu.jpg",
+      "descuento": 0
+    },
+    {
       "id": "rjqWyVEqmv9V5tb5HzP9",
       "descripcion": "CARACTERÍSTICAS\n\n• Sistema de conexión Multigas (Gas natural convertible a gas licuado).\n• Peso vacío: 27kg.\n• Aislación térmica de eficiencia elevada.\n• Tanque de acero enlozado en polvo electrostático.\n• Barra de protección anti- corrosión (ánodo de magnesio).\n• Válvula de alivio de sobrepresión.\n• Conexión de agua superior.\n• Altura conexión agua: 18,5cm.\n• Piloto analizador de oxígeno.\n• Termocupla de seguridad.\n• Sistema de colgar.\n• Garantía de 3 años.\n• Alta eficiencia energética.",
       "precio": 427187,
@@ -3873,6 +4053,28 @@
           "hex": "#ffffff"
         }
       ]
+    },
+    {
+      "id": "sf4ieTeMERQYWuuJDABi",
+      "destacado": false,
+      "categorias": [
+        "MUEBLES",
+        "CAMAS"
+      ],
+      "nombre": "CAMA NIDO X3 1 PLAZA ECO",
+      "material": null,
+      "precio": 274800,
+      "descuento": 0,
+      "proveedor": "PINARCIS",
+      "imagenes": [],
+      "categoria": "MUEBLES",
+      "nuevo": false,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324701/muebles_rafaela/avyqxwd5gn9navjyhbxi.jpg",
+      "descripcion": "Cama superpuesta o cama cucheta o cama paralela o cama litera modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  Cada parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 5 varillas y 4 travesaños de distintas maderas duras.\n\n \n\nLa cama superior está fabricada para colchón de 0.80 x 2.00 mts. La cama inferior está fabricada para colchón de 0.80 x 1.90 mts alto máximo de colchón 16 cm. Medida final 0.90 x 2.08 mts. Carricama para colchón de 0.80 x 1.90 mts, hasta 15 cm de alto.",
+      "precioAnterior": null,
+      "stock": null,
+      "colores": [],
+      "activo": true
     },
     {
       "id": "t126ekZBJqLiuuIN2TCi",
@@ -3968,6 +4170,28 @@
       ]
     },
     {
+      "id": "tPwS7xc3jRLHuLysetp9",
+      "proveedor": "PINARCIS",
+      "descuento": 0,
+      "material": null,
+      "colores": [],
+      "activo": true,
+      "precioAnterior": null,
+      "nuevo": false,
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precio": 92000,
+      "nombre": "CAMA DE PINO 1 ½ PLAZA ECO (1.00M)",
+      "imagenes": [],
+      "descripcion": "Cama de 1 ½ plaza o cama twin modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 7 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.00 x 1.90 mts. Medida final 1.10 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm.",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784551093/muebles_rafaela/wsyeez4w0femtkkafgxs.jpg",
+      "stock": null,
+      "categoria": "CAMAS",
+      "destacado": false
+    },
+    {
       "id": "tnkj7OeOcGDtbOfDOT3w",
       "nombre": "COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO",
       "descripcion": "COLCHON 1.60X2.00\n26CM DE ALTO\n120KG POR PLAZA",
@@ -3996,6 +4220,30 @@
         }
       ],
       "precio": 748280
+    },
+    {
+      "id": "tyJrvrznv8AkhUlv714f",
+      "activo": true,
+      "stock": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784323527/muebles_rafaela/lebwnfqdtjqxkne60qhh.png"
+      ],
+      "descripcion": "Cama de 1 plaza modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 5 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 0.80 x 1.90 mts. Medida final 0.90 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm.",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784323523/muebles_rafaela/r4jyoeh1n61ht3xjhws4.jpg",
+      "colores": [],
+      "material": null,
+      "descuento": 0,
+      "destacado": false,
+      "proveedor": "PINARCIS",
+      "precio": 71000,
+      "nuevo": false,
+      "categorias": [
+        "MUEBLES",
+        "CAMAS"
+      ],
+      "precioAnterior": null,
+      "categoria": "MUEBLES",
+      "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)"
     },
     {
       "id": "uGHpdveIm88ixPEi0F2Z",
@@ -4682,6 +4930,13 @@
       ]
     },
     {
+      "id": "a7wFyfjhIYWu7UULqd1J",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ],
+      "nombre": "CAMAS"
+    },
+    {
       "id": "aEPAkIw5AV05obOTZ0ZI",
       "nombre": "ESCOBERO",
       "gruposIds": [
@@ -4806,6 +5061,10 @@
       "nombre": "TANDIL"
     },
     {
+      "id": "AOBU8vYt0HGYYmVtBDgi",
+      "nombre": "PINARCIS"
+    },
+    {
       "id": "CnVfV5ukSPDFsiLek9gu",
       "nombre": "TOPACIO"
     },
@@ -4870,6 +5129,13 @@
       "descripcion": "Creó el producto \"TERMOTANQUE POPULI A GAS 45LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:09:36.325Z"
+    },
+    {
+      "id": "0zj7FBg6GPK3F9qz9R5U",
+      "fecha": "2026-07-20T12:11:00.903Z",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"CAMA DE PINO 2 ½ PLAZAS (1.40M)\""
     },
     {
       "id": "170qGgzfSOhNGYw4UZAP",
@@ -5012,6 +5278,13 @@
       "fecha": "2026-07-06T21:42:31.262Z"
     },
     {
+      "id": "5xDk42qSNaos2REqMvXl",
+      "fecha": "2026-07-20T12:16:37.112Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"CAMA DE PINO 2 PLAZAS MAVIC (1.30M)\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "6203vhEi2kSarjCpCbcV",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESCRITORIO GAMER MELAMINA CENTRO ESTANT\"",
@@ -5101,6 +5374,13 @@
       "descripcion": "Creó el producto \"CUBO ORGANIZADOR X4 MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:47:15.564Z"
+    },
+    {
+      "id": "7mAcGFiBKIWYKfBBvN44",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "fecha": "2026-07-20T12:38:23.921Z",
+      "descripcion": "Creó el producto \"CAMA DE PINO 1 ½ PLAZA ECO (1.00M)\""
     },
     {
       "id": "7uqOUpIFEQWQxD5yZO8q",
@@ -5416,6 +5696,13 @@
       "descripcion": "Editó el producto \"HELADERA C/CONGELADOR BRIKET 290LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:58.189Z"
+    },
+    {
+      "id": "FOJuqhvhA0eyemDliPnj",
+      "fecha": "2026-07-20T12:08:30.850Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"CAMA DE PINO 2 PLAZAS ECO (1.30M)\"",
+      "tipo": "producto_creado"
     },
     {
       "id": "FRHQ6SbtwaZP2QQeTNjY",
@@ -5817,6 +6104,13 @@
       "fecha": "2026-07-04T13:07:43.406Z"
     },
     {
+      "id": "NmSLQc3mNPjPMrzYsim7",
+      "fecha": "2026-07-17T21:45:16.127Z",
+      "descripcion": "Creó el producto \"CAMA NIDO X3 1 PLAZA ECO\"",
+      "tipo": "producto_creado",
+      "usuario": "admin"
+    },
+    {
       "id": "OE7Wwcabds1eH1GbtCK5",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 257LTS\"",
@@ -5885,6 +6179,13 @@
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:47:25.066Z"
+    },
+    {
+      "id": "PulaiTMajlx0TaHCcUDi",
+      "fecha": "2026-07-17T21:18:57.296Z",
+      "usuario": "admin",
+      "descripcion": "Renombró la categoría \"CAMA\" a \"CAMAS\"",
+      "tipo": "categoria_editada"
     },
     {
       "id": "PzabIVlARA3yn884Rm5y",
@@ -6223,6 +6524,13 @@
       "fecha": "2026-07-13T13:04:49.639Z"
     },
     {
+      "id": "XT8q2JFyxHhRis9HHZV6",
+      "fecha": "2026-07-20T12:39:22.044Z",
+      "descripcion": "Creó el producto \"CAMA DE PINO 1 ½ PLAZA MAVIC (1.00M)\"",
+      "usuario": "admin",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "Y6TBpN93kSc1MyrSQbxt",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 18 PARES CENTRO ESTANT\"",
@@ -6312,6 +6620,13 @@
       "descripcion": "Creó el proveedor \"ECOTERMO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:01:36.069Z"
+    },
+    {
+      "id": "ZyygijTtgl1x7iL9g4Ii",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "fecha": "2026-07-20T12:39:46.476Z",
+      "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA ECO (0.80M)\""
     },
     {
       "id": "aVWpvENoz1dk7BWoNOVo",
@@ -6594,6 +6909,13 @@
       "fecha": "2026-07-09T13:02:39.731Z"
     },
     {
+      "id": "g6w948ZT0LMei0C1Pa1c",
+      "descripcion": "Creó el producto \"CAMA DE PINO 1 PLAZA MAVIC\"",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-17T21:26:33.930Z",
+      "usuario": "admin"
+    },
+    {
       "id": "gKKFuf5EL78rXvrWTqTl",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"Cocina Escorial Master Classic 56CM\"",
@@ -6704,6 +7026,13 @@
       "descripcion": "Editó el producto \"BIBLIOTECA MELAMINA 60CM CENTRO ESTANT\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:25:33.278Z"
+    },
+    {
+      "id": "jr33InXGQtTewU8oYBId",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"CAMA NIDO X2 1 PLAZA ECO\"",
+      "fecha": "2026-07-17T21:42:36.419Z",
+      "tipo": "producto_creado"
     },
     {
       "id": "jvrh2NM54Fc7BE4p7sAO",
@@ -6830,6 +7159,13 @@
       "descripcion": "Editó el producto \"Cocina Escorial Master Style 56CM Inoxidable Multigas\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:48:48.218Z"
+    },
+    {
+      "id": "mxD2zN2njseh0rEwEP3Y",
+      "descripcion": "Creó el proveedor \"PINARCIS\"",
+      "fecha": "2026-07-17T21:19:17.638Z",
+      "usuario": "admin",
+      "tipo": "proveedor_creado"
     },
     {
       "id": "n91m8IVwfJrYftYVGIL1",
@@ -7084,11 +7420,25 @@
       "fecha": "2026-07-06T13:59:54.727Z"
     },
     {
+      "id": "rXXTmFptyZJLjtDidhSc",
+      "descripcion": "Creó el producto \"CAMA DE PINO 1 PLAZA ECO\"",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-17T21:25:35.937Z",
+      "usuario": "admin"
+    },
+    {
       "id": "rfRfF5csd4RtPE36HIUG",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 85L FAMILY\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:43:20.290Z"
+    },
+    {
+      "id": "rnQY2JEjALrWLuRIUquA",
+      "descripcion": "Editó el producto \"CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)\"",
+      "tipo": "producto_editado",
+      "fecha": "2026-07-20T12:18:05.934Z",
+      "usuario": "admin"
     },
     {
       "id": "roiyaCOdR5Wry3r97vqB",
@@ -7280,11 +7630,25 @@
       "fecha": "2026-07-06T21:12:48.497Z"
     },
     {
+      "id": "wFXJ6bTRK71rOhpDyclG",
+      "fecha": "2026-07-17T21:41:03.944Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"DIVAN CAMA 1 PLAZA TAFI (sin carro)\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "wGEybEZQxoosuvR3DDcd",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Termotanque  Escorial  Electrico 55 LT conexion inferior\"",
       "usuario": "admin",
       "fecha": "2026-07-04T13:45:44.509Z"
+    },
+    {
+      "id": "waCz6skWEHxnUl00seoU",
+      "descripcion": "Creó el producto \"CAMA DE PINO 2 ½ PLAZAS MAVIC (1.40M)\"",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-20T12:17:54.230Z",
+      "usuario": "admin"
     },
     {
       "id": "wbDANyXv8JDMwQ2aPnDP",
@@ -7364,6 +7728,13 @@
       "fecha": "2026-07-06T22:56:35.175Z"
     },
     {
+      "id": "yCv9w92OVhAdJCpeLJWZ",
+      "tipo": "categoria_editada",
+      "fecha": "2026-07-17T21:18:49.943Z",
+      "usuario": "admin",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\""
+    },
+    {
       "id": "yDiDxhHKYEk7FUPzOuGu",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 150LTS AP\"",
@@ -7376,6 +7747,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 65L\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:45:05.001Z"
+    },
+    {
+      "id": "yJjHN8g7NKLCKxTUSd6Q",
+      "descripcion": "Creó la categoría \"CAMA\"",
+      "fecha": "2026-07-17T21:18:43.605Z",
+      "usuario": "admin",
+      "tipo": "categoria_creada"
     },
     {
       "id": "yXmmy6Nlc2LPfLqjer6Y",
@@ -7404,6 +7782,13 @@
       "descripcion": "Creó el producto \"BOX DE MELAMINA CON CAJONES 1.40X1.90 (sin colchon)\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:36:02.035Z"
+    },
+    {
+      "id": "zDXVm0jlWsmqHKF7F9cE",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "fecha": "2026-07-20T12:39:57.558Z",
+      "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA MAVIC (0.80M)\""
     },
     {
       "id": "zJ63L9SRq3KGTO9vlQYq",
