@@ -1,11 +1,10 @@
 {
-  "fecha": "2026-07-18T11:51:17.925Z",
+  "fecha": "2026-07-21T12:22:24.694Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
       "nombre": "COMODA MELAMINA 3CAJONES/1PUERTA 1,20M",
       "descripcion": "Esta cómoda le dará a tu cuarto un toque de modernidad. Combina cajones con un sector de guardado con estantes en su interior. Actual y funcional, resulta fácil conseguirle un lindo espacio en tus ambientes. Combinala con el resto de la línea Evolution.\n\nDimensiones del mueble (cm): 78 x 125 x 43",
-      "precio": 259800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -34,7 +33,8 @@
       "categorias": [
         "MUEBLES",
         "CÓMODAS"
-      ]
+      ],
+      "precio": 283182
     },
     {
       "id": "0kutNcziAXEBKQQvfr3f",
@@ -99,7 +99,6 @@
       "id": "1wx7ATLWnLPNe8ywQv4H",
       "nombre": "ORGANIZADOR APARADOR BH152 MELAMINA",
       "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 150 x 60 x 32",
-      "precio": 274600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -118,12 +117,12 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 299314
     },
     {
       "id": "1zPE2nwCz39dnEbDAA2i",
       "descripcion": "Mueble organizador de 1,80mts. de altura pensado para que tengas los productos de limpieza organizados y siempre a mano. En su interior cuenta con tres estantes regulables, un estante fijo superior y un espacio libre para escoba, escurridor o lo que uses para la limpieza de tu hogar.\n\nDimensiones del mueble (cm): 180 x 60 x 32",
-      "precio": 183300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -149,7 +148,8 @@
       "categorias": [
         "ESCOBERO",
         "MUEBLES"
-      ]
+      ],
+      "precio": 199797
     },
     {
       "id": "2WhMWGtomrHYbiOh0nRQ",
@@ -217,7 +217,6 @@
       "id": "3u1HG54ae92HluK3Iq1g",
       "nombre": "CUBO ORGANIZADOR X8 MELAMINA",
       "descripcion": "Apilá y combiná como quieras. Estos cubos ofrecen un sinfín de posibilidades para organizar tus libros, revistas y cualquier objeto de decoración. Se adaptan a todos los espacios y podes usarlo colgado, en piso o como separador de ambientes. Son super fáciles de armar, nunca pasan de moda y combina perfecto con cualquier estilo de hogar.\n\nDimensiones del mueble (cm): 118 x 60 x 30",
-      "precio": 139800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -242,13 +241,13 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 152382
     },
     {
       "id": "43gpNX2UkUNpFR6PtKwx",
       "nombre": "ESCRITORIO MELAMINA CENTRO ESTANT PARIS SC1250",
       "descripcion": "Escritorio de melamina de un tamaño ideal para ubicarlo en cualquier rincón de la casa. Contiene dos cajones para organizar tus apuntes, material de trabajo o lo que quieras. Podés combinarlo con nuestros estantes flotantes para poder también organizar tus libros.\n\nDimensiones del mueble (cm): 78 x 120 x 50",
-      "precio": 140900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -278,7 +277,8 @@
           "nombre": "Wengue",
           "hex": "#35271c"
         }
-      ]
+      ],
+      "precio": 153581
     },
     {
       "id": "4LVW5xrhrVFgFP4Xiqsg",
@@ -320,7 +320,6 @@
       "id": "4d8OKYHwSpWheTOuQBbt",
       "nombre": "VANITORY FLOTANTE DE MELAMINA",
       "descripcion": "Vanitory flotante ideal para aquellos que buscan funcionalidad y estilo en su baño. Con su diseño moderno y elegante, este vanitory se adapta a cualquier tipo de decoración. Cuenta con un espacio de guardado para toallas, papel higiénico y todo tipo de artículos de higiene.\n\nDimensiones del mueble (cm): 49,5 x 60 x 39,5",
-      "precio": 120100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -344,7 +343,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 130909
     },
     {
       "id": "5FwpLB98CoCb20Ay25uc",
@@ -406,7 +406,6 @@
       "id": "62W8J2zuNOVIhSTlaeX1",
       "nombre": "ESCRITORIO MELAMINA CENTRO ESTANT PRAGA SC8009",
       "descripcion": "Escritorio de melamina de un tamaño ideal para ubicarlo en cualquier rincón de la casa. Contiene un cajón para organizar tus apuntes o material de trabajo. Podés combinarlo con nuestros estantes flotantes para poder también organizar tus libros.\n\nDimensiones del mueble (cm): 77 x 90 x 44",
-      "precio": 140400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -436,7 +435,8 @@
           "hex": "#66544a"
         }
       ],
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "precio": 153036
     },
     {
       "id": "63Jj7miReP1J05VUEGnN",
@@ -469,7 +469,6 @@
       "id": "6Mn66A7hZUYaVhcEYtpf",
       "nombre": "ALACENA/ORGANIZADOR",
       "descripcion": "Mueble de guardado ideal para organizar tu cocina. El T6 es un módulo totalmente versátil, puede ser utilizado con patas de apoyo (incluídas) o colgado como alacena. Sus líneas clásicas permiten combinarla fácilmente con cualquier estilo de cocina.\n\nDimensiones del mueble (cm): 65 x 60 x 32",
-      "precio": 105900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -490,7 +489,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 115431
     },
     {
       "id": "7cPvir11M0S5Rb8tkVFB",
@@ -647,14 +647,14 @@
       "activo": true,
       "stock": null,
       "imagenes": [],
-      "nombre": "CAMA DE PINO 1 PLAZA MAVIC",
       "categoria": "CAMAS",
       "nuevo": false,
       "categorias": [
         "CAMAS",
         "MUEBLES"
       ],
-      "precioAnterior": null
+      "precioAnterior": null,
+      "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)"
     },
     {
       "id": "9jAisInJCds0UtI1FAli",
@@ -716,7 +716,6 @@
     {
       "id": "B98nf83kkR2ExsfvDNpR",
       "descripcion": "Dimensiones del mueble (cm): 73 x 54 x 45",
-      "precio": 140400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -742,13 +741,13 @@
         "MUEBLES",
         "MULTIUSO",
         "ORGANIZADOR"
-      ]
+      ],
+      "precio": 153036
     },
     {
       "id": "C9lRXcuQrgAG1IUirTVo",
       "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR R3",
       "descripcion": "Ropero de líneas clásicas, de 180 cm de alto por 90 cm de ancho y 55 cm de profundidad. En su interior, cuenta con un espacio principal con perchero, dos cajones en su parte inferior y un lateral con estantes regulables para que todo quede ordenado puertas hacia adentro.\n\nDimensiones del mueble (cm): 180 x 90 x 55",
-      "precio": 277700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -778,13 +777,13 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 302693
     },
     {
       "id": "CJBfwQYYcC5T1BI4lUfQ",
       "nombre": "ALACENA MELAMINA 1.20M CENTRO ESTANT",
       "descripcion": "De líneas sencillas, esta alacena funcional de 120cm combina con todo tipo de cocina. En su interior estantes, en su exterior manijas de PVC color negro. Ideal para cualquier tipo de cocina.\n\nDimensiones del mueble (cm): 60 x 120 x 32",
-      "precio": 137000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -809,7 +808,52 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 149330
+    },
+    {
+      "id": "ClxFikwNyO4y0AxHnLsv",
+      "nuevo": false,
+      "colores": [],
+      "activo": true,
+      "precioAnterior": null,
+      "descuento": 0,
+      "material": null,
+      "proveedor": "PINARCIS",
+      "destacado": false,
+      "categoria": "CAMAS",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784551159/muebles_rafaela/tnvxbrsebebczcgja6uy.jpg",
+      "stock": null,
+      "imagenes": [],
+      "descripcion": "Cama de 1 ½ plaza o cama twin modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 7 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.00 x 1.90 mts. Medida final 1.10 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
+      "nombre": "CAMA DE PINO 1 ½ PLAZA MAVIC (1.00M)",
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precio": 174800
+    },
+    {
+      "id": "DZUb3ALLoXqsPVyV238O",
+      "categorias": [
+        "MUEBLES",
+        "CAMAS"
+      ],
+      "precioAnterior": null,
+      "descripcion": "Cama de 2 plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 9 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.30 x 1.90 mts. Medida final 1.40 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
+      "nuevo": false,
+      "descuento": 0,
+      "precio": 202350,
+      "destacado": false,
+      "activo": true,
+      "nombre": "CAMA DE PINO 2 PLAZAS MAVIC (1.30M)",
+      "categoria": "MUEBLES",
+      "proveedor": "PINARCIS",
+      "imagenes": [],
+      "material": null,
+      "colores": [],
+      "stock": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg"
     },
     {
       "id": "EMKDBdQqX3ByS4twRTaL",
@@ -845,7 +889,6 @@
       "id": "EVak4duV98z3I2qMLUd1",
       "nombre": "RACK TV MELAMINA MT5000",
       "descripcion": "De líneas sencillas, este mueble de TV combina con todo tipo de ambiente. Cuenta con tres compartimientos y cajones que se ajustan a tus necesidades de guardado. Ideal para tener organizados tus dispositivos multimedia. Medidas aptas para TV de hasta 55”.\n\nDimensiones del mueble (cm): 51 x 130 x 34",
-      "precio": 172400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -881,13 +924,13 @@
           "nombre": "Negro/Paraiso",
           "hex": "#000000"
         }
-      ]
+      ],
+      "precio": 187916
     },
     {
       "id": "EZctlstB1OP0bPus8CvX",
       "nombre": "ORGANIZADOR PARA BAÑO BT1 MELAMINA",
       "descripcion": "Organizador ideal para incorporar espacio de guardado en tu baño, sobre todo si se trata de un espacio pequeño. Podrás guardar y ordenar todas esas cosas que ya no te entran en tus muebles actuales. Incluye estantes al descubierto y uno con puertas para proteger objetos más delicados.\n\nDimensiones del mueble (cm): 166 x 63,2 x 20",
-      "precio": 109700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -907,7 +950,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 119573
     },
     {
       "id": "FjPXgsp0tSczRTWMdAZO",
@@ -943,7 +987,6 @@
       "id": "FsiA49icJLtxjWrtbq4X",
       "nombre": "COMODA MELAMINA 3 CAJONES 0,80M",
       "descripcion": "Esta cómoda le dará a tu cuarto un toque de modernidad. Actual y funcional, resulta fácil conseguirle un lindo espacio en tus ambientes. Combinala con el resto de la línea Evolution.\n\nDimensiones del mueble (cm): 78 x 84 x 43",
-      "precio": 258700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -968,7 +1011,8 @@
       "categorias": [
         "MUEBLES",
         "CÓMODAS"
-      ]
+      ],
+      "precio": 281983
     },
     {
       "id": "GFiUWOMKYT1Ux5cCFwxb",
@@ -1030,7 +1074,6 @@
       "id": "GuC6EQY95FYkuhFNgWrC",
       "nombre": "RESPALDO MELAMINA C/MESA DE LUZ RC5",
       "descripcion": "De líneas sencillas, este respaldo está pensado para resolver dos necesidades en una única pieza. Cuenta con dos que mesitas vienen incorporadas combinando con el resto de la pieza.\n\nDimensiones del mueble (cm): 85 x 230 x 35",
-      "precio": 181300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1054,7 +1097,8 @@
       "categorias": [
         "MUEBLES",
         "RESPALDO"
-      ]
+      ],
+      "precio": 197617
     },
     {
       "id": "ICZoTklPV3fLvVfd6BSF",
@@ -1155,7 +1199,6 @@
       "id": "Ig16syZEzRT0FHMX5jc1",
       "nombre": "COMODA MELAMINA 6 CAJONES 1,20M",
       "descripcion": "De líneas clásicas y sencillas, esta cómoda de seis cajones es ideal para todo tipo de habitación. Organizá tu ropa, tus sábanas, toallas, documentos importantes, lo que necesites.\n\nDimensiones del mueble (cm): 78 x 120 x 43",
-      "precio": 259800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1184,7 +1227,8 @@
       "categorias": [
         "MUEBLES",
         "CÓMODAS"
-      ]
+      ],
+      "precio": 283182
     },
     {
       "id": "JE6owNJdaMzDi7LP1EUb",
@@ -1261,7 +1305,6 @@
     {
       "id": "KAG5WMC8uvl0ysRFBziA",
       "descripcion": "Ropero clásico de tres puertas. Cuenta con dos secciones definidas, un espacio de percheros para colgar tu ropa y estantes regulables para que los coloques de la manera que más te guste. Incluye, además, dos cajones y un compartimento inferior para calzados. Una solución dos en uno: perchero + estante.\n\nDimensiones del mueble (cm): 180 x 90 x 50",
-      "precio": 284400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1293,7 +1336,8 @@
         "MUEBLES",
         "ROPEROS"
       ],
-      "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR LIBE30"
+      "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR LIBE30",
+      "precio": 309996
     },
     {
       "id": "KLo5ce3zNs0EiCS3SFhs",
@@ -1387,7 +1431,6 @@
       "id": "LAcREU40NQUyYuOLrIae",
       "nombre": "ESCRITORIO GAMER MELAMINA CENTRO ESTANT",
       "descripcion": "Escritorio pensado para el o la gamer de la familia. Cuenta con espacio para CPU y dos monitores. Incluye accesorio para auriculares y para vaso o lata de bebida ¡un escritorio con mucha onda y neón!\n\nDimensiones del mueble (cm): 94 x 116 x 58",
-      "precio": 181600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1416,7 +1459,8 @@
           "nombre": "Blanco/Negro",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 197944
     },
     {
       "id": "LCNqtWIwBVNnmesSFVyS",
@@ -1451,7 +1495,6 @@
       "id": "LE3reaxc65bc78FrR8Sn",
       "nombre": "ALACENA MELAMINA 1.40M CENTRO ESTANT",
       "descripcion": "De líneas sencillas, esta alacena funcional de 140cm combina con todo tipo de cocina. En su interior estantes, en su exterior manijas de PVC color negro. Ideal para cualquier tipo de cocina.\n\nDimensiones del mueble (cm): 60 x 140 x 32",
-      "precio": 168800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1476,7 +1519,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 183992
     },
     {
       "id": "LgHST6WbpwuDOdM6iUjZ",
@@ -1589,7 +1633,6 @@
       "id": "NWdM03OKrzlNWrVdujmF",
       "nombre": "ESTANTE MELAMINA 60X20 C/MENSULA",
       "descripcion": null,
-      "precio": 46000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1619,7 +1662,32 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 50140
+    },
+    {
+      "id": "NdS6jpb5wKgnTNlzEA8t",
+      "material": null,
+      "colores": [],
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precioAnterior": null,
+      "destacado": false,
+      "categoria": "CAMAS",
+      "descripcion": "Cama de 2 ½ plazas modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 10 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.40 x 1.90 mts. Medida final 1.50 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm",
+      "nuevo": false,
+      "proveedor": "PINARCIS",
+      "stock": null,
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549444/muebles_rafaela/imw8twqyhozfbcuc4mb4.jpg",
+      "activo": true,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549449/muebles_rafaela/olw7j7icobcmxco56qym.png"
+      ],
+      "precio": 101000,
+      "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)"
     },
     {
       "id": "P1sYkeoAS3DRwx2rJJVb",
@@ -1665,6 +1733,28 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
+      "colores": []
+    },
+    {
+      "id": "P6sbDngY9nUiejSPovOB",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549868/muebles_rafaela/scqbgxjiswurozgt4en1.jpg",
+      "categoria": "CAMAS",
+      "activo": true,
+      "imagenes": [],
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "destacado": false,
+      "proveedor": "PINARCIS",
+      "nombre": "CAMA DE PINO 2 ½ PLAZAS MAVIC (1.40M)",
+      "stock": null,
+      "descuento": 0,
+      "material": null,
+      "nuevo": false,
+      "descripcion": "Cama de 2 ½ plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 10 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.40 x 1.90 mts. Medida final 1.50 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
+      "precioAnterior": null,
+      "precio": 214800,
       "colores": []
     },
     {
@@ -1733,7 +1823,6 @@
       "id": "PW2KzaBbWD0Wnq99Jf80",
       "nombre": "ESTANTE MELAMINA 60X40 C/MENSULA",
       "descripcion": "Con estos estantes vas a poder lograr un espacio de almacenamiento o de exhibición de una manera moderna, práctica y rápida en cualquier ambiente de tu hogar.",
-      "precio": 56200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1762,12 +1851,12 @@
       "categorias": [
         "MUEBLES",
         "ESTANTES"
-      ]
+      ],
+      "precio": 61258
     },
     {
       "id": "Pqgo22iX0snTz3NwphHM",
       "descripcion": "Organizador ideal para incorporar espacio de guardado en tu baño, sobre todo si se trata de un espacio pequeño. Ideal para el guardado de toallas, papel higiénico, botiquín, etc. Este mueble es la solución perfecta para mantener tu baño ordenado y con estilo.\n\nDimensiones del mueble (cm): 175 x 30 x 30",
-      "precio": 128900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1787,7 +1876,8 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "nombre": "ORGANIZADOR PARA BAÑO BT2 MELAMINA"
+      "nombre": "ORGANIZADOR PARA BAÑO BT2 MELAMINA",
+      "precio": 140501
     },
     {
       "id": "PsEg1OXWIOq60V5jxdbp",
@@ -1818,7 +1908,6 @@
       "id": "QHitVWBYMjfNoSjo9SmB",
       "nombre": "MESA DE LUZ MELAMINA VALENCIA MLE10",
       "descripcion": "Dimensiones del mueble (cm): 63 x 50 x 35",
-      "precio": 115700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1842,13 +1931,13 @@
           "nombre": "Blanco/Paraiso",
           "hex": "#c59972"
         }
-      ]
+      ],
+      "precio": 126113
     },
     {
       "id": "QVr3I5sA6IgO3IywvfKx",
       "nombre": "ALACENA MELAMINA 1.00M CENTRO ESTANT",
       "descripcion": "Alacena de dos puertas y estante lateral. Armá la cocina que siempre quisiste, fácil de colocar y combinar.\n\nDimensiones del mueble (cm): 60 x 100 x 32",
-      "precio": 122700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1872,7 +1961,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 133743
     },
     {
       "id": "Qbp7VK8l9teGzU9NFxFq",
@@ -2053,7 +2143,6 @@
     {
       "id": "TdXvoOiPGH6wQjKKiGsm",
       "descripcion": "Mueble organizador de 1,50mts. de altura para todo tipo de ambiente. En su interior cuenta con cuatro estantes regulables según las necesidades de guardado. En la cocina, en el lavadero, en el garage, en un cuarto; un infaltable del hogar.\n\nDimensiones del mueble (cm): 150 x 40 x 32",
-      "precio": 111900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2081,13 +2170,13 @@
           "hex": "#ffffff"
         }
       ],
-      "nombre": "DESPENSERO 0.40x1.50 MELAMINA"
+      "nombre": "DESPENSERO 0.40x1.50 MELAMINA",
+      "precio": 121971
     },
     {
       "id": "U3P3rPe1AcPOlumMo5mR",
       "nombre": "ORGANIZADOR APARADOR BH132 MELAMINA",
       "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 132 x 90 x 46",
-      "precio": 279200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2106,7 +2195,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 304328
     },
     {
       "id": "U9TRwKeBkuqbtdijAUI5",
@@ -2193,7 +2283,6 @@
       "id": "UcYRSbxyijZGNuAv8DPv",
       "nombre": "BOX DE MELAMINA CON CAJONES 1.40X1.90 (sin colchon)",
       "descripcion": "Cama de 2 plazas de diseño moderno, hecha en melamina de alta resistencia con capa protectora que evita ralladuras y prolonga la vida útil. Posee cuatro cajones independientes con extracción completa y ruedas reforzadas con movimiento 360º.\n\nDimensiones del mueble (cm): 154 x 35 x 199",
-      "precio": 524300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2219,7 +2308,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 571487
     },
     {
       "id": "UnyrKb8OjMh5YbiR4ztT",
@@ -2282,7 +2372,6 @@
       "id": "ViskTFgSHNHPY3qCtPOm",
       "nombre": "MESA DE LUZ MELAMINA C/BOTINERO",
       "descripcion": "Dejá de tropezarte con tus zapatos! Si sos de los que le gusta tener las pantuflas o zapatos bien cerquita, esta mesa de luz es para vos. De estilo clásico y muy combinable con todo tipo de dormitorio.\n\nDimensiones del mueble (cm): 71 x 42 x 35",
-      "precio": 120700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2311,7 +2400,8 @@
       "categorias": [
         "MUEBLES",
         "MESAS DE LUZ"
-      ]
+      ],
+      "precio": 131563
     },
     {
       "id": "WgoIyGVpA1emPexjZxhy",
@@ -2350,7 +2440,6 @@
       "id": "Wv6X4IVbbNAFcGVW4fsu",
       "nombre": "DESPENSERO 0.60x1.50 MELAMINA",
       "descripcion": "Mueble organizador de 1,50mts. de altura para todo tipo de ambiente. En su interior cuenta con dos estantes regulables según las necesidades de guardado. En la cocina, en el lavadero, en el garage, en un cuarto; un infaltable del hogar.\n\nDimensiones del mueble (cm): 150 x 60 x 32",
-      "precio": 141400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2375,7 +2464,8 @@
           "nombre": "Blanco",
           "hex": "#fafafa"
         }
-      ]
+      ],
+      "precio": 154126
     },
     {
       "id": "X50An9SWco5i2LDyqF4E",
@@ -2528,7 +2618,6 @@
       "id": "ZgEG9o9hhZPG1J6LN42z",
       "nombre": "MESA DE LUZ MELAMINA GRANADA MLE30",
       "descripcion": "Dimensiones del mueble (cm): 62 x 50 x 32",
-      "precio": 122600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2552,7 +2641,8 @@
           "nombre": "Paraiso/Negro",
           "hex": "#b88e68"
         }
-      ]
+      ],
+      "precio": 133634
     },
     {
       "id": "aQz40FIaE97IbZxsV8Cy",
@@ -2583,7 +2673,6 @@
       "id": "alBCbmkUqbOHwjYG4j4p",
       "nombre": "RACK TV MELAMINA MT4002",
       "descripcion": "Resolvé tus necesidades de entretenimiento y guardado con un look moderno. Ya sea que estés viendo el partido o escuchar música, esta mesa es la mejor opción para tu espacio. Medidas aptas para TV de hasta 55″.\n\nDimensiones del mueble (cm): 50,7 x 128 x 45",
-      "precio": 165200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2612,7 +2701,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 180068
     },
     {
       "id": "b8fYfOIWK7EyjbMtKLvd",
@@ -2640,7 +2730,6 @@
       "id": "bMr4gTQqejw96fWDvVjB",
       "nombre": "RACK TV MELAMINA MT6000 (2 MODULOS)",
       "descripcion": "Mueble organizador con dos módulos para combinar como quieras. Uno de los modelos más versátiles de la línea Original, ideal para utilizar como rack de TV. Combina con todo tipo de ambiente y cuenta con seis compartimientos para organizar todo lo que necesites.\n\nDimensiones del mueble (cm): 116 x 145 x 30",
-      "precio": 144700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2664,13 +2753,13 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 157723
     },
     {
       "id": "bYzPK25xNkUnr5w5irfI",
       "nombre": "CUBO ORGANIZADOR X6 MELAMINA",
       "descripcion": "Apilá y combiná como quieras. Estos cubos ofrecen un sinfín de posiblidades para organizar tus libros, revistas y cualquier objeto de decoración. Se adaptan a todos los espacios y podes usarlo colgado, en piso o como separador de ambientes. Son super fáciles de armar, nunca pasan de moda y combina perfecto con cualquier estilo de hogar.\n\nDimensiones del mueble (cm): 89 x 60 x 30",
-      "precio": 118900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2701,7 +2790,8 @@
           "nombre": "Negro",
           "hex": "#000000"
         }
-      ]
+      ],
+      "precio": 129601
     },
     {
       "id": "bZLB3Q23dJ7d6kFBC8Hc",
@@ -2797,7 +2887,6 @@
       "id": "dZhbautOVG0fJVhDndce",
       "nombre": "ESCRITORIO MELAMINA CENTRO ESTANT ROMA SC109",
       "descripcion": "Escritorio de melamina de un tamaño ideal para ubicarlo en cualquier rincón de la casa. Contiene un cajón y una gaveta para organizar tus apuntes o material de trabajo. Podés combinarlo con nuestros estantes flotantes para poder también organizar tus libros.\n\nDimensiones del mueble (cm): 76 x 90 x 44",
-      "precio": 140400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2827,13 +2916,13 @@
         }
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783946706/muebles_rafaela/ki4la3pfqdbxxxnvszgj.jpg",
-      "proveedor": "CENTRO ESTANT"
+      "proveedor": "CENTRO ESTANT",
+      "precio": 153036
     },
     {
       "id": "e8bT1VEfIfoSzel927gP",
       "nombre": "MESA DE LUZ MELAMINA C/DESAYUNADOR",
       "descripcion": "Si sos fan de desayunar en la cama esta es la mesita de luz para vos. Contiene una bandeja corrediza que podés usar para apoyar lo que necesites. Además cuenta con un cajón y un estante regulable en altura para ubicar según tus necesidades.\n\nDimensiones del mueble (cm): 71 x 42 x 37",
-      "precio": 120700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2865,7 +2954,8 @@
       "categorias": [
         "MUEBLES",
         "MESAS DE LUZ"
-      ]
+      ],
+      "precio": 131563
     },
     {
       "id": "e8vIpQkCgEagmlvhJiEY",
@@ -2953,7 +3043,6 @@
       "id": "ebiPrNi53PVR6KvKy3lA",
       "nombre": "BAJO MESADA MELAMINA 1.20M CENTRO ESTANT",
       "descripcion": "Bajo mesada con cajón ollero y patas regulables que le darán a tu cocina esa imagen y orden que tanto buscaste.\n\nDimensiones del mueble (cm): 83 x 120 x 50,7",
-      "precio": 198400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2978,7 +3067,32 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 216256
+    },
+    {
+      "id": "etm1mqhi44QnisEmq3BE",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549302/muebles_rafaela/wpkkc8rlrdlswhbjyj4a.jpg"
+      ],
+      "destacado": false,
+      "material": null,
+      "colores": [],
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precioAnterior": null,
+      "descripcion": "Cama de 2 plazas modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 9 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.30 x 1.90 mts. Medida final 1.40 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm",
+      "proveedor": "PINARCIS",
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549300/muebles_rafaela/c5s3lxdztref0lkajwkj.png",
+      "stock": null,
+      "nombre": "CAMA DE PINO 2 PLAZAS ECO (1.30M)",
+      "activo": true,
+      "precio": 93000,
+      "nuevo": false,
+      "categoria": "CAMAS"
     },
     {
       "id": "fP8TnBW0NPvzNb0SHyyZ",
@@ -3044,7 +3158,6 @@
       "id": "gA399wsvguMIcVQL4ui9",
       "nombre": "COMODA MELAMINA 3 CAJONES 1,00M",
       "descripcion": "De líneas clásicas y sencillas, esta cómoda de tres cajones es ideal para todo tipo de habitación. Organizá tu ropa, tus sábanas, toallas, documentos importantes, lo que necesites.\n\nDimensiones del mueble (cm): 83 x 100 x 45",
-      "precio": 232000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3081,13 +3194,13 @@
       "categorias": [
         "MUEBLES",
         "CÓMODAS"
-      ]
+      ],
+      "precio": 252880
     },
     {
       "id": "gNjhMNwnP23KEKRCWGQH",
       "nombre": "BOX DE MELAMINA CON CAJONES 0.80X1.90 (sin colchon)",
       "descripcion": "Cama de 1 plaza de diseño moderno, hecha en melamina de alta resistencia con capa protectora que evita ralladuras y prolonga la vida útil. Posee dos cajones independientes con extracción completa y ruedas reforzadas con movimiento 360º.\n\nDimensiones del mueble (cm): 94 x 35 x 199",
-      "precio": 378700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3114,7 +3227,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 412783
     },
     {
       "id": "h9HzlQ9hnNuWaWTyml6G",
@@ -3210,7 +3324,6 @@
       "id": "hjj3v4NGyz5maCB0M46y",
       "nombre": "RESPALDO MELAMINA 1.40m-1.60m RC6",
       "descripcion": "Con un diseño completamente innovador, este respaldo está pensado para resolver dos necesidades en una única pieza. El respaldo es regulable hasta 2,28mts. de ancho. Las mesitas vienen incorporadas combinando con el resto de la pieza.\n\nDimensiones del mueble (cm): 100 x 228 x 34",
-      "precio": 191000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3244,7 +3357,8 @@
       "categorias": [
         "MUEBLES",
         "RESPALDO"
-      ]
+      ],
+      "precio": 208190
     },
     {
       "id": "iLf7ufI9tnosP58mK9Bz",
@@ -3277,7 +3391,6 @@
       "id": "iXQkMZvr4nGtB4Q6WbIx",
       "nombre": "ORGANIZADOR APARADOR BH180 MELAMINA",
       "descripcion": null,
-      "precio": 325800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3296,13 +3409,13 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 355122
     },
     {
       "id": "jZIvb4DJypn0Ld1pfyAO",
       "nombre": "ORGANIZADOR APARADOR BH182 MELAMINA",
       "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 180 x 60 x 30",
-      "precio": 337400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3321,12 +3434,12 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 367766
     },
     {
       "id": "k1D8XmzVTfps0E1qfKGn",
       "descripcion": "Organizá tus libros, apuntes, revistas, usalo de repisa para tus portarretratos y objetos de deco o lo que más te guste. En el living, en tu cuarto, junto a tu escritorio o en cualquier rincón de tu casa. De líneas sencillas, esta biblioteca combina estantes con un sector de guardado, lo que la hace por demás práctica y funcional.",
-      "precio": 161000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3358,7 +3471,8 @@
         "BIBLIOTECA"
       ],
       "activo": true,
-      "nombre": "BIBLIOTECA MELAMINA 60CM CENTRO ESTANT"
+      "nombre": "BIBLIOTECA MELAMINA 60CM CENTRO ESTANT",
+      "precio": 175490
     },
     {
       "id": "kEUKZFoY0VkRJARlrP5c",
@@ -3417,7 +3531,6 @@
       "id": "koIz1vwjUQoLhRUKOMbV",
       "nombre": "MULTIUSO PORTA MICROONDA KP50 MELAMINA",
       "descripcion": "Dimensiones del mueble (cm): 146 x 60 x 47",
-      "precio": 189700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3436,7 +3549,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 206773
     },
     {
       "id": "lSlvZG6fz8g5aZVHzv1w",
@@ -3479,20 +3593,19 @@
         }
       ],
       "precioAnterior": 0,
-      "precio": 160902,
       "proveedor": "CENTRO ESTANT",
       "activo": true,
       "categorias": [
         "MUEBLES",
         "BOTINEROS"
       ],
-      "nombre": "BOTINERO MELAMINA 18 PARES CENTRO ESTANT"
+      "nombre": "BOTINERO MELAMINA 18 PARES CENTRO ESTANT",
+      "precio": 175383
     },
     {
       "id": "lf0jebF1YFs3BweRS938",
       "nombre": "ESTANTE MELAMINA 96X25 SIN MENSULA",
       "descripcion": null,
-      "precio": 75900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3520,12 +3633,12 @@
           "nombre": "Wengue",
           "hex": "#5a4e35"
         }
-      ]
+      ],
+      "precio": 82731
     },
     {
       "id": "mRlSl9rxQqy0GmDZ3RTi",
       "descripcion": "Bajo mesada con cajón ollero y patas regulables que le darán a tu cocina esa imagen y orden que tanto buscaste.\n\nDimensiones del mueble (cm): 83 x 140 x 50,7",
-      "precio": 244000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3551,12 +3664,12 @@
           "hex": "#ffffff"
         }
       ],
-      "nombre": "BAJO MESADA MELAMINA 1.40 CENTRO ESTANT"
+      "nombre": "BAJO MESADA MELAMINA 1.40 CENTRO ESTANT",
+      "precio": 265960
     },
     {
       "id": "mvOlTASNvW4CTUCj8z9Y",
       "descripcion": "Organizá tus zapatos para tenerlos ordenados y siempre a mano. Su estilo clásico combina fácilmente con cualquier ambiente. Ubicalo en tu cuarto, en tu vestidor o en el hall de distribución.\n\nDimensiones del mueble (cm): 152,5 x 60,5 x 28,5",
-      "precio": 173200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3586,7 +3699,8 @@
         "MUEBLES",
         "BOTINEROS"
       ],
-      "nombre": "BOTINERO MELAMINA 24 PARES CENTRO ESTANT"
+      "nombre": "BOTINERO MELAMINA 24 PARES CENTRO ESTANT",
+      "precio": 188788
     },
     {
       "id": "nZtMKxp6vSSEmmH4kQYe",
@@ -3621,7 +3735,6 @@
       "id": "oOVzIs9FoY1I388xj04P",
       "nombre": "ESCRITORIO MELAMINA CENTRO ESTANT MILAN SC1260",
       "descripcion": "Escritorio de melamina de un tamaño ideal para ubicarlo en cualquier rincón de la casa. Se puede adaptar tanto a una pared amplia como a cualquier otro sector. Contiene un mueble combinable para que lo ubiques como quieras.\n\nDimensiones del mueble (cm): 76 x 168 x 55",
-      "precio": 217100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3653,13 +3766,13 @@
           "nombre": "Negro/Paraiso",
           "hex": "#000000"
         }
-      ]
+      ],
+      "precio": 236639
     },
     {
       "id": "pOED0odhyogZQqZQPpFU",
       "nombre": "VANITORY CON PATAS DE MELAMINA",
       "descripcion": "Vanitory ideal para aquellos que buscan funcionalidad y estilo en su baño. Con su diseño moderno y elegante, este vanitory se adapta a cualquier tipo de decoración. Cuenta con un espacio de guardado para toallas, papel higiénico y todo tipo de artículos de higiene.\n\nDimensiones del mueble (cm): 74,5 x 50,5 x 39,5",
-      "precio": 124600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3683,13 +3796,13 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 135814
     },
     {
       "id": "paa1HMg1B554uXLMR57v",
       "nombre": "MULTIUSO PARA COCINA G14 MELAMINA",
       "descripcion": "Dimensiones del mueble (cm): 180 x 40 x 32",
-      "precio": 130800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3709,7 +3822,8 @@
         "MULTIUSO",
         "MUEBLES",
         "ORGANIZADOR"
-      ]
+      ],
+      "precio": 142572
     },
     {
       "id": "psoAxXRcdN70quk2pgBd",
@@ -3748,7 +3862,6 @@
       "id": "q1izzNhxFXHHCyPpzmeu",
       "nombre": "MULTIUSO PORTA MICROONDA G11 MELAMINA",
       "descripcion": "Dimensiones del mueble (cm): 109 x 59 x 45",
-      "precio": 164000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3768,7 +3881,8 @@
         "MUEBLES",
         "MULTIUSO",
         "ORGANIZADOR"
-      ]
+      ],
+      "precio": 178760
     },
     {
       "id": "qDtc5QsmHlHvXA4KnfcZ",
@@ -3801,7 +3915,6 @@
       "id": "qxrXIKiwiPnt4mughbMd",
       "nombre": "ESTANTE MELAMINA 60X25 SIN MENSULA",
       "descripcion": null,
-      "precio": 57500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3829,7 +3942,8 @@
           "nombre": "Wengue",
           "hex": "#5e4c2b"
         }
-      ]
+      ],
+      "precio": 62675
     },
     {
       "id": "qzl5EIyYR2I8MMKwykq2",
@@ -3885,7 +3999,6 @@
     {
       "id": "sO2ZGisM4U7FF1fFkD75",
       "descripcion": "Mueble organizador de 1,80mts. de altura para todo tipo de ambiente. En su interior cuenta con tres estantes regulables según las necesidades de guardado. En la cocina, en el lavadero, en el garage, en un cuarto; un infaltable del hogar.\n\nDimensiones del mueble (cm): 180 x 60 x 32",
-      "precio": 163100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3911,7 +4024,8 @@
         }
       ],
       "proveedor": "CENTRO ESTANT",
-      "nombre": "DESPENSERO 0.60x1.80 MELAMINA"
+      "nombre": "DESPENSERO 0.60x1.80 MELAMINA",
+      "precio": 177779
     },
     {
       "id": "sWWbR9SmB8FAreGg6l0C",
@@ -3966,7 +4080,6 @@
       "id": "t126ekZBJqLiuuIN2TCi",
       "nombre": "ESCRITORIO MELAMINA CENTRO ESTANT LONDRES SC8000",
       "descripcion": "Escritorio de melamina de un tamaño ideal para ubicarlo en cualquier rincón de la casa. Contiene dos cajones para organizar tus apuntes o material de trabajo. Podés combinarlo con nuestros estantes flotantes para poder también organizar tus libros.\n\nDimensiones del mueble (cm): 77 x 100 x 45",
-      "precio": 148900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3995,7 +4108,8 @@
           "nombre": "Negro/Paraiso",
           "hex": "#000000"
         }
-      ]
+      ],
+      "precio": 162301
     },
     {
       "id": "t1r0MCNR6bqahqHdKnUz",
@@ -4056,6 +4170,28 @@
       ]
     },
     {
+      "id": "tPwS7xc3jRLHuLysetp9",
+      "proveedor": "PINARCIS",
+      "descuento": 0,
+      "material": null,
+      "colores": [],
+      "activo": true,
+      "precioAnterior": null,
+      "nuevo": false,
+      "categorias": [
+        "CAMAS",
+        "MUEBLES"
+      ],
+      "precio": 92000,
+      "nombre": "CAMA DE PINO 1 ½ PLAZA ECO (1.00M)",
+      "imagenes": [],
+      "descripcion": "Cama de 1 ½ plaza o cama twin modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 7 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.00 x 1.90 mts. Medida final 1.10 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm.",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784551093/muebles_rafaela/wsyeez4w0femtkkafgxs.jpg",
+      "stock": null,
+      "categoria": "CAMAS",
+      "destacado": false
+    },
+    {
       "id": "tnkj7OeOcGDtbOfDOT3w",
       "nombre": "COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO",
       "descripcion": "COLCHON 1.60X2.00\n26CM DE ALTO\n120KG POR PLAZA",
@@ -4107,12 +4243,11 @@
       ],
       "precioAnterior": null,
       "categoria": "MUEBLES",
-      "nombre": "CAMA DE PINO 1 PLAZA ECO"
+      "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)"
     },
     {
       "id": "uGHpdveIm88ixPEi0F2Z",
       "descripcion": "Ropero clásico de cuatro puertas. Pensado con dos secciones de estantes regulables y, en el centro, un perchero para prendas de colgado. En su parte inferior, dos cajones y un espacio para guardar el calzado. Ideal para compartir.\n\nDimensiones del mueble (cm): 180 x 120 x 50",
-      "precio": 349600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4142,7 +4277,8 @@
         "MUEBLES",
         "ROPEROS"
       ],
-      "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR LIBE40"
+      "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR LIBE40",
+      "precio": 381064
     },
     {
       "id": "uS1igxMDBUGWZ8Upv22m",
@@ -4283,7 +4419,6 @@
       "id": "v2sMXaaUXkyOgYQvGztE",
       "nombre": "CUBO ORGANIZADOR X4 MELAMINA",
       "descripcion": "Apilá y combiná como quieras. Estos cubos ofrecen un sinfín de posibilidades para organizar tus libros, revistas y cualquier objeto de decoración. Se adaptan a todos los espacios y podes usarlo colgado, en piso o como separador de ambientes. Son super fáciles de armar, nunca pasan de moda y combina perfecto con cualquier estilo de hogar.\n\nDimensiones del mueble (cm): 60 x 60 x 30",
-      "precio": 96500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4308,7 +4443,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 105185
     },
     {
       "id": "vSk3OVIGhHE44Ys3vDJm",
@@ -4454,7 +4590,6 @@
       "id": "wtJsH7nekuXEoFWLDYUF",
       "nombre": "MESA DE LUZ MELAMINA MURCIA MLY",
       "descripcion": "Dimensiones del mueble (cm): 67 x 43 x 36",
-      "precio": 97100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4483,7 +4618,8 @@
           "nombre": "Negro",
           "hex": "#000000"
         }
-      ]
+      ],
+      "precio": 105839
     },
     {
       "id": "yIfHhtnpd4phVAhBNHaz",
@@ -4542,7 +4678,6 @@
     {
       "id": "yrx0gKlQUSZlJXzctG4p",
       "descripcion": "Ropero clásico, pensado para aprovechar cualquier rincón de tu habitación. Cuenta con un espacio de perchero, dos cajones y un compartimento inferior para calzados. Ideal para habitaciones pequeñas.\n\nDimensiones del mueble (cm): 180 x 60 x 50",
-      "precio": 220900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4572,13 +4707,13 @@
         "MUEBLES",
         "ROPEROS"
       ],
-      "nombre": "ROPERO MELAMINA 2 PUERTAS ABRIR LIBE20"
+      "nombre": "ROPERO MELAMINA 2 PUERTAS ABRIR LIBE20",
+      "precio": 240781
     },
     {
       "id": "zV95BfNifjdUwR4chyoX",
       "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR R4",
       "descripcion": "Ropero de línea clásica de 180 cm de alto, 120 cm de ancho y 55 cm de profundidad. En su interior dos espacios independientes de colgado, en la parte inferior dos cajones y un espacio para zapatos y, en su espacio superior, un estante. Un ropero de buen tamaño, ideal para compartir.\n\nDimensiones del mueble (cm): 180 x 120 x 55",
-      "precio": 331400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4608,13 +4743,13 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 361226
     },
     {
       "id": "zVOzHPQdqB4aWrhVwPO8",
       "nombre": "RACK TV MELAMINA MT4001",
       "descripcion": "Dimensiones del mueble (cm): 50,7 x 128 x 45",
-      "precio": 168200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4642,7 +4777,8 @@
           "nombre": "Blanco/Paraiso",
           "hex": "#c1a467"
         }
-      ]
+      ],
+      "precio": 183338
     },
     {
       "id": "zgcPb5rSvgxV3FujGkZP",
@@ -4995,6 +5131,13 @@
       "fecha": "2026-07-03T13:09:36.325Z"
     },
     {
+      "id": "0zj7FBg6GPK3F9qz9R5U",
+      "fecha": "2026-07-20T12:11:00.903Z",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"CAMA DE PINO 2 ½ PLAZAS (1.40M)\""
+    },
+    {
       "id": "170qGgzfSOhNGYw4UZAP",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 53LTS\"",
@@ -5135,6 +5278,13 @@
       "fecha": "2026-07-06T21:42:31.262Z"
     },
     {
+      "id": "5xDk42qSNaos2REqMvXl",
+      "fecha": "2026-07-20T12:16:37.112Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"CAMA DE PINO 2 PLAZAS MAVIC (1.30M)\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "6203vhEi2kSarjCpCbcV",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESCRITORIO GAMER MELAMINA CENTRO ESTANT\"",
@@ -5224,6 +5374,13 @@
       "descripcion": "Creó el producto \"CUBO ORGANIZADOR X4 MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:47:15.564Z"
+    },
+    {
+      "id": "7mAcGFiBKIWYKfBBvN44",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "fecha": "2026-07-20T12:38:23.921Z",
+      "descripcion": "Creó el producto \"CAMA DE PINO 1 ½ PLAZA ECO (1.00M)\""
     },
     {
       "id": "7uqOUpIFEQWQxD5yZO8q",
@@ -5436,6 +5593,13 @@
       "fecha": "2026-07-04T22:26:45.308Z"
     },
     {
+      "id": "Dcgf9ivixaJZdVdN3mIy",
+      "descripcion": "Aumentó 9% el precio de 60 producto(s) de \"CENTRO ESTANT\"",
+      "fecha": "2026-07-20T21:32:08.599Z",
+      "tipo": "aumento_masivo",
+      "usuario": "admin"
+    },
+    {
       "id": "DutjdUfRYSb3IvB5Tivh",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"SILLA UNICAN TULIP\"",
@@ -5539,6 +5703,13 @@
       "descripcion": "Editó el producto \"HELADERA C/CONGELADOR BRIKET 290LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:58.189Z"
+    },
+    {
+      "id": "FOJuqhvhA0eyemDliPnj",
+      "fecha": "2026-07-20T12:08:30.850Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"CAMA DE PINO 2 PLAZAS ECO (1.30M)\"",
+      "tipo": "producto_creado"
     },
     {
       "id": "FRHQ6SbtwaZP2QQeTNjY",
@@ -6360,6 +6531,13 @@
       "fecha": "2026-07-13T13:04:49.639Z"
     },
     {
+      "id": "XT8q2JFyxHhRis9HHZV6",
+      "fecha": "2026-07-20T12:39:22.044Z",
+      "descripcion": "Creó el producto \"CAMA DE PINO 1 ½ PLAZA MAVIC (1.00M)\"",
+      "usuario": "admin",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "Y6TBpN93kSc1MyrSQbxt",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 18 PARES CENTRO ESTANT\"",
@@ -6449,6 +6627,13 @@
       "descripcion": "Creó el proveedor \"ECOTERMO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:01:36.069Z"
+    },
+    {
+      "id": "ZyygijTtgl1x7iL9g4Ii",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "fecha": "2026-07-20T12:39:46.476Z",
+      "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA ECO (0.80M)\""
     },
     {
       "id": "aVWpvENoz1dk7BWoNOVo",
@@ -7256,6 +7441,13 @@
       "fecha": "2026-07-06T22:43:20.290Z"
     },
     {
+      "id": "rnQY2JEjALrWLuRIUquA",
+      "descripcion": "Editó el producto \"CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)\"",
+      "tipo": "producto_editado",
+      "fecha": "2026-07-20T12:18:05.934Z",
+      "usuario": "admin"
+    },
+    {
       "id": "roiyaCOdR5Wry3r97vqB",
       "tipo": "categoria_creada",
       "descripcion": "Creó la categoría \"RESPALDO\"",
@@ -7459,6 +7651,13 @@
       "fecha": "2026-07-04T13:45:44.509Z"
     },
     {
+      "id": "waCz6skWEHxnUl00seoU",
+      "descripcion": "Creó el producto \"CAMA DE PINO 2 ½ PLAZAS MAVIC (1.40M)\"",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-20T12:17:54.230Z",
+      "usuario": "admin"
+    },
+    {
       "id": "wbDANyXv8JDMwQ2aPnDP",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL PLUS TOPACIO\"",
@@ -7585,11 +7784,25 @@
       "fecha": "2026-07-03T13:06:08.204Z"
     },
     {
+      "id": "yiwgBVLrBbDl1LtfTnGm",
+      "fecha": "2026-07-20T20:25:11.541Z",
+      "tipo": "proveedor_editado",
+      "usuario": "admin",
+      "descripcion": "Renombró el proveedor \"CENTRO ESTANT\" a \"CENTRO ESTANT\""
+    },
+    {
       "id": "zA44vh9cSBBlDu1QxrG2",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"BOX DE MELAMINA CON CAJONES 1.40X1.90 (sin colchon)\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:36:02.035Z"
+    },
+    {
+      "id": "zDXVm0jlWsmqHKF7F9cE",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "fecha": "2026-07-20T12:39:57.558Z",
+      "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA MAVIC (0.80M)\""
     },
     {
       "id": "zJ63L9SRq3KGTO9vlQYq",
