@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-21T12:22:24.694Z",
+  "fecha": "2026-07-24T12:17:00.382Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -150,6 +150,30 @@
         "MUEBLES"
       ],
       "precio": 199797
+    },
+    {
+      "id": "2NHihzLeASStvT3VcDOd",
+      "descuento": 0,
+      "descripcion": "· HDR 10\n· Google TV\n· Ok Google\n· Dolby Audio\n· Mejora dinámica del color\n· HDMI 2.1\n· AIPQ2.0\n· Diseño sin bordes",
+      "nuevo": false,
+      "categoria": "TELEVISOR",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727364/muebles_rafaela/jrxzf1gdnzwd8hekkkzp.webp",
+      "precio": 922800,
+      "categorias": [
+        "TELEVISOR",
+        "ELECTRODOMESTICOS"
+      ],
+      "nombre": "TELEVISOR 50\" TCL ANDROID TV",
+      "material": null,
+      "activo": true,
+      "stock": null,
+      "precioAnterior": null,
+      "destacado": false,
+      "colores": [],
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727366/muebles_rafaela/b5wfmy4tanjbrtxictnu.webp"
+      ],
+      "proveedor": "HITACHI/TCL"
     },
     {
       "id": "2WhMWGtomrHYbiOh0nRQ",
@@ -315,6 +339,30 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL MASTER STYLE 56CM"
+    },
+    {
+      "id": "4NalZhawYTsqZLdgU8JC",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784731365/muebles_rafaela/w1ia6xw4ald1nudfoxeb.jpg"
+      ],
+      "activo": true,
+      "stock": null,
+      "material": null,
+      "descripcion": "SE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA",
+      "colores": [],
+      "nombre": "SILLON CAMA TAPIZADO 2.00M (2 PLAZAS)",
+      "categorias": [
+        "SILLONES",
+        "MUEBLES"
+      ],
+      "proveedor": "DIPI",
+      "precio": 684400,
+      "descuento": 0,
+      "destacado": false,
+      "nuevo": false,
+      "categoria": "SILLONES",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784731366/muebles_rafaela/sxbgnej5iaeyj5igkbid.jpg",
+      "precioAnterior": null
     },
     {
       "id": "4d8OKYHwSpWheTOuQBbt",
@@ -491,6 +539,32 @@
       "activo": true,
       "colores": [],
       "precio": 115431
+    },
+    {
+      "id": "6hwR2qIEBNwm8A7SKMtj",
+      "precio": 817800,
+      "destacado": false,
+      "precioAnterior": null,
+      "categoria": "EXTERIOR",
+      "descuento": 0,
+      "nombre": "FOGON 80 ÑUKE",
+      "categorias": [
+        "EXTERIOR",
+        "FOGONES"
+      ],
+      "descripcion": "Alto: 49,5 cm\nAncho: 98 cm\nDiámetro: 84 cm\nPeso: 43 kg",
+      "colores": [],
+      "nuevo": false,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640409/muebles_rafaela/dbxgkoukptnbslonuwjn.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640411/muebles_rafaela/utxpqmcp4eurnk3yg6su.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640413/muebles_rafaela/racrgfojflgrebsb8pzr.jpg"
+      ],
+      "activo": true,
+      "material": null,
+      "stock": null,
+      "proveedor": "ÑUKE",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640407/muebles_rafaela/ztjdynkqicdahkpxe0xn.jpg"
     },
     {
       "id": "7cPvir11M0S5Rb8tkVFB",
@@ -781,6 +855,31 @@
       "precio": 302693
     },
     {
+      "id": "CAwy1yvfO2BtYrIXyzVd",
+      "precio": 960900,
+      "nuevo": false,
+      "colores": [],
+      "categoria": "ELECTRODOMESTICOS",
+      "proveedor": "ÑUKE",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639796/muebles_rafaela/o2kqp6dvkg28tjwjwprr.jpg",
+      "stock": null,
+      "activo": true,
+      "destacado": false,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639798/muebles_rafaela/nwsav3moshw7pfbkcith.jpg"
+      ],
+      "material": null,
+      "descuento": 0,
+      "descripcion": "Alto: 68 cm\nAncho: 47,2 cm\nProfundidad: 43 cm\nPeso: 63 kg\nPotencia: 8.500 KCAL/H\nSuperficie a Calentar: 60 a 90 m²\nSalida de Humos: 10 cm / 4″\nVidrio: 25 x 24 cm\nEcológica: Sí\nA Leña: Sí",
+      "precioAnterior": null,
+      "nombre": "SALAMANDRA WICHI 50 8500Kca/h ÑUKE",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SALAMANDRA",
+        "CALEFACCION"
+      ]
+    },
+    {
       "id": "CJBfwQYYcC5T1BI4lUfQ",
       "nombre": "ALACENA MELAMINA 1.20M CENTRO ESTANT",
       "descripcion": "De líneas sencillas, esta alacena funcional de 120cm combina con todo tipo de cocina. En su interior estantes, en su exterior manijas de PVC color negro. Ideal para cualquier tipo de cocina.\n\nDimensiones del mueble (cm): 60 x 120 x 32",
@@ -834,6 +933,31 @@
       "precio": 174800
     },
     {
+      "id": "CsyHKPG3Mgu3OxQB6Zpi",
+      "descripcion": "Alto: 54,5 cm\nAncho: 77 cm\nDiámetro: 62 cm\nPeso: 21,2 kg",
+      "precio": 515500,
+      "destacado": false,
+      "colores": [],
+      "proveedor": "ÑUKE",
+      "nombre": "FOGON 60 ÑUKE",
+      "nuevo": false,
+      "precioAnterior": null,
+      "categorias": [
+        "EXTERIOR",
+        "FOGONES"
+      ],
+      "activo": true,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640224/muebles_rafaela/n7fkrlgbmglfktgse6fx.jpg",
+      "material": null,
+      "categoria": "EXTERIOR",
+      "stock": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640227/muebles_rafaela/pme20idxz1hiffze0gli.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640229/muebles_rafaela/frvgp0s6gyvuri6hnkik.jpg"
+      ],
+      "descuento": 0
+    },
+    {
       "id": "DZUb3ALLoXqsPVyV238O",
       "categorias": [
         "MUEBLES",
@@ -854,6 +978,49 @@
       "colores": [],
       "stock": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg"
+    },
+    {
+      "id": "DgT6DkoXcC9jWllfAEZG",
+      "categoria": "MUEBLES",
+      "destacado": false,
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "descripcion": "- 1.40mt x 0.60mt\n\n- Sin zócalo\n\n- Linea Eco, bacha rectangular\n\n- Bacha Izquierda o Derecha\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt",
+      "colores": [
+        {
+          "hex": "#4f4f4f",
+          "nombre": "GRIS OSCURO"
+        },
+        {
+          "hex": "#9e9e9e",
+          "nombre": "GRIS CLARO"
+        },
+        {
+          "hex": "#000000",
+          "nombre": "NEGRO"
+        },
+        {
+          "hex": "#fff1ad",
+          "nombre": "BEIGE"
+        }
+      ],
+      "proveedor": "DUAFORT",
+      "activo": true,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813718/muebles_rafaela/t7catlomkw2hhzq7punu.png",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813720/muebles_rafaela/r8dx6d1umyjlncrkr5ej.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813722/muebles_rafaela/pppo7yijfqqajckshmki.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813724/muebles_rafaela/osk1mqzh4yasmzusrc2q.png"
+      ],
+      "stock": null,
+      "descuento": 0,
+      "precioAnterior": null,
+      "precio": 265300,
+      "nombre": "MESADA DURAFORT 1.40 x 0.60",
+      "nuevo": false,
+      "material": null
     },
     {
       "id": "EMKDBdQqX3ByS4twRTaL",
@@ -1550,6 +1717,31 @@
       "proveedor": "TANDIL"
     },
     {
+      "id": "MZVKrX2vJZL8PWqCXyQP",
+      "destacado": false,
+      "colores": [],
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784726509/muebles_rafaela/vrgsq7pox9ejyg83dqxo.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784726547/muebles_rafaela/ls3jh8mwlhe0fr1w2cbc.webp"
+      ],
+      "activo": true,
+      "precioAnterior": null,
+      "nombre": "TELEVISOR 32\" TCL ANDROID TV",
+      "nuevo": false,
+      "categoria": "ELECTRODOMESTICOS",
+      "precio": 429500,
+      "descripcion": "FHD\n· HDR 10\n· Sin Bisel Metálico\n· Android TV\n· Dolby Audio\n· HDMI * 2\n· WIFI\n· Bluetooth 5.0",
+      "stock": null,
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784726504/muebles_rafaela/unzn0qljpmtwszcnbzaf.webp",
+      "descuento": 0,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TELEVISOR"
+      ],
+      "proveedor": "HITACHI/TCL"
+    },
+    {
       "id": "MzxF5ohybRqa9WrVVIvh",
       "nombre": "COLCHON 1 PLAZA RESORTE AXIS TOPACIO",
       "descripcion": "COLCHON DE RESORTE 1 PLAZA\nS/ PILLOW",
@@ -2015,6 +2207,49 @@
       "precio": 525824
     },
     {
+      "id": "Qyxplb20r8sVNvoFY2F1",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813373/muebles_rafaela/kwzg6htjyttiujnqcc0a.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813376/muebles_rafaela/zrkmabeqrau5ziwgampa.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813379/muebles_rafaela/cmckjonuaov0riwcoim6.png"
+      ],
+      "activo": true,
+      "nuevo": false,
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "descripcion": "- 1.20mt x 0.60mt\n\n- Sin zócalo\n\n- Fino borde antiderrame\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban",
+      "precio": 229400,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813371/muebles_rafaela/ufxdzavkaqo4syktaoum.png",
+      "precioAnterior": null,
+      "material": null,
+      "stock": null,
+      "proveedor": "DUAFORT",
+      "destacado": false,
+      "colores": [
+        {
+          "hex": "#575757",
+          "nombre": "GRIS OSCURO"
+        },
+        {
+          "nombre": "GRIS CLARO",
+          "hex": "#b0b0b0"
+        },
+        {
+          "nombre": "NEGRO",
+          "hex": "#000000"
+        },
+        {
+          "hex": "#dbca8f",
+          "nombre": "BEIGE"
+        }
+      ],
+      "categoria": "MUEBLES",
+      "nombre": "MESADA DURAFORT 1.20 x 0.60",
+      "descuento": 0
+    },
+    {
       "id": "RW69VK9eJTTgue82vIWv",
       "nombre": "HELADERA GRIS C/FREEZER BRIKET 257LTS",
       "descripcion": "Nuestra heladera con freezer de 257 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\n\nDimensiones (mm): Ancho: 550 | Alto: 1495 | Profundidad: 660\n\nPeso: 44,2 Kg\n\nClasificación Energética: A\n\nCapacidad: 257 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 270",
@@ -2043,6 +2278,28 @@
         "HELADERAS",
         "HELADERAS Y FREEZER"
       ]
+    },
+    {
+      "id": "RaRygBmuR8uGE44oOP3R",
+      "imagenes": [],
+      "nuevo": false,
+      "stock": null,
+      "colores": [],
+      "nombre": "SILLON \"CHESTER\" 3 CUERPOS",
+      "precioAnterior": null,
+      "proveedor": "DIPI",
+      "precio": 746600,
+      "categoria": "SILLONES",
+      "categorias": [
+        "SILLONES",
+        "MUEBLES"
+      ],
+      "activo": true,
+      "descripcion": "SE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784730934/muebles_rafaela/gibbuomcoitgktxbqjve.jpg",
+      "destacado": false,
+      "material": null,
+      "descuento": 0
     },
     {
       "id": "SCJp8a50UIXQJEzJE05x",
@@ -2404,6 +2661,28 @@
       "precio": 131563
     },
     {
+      "id": "WgQvSTOhBEWwDYdheEeL",
+      "precio": 1039000,
+      "nombre": "SILLON ESQUINERO \"LOURDES\" C/BUTACON 2.00M",
+      "material": null,
+      "nuevo": false,
+      "destacado": false,
+      "categoria": "SILLONES",
+      "colores": [],
+      "proveedor": "DIPI",
+      "descripcion": "TELA PANA ANTIMANCHAS - SOFT\nSE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA",
+      "categorias": [
+        "SILLONES",
+        "MUEBLES"
+      ],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784730868/muebles_rafaela/hd3r3pfvbc1hxvgdswmz.jpg",
+      "activo": true,
+      "precioAnterior": null,
+      "descuento": 0,
+      "imagenes": [],
+      "stock": null
+    },
+    {
       "id": "WgoIyGVpA1emPexjZxhy",
       "nombre": "SILLA UNICAN EAMES",
       "descripcion": null,
@@ -2551,6 +2830,49 @@
       "proveedor": "YUTE"
     },
     {
+      "id": "XQkkZwcqbGd2egUTqA3r",
+      "nombre": "MESADA DURAFORT 1.60 x 0.60",
+      "colores": [
+        {
+          "nombre": "BEIGE",
+          "hex": "#ead2a9"
+        },
+        {
+          "nombre": "NEGRO",
+          "hex": "#000000"
+        },
+        {
+          "hex": "#b0b0b0",
+          "nombre": "GRIS CLARO"
+        },
+        {
+          "hex": "#636363",
+          "nombre": "GRIS OSCURO"
+        }
+      ],
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "precioAnterior": null,
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813863/muebles_rafaela/qshli1ibqranbhrtdb4w.png",
+      "nuevo": false,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813870/muebles_rafaela/npcyjwrrrz50xoprzy5k.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813874/muebles_rafaela/npkepvbtlscyvizkudih.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813877/muebles_rafaela/z3ym2jdhvcha8q7gqgxr.png"
+      ],
+      "proveedor": "DUAFORT",
+      "material": null,
+      "activo": true,
+      "categoria": "MUEBLES",
+      "stock": null,
+      "precio": 307800,
+      "destacado": false,
+      "descripcion": "- 1.60mt x 0.60mt\n\n- Sin zócalo\n\n- Fino borde antiderrame\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban"
+    },
+    {
       "id": "Y3a3e3MOJippNfl9Kxup",
       "nombre": "COCINA INDUSTRIAL USMAN WIN 550",
       "descripcion": "Cocina Industrial en Acero Inoxidable.\nPuerta visor con vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, pirómetro en puerta y válvula de seguridad.\n\nAncho\t\n55 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
@@ -2575,6 +2897,31 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
+      ]
+    },
+    {
+      "id": "YA74B8vBWz6hD8CSXnUC",
+      "destacado": false,
+      "stock": null,
+      "material": null,
+      "colores": [],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639708/muebles_rafaela/g9keegcokggntg8slvzt.jpg",
+      "activo": true,
+      "categoria": "SALAMANDRA",
+      "precio": 782200,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639717/muebles_rafaela/stwoivofzpcqkvllujx3.jpg"
+      ],
+      "descripcion": "Alto: 61,3cm\nAncho: 39,5cm\nProfundidad: 42 cm\nKG: 55 kg\nPotencia: 8500 Kca/h\nSuperficie a calentar: 70 a 100 m²\nSalida de humos: 10 cm / 4″\nVidrio: 24 x 25 cm\nHornallas: 1\nEcológicos: Sí\nA leña: Sí\nVidrio Vitrocerámico: 24 x 25cm",
+      "descuento": 0,
+      "nuevo": false,
+      "proveedor": "ÑUKE",
+      "precioAnterior": null,
+      "nombre": "SALAMANDRA ECO PUELO 8500Kca/h ÑUKE",
+      "categorias": [
+        "SALAMANDRA",
+        "ELECTRODOMESTICOS",
+        "CALEFACCION"
       ]
     },
     {
@@ -2613,6 +2960,31 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL CANDOR"
+    },
+    {
+      "id": "YmR3k5pDtJAae4cRj4M4",
+      "destacado": false,
+      "precioAnterior": null,
+      "precio": 450800,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757535/muebles_rafaela/ti1vrsa11mzwymnxscnj.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757540/muebles_rafaela/ku8kmiw0k3pfe6lw4rue.png"
+      ],
+      "colores": [],
+      "categoria": "BAIUT",
+      "categorias": [
+        "BAIUT",
+        "MUEBLES"
+      ],
+      "descripcion": "445 x 1365 x 1015 mm",
+      "proveedor": "ORLANDI",
+      "nombre": "BAIUT 1.35 3 PUERTAS 3 CAJONES",
+      "activo": true,
+      "nuevo": false,
+      "stock": null,
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757529/muebles_rafaela/es6ig84if2bw5wotthgp.png",
+      "material": null
     },
     {
       "id": "ZgEG9o9hhZPG1J6LN42z",
@@ -2855,6 +3227,30 @@
       ]
     },
     {
+      "id": "cCXqbXacUBejZP3nyv0P",
+      "descripcion": "· FHD\n· HDR 10\n· Sin Bisel Metálico\n· Android TV\n· Dolby Audio\n· HDMI * 2\n· WIFI\n· Bluetooth 5.0",
+      "precio": 650600,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784726927/muebles_rafaela/hqb4n0iwqr60g9bkzkd2.webp"
+      ],
+      "descuento": 0,
+      "colores": [],
+      "destacado": false,
+      "activo": true,
+      "precioAnterior": null,
+      "stock": null,
+      "nuevo": false,
+      "categoria": "TELEVISOR",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784726924/muebles_rafaela/ntsdkpn8u9esfmt5n7lf.webp",
+      "categorias": [
+        "TELEVISOR",
+        "ELECTRODOMESTICOS"
+      ],
+      "proveedor": "HITACHI/TCL",
+      "nombre": "TELEVISOR 43\" TCL ANDROID TV"
+    },
+    {
       "id": "cGDc4dYeud6SaqHm98Kq",
       "nombre": "COLCHON 2 ½ PLAZAS ESPUMA ESMERALDA TOPACIO",
       "descripcion": "COLCHON 1.40X1.90\n23CM DE ALTURA\n85KG-90KG POR PLAZA",
@@ -3093,6 +3489,32 @@
       "precio": 93000,
       "nuevo": false,
       "categoria": "CAMAS"
+    },
+    {
+      "id": "f4Xtg8prbFB5zxglcLIx",
+      "precioAnterior": null,
+      "stock": null,
+      "activo": true,
+      "descripcion": "445 x 1817 x 1015 mm",
+      "precio": 534800,
+      "material": null,
+      "colores": [],
+      "nuevo": false,
+      "destacado": false,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757825/muebles_rafaela/aanknl2ax0de1si3zckz.png",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757833/muebles_rafaela/ujmjlgi10b3adpdukk4e.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757838/muebles_rafaela/wrtxumdpxcrkwddjkkdk.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757843/muebles_rafaela/ckcr2du5lpomis4yox8v.png"
+      ],
+      "descuento": 0,
+      "categoria": "MUEBLES",
+      "proveedor": "ORLANDI",
+      "categorias": [
+        "MUEBLES",
+        "BAIUT"
+      ],
+      "nombre": "BAIUT 1.80 4 PUERTAS 3 CAJONES"
     },
     {
       "id": "fP8TnBW0NPvzNb0SHyyZ",
@@ -3413,6 +3835,34 @@
       "precio": 355122
     },
     {
+      "id": "j5px3kzOkv06xV7cSCy2",
+      "categoria": "ELECTRODOMESTICOS",
+      "precio": 644800,
+      "proveedor": "ÑUKE",
+      "precioAnterior": null,
+      "nombre": "SALAMANDRA WICHI 40 7500Kca/h ÑUKE",
+      "stock": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639589/muebles_rafaela/k9ggyxdqjtm8madchwua.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639594/muebles_rafaela/y3ethzd0oexhotdj9ba2.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639597/muebles_rafaela/brvib2kgomyz1ahasgd4.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639603/muebles_rafaela/zw9bpiio9wolzauhh07m.jpg"
+      ],
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639585/muebles_rafaela/jeul1pfpjmv13vnf0b6c.jpg",
+      "colores": [],
+      "activo": true,
+      "descripcion": "Alto: 61,7 cm\nAncho: 36,2 cm\nProfundidad: 43 cm\nKG: 46,6 kg\nPotencia: 7500 Kca/h\nSuperficie a calentar: 50 a 70 m²\nSalida de humos: 10 cm / 4″\nMedida visor vitro: 165 x 150 mm\nEcológicos: Sí\nA leña: Sí\nDerivador de calor: 2 traseras o laterales",
+      "nuevo": false,
+      "descuento": 0,
+      "destacado": false,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SALAMANDRA",
+        "CALEFACCION"
+      ]
+    },
+    {
       "id": "jZIvb4DJypn0Ld1pfyAO",
       "nombre": "ORGANIZADOR APARADOR BH182 MELAMINA",
       "descripcion": "Un mueble organizador pensado para que todo quede acomodado puertas adentro. En su interior encontrarás estantes regulables para ubicarlos según tu necesidad. Guardá todo lo que necesites y tené todo organizado en un mismo espacio. Ideal para el living, sala de estar o cocina.\n\nDimensiones del mueble (cm): 180 x 60 x 30",
@@ -3528,6 +3978,30 @@
       "precio": 313560
     },
     {
+      "id": "klWUv5O0uXjLDyakgVoP",
+      "material": null,
+      "categoria": "EXTERIOR",
+      "nombre": "FOGON 40 ÑUKE",
+      "nuevo": false,
+      "destacado": false,
+      "precio": 196200,
+      "precioAnterior": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640008/muebles_rafaela/umivr7sy2suiak9vdueu.jpg"
+      ],
+      "proveedor": "ÑUKE",
+      "colores": [],
+      "stock": null,
+      "categorias": [
+        "EXTERIOR",
+        "FOGONES"
+      ],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640005/muebles_rafaela/kxzac79yfgnunwmyjlmh.jpg",
+      "descripcion": "Alto: 57 cm\nProfundidad: 44,8 cm\nDiámetro: 40,8 cm\nPeso: 12,9 kg",
+      "activo": true,
+      "descuento": 0
+    },
+    {
       "id": "koIz1vwjUQoLhRUKOMbV",
       "nombre": "MULTIUSO PORTA MICROONDA KP50 MELAMINA",
       "descripcion": "Dimensiones del mueble (cm): 146 x 60 x 47",
@@ -3637,6 +4111,31 @@
       "precio": 82731
     },
     {
+      "id": "m69YECqcH9z9ZEMnou2M",
+      "proveedor": "ÑUKE",
+      "categoria": "ELECTRODOMESTICOS",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639846/muebles_rafaela/vegr1p5xbaeuyasms2vg.jpg",
+      "stock": null,
+      "activo": true,
+      "descripcion": "Alto: 61,3 cm\nAncho: 51 cm\nProfundidad: 42 cm\nKG: 65 kg\nPotencia: 10000 Kca/h\nSuperficie a Calentar: 80 a 110 m²\nSalida de Humos: 15 cm / 6″\nVidrio: 34,8 x 21,2 cm\nHornallas: 2\nEcológicos: Sí\nAdmite Forzadores: No\nA Leña: Sí",
+      "nombre": "SALAMANDRA MULTIECO 10000Kca/h ÑUKE",
+      "material": null,
+      "nuevo": false,
+      "colores": [],
+      "destacado": false,
+      "descuento": 0,
+      "precioAnterior": null,
+      "precio": 1161600,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784639848/muebles_rafaela/paozg7ouzmm3fk8hllb7.jpg"
+      ],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SALAMANDRA",
+        "CALEFACCION"
+      ]
+    },
+    {
       "id": "mRlSl9rxQqy0GmDZ3RTi",
       "descripcion": "Bajo mesada con cajón ollero y patas regulables que le darán a tu cocina esa imagen y orden que tanto buscaste.\n\nDimensiones del mueble (cm): 83 x 140 x 50,7",
       "precioAnterior": null,
@@ -3730,6 +4229,28 @@
         }
       ],
       "precio": 414648
+    },
+    {
+      "id": "njGbNuJdL9w42lIW6uvO",
+      "proveedor": "DIPI",
+      "activo": true,
+      "stock": null,
+      "material": null,
+      "destacado": false,
+      "precio": 625700,
+      "descuento": 0,
+      "categorias": [
+        "SILLONES",
+        "MUEBLES"
+      ],
+      "colores": [],
+      "nombre": "SILLON CAMA \"CAMI\" 1.90M",
+      "precioAnterior": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784730524/muebles_rafaela/gnpa8tfnwh65kdqfepgv.jpg",
+      "categoria": "SILLONES",
+      "imagenes": [],
+      "nuevo": false,
+      "descripcion": "SILLON CAMA DE UNA PLAZA. SACAS ALMOHADONES Y TE QUEDA CAMA DE 1.90M.\nSE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA"
     },
     {
       "id": "oOVzIs9FoY1I388xj04P",
@@ -4053,6 +4574,28 @@
           "hex": "#ffffff"
         }
       ]
+    },
+    {
+      "id": "sYOY60KiWPlQyl5xHtF7",
+      "categoria": "SILLONES",
+      "precioAnterior": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784730653/muebles_rafaela/pjnkpbq9uqhvsl8scivh.jpg",
+      "destacado": false,
+      "material": null,
+      "proveedor": "DIPI",
+      "colores": [],
+      "activo": true,
+      "categorias": [
+        "SILLONES",
+        "MUEBLES"
+      ],
+      "descuento": 0,
+      "descripcion": "SE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA",
+      "imagenes": [],
+      "nuevo": false,
+      "stock": null,
+      "precio": 644700,
+      "nombre": "SILLON \"JAURY\" 3 CUERPOS 1.90M"
     },
     {
       "id": "sf4ieTeMERQYWuuJDABi",
@@ -4507,6 +5050,30 @@
       "proveedor": "UNICAN"
     },
     {
+      "id": "w9AgrB2OEEhrlbGEP2RH",
+      "precio": 422500,
+      "categorias": [
+        "EXTERIOR",
+        "FOGONES"
+      ],
+      "colores": [],
+      "destacado": false,
+      "nuevo": false,
+      "stock": null,
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640342/muebles_rafaela/ktvmaa9mjwmlbe3ogfxk.jpg",
+      "proveedor": "ÑUKE",
+      "material": null,
+      "precioAnterior": null,
+      "categoria": "EXTERIOR",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640326/muebles_rafaela/eqtmqx8ued9gdqbzfnmu.jpg"
+      ],
+      "activo": true,
+      "nombre": "FOGON JUAPI 50 ÑUKE",
+      "descripcion": "Alto: 44 cm\nAncho: 67,4 cm\nProfundidad: 53,7 cm\nKG: 18 kg"
+    },
+    {
       "id": "wVeYUi2ya2d4U5gRVXIc",
       "nombre": "COLCHON QUEEN SIZE ESPUMA MARFIL PLUS TOPACIO",
       "descripcion": "COLCHON 1.60X2.00\n30CM DE ALTO\n130KG POR PLAZA",
@@ -4587,6 +5154,41 @@
       ]
     },
     {
+      "id": "wgwXi2vTryNzZ2x3qG7K",
+      "imagenes": [],
+      "stock": null,
+      "descripcion": "- 1.80mt x 0.60mt\n\n- Con zócalo\n\n- Fino borde antiderrame\n\n- Bacha Central\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban",
+      "nombre": "MESADA DURAFORT 1.80 x 0.60 C/ZOCALO",
+      "precioAnterior": null,
+      "proveedor": "DUAFORT",
+      "categoria": "MUEBLES",
+      "descuento": 0,
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "precio": 363800,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784814120/muebles_rafaela/a6d18yte0sadbaqgybw2.png",
+      "material": null,
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "hex": "#e2db92",
+          "nombre": "BEIGE"
+        },
+        {
+          "nombre": "NEGRO",
+          "hex": "#000000"
+        },
+        {
+          "nombre": "GRIS CLARO",
+          "hex": "#bdbdbd"
+        }
+      ]
+    },
+    {
       "id": "wtJsH7nekuXEoFWLDYUF",
       "nombre": "MESA DE LUZ MELAMINA MURCIA MLY",
       "descripcion": "Dimensiones del mueble (cm): 67 x 43 x 36",
@@ -4647,6 +5249,44 @@
           "hex": "#888888"
         }
       ]
+    },
+    {
+      "id": "yKfvztN2CJhDSWUksN3H",
+      "material": null,
+      "colores": [
+        {
+          "hex": "#000000",
+          "nombre": "NEGRO"
+        },
+        {
+          "nombre": "GRIS CLARO",
+          "hex": "#9b9a99"
+        },
+        {
+          "hex": "#2e2d2d",
+          "nombre": "GRIS OSCURO"
+        }
+      ],
+      "activo": true,
+      "nuevo": false,
+      "descripcion": "- 1.00mt x 0.60mt\n\n- Con zócalo\n\n- Fino borde antiderrame\n\n- Bacha Izquierda\n\n- Medida de Bacha: 0.45mt x 0.30mt x 0.15mt\n\n- Contiene Microban",
+      "precioAnterior": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813186/muebles_rafaela/gwgf1ji7ms7f7ys9eg2n.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813188/muebles_rafaela/wa4w9majujt7v9ekkovf.png"
+      ],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813193/muebles_rafaela/j0rvbczolphztbf1131j.png",
+      "proveedor": "DUAFORT",
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "stock": null,
+      "categoria": "MUEBLES",
+      "precio": 191800,
+      "descuento": 0,
+      "destacado": false,
+      "nombre": "MESADA DURAFORT 1.00 x 0.60 C/ZOCALO"
     },
     {
       "id": "ybS7xDZ5qR4P33lgkI0c",
@@ -4836,12 +5476,45 @@
         "HELADERAS",
         "HELADERAS Y FREEZER"
       ]
+    },
+    {
+      "id": "zyoNMsuw5lTfOe3y6LXA",
+      "colores": [],
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727541/muebles_rafaela/acunsfnmmkkqyv58qbaw.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727544/muebles_rafaela/c6hob6u11wbripsaiuxk.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727551/muebles_rafaela/tdwnyqd12wweuvrpvjyu.webp"
+      ],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TELEVISOR"
+      ],
+      "precio": 1161600,
+      "nombre": "TELEVISOR 55\" TCL QLED SMART",
+      "activo": true,
+      "nuevo": false,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727554/muebles_rafaela/h1hfxkdan68dkagj0bkj.webp",
+      "destacado": false,
+      "material": null,
+      "descripcion": "· QLED PRO\n· PROCESADOR AiPQ PRO\n· T-SCREEN PRO\n· ONKYO 2.1CH\n· Diseño delgado y de una pieza\n· DLG 120Hz\n· Dolby Vision•Atmos\n· HDR10+\n· Cuidado multiple de ojos\n· 2GB+16GB",
+      "proveedor": "HITACHI/TCL",
+      "descuento": 0,
+      "categoria": "ELECTRODOMESTICOS",
+      "stock": null,
+      "precioAnterior": null
     }
   ],
   "categorias": [
     {
       "id": "7Qp9xuAoPvQkJKqDDbZu",
       "nombre": "BOTINEROS",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "AW099mAGQlDFWx4Niq5X",
+      "nombre": "MESADAS",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
       ]
@@ -4882,6 +5555,13 @@
       "nombre": "ELECTRODOMESTICOS"
     },
     {
+      "id": "MMCaPEA08Dlzyh6Yfc6b",
+      "nombre": "SILLONES",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
       "id": "NWf4EIqdAw7ItrswFC9I",
       "nombre": "BOX CON CAJONES",
       "gruposIds": [
@@ -4905,7 +5585,10 @@
     },
     {
       "id": "TD8nV77Gq6Y7YtZcA7xv",
-      "nombre": "ORGANIZADOR"
+      "nombre": "ORGANIZADOR",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
     },
     {
       "id": "UMlT4DjX3jcZxUptoSOo",
@@ -4939,6 +5622,13 @@
     {
       "id": "aEPAkIw5AV05obOTZ0ZI",
       "nombre": "ESCOBERO",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "an4lzi9TzrlXew7gKnyB",
+      "nombre": "BAIUT",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
       ]
@@ -4989,6 +5679,20 @@
       ]
     },
     {
+      "id": "mcB4tBbpGT6i9rSLxCu1",
+      "nombre": "SALAMANDRA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "oYJAaF3dJKCwFsQvAj5m",
+      "nombre": "FOGONES",
+      "gruposIds": [
+        "olIMfF1BocxYydxUHhrU"
+      ]
+    },
+    {
       "id": "ob3b9N0xnTGZcVz5bbHi",
       "nombre": "CALEFACCION",
       "gruposIds": [
@@ -5021,10 +5725,24 @@
       ]
     },
     {
+      "id": "sAAcCrFvGW1H8q4tLqi2",
+      "nombre": "AIRE ACONDICIONADO",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "segUsE6fP8gY6d4nNm5u",
       "nombre": "BIBLIOTECA",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "t2ce6M0FatpWRib0wacK",
+      "nombre": "TELEVISOR",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
       ]
     },
     {
@@ -5069,8 +5787,28 @@
       "nombre": "TOPACIO"
     },
     {
+      "id": "FOhx340CgzFHGgcDXHeq",
+      "nombre": "ORLANDI"
+    },
+    {
       "id": "HgyYCAuhRrENyip3SvkU",
       "nombre": "USMAN"
+    },
+    {
+      "id": "MhJhXEMrGHmCsG5fV3jr",
+      "nombre": "DIPI"
+    },
+    {
+      "id": "YornmRWjTLb733md09na",
+      "nombre": "ÑUKE"
+    },
+    {
+      "id": "ZMj8AezxUcIj3nBJqHYY",
+      "nombre": "DUAFORT"
+    },
+    {
+      "id": "bc1qiD3MlLFwnZllHu3q",
+      "nombre": "HITACHI/TCL"
     },
     {
       "id": "gGNAKy4ArDPYQfTOQAyr",
@@ -5102,6 +5840,13 @@
     }
   ],
   "historial": [
+    {
+      "id": "0CEOd5834Dl2qCKQzrCB",
+      "fecha": "2026-07-21T13:24:03.792Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"FOGON 60 ÑUKE\"",
+      "tipo": "producto_creado"
+    },
     {
       "id": "0HBbCAV56OANVL2l9flg",
       "tipo": "producto_editado",
@@ -5208,6 +5953,13 @@
       "fecha": "2026-07-05T16:51:00.712Z"
     },
     {
+      "id": "2k3LPJIh5Ve1aRu7QMRH",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"SALAMANDRA MULTIECO 10000Kca/h ÑUKE\"",
+      "tipo": "producto_editado",
+      "fecha": "2026-07-21T13:28:09.492Z"
+    },
+    {
       "id": "2tprGobcZItLnKs21qt5",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT PRAGA SC8009\"",
@@ -5222,11 +5974,25 @@
       "fecha": "2026-07-06T22:43:30.738Z"
     },
     {
+      "id": "3RtHT0Gq9TOCWDZ90RMe",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"SALAMANDRA WICHI 40 7500Kca/h ÑUKE\"",
+      "fecha": "2026-07-21T13:28:15.917Z"
+    },
+    {
       "id": "3jeJwrhCPIDiuZ2PnqcT",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:56:50.476Z"
+    },
+    {
+      "id": "3vVimZGUVkVU6gNoR7nv",
+      "usuario": "admin",
+      "fecha": "2026-07-23T13:36:23.930Z",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.40 x 0.60\"",
+      "tipo": "producto_creado"
     },
     {
       "id": "4K4xZMO6t5Hh1aU0fkcp",
@@ -5255,6 +6021,13 @@
       "descripcion": "Creó el producto \"Termotanque  Escorial 45Lt a multigas\"",
       "usuario": "admin",
       "fecha": "2026-07-04T13:35:07.803Z"
+    },
+    {
+      "id": "5KBlCQApqvlDJS2VZ4up",
+      "descripcion": "Creó el producto \"TELEVISOR 50\" TCL ANDROID TV\"",
+      "fecha": "2026-07-22T13:36:17.394Z",
+      "usuario": "admin",
+      "tipo": "producto_creado"
     },
     {
       "id": "5UnGnnVzhJTfRM8Q30Bu",
@@ -5348,6 +6121,20 @@
       "fecha": "2026-07-08T21:21:06.009Z"
     },
     {
+      "id": "7TI8FU9T9dvtHjRkp2KU",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"SILLON \"JAURY\" 3 CUERPOS 1.90M\"",
+      "fecha": "2026-07-22T14:31:02.367Z",
+      "tipo": "producto_creado"
+    },
+    {
+      "id": "7Xdp5svdZ37Ve46iEDhW",
+      "fecha": "2026-07-22T14:22:25.188Z",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"SILLONES\"",
+      "tipo": "categoria_creada"
+    },
+    {
       "id": "7YWXxDbmckcMvl31sAc7",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 106LTS\"",
@@ -5439,6 +6226,13 @@
       "fecha": "2026-07-06T22:57:04.364Z"
     },
     {
+      "id": "8ihPBJp7KQxtYnt43bU1",
+      "usuario": "admin",
+      "tipo": "categoria_editada",
+      "fecha": "2026-07-21T13:10:47.077Z",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\""
+    },
+    {
       "id": "8mq0g6UWsKnLygtGlSG1",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 90L A.R\"",
@@ -5465,6 +6259,34 @@
       "descripcion": "Bajó 9.09% el precio de 1 producto(s) de \"muebles123\"",
       "usuario": "admin",
       "fecha": "2026-07-02T18:31:41.904Z"
+    },
+    {
+      "id": "9E5ogjdURKr6Fl4TkjD1",
+      "fecha": "2026-07-22T13:23:42.160Z",
+      "usuario": "admin",
+      "descripcion": "Asignó 2 categoría(s) al grupo \"ELECTRODOMESTICOS\"",
+      "tipo": "categoria_editada"
+    },
+    {
+      "id": "9WolDn3o0pjrVIS2ZGse",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"TELEVISOR 32\" TCL ANDROID TV\"",
+      "fecha": "2026-07-22T13:26:01.009Z",
+      "tipo": "producto_editado"
+    },
+    {
+      "id": "9ZQGrk27TCgzulIjx34o",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.60 x 0.60\"",
+      "usuario": "admin",
+      "fecha": "2026-07-23T13:38:47.993Z",
+      "tipo": "producto_creado"
+    },
+    {
+      "id": "9d2YBDGt2f6jKW9Ax3t8",
+      "fecha": "2026-07-23T13:15:17.140Z",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"MESADAS\"",
+      "tipo": "categoria_creada"
     },
     {
       "id": "9fJZn8DCmSjU0FNmLlca",
@@ -5549,6 +6371,20 @@
       "descripcion": "Actualizó los datos de Contacto",
       "usuario": "admin",
       "fecha": "2026-07-02T19:22:07.304Z"
+    },
+    {
+      "id": "C0PRtKR5x0B8UYdHJUIt",
+      "fecha": "2026-07-21T13:16:44.979Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"SALAMANDRA WICHI 50 8500Kca/h ÑUKE\"",
+      "tipo": "producto_creado"
+    },
+    {
+      "id": "CAOQoSogwvDXDclGrVTw",
+      "fecha": "2026-07-23T13:31:46.574Z",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.20 x 0.60\"",
+      "tipo": "producto_creado",
+      "usuario": "admin"
     },
     {
       "id": "CDczGayAFX8t5isoGHQr",
@@ -5761,6 +6597,13 @@
       "fecha": "2026-07-09T14:20:48.777Z"
     },
     {
+      "id": "GuuUEhBdtyzxyGPSRBZy",
+      "usuario": "admin",
+      "descripcion": "Creó el proveedor \"HITACHI/TCL\"",
+      "fecha": "2026-07-22T13:25:30.130Z",
+      "tipo": "proveedor_creado"
+    },
+    {
       "id": "H1brnE5VhtxKUaYZ6Ory",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESTUFA INFRARROJA \"SPINHOT\" LILIANA\"",
@@ -5857,6 +6700,13 @@
       "descripcion": "Creó el producto \"ESCOBERO 0.60X1.80 MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T21:30:20.005Z"
+    },
+    {
+      "id": "JHdIy6bAXb3TgCChJR17",
+      "descripcion": "Creó el producto \"TELEVISOR 55\" TCL QLED SMART\"",
+      "fecha": "2026-07-22T13:39:18.092Z",
+      "usuario": "admin",
+      "tipo": "producto_creado"
     },
     {
       "id": "JyZKjH4Yka6d0X2iSH5C",
@@ -6048,6 +6898,13 @@
       "fecha": "2026-07-03T14:02:12.421Z"
     },
     {
+      "id": "N3RahbJ6rWMJ3UIpOKtG",
+      "fecha": "2026-07-22T13:31:16.012Z",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"TELEVISOR 43\" TCL ANDROID TV\"",
+      "tipo": "producto_editado"
+    },
+    {
       "id": "N40u5jZJ6rO8WiMamxrr",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ROPERO MELAMINA 2 PUERTAS ABRIR LIBE20\"",
@@ -6181,6 +7038,27 @@
       "fecha": "2026-07-09T13:03:07.283Z"
     },
     {
+      "id": "PMfTHwhqFoEhrTZoONy4",
+      "fecha": "2026-07-21T13:09:45.127Z",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"EXTERIOR\"",
+      "usuario": "admin",
+      "tipo": "categoria_editada"
+    },
+    {
+      "id": "PQeqTOVZnDDnHkm8nS8O",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"TELEVISOR\"",
+      "tipo": "categoria_creada",
+      "fecha": "2026-07-22T13:22:57.932Z"
+    },
+    {
+      "id": "PRfR3g1LZz2y6LQwzOA5",
+      "fecha": "2026-07-22T13:28:58.701Z",
+      "descripcion": "Creó el producto \"TELEVISOR 43\" TCL\"",
+      "usuario": "admin",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "PUj4Fa878tt9NPnTKUKk",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L\"",
@@ -6200,6 +7078,13 @@
       "descripcion": "Creó el producto \"VANITORY FLOTANTE DE MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-15T13:40:34.401Z"
+    },
+    {
+      "id": "Q4MjR10ufCtj6UoASfg6",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"BAIUT 1.80 4 PUERTAS 3 CAJONES\"",
+      "fecha": "2026-07-22T22:04:11.979Z",
+      "tipo": "producto_creado"
     },
     {
       "id": "QKl0KA6gXkM9IOL0iIXc",
@@ -6258,6 +7143,13 @@
       "fecha": "2026-07-15T13:13:04.718Z"
     },
     {
+      "id": "ROTVMV1sMrMtt8b4nehJ",
+      "fecha": "2026-07-22T14:35:44.745Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"SILLON \"CHESTER\" 3 CUERPOS\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "ROuwjPHexRb0tmO32e20",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 20LTS\"",
@@ -6277,6 +7169,13 @@
       "descripcion": "Editó el producto \"ESTUFA INFRARROJA \"CALORE\" LILIANA\"",
       "usuario": "admin",
       "fecha": "2026-07-11T14:04:33.370Z"
+    },
+    {
+      "id": "Rn0Im9Yxiyo9rvPPzrUL",
+      "usuario": "admin",
+      "fecha": "2026-07-22T14:22:32.575Z",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\""
     },
     {
       "id": "Ro7mGR3pVN6uFpRotlUP",
@@ -6312,6 +7211,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 51LTS L.E\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:54:51.809Z"
+    },
+    {
+      "id": "STsSAbk9zTw0oljiaj8P",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"AIRE ACONDICIONADO\"",
+      "tipo": "categoria_creada",
+      "fecha": "2026-07-22T13:23:04.902Z"
     },
     {
       "id": "SWGEPgWqkrBtrVfiYqF6",
@@ -6377,6 +7283,20 @@
       "fecha": "2026-07-05T16:45:32.803Z"
     },
     {
+      "id": "TGP8fgyItQmCaEBgn0Re",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"SALAMANDRA ECO PUELO 8500Kca/h ÑUKE\"",
+      "tipo": "producto_editado",
+      "fecha": "2026-07-21T13:28:04.269Z"
+    },
+    {
+      "id": "TOnbQqrBjxLpj5OA02z9",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"FOGON 80 ÑUKE\"",
+      "fecha": "2026-07-21T13:27:09.741Z"
+    },
+    {
       "id": "TWS5pxDDCzOF4FVs7lWP",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"MESA DE LUZ MELAMINA C/DESAYUNADOR\"",
@@ -6410,6 +7330,13 @@
       "descripcion": "Creó el producto \"MESA DE LUZ MELAMINA MURCIA MLY\"",
       "usuario": "admin",
       "fecha": "2026-07-13T13:47:57.693Z"
+    },
+    {
+      "id": "USjuwfm66SW1eZKWvu7x",
+      "fecha": "2026-07-22T21:57:43.321Z",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"ORLANDI\"",
+      "usuario": "admin"
     },
     {
       "id": "Ucw3StGQskQnKUANV0jz",
@@ -6468,6 +7395,13 @@
       "fecha": "2026-07-08T21:21:29.558Z"
     },
     {
+      "id": "WBX4XlimEYF0CSiJJUsT",
+      "fecha": "2026-07-22T13:22:46.825Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"TELEVISOR 32\" TCL ANDROID TV\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "WFl7KLp1eOTo2ZYDEkTL",
       "tipo": "categoria_editada",
       "descripcion": "Renombró la categoría \"MESAS DE LUZ\" a \"MESAS DE LUZ\"",
@@ -6510,6 +7444,13 @@
       "fecha": "2026-07-03T20:45:06.031Z"
     },
     {
+      "id": "WxDR2ExGPBOBv2qJvATD",
+      "usuario": "admin",
+      "tipo": "proveedor_creado",
+      "fecha": "2026-07-21T13:08:56.305Z",
+      "descripcion": "Creó el proveedor \"ÑUKE\""
+    },
+    {
       "id": "XBxqTutXYZ2OTVyEd4Df",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN SONIC XXL 55CM\"",
@@ -6529,6 +7470,13 @@
       "descripcion": "Creó la categoría \"ESTANTES\"",
       "usuario": "admin",
       "fecha": "2026-07-13T13:04:49.639Z"
+    },
+    {
+      "id": "XQtjPbRrnskxU55p5oky",
+      "fecha": "2026-07-22T14:29:36.413Z",
+      "descripcion": "Editó el producto \"SILLON CAMA \"CAMI\" 1.90M\"",
+      "usuario": "admin",
+      "tipo": "producto_editado"
     },
     {
       "id": "XT8q2JFyxHhRis9HHZV6",
@@ -6594,6 +7542,13 @@
       "fecha": "2026-07-03T14:01:51.883Z"
     },
     {
+      "id": "ZODOzK3WIzU0lphCdHDu",
+      "descripcion": "Creó la categoría \"BAIUT\"",
+      "usuario": "admin",
+      "fecha": "2026-07-22T21:57:33.412Z",
+      "tipo": "categoria_creada"
+    },
+    {
       "id": "ZXnT21HGAQnvFQx92zGq",
       "tipo": "aumento_masivo",
       "descripcion": "Aumentó 4% el precio de 20 producto(s) de \"TOPACIO\"",
@@ -6615,11 +7570,25 @@
       "fecha": "2026-07-06T21:39:36.367Z"
     },
     {
+      "id": "ZlhhvRgC6m76YYsvNWCO",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.80 x 0.60 C/ZOCALO\"",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "fecha": "2026-07-23T13:42:35.726Z"
+    },
+    {
       "id": "ZmfCPqeJKdPMYcdy7tgi",
       "tipo": "categoria_editada",
       "descripcion": "Asignó 2 categoría(s) al grupo \"HELADERAS Y FREEZER\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:01:07.586Z"
+    },
+    {
+      "id": "ZnOEYakUPTFmiM11iTjb",
+      "descripcion": "Creó el producto \"SILLON CAMA TAPIZADO 2.00M (2 PLAZAS)\"",
+      "fecha": "2026-07-22T14:43:31.668Z",
+      "usuario": "admin",
+      "tipo": "producto_creado"
     },
     {
       "id": "ZngnUXaCOHS1Xzv4M6ek",
@@ -6629,11 +7598,25 @@
       "fecha": "2026-07-03T13:01:36.069Z"
     },
     {
+      "id": "ZoeTQw1nVeO8QJyD7DUM",
+      "usuario": "admin",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "fecha": "2026-07-22T21:57:37.834Z",
+      "tipo": "categoria_editada"
+    },
+    {
       "id": "ZyygijTtgl1x7iL9g4Ii",
       "tipo": "producto_editado",
       "usuario": "admin",
       "fecha": "2026-07-20T12:39:46.476Z",
       "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA ECO (0.80M)\""
+    },
+    {
+      "id": "aNMNXWJjnMRfPNRWYSx1",
+      "fecha": "2026-07-23T13:27:24.956Z",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.00 x 0.60\"",
+      "tipo": "producto_creado",
+      "usuario": "admin"
     },
     {
       "id": "aVWpvENoz1dk7BWoNOVo",
@@ -6711,6 +7694,13 @@
       "descripcion": "Creó el producto \"BIBLIOTECA MELAMINA 60CM\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:46:06.321Z"
+    },
+    {
+      "id": "bkeDaQVm5CfLbsL8sjTi",
+      "usuario": "admin",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"BAIUT 1.35 3 PUERTAS 3 CAJONES\"",
+      "fecha": "2026-07-22T21:59:11.504Z"
     },
     {
       "id": "bnBULL32gOqqDyr96HLY",
@@ -6802,6 +7792,13 @@
       "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS NEGRA\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:46:46.935Z"
+    },
+    {
+      "id": "dOXPpd33EARQyAyoGO0z",
+      "usuario": "admin",
+      "fecha": "2026-07-21T13:20:23.209Z",
+      "descripcion": "Creó el producto \"FOGON 40 ÑUKE\"",
+      "tipo": "producto_creado"
     },
     {
       "id": "dTbIXj9WQcVH8iCxpQ1L",
@@ -6986,6 +7983,13 @@
       "fecha": "2026-07-03T20:56:23.907Z"
     },
     {
+      "id": "ie2mzX1BrAIVhjbSMzKJ",
+      "usuario": "admin",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"SALAMANDRA ECO PUELO 8500Kca/h ÑUKE\"",
+      "fecha": "2026-07-21T13:15:24.021Z"
+    },
+    {
       "id": "izJ0lJx8fPhoygs8Q6aU",
       "tipo": "proveedor_creado",
       "descripcion": "Creó el proveedor \"COPPENS\"",
@@ -7119,6 +8123,20 @@
       "fecha": "2026-07-06T14:02:03.354Z"
     },
     {
+      "id": "lht9DcDlS17kKwKItNMD",
+      "descripcion": "Creó el producto \"FOGON JUAPI 50 ÑUKE\"",
+      "usuario": "admin",
+      "fecha": "2026-07-21T13:25:47.126Z",
+      "tipo": "producto_creado"
+    },
+    {
+      "id": "lnPBQgW1T00CIjvwH0rD",
+      "descripcion": "Editó el producto \"MESADA DURAFORT 1.00 x 0.60 C/ZOCALO\"",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "fecha": "2026-07-23T13:42:48.690Z"
+    },
+    {
       "id": "m3cjc6TFo1KSCzfNUSRM",
       "tipo": "config_contacto",
       "descripcion": "Actualizó los datos de Contacto",
@@ -7238,6 +8256,13 @@
       "fecha": "2026-07-06T14:57:38.924Z"
     },
     {
+      "id": "nrJclEFtx2GYFzcq3yuV",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"SALAMANDRA WICHI 40 7500Kca/h ÑUKE\"",
+      "fecha": "2026-07-21T13:13:31.932Z",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "nvaftVS2GRWy8q13DYb5",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 PLAZA AGUAMARINA TOPACIO\"",
@@ -7257,6 +8282,13 @@
       "descripcion": "Editó el producto \"Termotanque  Escorial 45Lt conexion superior multigas\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:53:11.738Z"
+    },
+    {
+      "id": "oLycPNunX5rvPAXiBsNv",
+      "usuario": "admin",
+      "fecha": "2026-07-22T14:22:41.059Z",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"DIPI\""
     },
     {
       "id": "oS3BEg63GW6rPJiKZLBC",
@@ -7315,6 +8347,13 @@
       "fecha": "2026-07-06T14:01:26.676Z"
     },
     {
+      "id": "pPlYtI9ubX8ofetRqev2",
+      "usuario": "admin",
+      "fecha": "2026-07-22T14:34:32.475Z",
+      "descripcion": "Creó el producto \"SILLON ESQUINERO \"LOURDES\" C/BUTACON 2.00M\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "pi92mBdr1XF2Bp0CXsG6",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L BLACK\"",
@@ -7348,6 +8387,13 @@
       "descripcion": "Editó el producto \"Cocina Escorial Palace Cristal\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:49:33.030Z"
+    },
+    {
+      "id": "qFFsRIwIrg1vyw3EfFgZ",
+      "fecha": "2026-07-21T13:10:24.360Z",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"ELECTRODOMESTICOS\"",
+      "usuario": "admin",
+      "tipo": "categoria_editada"
     },
     {
       "id": "qFlB0xrCEF4HmrOP7xQj",
@@ -7483,6 +8529,13 @@
       "fecha": "2026-07-06T22:56:43.841Z"
     },
     {
+      "id": "sTrpdwpRptwqgWIMxRtR",
+      "fecha": "2026-07-21T13:28:26.323Z",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"SALAMANDRA WICHI 50 8500Kca/h ÑUKE\""
+    },
+    {
       "id": "sZZD2RjCTZNbjicAA9jj",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 6000KCAL TB/TBU\"",
@@ -7495,6 +8548,13 @@
       "descripcion": "Creó el producto \"DESPENSERO 0.40M MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T21:18:47.251Z"
+    },
+    {
+      "id": "shoPQ87bmTx8U1ZNpeJ1",
+      "descripcion": "Creó el proveedor \"DUAFORT\"",
+      "tipo": "proveedor_creado",
+      "fecha": "2026-07-23T13:16:14.892Z",
+      "usuario": "admin"
     },
     {
       "id": "si3I6IGaGFA4QRX06tqS",
@@ -7567,6 +8627,13 @@
       "fecha": "2026-07-08T20:42:26.202Z"
     },
     {
+      "id": "tpNej6p8MPDldVSSepI7",
+      "usuario": "admin",
+      "fecha": "2026-07-21T13:18:35.447Z",
+      "descripcion": "Creó el producto \"SALAMANDRA MULTIECO 10000Kca/h ÑUKE\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "twBhzOmPAh7Q940tvoJM",
       "tipo": "categoria_creada",
       "descripcion": "Creó la categoría \"VANITORY\"",
@@ -7579,6 +8646,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 20LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:53:57.333Z"
+    },
+    {
+      "id": "uE1pDQz6VrC8T6eBP1Q6",
+      "usuario": "admin",
+      "tipo": "categoria_creada",
+      "fecha": "2026-07-21T13:09:25.105Z",
+      "descripcion": "Creó la categoría \"FOGONES\""
     },
     {
       "id": "uGghMaqjyc8OmzfDzkxC",
@@ -7651,6 +8725,13 @@
       "fecha": "2026-07-04T13:45:44.509Z"
     },
     {
+      "id": "wPGxfGHrzbptgGvVfpsU",
+      "usuario": "admin",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-22T14:28:53.043Z",
+      "descripcion": "Creó el producto \"SILLON CAMA \"CAMI\" 1.90M\""
+    },
+    {
       "id": "waCz6skWEHxnUl00seoU",
       "descripcion": "Creó el producto \"CAMA DE PINO 2 ½ PLAZAS MAVIC (1.40M)\"",
       "tipo": "producto_creado",
@@ -7714,6 +8795,13 @@
       "fecha": "2026-07-03T13:58:32.573Z"
     },
     {
+      "id": "xPuSlGBDyep8UNQQMIgQ",
+      "fecha": "2026-07-23T13:16:03.966Z",
+      "usuario": "admin",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "tipo": "categoria_editada"
+    },
+    {
       "id": "xhuokFMBL0BISnFmXkNn",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L FAMILY\"",
@@ -7726,6 +8814,13 @@
       "descripcion": "Editó el producto \"ROPERO MELAMINA 2 PUERTAS ABRIR\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:55:48.951Z"
+    },
+    {
+      "id": "xl0zSFNhdsXEMcRB1DuJ",
+      "usuario": "admin",
+      "tipo": "categoria_creada",
+      "fecha": "2026-07-21T13:09:34.028Z",
+      "descripcion": "Creó la categoría \"SALAMANDRA\""
     },
     {
       "id": "y2kvqjYC1JfA93uAnDwJ",
