@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-23T12:22:11.392Z",
+  "fecha": "2026-07-26T12:00:50.661Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -150,6 +150,28 @@
         "MUEBLES"
       ],
       "precio": 199797
+    },
+    {
+      "id": "25q1xs4VVO2LMX5XxHXt",
+      "nuevo": false,
+      "imagenes": [],
+      "proveedor": "FIBERBALL",
+      "stock": null,
+      "nombre": "ALMOHADA NATIVA 100 FIBERBALL",
+      "descripcion": "Rellena de auténticas microesferas de fibra poliéster hueca FiberBall®, 100% siliconadas, ofreciendo gran suavidad y soporte. Funda en fino percal con estampa blanco sobre blanco, con faja y vivo perimetral. Presentación en bolso de PVC. Consulte por otras medidas.",
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "descuento": 0,
+      "precio": 26000,
+      "colores": [],
+      "activo": true,
+      "categoria": "BLANCO",
+      "destacado": false,
+      "material": null,
+      "precioAnterior": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784924379/muebles_rafaela/sj2tm4vmb1bv4jdpcnaz.png"
     },
     {
       "id": "2NHihzLeASStvT3VcDOd",
@@ -598,6 +620,28 @@
       ]
     },
     {
+      "id": "7r8UG6quUJKIAnBiv2A9",
+      "nuevo": false,
+      "imagenes": [],
+      "proveedor": "FIBERBALL",
+      "destacado": false,
+      "categoria": "BLANCO",
+      "material": null,
+      "descuento": 0,
+      "descripcion": "Interior de plumas 100% seleccionadas, ofreciendo una sensación de placer confortable y suavidad extrema. Funda en satén de 200 hilos con vivo, proporcionando un acabado elegante y lujoso.",
+      "colores": [],
+      "precioAnterior": null,
+      "activo": true,
+      "stock": null,
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925308/muebles_rafaela/kgq5cdp6xsp1kbfncirw.png",
+      "precio": 46600,
+      "nombre": "ALMOHADA PLUMA FIBERBALL"
+    },
+    {
       "id": "7xoOglfBWnUBWSOYTuP3",
       "nombre": "TERMOTANQUE ECOTERMO A GAS 60LTS A.P",
       "descripcion": "Diámetro: 430 – Altura: 1260",
@@ -819,6 +863,50 @@
       "precio": 153036
     },
     {
+      "id": "BMtDNXQudLiCxPn8tpE8",
+      "nuevo": false,
+      "imagenes": [],
+      "proveedor": "FIBERBALL",
+      "destacado": false,
+      "categoria": "BLANCO",
+      "material": null,
+      "descuento": 0,
+      "descripcion": "Interior con núcleo de espuma, envuelto en finas mantas de fibra poliéster siliconada para un soporte óptimo y confort. Delicada funda con faja bordada, presentada en un bolso de PVC para un almacenamiento práctico.",
+      "colores": [],
+      "precioAnterior": null,
+      "activo": true,
+      "stock": null,
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925365/muebles_rafaela/jbh5ft85inpcznr4e3s3.png",
+      "precio": 25300,
+      "nombre": "ALMOHADA NATURIS NUCLEO FIBERBALL"
+    },
+    {
+      "id": "BapPyZrPbhaaDShaIgrD",
+      "material": null,
+      "categoria": "BLANCO",
+      "nombre": "ALMOHADA TRIANGULO FIBERBALL",
+      "precio": 36060,
+      "descuento": 0,
+      "colores": [],
+      "destacado": false,
+      "proveedor": "FIBERBALL",
+      "descripcion": "Triángulo postural de espuma tradicional, diseñado para ofrecer 4 posiciones de soporte. Incluye funda desmontable con cierre en la base para facilitar su limpieza y mantenimiento.",
+      "precioAnterior": null,
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "nuevo": false,
+      "activo": true,
+      "imagenes": [],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925464/muebles_rafaela/bpp38650fzpb0cjuhze3.png",
+      "stock": null
+    },
+    {
       "id": "C9lRXcuQrgAG1IUirTVo",
       "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR R3",
       "descripcion": "Ropero de líneas clásicas, de 180 cm de alto por 90 cm de ancho y 55 cm de profundidad. En su interior, cuenta con un espacio principal con perchero, dos cajones en su parte inferior y un lateral con estantes regulables para que todo quede ordenado puertas hacia adentro.\n\nDimensiones del mueble (cm): 180 x 90 x 55",
@@ -958,6 +1046,28 @@
       "descuento": 0
     },
     {
+      "id": "D1KrQs7xx2ZB4oGmKzkc",
+      "precio": 22300,
+      "descripcion": "Rellena de auténticas microesferas de fibra poliéster hueca FiberBall®, 100% siliconadas, ofreciendo gran suavidad y soporte. Funda en fino percal con estampa blanco sobre blanco, con faja y vivo perimetral. Presentación en bolso de PVC. Consulte por otras medidas.",
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "activo": true,
+      "material": null,
+      "colores": [],
+      "destacado": false,
+      "stock": null,
+      "imagenes": [],
+      "nombre": "ALMOHADA NATIVA 80 FIBERBALL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784900950/muebles_rafaela/b89ismu13x66eo9uxp4v.png",
+      "descuento": 0,
+      "precioAnterior": null,
+      "nuevo": false,
+      "proveedor": "FIBERBALL",
+      "categoria": "BLANCO"
+    },
+    {
       "id": "DZUb3ALLoXqsPVyV238O",
       "categorias": [
         "MUEBLES",
@@ -978,6 +1088,49 @@
       "colores": [],
       "stock": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg"
+    },
+    {
+      "id": "DgT6DkoXcC9jWllfAEZG",
+      "categoria": "MUEBLES",
+      "destacado": false,
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "descripcion": "- 1.40mt x 0.60mt\n\n- Sin zócalo\n\n- Linea Eco, bacha rectangular\n\n- Bacha Izquierda o Derecha\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt",
+      "colores": [
+        {
+          "hex": "#4f4f4f",
+          "nombre": "GRIS OSCURO"
+        },
+        {
+          "hex": "#9e9e9e",
+          "nombre": "GRIS CLARO"
+        },
+        {
+          "hex": "#000000",
+          "nombre": "NEGRO"
+        },
+        {
+          "hex": "#fff1ad",
+          "nombre": "BEIGE"
+        }
+      ],
+      "proveedor": "DUAFORT",
+      "activo": true,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813718/muebles_rafaela/t7catlomkw2hhzq7punu.png",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813720/muebles_rafaela/r8dx6d1umyjlncrkr5ej.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813722/muebles_rafaela/pppo7yijfqqajckshmki.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813724/muebles_rafaela/osk1mqzh4yasmzusrc2q.png"
+      ],
+      "stock": null,
+      "descuento": 0,
+      "precioAnterior": null,
+      "precio": 265300,
+      "nombre": "MESADA DURAFORT 1.40 x 0.60",
+      "nuevo": false,
+      "material": null
     },
     {
       "id": "EMKDBdQqX3ByS4twRTaL",
@@ -1193,6 +1346,28 @@
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913117/muebles_rafaela/u75gekgodlns0o9wlw1v.jpg",
       "proveedor": "UNICAN"
+    },
+    {
+      "id": "GmB6vbY9KMvHdLajpjQs",
+      "nuevo": false,
+      "proveedor": "FIBERBALL",
+      "categoria": "BLANCO",
+      "precioAnterior": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784900915/muebles_rafaela/srmtxjaq0mzj6ofjicxv.png",
+      "descuento": 0,
+      "nombre": "ALMOHADA NATIVA 70 FIBERBALL",
+      "imagenes": [],
+      "stock": null,
+      "destacado": false,
+      "colores": [],
+      "material": null,
+      "activo": true,
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "descripcion": "Rellena de auténticas microesferas de fibra poliéster hueca FiberBall®, 100% siliconadas, ofreciendo gran suavidad y soporte. Funda en fino percal con estampa blanco sobre blanco, con faja y vivo perimetral. Presentación en bolso de PVC. Consulte por otras medidas.",
+      "precio": 20700
     },
     {
       "id": "GuC6EQY95FYkuhFNgWrC",
@@ -2164,6 +2339,49 @@
       "precio": 525824
     },
     {
+      "id": "Qyxplb20r8sVNvoFY2F1",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813373/muebles_rafaela/kwzg6htjyttiujnqcc0a.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813376/muebles_rafaela/zrkmabeqrau5ziwgampa.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813379/muebles_rafaela/cmckjonuaov0riwcoim6.png"
+      ],
+      "activo": true,
+      "nuevo": false,
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "descripcion": "- 1.20mt x 0.60mt\n\n- Sin zócalo\n\n- Fino borde antiderrame\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban",
+      "precio": 229400,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813371/muebles_rafaela/ufxdzavkaqo4syktaoum.png",
+      "precioAnterior": null,
+      "material": null,
+      "stock": null,
+      "proveedor": "DUAFORT",
+      "destacado": false,
+      "colores": [
+        {
+          "hex": "#575757",
+          "nombre": "GRIS OSCURO"
+        },
+        {
+          "nombre": "GRIS CLARO",
+          "hex": "#b0b0b0"
+        },
+        {
+          "nombre": "NEGRO",
+          "hex": "#000000"
+        },
+        {
+          "hex": "#dbca8f",
+          "nombre": "BEIGE"
+        }
+      ],
+      "categoria": "MUEBLES",
+      "nombre": "MESADA DURAFORT 1.20 x 0.60",
+      "descuento": 0
+    },
+    {
       "id": "RW69VK9eJTTgue82vIWv",
       "nombre": "HELADERA GRIS C/FREEZER BRIKET 257LTS",
       "descripcion": "Nuestra heladera con freezer de 257 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\n\nDimensiones (mm): Ancho: 550 | Alto: 1495 | Profundidad: 660\n\nPeso: 44,2 Kg\n\nClasificación Energética: A\n\nCapacidad: 257 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 270",
@@ -2310,6 +2528,28 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL MASTER CLASSIC 56CM"
+    },
+    {
+      "id": "TBIYCnGfolQAERqXscdn",
+      "stock": null,
+      "material": null,
+      "destacado": false,
+      "descripcion": "Rellena de fibra de poliéster standard 100% virgen, proporcionando durabilidad y suavidad. La funda está confeccionada en tela Batista de color blanco óptico, conocida por su elegancia, resistencia y suavidad al tacto, ideal para un acabado limpio y refinado.",
+      "precio": 8100,
+      "imagenes": [],
+      "colores": [],
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "activo": true,
+      "proveedor": "FIBERBALL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784900757/muebles_rafaela/uoszkvzusldfvz34mdqo.png",
+      "categoria": "BLANCO",
+      "precioAnterior": null,
+      "nuevo": false,
+      "descuento": 0,
+      "nombre": "ALMOHADA PROCOL FIBERBALL"
     },
     {
       "id": "TdXvoOiPGH6wQjKKiGsm",
@@ -2744,6 +2984,49 @@
       "proveedor": "YUTE"
     },
     {
+      "id": "XQkkZwcqbGd2egUTqA3r",
+      "nombre": "MESADA DURAFORT 1.60 x 0.60",
+      "colores": [
+        {
+          "nombre": "BEIGE",
+          "hex": "#ead2a9"
+        },
+        {
+          "nombre": "NEGRO",
+          "hex": "#000000"
+        },
+        {
+          "hex": "#b0b0b0",
+          "nombre": "GRIS CLARO"
+        },
+        {
+          "hex": "#636363",
+          "nombre": "GRIS OSCURO"
+        }
+      ],
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "precioAnterior": null,
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813863/muebles_rafaela/qshli1ibqranbhrtdb4w.png",
+      "nuevo": false,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813870/muebles_rafaela/npcyjwrrrz50xoprzy5k.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813874/muebles_rafaela/npkepvbtlscyvizkudih.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813877/muebles_rafaela/z3ym2jdhvcha8q7gqgxr.png"
+      ],
+      "proveedor": "DUAFORT",
+      "material": null,
+      "activo": true,
+      "categoria": "MUEBLES",
+      "stock": null,
+      "precio": 307800,
+      "destacado": false,
+      "descripcion": "- 1.60mt x 0.60mt\n\n- Sin zócalo\n\n- Fino borde antiderrame\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban"
+    },
+    {
       "id": "Y3a3e3MOJippNfl9Kxup",
       "nombre": "COCINA INDUSTRIAL USMAN WIN 550",
       "descripcion": "Cocina Industrial en Acero Inoxidable.\nPuerta visor con vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, pirómetro en puerta y válvula de seguridad.\n\nAncho\t\n55 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
@@ -2831,6 +3114,28 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL CANDOR"
+    },
+    {
+      "id": "YH9lC3i8GN9ShxagWcGr",
+      "nuevo": false,
+      "material": null,
+      "activo": true,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784900854/muebles_rafaela/xrlu3terbfimhchuuqic.png",
+      "proveedor": "FIBERBALL",
+      "descripcion": "Plus de confort y plus de volumen. Rellena de fibra poliéster 100% siliconada, ofreciendo máxima suavidad y soporte. Doble funda, funda envolvente interna y funda externa desmontable con cierre que permite su lavado para mayor higiene. Terminaciones con vivo perimetral para un acabado decorativo. Hipoalergénica.",
+      "stock": null,
+      "colores": [],
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "descuento": 0,
+      "precioAnterior": null,
+      "imagenes": [],
+      "destacado": false,
+      "categoria": "BLANCO",
+      "nombre": "ALMOHADA FIRST CLASS 90 FIBERBALL",
+      "precio": 21200
     },
     {
       "id": "YmR3k5pDtJAae4cRj4M4",
@@ -2948,6 +3253,28 @@
       "precio": 180068
     },
     {
+      "id": "aySzQEuFo283uQmD7WRC",
+      "precio": 14200,
+      "destacado": false,
+      "categoria": "BLANCO",
+      "nombre": "ALMOHADA FIRST CLASS 70 FIBERBALL",
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "descuento": 0,
+      "precioAnterior": null,
+      "imagenes": [],
+      "colores": [],
+      "stock": null,
+      "proveedor": "FIBERBALL",
+      "descripcion": "Plus de confort y plus de volumen. Rellena de fibra poliéster 100% siliconada, ofreciendo máxima suavidad y soporte. Doble funda, funda envolvente interna y funda externa desmontable con cierre que permite su lavado para mayor higiene. Terminaciones con vivo perimetral para un acabado decorativo. Hipoalergénica.",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784900822/muebles_rafaela/durq0bw1t1i6pp4npioh.png",
+      "activo": true,
+      "nuevo": false,
+      "material": null
+    },
+    {
       "id": "b8fYfOIWK7EyjbMtKLvd",
       "material": null,
       "precio": 152700,
@@ -2968,6 +3295,28 @@
       "destacado": false,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324453/muebles_rafaela/txefvox6rxslbzumd0sf.png",
       "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts."
+    },
+    {
+      "id": "bJzjhI5WOxmYiATNQA3u",
+      "stock": null,
+      "destacado": false,
+      "descripcion": "Relleno de fibra de poliéster standard 100% virgen, garantizando durabilidad, suavidad y ligereza. La funda está confeccionada con TNT (Tela No Tejida), que ofrece transpirabilidad, resistencia e higiene, ideal para un uso prolongado y cómodo.",
+      "material": null,
+      "imagenes": [],
+      "precio": 6200,
+      "colores": [],
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "activo": true,
+      "proveedor": "FIBERBALL",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784900713/muebles_rafaela/dd6pk7onjup85aptbwen.png",
+      "categoria": "BLANCO",
+      "precioAnterior": null,
+      "nombre": "ALMOHADA CINDY FIBERBALL",
+      "nuevo": false,
+      "descuento": 0
     },
     {
       "id": "bMr4gTQqejw96fWDvVjB",
@@ -3035,6 +3384,28 @@
         }
       ],
       "precio": 129601
+    },
+    {
+      "id": "bZBGRdqxcXqTo749mMFY",
+      "activo": true,
+      "material": null,
+      "nuevo": false,
+      "colores": [],
+      "imagenes": [],
+      "stock": null,
+      "nombre": "ALMOHADA SENSITIVE MEMORY STANDARD FIBERBALL",
+      "descripcion": "Formato STANDARD Curvo. Almohadas de placa de espuma viscoelástica termosensible memory, de alta tecnología que proporciona un confort excepcional. Incluye funda toalla elastizada desmontable smooth plush con cierre y se presenta en un bolso de PVC para un almacenamiento conveniente.",
+      "destacado": false,
+      "proveedor": "FIBERBALL",
+      "descuento": 0,
+      "categoria": "BLANCO",
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784924948/muebles_rafaela/bs5by3t6as8jpxwcujrc.png",
+      "precioAnterior": null,
+      "precio": 35600
     },
     {
       "id": "bZLB3Q23dJ7d6kFBC8Hc",
@@ -3149,6 +3520,28 @@
         }
       ],
       "precio": 458640
+    },
+    {
+      "id": "ccY8m6tUcnxNkCJzFduH",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784924426/muebles_rafaela/vmobauxh4lnyylrs51we.png",
+      "nuevo": false,
+      "descuento": 0,
+      "stock": null,
+      "colores": [],
+      "material": null,
+      "destacado": false,
+      "descripcion": "Rellena de mantas de fibra de poliéster siliconada de alto rendimiento, asegurando durabilidad y confort. Presentación en bolso de PVC para un almacenamiento conveniente.",
+      "precio": 15900,
+      "proveedor": "FIBERBALL",
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "imagenes": [],
+      "categoria": "BLANCO",
+      "nombre": "ALMOHADA EMOCION FIBERBALL",
+      "precioAnterior": null,
+      "activo": true
     },
     {
       "id": "dZhbautOVG0fJVhDndce",
@@ -3336,6 +3729,28 @@
         }
       ],
       "precio": 216256
+    },
+    {
+      "id": "eh7FdDHLsn11T840xNpP",
+      "descripcion": "Formato CERVICAL. Almohadas de placa de espuma viscoelástica termosensible memory, de alta tecnología que ofrece un soporte específico para el cuello y la cabeza. Incluye funda toalla elastizada desmontable smooth plush con cierre y se presenta en un bolso de PVC para un almacenamiento práctico.",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925055/muebles_rafaela/ultwivhtelrjq6egtuvl.png",
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "destacado": false,
+      "nombre": "ALMOHADA SENSITIVE MEMORY CERVICAL FIBERBALL",
+      "activo": true,
+      "precio": 31600,
+      "proveedor": "FIBERBALL",
+      "descuento": 0,
+      "categoria": "BLANCO",
+      "material": null,
+      "nuevo": false,
+      "stock": null,
+      "precioAnterior": null,
+      "colores": [],
+      "imagenes": []
     },
     {
       "id": "etm1mqhi44QnisEmq3BE",
@@ -4160,6 +4575,28 @@
         }
       ],
       "precio": 236639
+    },
+    {
+      "id": "p3ClOy2IltUplbbDdNTc",
+      "destacado": false,
+      "colores": [],
+      "imagenes": [],
+      "proveedor": "FIBERBALL",
+      "activo": true,
+      "stock": null,
+      "precioAnterior": null,
+      "material": null,
+      "descuento": 0,
+      "descripcion": "Formato PLAIN AMERICANO. Almohadas de placa de espuma viscoelástica termosensible memory, de alta tecnología que proporciona un confort excepcional. Incluye funda toalla elastizada desmontable smooth plush con cierre y se presenta en un bolso de PVC para un almacenamiento práctico.",
+      "nuevo": false,
+      "categoria": "BLANCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925121/muebles_rafaela/vzq3w2egodzvhbetrcyj.png",
+      "precio": 34300,
+      "categorias": [
+        "BLANCO",
+        "ALMOHADAS"
+      ],
+      "nombre": "ALMOHADA SENSITIVE MEMORY PLAIN FIBERBALL"
     },
     {
       "id": "pOED0odhyogZQqZQPpFU",
@@ -5025,6 +5462,41 @@
       ]
     },
     {
+      "id": "wgwXi2vTryNzZ2x3qG7K",
+      "imagenes": [],
+      "stock": null,
+      "descripcion": "- 1.80mt x 0.60mt\n\n- Con zócalo\n\n- Fino borde antiderrame\n\n- Bacha Central\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban",
+      "nombre": "MESADA DURAFORT 1.80 x 0.60 C/ZOCALO",
+      "precioAnterior": null,
+      "proveedor": "DUAFORT",
+      "categoria": "MUEBLES",
+      "descuento": 0,
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "precio": 363800,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784814120/muebles_rafaela/a6d18yte0sadbaqgybw2.png",
+      "material": null,
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [
+        {
+          "hex": "#e2db92",
+          "nombre": "BEIGE"
+        },
+        {
+          "nombre": "NEGRO",
+          "hex": "#000000"
+        },
+        {
+          "nombre": "GRIS CLARO",
+          "hex": "#bdbdbd"
+        }
+      ]
+    },
+    {
       "id": "wtJsH7nekuXEoFWLDYUF",
       "nombre": "MESA DE LUZ MELAMINA MURCIA MLY",
       "descripcion": "Dimensiones del mueble (cm): 67 x 43 x 36",
@@ -5085,6 +5557,44 @@
           "hex": "#888888"
         }
       ]
+    },
+    {
+      "id": "yKfvztN2CJhDSWUksN3H",
+      "material": null,
+      "colores": [
+        {
+          "hex": "#000000",
+          "nombre": "NEGRO"
+        },
+        {
+          "nombre": "GRIS CLARO",
+          "hex": "#9b9a99"
+        },
+        {
+          "hex": "#2e2d2d",
+          "nombre": "GRIS OSCURO"
+        }
+      ],
+      "activo": true,
+      "nuevo": false,
+      "descripcion": "- 1.00mt x 0.60mt\n\n- Con zócalo\n\n- Fino borde antiderrame\n\n- Bacha Izquierda\n\n- Medida de Bacha: 0.45mt x 0.30mt x 0.15mt\n\n- Contiene Microban",
+      "precioAnterior": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813186/muebles_rafaela/gwgf1ji7ms7f7ys9eg2n.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813188/muebles_rafaela/wa4w9majujt7v9ekkovf.png"
+      ],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813193/muebles_rafaela/j0rvbczolphztbf1131j.png",
+      "proveedor": "DUAFORT",
+      "categorias": [
+        "MUEBLES",
+        "MESADAS"
+      ],
+      "stock": null,
+      "categoria": "MUEBLES",
+      "precio": 191800,
+      "descuento": 0,
+      "destacado": false,
+      "nombre": "MESADA DURAFORT 1.00 x 0.60 C/ZOCALO"
     },
     {
       "id": "ybS7xDZ5qR4P33lgkI0c",
@@ -5304,8 +5814,19 @@
   ],
   "categorias": [
     {
+      "id": "5cpaSONvzwUU8N62NxuY",
+      "nombre": "BLANCO"
+    },
+    {
       "id": "7Qp9xuAoPvQkJKqDDbZu",
       "nombre": "BOTINEROS",
+      "gruposIds": [
+        "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "AW099mAGQlDFWx4Niq5X",
+      "nombre": "MESADAS",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
       ]
@@ -5346,6 +5867,13 @@
       "nombre": "ELECTRODOMESTICOS"
     },
     {
+      "id": "KxpIXeLlhCOgXgBPxdnE",
+      "nombre": "ALMOHADAS",
+      "gruposIds": [
+        "5cpaSONvzwUU8N62NxuY"
+      ]
+    },
+    {
       "id": "MMCaPEA08Dlzyh6Yfc6b",
       "nombre": "SILLONES",
       "gruposIds": [
@@ -5371,7 +5899,7 @@
       "id": "Sd9i0f6gUpNZz2YHTI2v",
       "nombre": "COLCHONES",
       "gruposIds": [
-        "yLCpvttuCZXS1lbjMb9E"
+        "5cpaSONvzwUU8N62NxuY"
       ]
     },
     {
@@ -5594,8 +6122,16 @@
       "nombre": "ÑUKE"
     },
     {
+      "id": "ZMj8AezxUcIj3nBJqHYY",
+      "nombre": "DUAFORT"
+    },
+    {
       "id": "bc1qiD3MlLFwnZllHu3q",
       "nombre": "HITACHI/TCL"
+    },
+    {
+      "id": "bdgTam88HOgTo7DIi5mN",
+      "nombre": "FIBERBALL"
     },
     {
       "id": "gGNAKy4ArDPYQfTOQAyr",
@@ -5647,6 +6183,13 @@
       "descripcion": "Creó el producto \"COLCHON 1 PLAZA MARFILTOPACIO\"",
       "usuario": "admin",
       "fecha": "2026-07-09T13:00:01.200Z"
+    },
+    {
+      "id": "0jitHSd1ioev9KM7tyPw",
+      "usuario": "admin",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"BLANCO\"",
+      "tipo": "categoria_editada",
+      "fecha": "2026-07-24T13:37:42.304Z"
     },
     {
       "id": "0raSI90Cu57HJFUKG12H",
@@ -5775,6 +6318,13 @@
       "fecha": "2026-07-06T22:56:50.476Z"
     },
     {
+      "id": "3vVimZGUVkVU6gNoR7nv",
+      "usuario": "admin",
+      "fecha": "2026-07-23T13:36:23.930Z",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.40 x 0.60\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "4K4xZMO6t5Hh1aU0fkcp",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"SILLA UNICAN VERONA\"",
@@ -5899,6 +6449,13 @@
       "descripcion": "Creó el producto \"DESPENSERO 0.60x1.50 MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T21:21:06.009Z"
+    },
+    {
+      "id": "7SXCG66wUnUhyGtuV9cr",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ALMOHADA NATIVA 100 FIBERBALL\"",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-24T15:27:48.427Z"
     },
     {
       "id": "7TI8FU9T9dvtHjRkp2KU",
@@ -6055,6 +6612,20 @@
       "tipo": "producto_editado"
     },
     {
+      "id": "9ZQGrk27TCgzulIjx34o",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.60 x 0.60\"",
+      "usuario": "admin",
+      "fecha": "2026-07-23T13:38:47.993Z",
+      "tipo": "producto_creado"
+    },
+    {
+      "id": "9d2YBDGt2f6jKW9Ax3t8",
+      "fecha": "2026-07-23T13:15:17.140Z",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"MESADAS\"",
+      "tipo": "categoria_creada"
+    },
+    {
       "id": "9fJZn8DCmSjU0FNmLlca",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
@@ -6144,6 +6715,13 @@
       "usuario": "admin",
       "descripcion": "Creó el producto \"SALAMANDRA WICHI 50 8500Kca/h ÑUKE\"",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "CAOQoSogwvDXDclGrVTw",
+      "fecha": "2026-07-23T13:31:46.574Z",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.20 x 0.60\"",
+      "tipo": "producto_creado",
+      "usuario": "admin"
     },
     {
       "id": "CDczGayAFX8t5isoGHQr",
@@ -6405,6 +6983,13 @@
       "fecha": "2026-07-11T14:04:52.576Z"
     },
     {
+      "id": "HeAGJOrO1Fig7IOyB1Ak",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-24T13:48:39.630Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ALMOHADA NATIVA 70 FIBERBALL\""
+    },
+    {
       "id": "Hh4U5L8ToPFs1IFVztQR",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Cocina Escorial Master Classic 56CM\"",
@@ -6431,6 +7016,13 @@
       "descripcion": "Editó el producto \"RESPALDO MELAMINA C/MESA DE LUZ RC5\"",
       "usuario": "admin",
       "fecha": "2026-07-15T13:25:25.355Z"
+    },
+    {
+      "id": "ILoAYNfPG46c9gcnnvNq",
+      "fecha": "2026-07-24T20:19:44.824Z",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"ALMOHADA NATIVA 100 FIBERBALL\"",
+      "tipo": "producto_editado"
     },
     {
       "id": "IU2WQtFsaR5rIvGESLJd",
@@ -6465,6 +7057,13 @@
       "descripcion": "Creó el producto \"TELEVISOR 55\" TCL QLED SMART\"",
       "fecha": "2026-07-22T13:39:18.092Z",
       "usuario": "admin",
+      "tipo": "producto_creado"
+    },
+    {
+      "id": "JxasmIIa6uMNMyVC1czM",
+      "fecha": "2026-07-24T20:36:07.490Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ALMOHADA NATURIS NUCLEO FIBERBALL\"",
       "tipo": "producto_creado"
     },
     {
@@ -6650,6 +7249,13 @@
       "fecha": "2026-07-06T22:57:26.045Z"
     },
     {
+      "id": "McSYKcKB9VZ3dmSW8dav",
+      "usuario": "admin",
+      "descripcion": "Creó el proveedor \"FIBERBALL\"",
+      "tipo": "proveedor_creado",
+      "fecha": "2026-07-24T13:38:25.352Z"
+    },
+    {
       "id": "Mu47SNrKygckVhFoksaU",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
@@ -6734,11 +7340,25 @@
       "usuario": "admin"
     },
     {
+      "id": "O7Yr6UsOjhvrLB9S0MeJ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ALMOHADA SENSITIVE MEMORY CERVICAL FIBERBALL\"",
+      "usuario": "admin",
+      "fecha": "2026-07-24T20:30:59.589Z"
+    },
+    {
       "id": "OE7Wwcabds1eH1GbtCK5",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 257LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:02:35.690Z"
+    },
+    {
+      "id": "OFqWbNL58nFyVaJH4cLM",
+      "descripcion": "Creó el producto \"ALMOHADA FIRST CLASS 70 FIBERBALL\"",
+      "fecha": "2026-07-24T13:47:06.156Z",
+      "usuario": "admin",
+      "tipo": "producto_creado"
     },
     {
       "id": "OMoPW2hR3Dysjnd4sZzq",
@@ -6916,6 +7536,13 @@
       "fecha": "2026-07-03T13:06:19.577Z"
     },
     {
+      "id": "RS1cWfl5oyFUnJby3URQ",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-24T13:49:12.614Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ALMOHADA NATIVA 80 FIBERBALL\""
+    },
+    {
       "id": "RbpKIuD5UFmtVl2A52Re",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESTUFA COPPENS 4000KCAL TB/TBU\"",
@@ -7063,6 +7690,13 @@
       "fecha": "2026-07-05T16:56:42.218Z"
     },
     {
+      "id": "Tm6kF1u0eMX1QeTD6woD",
+      "fecha": "2026-07-24T20:32:05.130Z",
+      "usuario": "admin",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ALMOHADA SENSITIVE MEMORY PLAIN FIBERBALL\""
+    },
+    {
       "id": "TtcdyaKllYW0b92mnjUQ",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 257LTS\"",
@@ -7173,6 +7807,13 @@
       "descripcion": "Editó el producto \"BAJO MESADA MELAMINA 1.40 CENTRO ESTANT\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:23:10.102Z"
+    },
+    {
+      "id": "WRY2n6Ho9D9FV97TF18m",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"ALMOHADAS\"",
+      "tipo": "categoria_creada",
+      "fecha": "2026-07-24T13:37:25.995Z"
     },
     {
       "id": "WXjZvrVYjb3QVzR2YC0z",
@@ -7329,6 +7970,13 @@
       "fecha": "2026-07-06T21:39:36.367Z"
     },
     {
+      "id": "ZlhhvRgC6m76YYsvNWCO",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.80 x 0.60 C/ZOCALO\"",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "fecha": "2026-07-23T13:42:35.726Z"
+    },
+    {
       "id": "ZmfCPqeJKdPMYcdy7tgi",
       "tipo": "categoria_editada",
       "descripcion": "Asignó 2 categoría(s) al grupo \"HELADERAS Y FREEZER\"",
@@ -7362,6 +8010,13 @@
       "usuario": "admin",
       "fecha": "2026-07-20T12:39:46.476Z",
       "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA ECO (0.80M)\""
+    },
+    {
+      "id": "aNMNXWJjnMRfPNRWYSx1",
+      "fecha": "2026-07-23T13:27:24.956Z",
+      "descripcion": "Creó el producto \"MESADA DURAFORT 1.00 x 0.60\"",
+      "tipo": "producto_creado",
+      "usuario": "admin"
     },
     {
       "id": "aVWpvENoz1dk7BWoNOVo",
@@ -7411,6 +8066,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:59:45.788Z"
+    },
+    {
+      "id": "bFMcyZWx209mpX5WdWF4",
+      "fecha": "2026-07-24T20:20:28.343Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ALMOHADA EMOCION FIBERBALL\"",
+      "tipo": "producto_creado"
     },
     {
       "id": "bOvHKFAXHTxOIOuVo5yq",
@@ -7497,6 +8159,13 @@
       "fecha": "2026-07-05T16:54:14.231Z"
     },
     {
+      "id": "cft0sKJM7aM7Q7gnFvfd",
+      "fecha": "2026-07-24T13:47:36.381Z",
+      "usuario": "admin",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ALMOHADA FIRST CLASS 90 FIBERBALL\""
+    },
+    {
       "id": "ciEH8KwpJVDC2U5v3MSP",
       "tipo": "categoria_editada",
       "descripcion": "Asignó 2 categoría(s) al grupo \"MUEBLES\"",
@@ -7516,6 +8185,13 @@
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 24PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:12.659Z"
+    },
+    {
+      "id": "d34VNLEhI8wlTl9GKzlh",
+      "descripcion": "Creó el producto \"ALMOHADA CINDY FIBERBALL\"",
+      "fecha": "2026-07-24T13:45:17.412Z",
+      "tipo": "producto_creado",
+      "usuario": "admin"
     },
     {
       "id": "dFeEvbYVEHLndytD9MJO",
@@ -7588,6 +8264,13 @@
       "fecha": "2026-07-05T16:56:03.848Z"
     },
     {
+      "id": "emui8HjwNSHuFzJHMTsz",
+      "fecha": "2026-07-24T13:37:30.502Z",
+      "usuario": "admin",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"BLANCO\"",
+      "tipo": "categoria_editada"
+    },
+    {
       "id": "epbkT0hbyaQhqCXdFyun",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE POPULI A GAS 45LTS\"",
@@ -7614,6 +8297,13 @@
       "descripcion": "Editó el producto \"HELADERA BAJO MESADA BRIKET 125LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:46:55.180Z"
+    },
+    {
+      "id": "f6gLBAxrNiuG49EVe1dG",
+      "fecha": "2026-07-24T20:29:14.993Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ALMOHADA SENSITIVE MEMORY STANDARD FIBERBALL\"",
+      "tipo": "producto_creado"
     },
     {
       "id": "fCbl7R4cCi31imQrv1J3",
@@ -7763,6 +8453,13 @@
       "fecha": "2026-07-06T21:37:12.801Z"
     },
     {
+      "id": "jPIm6RlVjmEL0DrLEvmL",
+      "fecha": "2026-07-24T20:35:11.558Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ALMOHADA PLUMA FIBERBALL\"",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "jZTUDu1gTt0ISQHHHORu",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESTUFA COPPENS 5000KCAL SIN TIRO\"",
@@ -7826,6 +8523,13 @@
       "fecha": "2026-07-03T14:02:27.123Z"
     },
     {
+      "id": "kgIdOaOma0J1GsIMr1jM",
+      "usuario": "admin",
+      "descripcion": "Quitó \"COLCHONES\" del grupo \"MUEBLES\"",
+      "tipo": "categoria_editada",
+      "fecha": "2026-07-24T13:37:57.372Z"
+    },
+    {
       "id": "klglEJsF6wJYY8CX2zce",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 50L\"",
@@ -7873,6 +8577,13 @@
       "usuario": "admin",
       "fecha": "2026-07-21T13:25:47.126Z",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "lnPBQgW1T00CIjvwH0rD",
+      "descripcion": "Editó el producto \"MESADA DURAFORT 1.00 x 0.60 C/ZOCALO\"",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "fecha": "2026-07-23T13:42:48.690Z"
     },
     {
       "id": "m3cjc6TFo1KSCzfNUSRM",
@@ -8069,6 +8780,13 @@
       "descripcion": "Creó el producto \"CUBO ORGANIZADOR X6 MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:50:43.905Z"
+    },
+    {
+      "id": "p9o3HKDQCboHwxhzGmn4",
+      "fecha": "2026-07-24T13:37:16.302Z",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"BLANCO\"",
+      "tipo": "categoria_creada"
     },
     {
       "id": "pEjUHxR5b3wuPbLvD86U",
@@ -8288,6 +9006,13 @@
       "fecha": "2026-07-08T21:18:47.251Z"
     },
     {
+      "id": "shoPQ87bmTx8U1ZNpeJ1",
+      "descripcion": "Creó el proveedor \"DUAFORT\"",
+      "tipo": "proveedor_creado",
+      "fecha": "2026-07-23T13:16:14.892Z",
+      "usuario": "admin"
+    },
+    {
       "id": "si3I6IGaGFA4QRX06tqS",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COCINA ESCORIAL PALACE CRISTAL\"",
@@ -8442,6 +9167,13 @@
       "fecha": "2026-07-06T21:12:48.497Z"
     },
     {
+      "id": "vprjjSgV5An0dq3nkg5S",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ALMOHADA TRIANGULO FIBERBALL\"",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-24T20:37:48.630Z"
+    },
+    {
       "id": "wFXJ6bTRK71rOhpDyclG",
       "fecha": "2026-07-17T21:41:03.944Z",
       "usuario": "admin",
@@ -8526,6 +9258,13 @@
       "fecha": "2026-07-03T13:58:32.573Z"
     },
     {
+      "id": "xPuSlGBDyep8UNQQMIgQ",
+      "fecha": "2026-07-23T13:16:03.966Z",
+      "usuario": "admin",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\"",
+      "tipo": "categoria_editada"
+    },
+    {
       "id": "xhuokFMBL0BISnFmXkNn",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L FAMILY\"",
@@ -8545,6 +9284,13 @@
       "tipo": "categoria_creada",
       "fecha": "2026-07-21T13:09:34.028Z",
       "descripcion": "Creó la categoría \"SALAMANDRA\""
+    },
+    {
+      "id": "xtJjy9H44bg48rl8soTd",
+      "descripcion": "Creó el producto \"ALMOHADA PROCOL FIBERBALL\"",
+      "usuario": "admin",
+      "fecha": "2026-07-24T13:45:59.687Z",
+      "tipo": "producto_creado"
     },
     {
       "id": "y2kvqjYC1JfA93uAnDwJ",
