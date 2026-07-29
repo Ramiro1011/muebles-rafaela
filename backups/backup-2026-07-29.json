@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-26T12:00:50.661Z",
+  "fecha": "2026-07-29T12:58:20.265Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -94,6 +94,58 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ]
+    },
+    {
+      "id": "1bZnAoJen4syS4gyghJW",
+      "colores": [],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "FREIDORA"
+      ],
+      "descripcion": "Freidora eléctrica por aire.\n\nCapacidad 4,5 Lts.\n\nSin aceite.\n\nAntiadherente.\n\nRegulador de temperatura.\n\nTemporizador.\n\nIndicador luminoso.",
+      "destacado": false,
+      "nuevo": false,
+      "stock": null,
+      "proveedor": "WINCO",
+      "precio": 108600,
+      "precioAnterior": null,
+      "categoria": "ELECTRODOMESTICOS",
+      "activo": true,
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249352/muebles_rafaela/yvszjmw5ygmx6jzjckoe.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249367/muebles_rafaela/blxyeojvjzixzjf5xwno.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249369/muebles_rafaela/mb7rhyqmg1wld693b9w5.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249371/muebles_rafaela/jfzcx43936kqlkimwihy.jpg"
+      ],
+      "descuento": 0,
+      "nombre": "FREIDORA DE AIRE SIN ACEITE WINCO W131"
+    },
+    {
+      "id": "1qo7MnBHXLYNnD0EIj7s",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247478/muebles_rafaela/epwq6ab3vbixfy2yzdbz.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247480/muebles_rafaela/fmqxhdrf9mc860vvku17.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247482/muebles_rafaela/o6ytig1vyx6jqyjdgxas.jpg"
+      ],
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247473/muebles_rafaela/gmuwhlt0bjbaqbkpk4rp.jpg",
+      "proveedor": "WINCO",
+      "destacado": false,
+      "descuento": 0,
+      "categoria": "ELECTRODOMESTICOS",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "BATIDORA"
+      ],
+      "activo": true,
+      "nombre": "BATIDORA CON BOWL WINCO W303",
+      "nuevo": false,
+      "stock": null,
+      "precio": 57825,
+      "colores": [],
+      "precioAnterior": null,
+      "descripcion": "Batidora de mano.\n\n2 en 1.\n\n2 amasadores + 2 batidores.\n\n5 velocidades.\n\nFunción turbo.\n\nBate y amasa.\n\nCon pedestal y bowl.\n\nPotencia: 300 W.\n\nMedidas producto: 31 x 33 x 22.5 Cm.\n\nMedidas caja: 31.7 x 21 x 23 Cm."
     },
     {
       "id": "1wx7ATLWnLPNe8ywQv4H",
@@ -999,6 +1051,32 @@
       "precio": 149330
     },
     {
+      "id": "CPkBUkN6KqxHtQHZekPV",
+      "stock": null,
+      "nombre": "BATIDORA DE MANO WINCO W305",
+      "descuento": 0,
+      "nuevo": false,
+      "precio": 41500,
+      "precioAnterior": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247734/muebles_rafaela/p7g2ggdrrlpm4eijn1ud.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247736/muebles_rafaela/a32nnpsvernaq4phwogh.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247737/muebles_rafaela/jvcqzhkuaqafieyxhtp1.jpg"
+      ],
+      "descripcion": "Batidora de mano.\n2 en 1.\n5 velocidades.\n2 amasadores + 2 batidores.\nPotencia: 300 W.\nMedidas producto: 18 x 15.5 x 7.5 Cm.\nMedidas caja: 18.5 x 18 x 8.5 Cm.",
+      "activo": true,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "BATIDORA"
+      ],
+      "destacado": false,
+      "proveedor": "WINCO",
+      "material": null,
+      "categoria": "ELECTRODOMESTICOS",
+      "colores": [],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247731/muebles_rafaela/xltvh1zlxdlzmux53lir.jpg"
+    },
+    {
       "id": "ClxFikwNyO4y0AxHnLsv",
       "nuevo": false,
       "colores": [],
@@ -1290,6 +1368,31 @@
         "CÓMODAS"
       ],
       "precio": 281983
+    },
+    {
+      "id": "G1Y53JdZrOqfWEizNa70",
+      "descripcion": "Aspiradora ciclónica 220 V.\nSin bolsa.\n2 litros de capacidad.\nPotencia: 1800 W.\nCable de 5 Mts.\nPedal de encendido / apagado.\nPedal guardacable.\nManija para fácil traslado.\nIncluye tubo telescópico, cepillo para piso y esquinero.",
+      "colores": [],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246499/muebles_rafaela/n55kx7psayr4ohu5mgfb.jpg",
+      "material": null,
+      "nombre": "ASPIRADORA CICLONICA WINCO W540",
+      "destacado": false,
+      "descuento": 0,
+      "precioAnterior": null,
+      "stock": null,
+      "activo": true,
+      "categoria": "ELECTRODOMESTICOS",
+      "nuevo": false,
+      "proveedor": "WINCO",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246501/muebles_rafaela/gb2wft88mvyf4bcskqvm.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246503/muebles_rafaela/ujxw02cksu2sdmom5ixz.jpg"
+      ],
+      "precio": 167900,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "ASPIRADORA"
+      ]
     },
     {
       "id": "GFiUWOMKYT1Ux5cCFwxb",
@@ -2014,6 +2117,30 @@
       "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)"
     },
     {
+      "id": "OniDP7OfEyRwV2DhruEW",
+      "nombre": "BALANZA DE COCINA CON BOWL WINCO",
+      "descripcion": "Balanza de cocina con 5 kg de capacidad.\n\nSensores de alta precisión.\n\nPantalla digital de fácil lectura.\n\nBowl de 2.4 lts. de capacidad.\n\nRango de medición: 5 grs a 5 kg.\n\nPráctica función de cero / tara.\n\nApagado automático y manual.\n\nIndicador de sobrepeso y batería baja.\n\nUtiliza 1 pila CR2032",
+      "precio": 32300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "BALANZA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247234/muebles_rafaela/oc9rqbof0uarnlpmozdu.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247243/muebles_rafaela/cuwnjvybdihillzaquxt.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "P1sYkeoAS3DRwx2rJJVb",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 40L",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
@@ -2721,6 +2848,31 @@
         }
       ],
       "precio": 571487
+    },
+    {
+      "id": "UgnLGzw6Y4lq4pPPZiod",
+      "nombre": "ANAFE ELECTRICO 2 HORNALLAS WINCO",
+      "descripcion": "Anafe eléctrico.\n2 hornallas.\nRegulador de temperatura.\nTermostato automático.\nPlaca calentadora de 155 Mm. de diámetro.\nProtección por sobre calentamiento.\nIndicador luminoso de encendido.\nPotencia: 1000 W por placa.",
+      "precio": 57830,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "ANAFE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246334/muebles_rafaela/oeg9c7fzaddamsf3ezsa.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246344/muebles_rafaela/u68hikhaj8nccjzhu633.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246346/muebles_rafaela/guznzacx7s6333ft5n43.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "UnyrKb8OjMh5YbiR4ztT",
@@ -4453,6 +4605,32 @@
       "precio": 265960
     },
     {
+      "id": "mfgmUXgC9JC5mtwc31mb",
+      "proveedor": "WINCO",
+      "precioAnterior": null,
+      "activo": true,
+      "nuevo": false,
+      "stock": null,
+      "nombre": "CAFETERA FILTRO 0.6L WINCO W1930",
+      "colores": [],
+      "descripcion": "Capacidad 0,6 Lts.\n\nJarra cónica de vidrio.\n\nMantiene el café a 75º.\n\nFiltro plástico lavable.\n\nApta para filtro descartable.\n\nDispositivo anti goteo.\n\nControl automático de temperatura.\n\nIndicador de nivel de agua.\n\nMedidas: 25 x 22 x 15 Cm.",
+      "material": null,
+      "precio": 44400,
+      "destacado": false,
+      "categoria": "ELECTRODOMESTICOS",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247947/muebles_rafaela/wetzvfy3f3hlglznpleg.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247951/muebles_rafaela/bvszukbp7mwgrtlubx0s.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247953/muebles_rafaela/c5bz4z2smlh9wfcsi3ez.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785247955/muebles_rafaela/yaeja4fiik0uywrxnzjn.jpg"
+      ],
+      "descuento": 0,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CAFETERA"
+      ]
+    },
+    {
       "id": "mvOlTASNvW4CTUCj8z9Y",
       "descripcion": "Organizá tus zapatos para tenerlos ordenados y siempre a mano. Su estilo clásico combina fácilmente con cualquier ambiente. Ubicalo en tu cuarto, en tu vestidor o en el hall de distribución.\n\nDimensiones del mueble (cm): 152,5 x 60,5 x 28,5",
       "precioAnterior": null,
@@ -4653,6 +4831,31 @@
         "ORGANIZADOR"
       ],
       "precio": 142572
+    },
+    {
+      "id": "peGmyyJwtpqclqpeilIP",
+      "stock": null,
+      "descripcion": "Anafe eléctrico.\n\n1 hornalla.\n\nRegulador de temperatura.\n\nTermostato automático.\n\nPlaca calentadora de 155 mm de diámetro.\n\nProtección por sobre calentamiento.\n\nIndicador luminoso de encendido.\n\nPotencia: 1000 W.\n\nMedidas producto: 21 x 24 x 5 Cm.\n\nMedidas caja: 26 x 23 x 8 Cm.",
+      "material": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785245734/muebles_rafaela/drmygmx8c3momtghyduh.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785245737/muebles_rafaela/vigfm6zvrpr1q2wqmsrh.jpg"
+      ],
+      "precioAnterior": null,
+      "nuevo": false,
+      "colores": [],
+      "proveedor": "WINCO",
+      "precio": 34700,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "ANAFE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "nombre": "ANAFE ELECTRICO 1 HORNALLA WINCO",
+      "activo": true,
+      "destacado": false,
+      "descuento": 0,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785245731/muebles_rafaela/k7lcuxob6d9lxp51iomw.jpg"
     },
     {
       "id": "psoAxXRcdN70quk2pgBd",
@@ -4857,6 +5060,33 @@
       "precio": 177779
     },
     {
+      "id": "sQBJslJOGRmcTW6V7U4U",
+      "activo": true,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "FREIDORA"
+      ],
+      "nombre": "FREIDORA DE AIRE SIN ACEITE 9L WINCO W139",
+      "categoria": "ELECTRODOMESTICOS",
+      "nuevo": false,
+      "descuento": 0,
+      "material": null,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249508/muebles_rafaela/q5opy7dn82ioti0r7xao.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249511/muebles_rafaela/hhucsytrh6xgj0zplspg.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249516/muebles_rafaela/g7shfdc7fj9wowgzlynn.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249674/muebles_rafaela/pak9gliul1hmucueug4m.jpg"
+      ],
+      "stock": null,
+      "colores": [],
+      "destacado": false,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785249506/muebles_rafaela/muifrky3oadg8rrz7rqy.jpg",
+      "descripcion": "9 litros total de capacidad.\n8 programas prestablecidos.\nPanel digital touch.\nTemporizador de 60 minutos.\nRegulador de temperatura y tiempo.\nSuperficie antiadherente.\nManijas frías al tacto.\nPotencia: 2000 W.",
+      "precio": 268300,
+      "precioAnterior": null
+    },
+    {
       "id": "sWWbR9SmB8FAreGg6l0C",
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 160L",
       "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
@@ -4926,6 +5156,27 @@
       "stock": null,
       "colores": [],
       "activo": true
+    },
+    {
+      "id": "sg2y1vTKwIIiZY6uad9l",
+      "activo": true,
+      "descripcion": null,
+      "categoria": "ELECTRODOMESTICOS",
+      "colores": [],
+      "descuento": 0,
+      "precioAnterior": null,
+      "nombre": "CORTAPELO WINCO W6102",
+      "destacado": false,
+      "proveedor": "WINCO",
+      "imagenes": [],
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785248946/muebles_rafaela/bpqm1dvsakybq0cxxbqh.jpg",
+      "material": null,
+      "stock": null,
+      "nuevo": false,
+      "precio": 36700,
+      "categorias": [
+        "ELECTRODOMESTICOS"
+      ]
     },
     {
       "id": "t126ekZBJqLiuuIN2TCi",
@@ -5265,6 +5516,32 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ]
+    },
+    {
+      "id": "uwO1IRdfftfkXdiiSn3q",
+      "nombre": "ASPIRADORA DE TACHO 10L WINCO",
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "ASPIRADORA"
+      ],
+      "stock": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246676/muebles_rafaela/v584bba65nvutdoozzvf.jpg",
+      "activo": true,
+      "nuevo": false,
+      "categoria": "ELECTRODOMESTICOS",
+      "destacado": false,
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246679/muebles_rafaela/jlxxtpuzxmwavrplfybr.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246686/muebles_rafaela/pjrldht2ylihp4emsrow.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785246708/muebles_rafaela/l9camtw6qxyg283v74el.jpg"
+      ],
+      "descuento": 0,
+      "precio": 163300,
+      "material": null,
+      "colores": [],
+      "descripcion": "10 litros de capacidad.\nAspiradora con ruedas.\nPolvo y líquido.\nSoplador de aire.\nCepillo para piso.\nCepillo redondo.\nBoquilla para surcos.\nFiltro HEPA.\nManguera flexible de 1,5 Mts.\nCable de 5 Mts.\nPotencia: 1000 W.",
+      "proveedor": "WINCO",
+      "precioAnterior": null
     },
     {
       "id": "v2sMXaaUXkyOgYQvGztE",
@@ -5624,6 +5901,31 @@
       "proveedor": "SEÑORIAL"
     },
     {
+      "id": "yhYw4UZAPCnuHh0QiIft",
+      "nombre": "CAFETERA FILTRO 1.2L WINCO W1932",
+      "descripcion": "Capacidad 1,2 Lts.\nJarra cónica de vidrio.\nMantiene el café a 75º.\nFiltro plástico lavable.\nApta para filtro descartable.\nDispositivo anti goteo.\nControl automático de temperatura.\nIndicador de nivel de agua.",
+      "precio": 58400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CAFETERA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785248676/muebles_rafaela/ptkzq148htwwhb6ffiyv.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785248678/muebles_rafaela/kuubbxjbzgwwfdsnunn0.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785248679/muebles_rafaela/kjp7hngyurve4sal71dp.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "yrx0gKlQUSZlJXzctG4p",
       "descripcion": "Ropero clásico, pensado para aprovechar cualquier rincón de tu habitación. Cuenta con un espacio de perchero, dos cajones y un compartimento inferior para calzados. Ideal para habitaciones pequeñas.\n\nDimensiones del mueble (cm): 180 x 60 x 50",
       "precioAnterior": null,
@@ -5657,6 +5959,30 @@
       ],
       "nombre": "ROPERO MELAMINA 2 PUERTAS ABRIR LIBE20",
       "precio": 240781
+    },
+    {
+      "id": "zDGwyELIJKjtxZMYVHil",
+      "nombre": "GARRAFERA KEN BROWN PLEGABLE",
+      "descripcion": "Encendido piezoeléctrico.\nDiseño innovador – Sistema plegable.\nAnalizador atmosférico.\n3 niveles – 1400/2800/4200Kcal/h.\nDispositivo de seguridad especial para prevenir accidentes por monóxido de carbono (CO).\nRuedas giratorias.\nManijas laterales / Fácil armado.",
+      "precio": 236700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CALEFACCION"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "COPPENS",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785243539/muebles_rafaela/jeyl2o74yx0arwdo1za2.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785243541/muebles_rafaela/wfbcniy7gjftf8dqokq5.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "zV95BfNifjdUwR4chyoX",
@@ -5814,6 +6140,13 @@
   ],
   "categorias": [
     {
+      "id": "14HLIgNxI72ZKq1nOF6g",
+      "nombre": "CAFETERA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "5cpaSONvzwUU8N62NxuY",
       "nombre": "BLANCO"
     },
@@ -5825,10 +6158,24 @@
       ]
     },
     {
+      "id": "7YFEor2RC9YlIqQP1Tt8",
+      "nombre": "FREIDORA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "AW099mAGQlDFWx4Niq5X",
       "nombre": "MESADAS",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "AdkKN6MhuFk2VastDHa3",
+      "nombre": "YOGURTERA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
       ]
     },
     {
@@ -5874,6 +6221,13 @@
       ]
     },
     {
+      "id": "LuY94Nq1s6Z2CBSygzn9",
+      "nombre": "ASPIRADORA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "MMCaPEA08Dlzyh6Yfc6b",
       "nombre": "SILLONES",
       "gruposIds": [
@@ -5885,6 +6239,13 @@
       "nombre": "BOX CON CAJONES",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "PiHyfZKjYBx4eILX9Rwt",
+      "nombre": "BATIDORA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
       ]
     },
     {
@@ -5917,6 +6278,13 @@
       ]
     },
     {
+      "id": "UWeLYf3j2qeDBqByrn3F",
+      "nombre": "ANAFE",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "WrgSuVCSDQxCxIdMMLH0",
       "nombre": "ESTANTES",
       "gruposIds": [
@@ -5932,6 +6300,13 @@
       ]
     },
     {
+      "id": "a1CF0v285cqravw88aFx",
+      "nombre": "PLANCHA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "a7wFyfjhIYWu7UULqd1J",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
@@ -5943,6 +6318,13 @@
       "nombre": "ESCOBERO",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "aOMp2ydqAsdGruUTdIKn",
+      "nombre": "PAVA ELECTRICA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
       ]
     },
     {
@@ -5976,11 +6358,39 @@
       ]
     },
     {
+      "id": "eDxW124YZ5Pz5ihN9ZdK",
+      "nombre": "BALANZA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "fKk1bwphgMG9V0RqDSM8",
       "nombre": "MESAS",
       "padreId": "yLCpvttuCZXS1lbjMb9E",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "fSD28JqtcuELoMwLn72J",
+      "nombre": "TOSTADORA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "fbQtqVPHW3qeHwNCmTvv",
+      "nombre": "RALLADOR",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "g4ZFzmvWDrunwwNvJFOn",
+      "nombre": "LICUADORA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
       ]
     },
     {
@@ -5991,10 +6401,38 @@
       ]
     },
     {
+      "id": "ggXaTKOGmA2Xps7wleeD",
+      "nombre": "PLANCHA DE PELO",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "i6xdrT2myKmjsDkhC4Aw",
       "nombre": "DESPENSERO",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "k8K1gzcpvUGelcfpFJnI",
+      "nombre": "VENTILADOR",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "kQtZWejutoCcwKm3JnQp",
+      "nombre": "SANDWICHERA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "ldu8QO5vHpx9JsgXmE6L",
+      "nombre": "RADIO",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
       ]
     },
     {
@@ -6028,6 +6466,13 @@
     {
       "id": "olIMfF1BocxYydxUHhrU",
       "nombre": "EXTERIOR"
+    },
+    {
+      "id": "p4qhGvC7T8F9V6wnrZew",
+      "nombre": "PICADORA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
     },
     {
       "id": "qfelcPGV4w75vHmT2qrS",
@@ -6070,6 +6515,20 @@
       "padreId": "yLCpvttuCZXS1lbjMb9E",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "xSUcvRrfH1wWRKvquwZk",
+      "nombre": "PARLANTE",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "yB6w3E1N7KveuSegZeWJ",
+      "nombre": "HORNO GRILL",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
       ]
     },
     {
@@ -6118,6 +6577,10 @@
       "nombre": "DIPI"
     },
     {
+      "id": "NWcdyXZiXQgDSGkjvQsj",
+      "nombre": "WINCO"
+    },
+    {
       "id": "YornmRWjTLb733md09na",
       "nombre": "ÑUKE"
     },
@@ -6163,6 +6626,13 @@
     }
   ],
   "historial": [
+    {
+      "id": "00AHn1r6tT3lEOWZzFZV",
+      "fecha": "2026-07-28T13:51:53.466Z",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ASPIRADORA DE TACHO 10L WINCO\""
+    },
     {
       "id": "0CEOd5834Dl2qCKQzrCB",
       "fecha": "2026-07-21T13:24:03.792Z",
@@ -6232,6 +6702,13 @@
       "descripcion": "Creó el producto \"COLCHON 1 ½ PLAZA ESPUMA ESMERALDA TOPACIO\"",
       "usuario": "admin",
       "fecha": "2026-07-09T13:24:47.591Z"
+    },
+    {
+      "id": "1PrSoVDPbFLfy5TYj6Yw",
+      "fecha": "2026-07-28T13:32:22.535Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"TOSTADORA\""
     },
     {
       "id": "1ldLxmeSKJER253c1spy",
@@ -6344,6 +6821,13 @@
       "descripcion": "Editó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:57:58.011Z"
+    },
+    {
+      "id": "4pU4o3nZaR9678VPNLXZ",
+      "fecha": "2026-07-28T13:48:58.954Z",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"ELECTRODOMESTICOS\"",
+      "usuario": "admin",
+      "tipo": "categoria_editada"
     },
     {
       "id": "4swV1DV6DO3fpJhMWmFk",
@@ -6556,6 +7040,13 @@
       "fecha": "2026-07-11T13:34:37.536Z"
     },
     {
+      "id": "8TzF73idaaMKHcfQRvG4",
+      "fecha": "2026-07-28T13:30:04.458Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"BATIDORA\""
+    },
+    {
       "id": "8ZVz8Y0B9Q90wc8FO1h0",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/CONGELADOR BRIKET 290LTS\"",
@@ -6645,6 +7136,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 80LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:06:35.985Z"
+    },
+    {
+      "id": "AGPCDQdNLaKsbugTIVMV",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"CAFETERA FILTRO 0.6L WINCO W1930\"",
+      "usuario": "admin",
+      "fecha": "2026-07-28T14:21:46.515Z"
     },
     {
       "id": "AVVGrwMKFAprj1yZkWxY",
@@ -6745,6 +7243,13 @@
       "fecha": "2026-07-06T22:19:38.731Z"
     },
     {
+      "id": "DDOp5Jqa2vPYDGh1okDq",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"BATIDORA CON BOWL WINCO W303\"",
+      "fecha": "2026-07-28T14:04:53.222Z",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "DEiUF5C2wx3a03RJUC0W",
       "tipo": "proveedor_creado",
       "descripcion": "Creó el proveedor \"TANDIL\"",
@@ -6757,6 +7262,13 @@
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 322LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:02:42.982Z"
+    },
+    {
+      "id": "DOvxCYs9BXnvFG3R911F",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"PARLANTE\"",
+      "fecha": "2026-07-28T13:31:09.166Z",
+      "tipo": "categoria_creada"
     },
     {
       "id": "DRpcbvZUrbcbuP1LBk35",
@@ -6792,6 +7304,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 0,80M\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:22.959Z"
+    },
+    {
+      "id": "EAyFId930LXkg0ldIyyW",
+      "fecha": "2026-07-28T13:30:59.127Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"LICUADORA\""
     },
     {
       "id": "EDVM0n6LXgxC9PSljM3a",
@@ -6969,6 +7488,13 @@
       "fecha": "2026-07-15T13:18:24.957Z"
     },
     {
+      "id": "HK55vdRS2UrvUtjfy1hC",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"RADIO\"",
+      "fecha": "2026-07-28T13:31:42.094Z",
+      "tipo": "categoria_creada"
+    },
+    {
       "id": "HNwZC6AwGev6za3BE2ns",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL ELECTRICO 90L\"",
@@ -6981,6 +7507,13 @@
       "descripcion": "Editó el producto \"CALOVENTOR LILIANA \"BLACKSUN\"\"",
       "usuario": "admin",
       "fecha": "2026-07-11T14:04:52.576Z"
+    },
+    {
+      "id": "HbFCBlYpynDVE9ujpB4b",
+      "tipo": "producto_creado",
+      "fecha": "2026-07-28T13:35:44.518Z",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"ANAFE ELECTRICO 1 HORNALLA WINCO\""
     },
     {
       "id": "HeAGJOrO1Fig7IOyB1Ak",
@@ -7016,6 +7549,13 @@
       "descripcion": "Editó el producto \"RESPALDO MELAMINA C/MESA DE LUZ RC5\"",
       "usuario": "admin",
       "fecha": "2026-07-15T13:25:25.355Z"
+    },
+    {
+      "id": "II5v8p8jEjicVCpgrQfZ",
+      "fecha": "2026-07-28T13:49:18.577Z",
+      "descripcion": "Editó el producto \"ASPIRADORA CICLONICA WINCO W540\"",
+      "usuario": "admin",
+      "tipo": "producto_editado"
     },
     {
       "id": "ILoAYNfPG46c9gcnnvNq",
@@ -7072,6 +7612,13 @@
       "descripcion": "Creó la categoría \"COCINA\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:48:14.232Z"
+    },
+    {
+      "id": "JzYJ4BZUJTFj7EDxt823",
+      "usuario": "admin",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"ELECTRODOMESTICOS\"",
+      "fecha": "2026-07-28T14:13:01.154Z",
+      "tipo": "categoria_editada"
     },
     {
       "id": "K5ZdtpbpzfWyuEY2htkd",
@@ -7249,11 +7796,25 @@
       "fecha": "2026-07-06T22:57:26.045Z"
     },
     {
+      "id": "MbxiaswmoSRjpM1G8lZe",
+      "fecha": "2026-07-28T13:33:13.548Z",
+      "tipo": "categoria_editada",
+      "usuario": "admin",
+      "descripcion": "Asignó 17 categoría(s) al grupo \"ELECTRODOMESTICOS\""
+    },
+    {
       "id": "McSYKcKB9VZ3dmSW8dav",
       "usuario": "admin",
       "descripcion": "Creó el proveedor \"FIBERBALL\"",
       "tipo": "proveedor_creado",
       "fecha": "2026-07-24T13:38:25.352Z"
+    },
+    {
+      "id": "McVaIuxPrjYndits9udL",
+      "fecha": "2026-07-28T14:41:20.060Z",
+      "descripcion": "Creó el producto \"FREIDORA DE AIRE SIN ACEITE 9L WINCO W139\"",
+      "usuario": "admin",
+      "tipo": "producto_creado"
     },
     {
       "id": "Mu47SNrKygckVhFoksaU",
@@ -7368,6 +7929,13 @@
       "fecha": "2026-07-15T13:25:57.453Z"
     },
     {
+      "id": "OPddcmh75camhitKumZQ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"BALANZA DE COCINA CON BOWL WINCO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-28T14:00:55.963Z"
+    },
+    {
       "id": "OXHZt8MkMtkcILydjPgf",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COCINA ESCORIAL MASTER CLASSIC INOX 56CM\"",
@@ -7424,6 +7992,13 @@
       "tipo": "categoria_editada"
     },
     {
+      "id": "PNBpeXGLSysNh7APJELa",
+      "fecha": "2026-07-28T13:31:33.714Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"PLANCHA DE PELO\""
+    },
+    {
       "id": "PQeqTOVZnDDnHkm8nS8O",
       "usuario": "admin",
       "descripcion": "Creó la categoría \"TELEVISOR\"",
@@ -7443,6 +8018,13 @@
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 30L\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:47:25.066Z"
+    },
+    {
+      "id": "PqERBGDS81TLlS3junqT",
+      "descripcion": "Creó el producto \"BATIDORA DE MANO WINCO W305\"",
+      "tipo": "producto_creado",
+      "usuario": "admin",
+      "fecha": "2026-07-28T14:09:02.556Z"
     },
     {
       "id": "PulaiTMajlx0TaHCcUDi",
@@ -7555,6 +8137,13 @@
       "descripcion": "Editó el producto \"ESTUFA INFRARROJA \"CALORE\" LILIANA\"",
       "usuario": "admin",
       "fecha": "2026-07-11T14:04:33.370Z"
+    },
+    {
+      "id": "RhVNC3P3Sn3eQSUzwSFV",
+      "fecha": "2026-07-28T13:31:19.330Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"PICADORA\""
     },
     {
       "id": "Rn0Im9Yxiyo9rvPPzrUL",
@@ -7697,6 +8286,13 @@
       "descripcion": "Creó el producto \"ALMOHADA SENSITIVE MEMORY PLAIN FIBERBALL\""
     },
     {
+      "id": "TtRKZorF57JWqrRmdvav",
+      "usuario": "admin",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"ASPIRADORA\"",
+      "fecha": "2026-07-28T13:48:54.968Z"
+    },
+    {
       "id": "TtcdyaKllYW0b92mnjUQ",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 257LTS\"",
@@ -7709,6 +8305,13 @@
       "descripcion": "Aumentó 10% el precio de 1 producto(s) de \"muebles123\"",
       "usuario": "admin",
       "fecha": "2026-07-02T18:28:04.542Z"
+    },
+    {
+      "id": "U6IiNrUrIKtzi5wEwYLc",
+      "fecha": "2026-07-28T13:32:38.840Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"YOGURTERA\""
     },
     {
       "id": "UCGhdcJErJLpL2Zi28H3",
@@ -7737,6 +8340,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 6 CAJONES 1,20M\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:55.577Z"
+    },
+    {
+      "id": "UrBpePLFy9bIaQxvaFZP",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"HORNO GRILL\"",
+      "fecha": "2026-07-28T13:30:39.452Z",
+      "tipo": "categoria_creada"
     },
     {
       "id": "UtLXwpobac8Xy3Fs3KJZ",
@@ -7961,6 +8571,13 @@
       "descripcion": "Activó el producto \"BOTINERO MELAMINA 24PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:42:07.740Z"
+    },
+    {
+      "id": "ZaaljcBg0ywTqbR9dwmf",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"GARRAFERA KEN BROWN PLEGABLE\"",
+      "usuario": "admin",
+      "fecha": "2026-07-28T12:59:16.155Z"
     },
     {
       "id": "ZhAsDLZNoX7q8GoiezUo",
@@ -8257,6 +8874,13 @@
       "fecha": "2026-07-03T13:59:19.455Z"
     },
     {
+      "id": "egOzYYzQyHmWhpwUkgfu",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"ANAFE ELECTRICO 2 HORNALLAS WINCO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-28T13:45:52.408Z"
+    },
+    {
       "id": "ehLiDWbgvMPLgOGC7ouq",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ROPERO MELAMINA 4 PUERTAS ABRIR\"",
@@ -8327,6 +8951,13 @@
       "fecha": "2026-07-08T21:28:08.635Z"
     },
     {
+      "id": "feXuqWfIuMgsGJJzz0fe",
+      "fecha": "2026-07-28T14:29:10.699Z",
+      "descripcion": "Creó el producto \"CORTAPELO WINCO W6102\"",
+      "tipo": "producto_creado",
+      "usuario": "admin"
+    },
+    {
       "id": "ffapJpc35XpprVh4jdFR",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"RESPALDO MELAMINA C/MESA DE LUZ RC5\"",
@@ -8383,11 +9014,25 @@
       "fecha": "2026-07-15T12:58:13.230Z"
     },
     {
+      "id": "gboJB4vQvzCPKXmOXu5k",
+      "fecha": "2026-07-28T13:30:14.867Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"BALANZA\""
+    },
+    {
       "id": "h9XpnXd4K5zuBc1TsKJZ",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 257LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:45:42.703Z"
+    },
+    {
+      "id": "hG80KAbANDxdKyqpuQx4",
+      "fecha": "2026-07-28T13:31:27.603Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"PLANCHA\""
     },
     {
       "id": "hepLREEOP2zKhlkewoBQ",
@@ -8457,6 +9102,13 @@
       "fecha": "2026-07-24T20:35:11.558Z",
       "usuario": "admin",
       "descripcion": "Creó el producto \"ALMOHADA PLUMA FIBERBALL\"",
+      "tipo": "producto_creado"
+    },
+    {
+      "id": "jVlC7fvHMsGrhFlGjN0e",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"CAFETERA FILTRO 0.6L WINCO W1930\"",
+      "fecha": "2026-07-28T14:12:40.242Z",
       "tipo": "producto_creado"
     },
     {
@@ -8551,6 +9203,13 @@
       "fecha": "2026-07-10T13:56:39.168Z"
     },
     {
+      "id": "lOJ5Zr5SJ72MX1oxvdXY",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"ANAFE\"",
+      "fecha": "2026-07-28T13:29:59.589Z",
+      "tipo": "categoria_creada"
+    },
+    {
       "id": "lQPyp1Mpr71ct4MgNQ22",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 106LTS\"",
@@ -8598,6 +9257,13 @@
       "descripcion": "Creó el producto \"ALACENA MELAMINA 1.20M CENTRO ESTANT\"",
       "usuario": "admin",
       "fecha": "2026-07-08T13:44:02.099Z"
+    },
+    {
+      "id": "mW4hAr2z4B2aO5TRHdB5",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"PAVA ELECTRICA\"",
+      "fecha": "2026-07-28T13:30:49.823Z",
+      "tipo": "categoria_creada"
     },
     {
       "id": "maNem1TUFYTH6kso28I4",
@@ -8733,11 +9399,25 @@
       "fecha": "2026-07-05T16:53:11.738Z"
     },
     {
+      "id": "oGnrmDncdg7GPshecEx9",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"SANDWICHERA\"",
+      "fecha": "2026-07-28T13:32:16.299Z",
+      "tipo": "categoria_creada"
+    },
+    {
       "id": "oLycPNunX5rvPAXiBsNv",
       "usuario": "admin",
       "fecha": "2026-07-22T14:22:41.059Z",
       "tipo": "proveedor_creado",
       "descripcion": "Creó el proveedor \"DIPI\""
+    },
+    {
+      "id": "oM63joi7kbfbJiRvttOa",
+      "fecha": "2026-07-28T14:12:51.564Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"CAFETERA\""
     },
     {
       "id": "oS3BEg63GW6rPJiKZLBC",
@@ -8773,6 +9453,13 @@
       "descripcion": "Creó la categoría \"CÓMODAS\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:50:33.362Z"
+    },
+    {
+      "id": "oqNgfX4BKflQrVFNPnAz",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"FREIDORA\"",
+      "fecha": "2026-07-28T13:30:30.810Z",
+      "tipo": "categoria_creada"
     },
     {
       "id": "ox4OUmSzohBcUlmbIksU",
@@ -8957,6 +9644,13 @@
       "fecha": "2026-07-15T13:25:03.101Z"
     },
     {
+      "id": "rqYqssfEY1LnjqWPArLD",
+      "usuario": "admin",
+      "descripcion": "Creó el proveedor \"WINCO\"",
+      "fecha": "2026-07-28T13:33:26.025Z",
+      "tipo": "proveedor_creado"
+    },
+    {
       "id": "rwDtrQgFc7uffjHyIbTF",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
@@ -8964,11 +9658,25 @@
       "fecha": "2026-07-03T20:56:43.054Z"
     },
     {
+      "id": "s6V5hHVQqfaaOOIFJHHi",
+      "descripcion": "Creó el producto \"ASPIRADORA CICLONICA WINCO W540\"",
+      "fecha": "2026-07-28T13:48:43.274Z",
+      "usuario": "admin",
+      "tipo": "producto_creado"
+    },
+    {
       "id": "s8ysybF8ZQdEsWkw5vVP",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"RACK TV MELAMINA MT6000 (2 MODULOS)\"",
       "usuario": "admin",
       "fecha": "2026-07-14T13:35:48.937Z"
+    },
+    {
+      "id": "sC80nuWGpNHMpSvsxa4B",
+      "fecha": "2026-07-28T13:32:00.474Z",
+      "tipo": "categoria_creada",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"RALLADOR\""
     },
     {
       "id": "sIJZBewcPDf6C7eLq4MV",
@@ -9034,6 +9742,13 @@
       "fecha": "2026-07-09T13:39:31.806Z"
     },
     {
+      "id": "swdHZk3Td0A9JQYd6PmH",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CAFETERA FILTRO 1.2L WINCO W1932\"",
+      "usuario": "admin",
+      "fecha": "2026-07-28T14:24:43.628Z"
+    },
+    {
       "id": "tADXeYtLvv66WmIxkqxS",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"SILLA UNICAN MILÁN\"",
@@ -9055,6 +9770,13 @@
       "fecha": "2026-07-15T12:31:36.172Z"
     },
     {
+      "id": "tY8SJUPAaqFajGt5vrRi",
+      "usuario": "admin",
+      "descripcion": "Creó la categoría \"VENTILADOR\"",
+      "fecha": "2026-07-28T13:32:33.173Z",
+      "tipo": "categoria_creada"
+    },
+    {
       "id": "tabq4icGUwDUVkCz0ci1",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 322LTS\"",
@@ -9074,6 +9796,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 60LTS A.P\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:54:22.245Z"
+    },
+    {
+      "id": "titAIeHQIW0PA4RYXuw3",
+      "usuario": "admin",
+      "tipo": "producto_eliminado",
+      "fecha": "2026-07-28T13:49:10.638Z",
+      "descripcion": "Eliminó el producto \"ASPIRADORA CICLONICA WINCO W540\""
     },
     {
       "id": "toy7ALXZbAIVutArKb4e",
@@ -9333,6 +10062,13 @@
       "descripcion": "Activó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:21:17.771Z"
+    },
+    {
+      "id": "yZCOw07e0vpjqEiO9AqG",
+      "usuario": "admin",
+      "descripcion": "Creó el producto \"FREIDORA DE AIRE SIN ACEITE WINCO W131\"",
+      "fecha": "2026-07-28T14:36:15.614Z",
+      "tipo": "producto_creado"
     },
     {
       "id": "yaNBotMzo08eEddtjfDt",
