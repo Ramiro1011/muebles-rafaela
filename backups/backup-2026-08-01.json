@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-29T12:58:20.265Z",
+  "fecha": "2026-08-01T12:00:37.965Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -588,6 +588,31 @@
       ]
     },
     {
+      "id": "6MDmjfa2nexKrgafZMfm",
+      "nombre": "SECADOR DE PELO PLEGABLE WINCO",
+      "descripcion": "Ideal para viajes.\nPlegable.\n2 velocidades. \nPotencia: 1200 W.",
+      "precio": 29200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362126/muebles_rafaela/ihzpow7iazyhzlvhizgq.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362128/muebles_rafaela/yctbnyinbzkpf8svt6yk.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362130/muebles_rafaela/cvkaom7ybri6kr3mbv4z.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SECADOR"
+      ]
+    },
+    {
       "id": "6Mn66A7hZUYaVhcEYtpf",
       "nombre": "ALACENA/ORGANIZADOR",
       "descripcion": "Mueble de guardado ideal para organizar tu cocina. El T6 es un módulo totalmente versátil, puede ser utilizado con patas de apoyo (incluídas) o colgado como alacena. Sus líneas clásicas permiten combinarla fácilmente con cualquier estilo de cocina.\n\nDimensiones del mueble (cm): 65 x 60 x 32",
@@ -639,6 +664,31 @@
       "stock": null,
       "proveedor": "ÑUKE",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784640407/muebles_rafaela/ztjdynkqicdahkpxe0xn.jpg"
+    },
+    {
+      "id": "7P5QCWACoLg3zPc4zdoK",
+      "nombre": "SECADOR DE PELO PLEGABLE WINCO W190",
+      "descripcion": "Secador de pelo.\n2 niveles de temperatura.\nGran facilidad de moldeado.\nBajo nivel de ruido.\nPotencia: 1200 W.\nIncluye difusor.",
+      "precio": 32100,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SECADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362218/muebles_rafaela/vpvlrc19iua4yw7zdvuv.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362220/muebles_rafaela/rliyogzldpxjazg9ktuf.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362222/muebles_rafaela/ylsslhcbptsr0omswkfc.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "7cPvir11M0S5Rb8tkVFB",
@@ -857,6 +907,31 @@
       ]
     },
     {
+      "id": "9oBjwSo3Wc5cJRXABWUT",
+      "nombre": "PLANCHA SECA WINCO W30",
+      "descripcion": "Base de acero inoxidable.\nSelector de temperatura.\nCable flexible.\nIndicador de temperatura.\nApoyo estable para mayor seguridad.",
+      "precio": 44400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PLANCHA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361106/muebles_rafaela/fxtqkefkjgvq687igoj8.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361108/muebles_rafaela/w0mfq6vhcrs10huur08f.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361109/muebles_rafaela/kavh86omsplv8wolg7qo.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "9z2NPLwRX3DQcqx7OnLZ",
       "nombre": "ESTUFA COPPENS 2500KCAL TB/TBU",
       "descripcion": "Único con tiraje lateral opcional.\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y tiro balanceado.",
@@ -882,6 +957,28 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ]
+    },
+    {
+      "id": "AtKJymi9kq9upzwddbJo",
+      "nombre": "CORTADORA DE PASTO 3/4HP C/BOLSA",
+      "descripcion": "Potencia 3/4 HP - 1300 Watts \n\nIdeal para jardines medianos.\n\nCon recolector de césped rígido de 43 litros con tapa.\nAncho de corte 390 mm.\nCarcasa de acero con tratamiento antioxidante\nPintura Epoxi fijada a altas temperaturas\nRuedas reforzadas de 135 mm.\n2 ALTURAS DE CORTE",
+      "precio": 369400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CORTADORA DE PASTO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "MOCAR",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533424/muebles_rafaela/mx4xdghtxqmndsyvyxbk.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "B98nf83kkR2ExsfvDNpR",
@@ -1099,6 +1196,32 @@
       "precio": 174800
     },
     {
+      "id": "CpCiwN5FzXEL2wcdfdDw",
+      "nombre": "TOSTADORA WINCO W851",
+      "descripcion": "2 cavidades XL para pan.\nEyector automático.\n6 niveles de tostado.\nBotón cancelar.\nBotón recalentar.\nBotón descongelar.",
+      "precio": 57825,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TOSTADORA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362688/muebles_rafaela/yyo24fpcl61htmoj8qxk.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362691/muebles_rafaela/vmx3qsomhq1gkylzd21j.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362692/muebles_rafaela/muzokh9xiwtxzz81cobn.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362694/muebles_rafaela/tkhnx47px68gfa9ykjhz.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "CsyHKPG3Mgu3OxQB6Zpi",
       "descripcion": "Alto: 54,5 cm\nAncho: 77 cm\nDiámetro: 62 cm\nPeso: 21,2 kg",
       "precio": 515500,
@@ -1309,6 +1432,30 @@
       "precio": 119573
     },
     {
+      "id": "F2UbVGbRI2T3MIbo3Tkw",
+      "nombre": "MULTICOCINA REDONDA WINCO",
+      "descripcion": "Redonda.\nSuperficie anti-adherente.\nTermostato ajustable y extraíble para facilitar la limpieza.\n5 niveles de cocción.\nTapa de vidrio templado.\nCocina sin humo ni olor.\nIdeal para preparar guisos, salsas, cazuelas, fondue, asar, freír, cocer vegetales.\nParrilla, sartén, horno, pizzera, paellera y olla.\nPotencia: 1500 W.",
+      "precio": 56200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "COCINA",
+        "ELECTRODOMESTICOS"
+      ],
+      "categoria": "COCINA",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785359904/muebles_rafaela/skpubn27cnh9vsfoo3nb.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785359906/muebles_rafaela/xn7tkpfdwehcl8vkobeh.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "FjPXgsp0tSczRTWMdAZO",
       "descripcion": "Diseño\nLa cocina Escorial Master Classic ofrece un diseño elegante realizado en acero inoxidable con tapa de horno de vidrio negro y laterales negros. Tiene 4 hornallas: 1 grande y 3 medianas. El interior del horno está enlozado en polvo electrostático y su reja se encuentra esmaltada. Por otro lado, posee una puerta de vidrio y cajón parrilla con puerta rebatible.\n\nCaracteristicas\nEsta cocina cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASCL56BN está preparado para sistema de gas natural.",
       "precio": 648309,
@@ -1451,6 +1598,31 @@
       "proveedor": "UNICAN"
     },
     {
+      "id": "GhJhjgTU03XQ6mrQGMuX",
+      "nombre": "PLANCHITA DE PELO WINCO W100",
+      "descripcion": "Planchita de cabello.\nNano titanium.\nUltra fina.\nTecnología digital.\nControl de temperatura de LED.\nDiseño moderno y portátil.\nPlaca de gran tamaño.\nPotencia: 220 V / 40 W.\nColor negro con efecto glitter.\nMedidas producto: 33.3 x 3.4 Cm.\nMedidas caja: 34 x 11.5 x 6 Cm.",
+      "precio": 44400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PLANCHA DE PELO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361235/muebles_rafaela/jurcgtd3rictrmiwf3iq.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361239/muebles_rafaela/kwu3wwnxrfmcsbkqlr7x.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361241/muebles_rafaela/pwugesezg38mcyqyaey6.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "GmB6vbY9KMvHdLajpjQs",
       "nuevo": false,
       "proveedor": "FIBERBALL",
@@ -1501,6 +1673,30 @@
         "RESPALDO"
       ],
       "precio": 197617
+    },
+    {
+      "id": "HkAYhZVhJDn46InLBcJn",
+      "nombre": "SECADOR DE PELO PLEGABLE W191",
+      "descripcion": "Boquilla concentrada.\n2 niveles de velocidad.\nPlegable.\nPotencia: 1200 W.\nIdeal para viaje.",
+      "precio": 27100,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SECADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362437/muebles_rafaela/qplwj8doctxw11yoouex.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362439/muebles_rafaela/hsxul8fsbgm6qczypifg.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "ICZoTklPV3fLvVfd6BSF",
@@ -1564,6 +1760,32 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913235/muebles_rafaela/armilovknr7zilgk2asn.png"
       ],
       "proveedor": "UNICAN"
+    },
+    {
+      "id": "IMOScwsyeTM2fC7UfyZ7",
+      "nombre": "PLANCHA A VAPOR WINCO W34",
+      "descripcion": "Plancha a vapor.\nBase cerámica antiadherente.\nSelector de temperatura.\nGolpe de vapor extra y rociador.\nTanque de 300 Ml.\nFunción \"planchado en seco\".\nVapor: 10/20 grs./min.\nPotencia: 220 V / 2000 W.\nMedidas producto: 30 x 17 x 12 Cm.\nMedidas caja: 30 x 16 x 12.3 Cm.",
+      "precio": 69400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PLANCHA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361051/muebles_rafaela/d4iqjeha3zhfnnai2pum.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361053/muebles_rafaela/agqkgml3kdb4edaejmhq.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361054/muebles_rafaela/gsxjw8nmg88bb5fzb1i2.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361057/muebles_rafaela/io1jaqkpiuwjlwlale6e.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "INd38gyHAoCM2u7WhZZP",
@@ -2386,6 +2608,31 @@
       "precio": 126113
     },
     {
+      "id": "QNCIZSMOzZQOarZ4qIvW",
+      "nombre": "PLANCHITA DE PELO WINCO W4182",
+      "descripcion": "Placas con revestimiento cerámico.\nInterruptor de encendido / apagado con luz.\nFunción de bloqueo.\nCable giratorio 360º.\nMedidas: 7,5 x 7 x 37 Cm.",
+      "precio": 42100,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PLANCHA DE PELO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361189/muebles_rafaela/fhtjkti1fohipstcbvqo.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361190/muebles_rafaela/rm6mvbpxjbja8aomjnht.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361192/muebles_rafaela/usbamwd0mmbu1wtidfia.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "QVr3I5sA6IgO3IywvfKx",
       "nombre": "ALACENA MELAMINA 1.00M CENTRO ESTANT",
       "descripcion": "Alacena de dos puertas y estante lateral. Armá la cocina que siempre quisiste, fácil de colocar y combinar.\n\nDimensiones del mueble (cm): 60 x 100 x 32",
@@ -2559,6 +2806,32 @@
       "destacado": false,
       "material": null,
       "descuento": 0
+    },
+    {
+      "id": "RgcwtpkplLbpJSxHRZsB",
+      "nombre": "HORNO ELECTRICO 45L WINCO W1145",
+      "descripcion": "Temperatura regulable 100 a 250º.\nCapacidad 45 Lts.\nCocción superior, inferior o combinada.\nTemporizador de 60 Min.\nIndicador luminoso de encendido.\nIncluye bandeja, rejilla y pinza.\nPotencia 2000 W.",
+      "precio": 275250,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HORNO GRILL"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337372/muebles_rafaela/seynchccftydcjvgefdw.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337376/muebles_rafaela/emsxstl4haqzsfgustg8.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337378/muebles_rafaela/epoaxcr0tuvwuiv0kvzi.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337380/muebles_rafaela/qu9dwo9mwzebmzf4aiwt.png"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "SCJp8a50UIXQJEzJE05x",
@@ -2735,6 +3008,31 @@
       "activo": true,
       "colores": [],
       "precio": 304328
+    },
+    {
+      "id": "U8z4OLhaNg8G1EjqnhO4",
+      "nombre": "SECADOR DE PELO PROFESIONAL WINCO 2000W",
+      "descripcion": "Secador de cabello profesional.\nIónico.\n3 temperaturas.\n2 velocidades.\nTecnología: Láser Ion.\nBotón frío para sellar peinado.\nPico direccionado.\nPotencia: 2000 W.\nMedidas producto: 22.5 x 27 x 8.5 Cm.",
+      "precio": 67500,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SECADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362514/muebles_rafaela/zixpsu6dsh3vmjbthwuv.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362515/muebles_rafaela/wha3xk6djqbhpnmc0kl1.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362517/muebles_rafaela/ralywtb263qseezrbuez.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "U9TRwKeBkuqbtdijAUI5",
@@ -2967,6 +3265,31 @@
       "precio": 131563
     },
     {
+      "id": "WNpjY2OwSh9egoJZbHoV",
+      "nombre": "TOSTADORA WINCO W854",
+      "descripcion": "2 ranuras para pan.\nEyector automático.\n7 niveles de tostado.\nBandeja recolectora de migas.\nParedes frías.\nBotón cancelar.\nFunción recalentar.\nFunción descongelar.",
+      "precio": 72200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TOSTADORA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362964/muebles_rafaela/dojacsm19vpsdabtnkqs.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362967/muebles_rafaela/wu4grinfz8n9uahp7m7o.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362969/muebles_rafaela/uhupv6wyfseycrsuurr5.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "WgQvSTOhBEWwDYdheEeL",
       "precio": 1039000,
       "nombre": "SILLON ESQUINERO \"LOURDES\" C/BUTACON 2.00M",
@@ -3085,6 +3408,30 @@
       ]
     },
     {
+      "id": "X5AFDPdmqpfrEdsuXcZC",
+      "nombre": "SANDWICHERA 3 EN 1 WINCO",
+      "descripcion": "Sandwichera eléctrica 3 en 1.\n\nPlacas intercambiables.\n\nAntiadherente.\n\nBase antideslizante.\n\nIndicador luminoso.\n\nPlaca de panini.\n\nPlaca de sandwich sellado.\n\nPlaca de waffle.\n\nPotencia 750 W.",
+      "precio": 78200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SANDWICHERA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361783/muebles_rafaela/az2wvqk3xt2wjbial9dn.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361785/muebles_rafaela/lt6zcakkkgdppjlumakl.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "XDwxE9Jny3wNwrSZYew0",
       "nombre": "COLCHON 1 ½ PLAZA ESPUMA AGUAMARINA TOPACIO",
       "descripcion": "COLCHON 1.00X1.90\n18CM DE ALTO\nP/ 70KG-75KG",
@@ -3177,6 +3524,31 @@
       "precio": 307800,
       "destacado": false,
       "descripcion": "- 1.60mt x 0.60mt\n\n- Sin zócalo\n\n- Fino borde antiderrame\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban"
+    },
+    {
+      "id": "XUGk4JrEvpZ2Kz1aeIV0",
+      "nombre": "PICADORA WINCO W1810",
+      "descripcion": "Multiprocesadora compacta.\n\nCuchilla de acero en doble altura.\n\nBowl de vidrio de 1,2 Lts de capacidad.\n\nBase antideslizante.\n\nPráctica y fácil de usar.\n\nPotencia: 350 W.",
+      "precio": 66200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PICADORA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785360357/muebles_rafaela/txoum40qbpt8ijlsdrym.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785360359/muebles_rafaela/pwbxomy35ycey3qqyrvs.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785360361/muebles_rafaela/lrgk8jmt07ld7actc8da.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "Y3a3e3MOJippNfl9Kxup",
@@ -3343,6 +3715,56 @@
         }
       ],
       "precio": 133634
+    },
+    {
+      "id": "Zu6oVzs1mzSIWz1yA6dx",
+      "nombre": "CORTADORA DE PASTO 1/2HP C/BOLSA",
+      "descripcion": "Potencia 1/2 HP - 900 Watts \n\nIdeal para jardines pequeños.\n\nCon recolector de césped de 38 litros.\n\nAncho de corte 350 mm.\n\nCarcasa de acero con tratamiento antioxidante\n\nPintura Epoxi fijada a altas temperaturas\n\nRuedas reforzadas de 135 mm.\n\n2 ALTURAS DE CORTE",
+      "precio": 319700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CORTADORA DE PASTO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "MOCAR",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533330/muebles_rafaela/b5jtye0ztf2aros4geni.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533331/muebles_rafaela/baj8h9ncmoo9cs3qmys2.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "aQKBvLkUEx3eA6uu4NUL",
+      "nombre": "PAVA ELECTRICA CORTE PARA MATE WINCO ACERO INOX.",
+      "descripcion": "Acero inoxidable.\n\nCapacidad de 1.8 Lts.\n\nSelector mate / hervir.\n\nTermostato de seguridad.\n\nCorte automático.\n\nProtección por falta de agua.\n\nIndicador luminoso de encendido.\n\nBase inalámbrica.\n\nTapa abatible.",
+      "precio": 38600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PAVA ELECTRICA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337514/muebles_rafaela/icvbkdzdeyjgz44kbwo2.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337518/muebles_rafaela/tnu4sqdi0rnal8ohcb9d.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337520/muebles_rafaela/fftr4a1lta2gvsyxig2w.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337522/muebles_rafaela/ruydppdvdwtf8s9vteg4.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "aQz40FIaE97IbZxsV8Cy",
@@ -3696,6 +4118,31 @@
       "activo": true
     },
     {
+      "id": "dPoFKr6Vm3RQ9C2GhEQ8",
+      "nombre": "HORNO ELECTRICO 34L WINCO W1134",
+      "descripcion": "Temperatura regulable 100 a 250º.\nCocción superior, inferior o combinada.\nCapacidad 34 Lts.\nTemporizador de 60 Min.\nIndicador luminoso de encendido.\nIncluye bandeja, rejilla y pinza.\nPotencia 1600 W.",
+      "precio": 195900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HORNO GRILL"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337264/muebles_rafaela/gssv0cbxkl5orc8ofrkq.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337267/muebles_rafaela/qz7bxiz7zawoq9kbodjd.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337271/muebles_rafaela/aono8syhfn3piwa3fyhe.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "dZhbautOVG0fJVhDndce",
       "nombre": "ESCRITORIO MELAMINA CENTRO ESTANT ROMA SC109",
       "descripcion": "Escritorio de melamina de un tamaño ideal para ubicarlo en cualquier rincón de la casa. Contiene un cajón y una gaveta para organizar tus apuntes o material de trabajo. Podés combinarlo con nuestros estantes flotantes para poder también organizar tus libros.\n\nDimensiones del mueble (cm): 76 x 90 x 44",
@@ -3905,6 +4352,30 @@
       "imagenes": []
     },
     {
+      "id": "eqpJyQF5AZzXChcDrO9j",
+      "nombre": "RALLADOR WINCO W319",
+      "descripcion": "Ralla.\n\n3 rodillos de acero inoxidable intercambiables.\n\n3 ralladores.\n\nTubo de alimentación transparente.\n\nCompletamente desmontable para una fácil limpieza.\n\nPráctico y compacto.\n\nPotencia: 250 W.\n\nMedidas: 30,3 x 20,3 x 24 Cm.",
+      "precio": 86000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "RALLADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361501/muebles_rafaela/rmbcnwtpw0ndupocl4tr.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361503/muebles_rafaela/izsib71layl4fppmznbv.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "etm1mqhi44QnisEmq3BE",
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549302/muebles_rafaela/wpkkc8rlrdlswhbjyj4a.jpg"
@@ -4058,6 +4529,31 @@
       "precio": 252880
     },
     {
+      "id": "gH65BLJefqB1YD4APLO3",
+      "nombre": "TOSTADORA WINCO W836",
+      "descripcion": "Tostadora eléctrica.\n\n7 niveles de tostado.\n\n2 cavidades.\n\nFunción cancelar.\n\nFunción descongelar.\n\nBandeja recoge migas.",
+      "precio": 45300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "TOSTADORA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785363021/muebles_rafaela/yvvmruxmd1w0hk7aiim2.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785363023/muebles_rafaela/cljypkqpihy4jmyizgj0.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785363026/muebles_rafaela/hsjrihtx1o5kacgbpn6g.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "gNjhMNwnP23KEKRCWGQH",
       "nombre": "BOX DE MELAMINA CON CAJONES 0.80X1.90 (sin colchon)",
       "descripcion": "Cama de 1 plaza de diseño moderno, hecha en melamina de alta resistencia con capa protectora que evita ralladuras y prolonga la vida útil. Posee dos cajones independientes con extracción completa y ruedas reforzadas con movimiento 360º.\n\nDimensiones del mueble (cm): 94 x 35 x 199",
@@ -4149,6 +4645,30 @@
         }
       ],
       "precio": 293592
+    },
+    {
+      "id": "hWpWPyX1qTzygcBALOL0",
+      "nombre": "PARLANTE WINCO W257",
+      "descripcion": "Parlante inalámbrico.\n\nPuerto USB.\n\nBatería recargable.\n\nConexión inalámbrica.\n\nConexión TWS.\n\nZócalo para tarjeta microSD.\n\nEntrada para micrófono.\n\nFunción karaoke.\n\nEntrada auxiliar.\n\nEcualizador.\n\nIluminación LED.\n\nControl remoto.\n\nFunción REC.\n\nMedidas del producto: 40 x 17 x 15,5 Cm.",
+      "precio": 133000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PARLANTE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785360024/muebles_rafaela/fbxntijkyj8nqcbyqeu3.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785360015/muebles_rafaela/qijbb9zow0q7ctkz8ieq.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "hYtqNZ5NfJDCl3SMcPzv",
@@ -4363,6 +4883,31 @@
       "precio": 175490
     },
     {
+      "id": "k8wIBWkfgVY3oqW1CNJa",
+      "nombre": "PAVA ELECTRICA CORTE HERVIDORA WINCO ACERO INOX.",
+      "descripcion": "Acero inoxidable.\nCorte automático al hervir.\nCapacidad: 1,8 Lts.\nIndicador luminoso de encendido.\nTapa abatible.\nProtección por falta de agua.\nBase inalámbrica 360º.",
+      "precio": 36600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PAVA ELECTRICA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337583/muebles_rafaela/e4miwotyxwref8c2tlzu.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337585/muebles_rafaela/ctz1r8gcobxm7k7nm3s3.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337587/muebles_rafaela/pvqstis1hy5r7fac9wqf.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "kEUKZFoY0VkRJARlrP5c",
       "descripcion": "Seguridad y consumo\nPara evitar cualquier tipo de accidentes, viene con una válvula de seguridad por termocupla que cierra totalmente el paso de gas al artefacto si por alguna razón se apaga la llama piloto. A su vez, posee un piloto analizador de oxígeno que detecta gases tóxicos.\n\nCapacidad y confort\nEl termotanque a gas Escorial 45 litros, a diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Su tanque está construido con protección anti corrosión que elimina los depósitos de óxido que causan las picaduras internas. Puede utilizarse con gas natural o con gas envasado. Es apto para colgar con patas opcionales para apoyarlo.\n\nSistema de calentamiento\nEl Escorial tiene un tanque que calienta a través de un quemador con chapa de recubrimiento específico para altas temperaturas. Una vez que se alcanza la temperatura ideal, el agua caliente viaja desde el termotanque por la red doméstica hasta el grifo que fue activado.\n\nCaracteristicas\nSistema de conexión Multigas (Gas natural convertible a gas licuado).\nPeso vacío: 20kg.\nAislación térmica de eficiencia elevada.\nTanque de acero enlozado en polvo electrostático.\nBarra de protección anti- corrosión (ánodo de magnesio). \nVálvula de alivio de sobrepresión. \nConexión de agua superior.\nAltura conexión agua: 18,5cm.\nPiloto analizador de oxígeno.\nTermocupla de seguridad.\nSistema de colgar.\nAlta eficiencia energética.",
       "precio": 385273,
@@ -4549,6 +5094,77 @@
       "precio": 82731
     },
     {
+      "id": "liRNuzLWtLWT4SOUGuNR",
+      "nombre": "RADIO DUAL AM/FM WINCO W1231",
+      "descripcion": "Alimentación dual a pila o cable.\nSalida para auriculares.\nAntena telescópica.\nVisor de gran tamaño.\nManija de transporte.\nGran fidelidad.\nPotencia: 220 V / 3 W.\nMedidas producto: 23.5 x 13.2 x 6.2 Cm.\nPeso: 767 Grs.",
+      "precio": 48800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "RADIO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361323/muebles_rafaela/pqxomq4r85suujqysgym.jpg",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "liTyRutayl79NAVPwSFc",
+      "nombre": "LICUADORA WINCO VASO VIDRIO W1801",
+      "descripcion": "Licuadora doble cuchilla de acero inoxidable.\n\nVaso de vidrio de 1,5 litros.\n\n4 velocidades + pulsador.\n\nTapa dosificadora.\n\nBase antideslizante.\n\nFácil de usar y limpiar.\n\nPotencia: 500 W.",
+      "precio": 85200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "LICUADORA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337706/muebles_rafaela/n1clmlkneezborhsnnsn.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337708/muebles_rafaela/pxoiutuye5pn1szb2ouv.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785337710/muebles_rafaela/yriplgj0xkl8ude9z3ru.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "m08Pm2Kd2KyZ6LhQ0VCM",
+      "nombre": "YOGURTERA WINCO",
+      "descripcion": "7 vasos de vidrio con tapa de 180 Ml de capacidad.\n\nTemperatura de trabajo: 42 - 50º.\n\nInterruptor de encendido / apagado.\n\nIndicador luminoso de energía.\n\nTapa transparente.\n\nMedidas: 13 x 30 x 27 Cm.",
+      "precio": 51900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "YOGURTERA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785363223/muebles_rafaela/ceuahuzbpfucmxjqpu3n.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785363226/muebles_rafaela/cr1cfwo8xpv9fc87i2re.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "m69YECqcH9z9ZEMnou2M",
       "proveedor": "ÑUKE",
       "categoria": "ELECTRODOMESTICOS",
@@ -4715,6 +5331,56 @@
       "imagenes": [],
       "nuevo": false,
       "descripcion": "SILLON CAMA DE UNA PLAZA. SACAS ALMOHADONES Y TE QUEDA CAMA DE 1.90M.\nSE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA"
+    },
+    {
+      "id": "o3Td1IVw1yEWmIiETaou",
+      "nombre": "SECADOR DE PELO PROFESIONAL IONICO WINCO 2000W",
+      "descripcion": "Secador de cabello profesional.\nIónico.\n3 temperaturas.\n2 velocidades.\nTecnología láser Ion.\nPico direccionado.\nPico difusor.\nPlegable.\nPotencia: 2000 W.\nMedidas producto: 22 x 27 x 8 Cm.",
+      "precio": 60200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SECADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362595/muebles_rafaela/wgxs3wrgzl6mhoxtih85.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362597/muebles_rafaela/pxo0apquuhuj3amrpiir.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785362598/muebles_rafaela/hwhjqh2jpxxniefxgcmp.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "o4ne6DMNODbiR0mxNH7T",
+      "nombre": "RADIO PORTATIL WINCO W223",
+      "descripcion": "Radio portátil de mano.\nAM/FM.\nAntena telescópica.\nSintonizador analógico.\n2 pilas AA.\nSalida para auriculares.\nMedidas producto: 13 x 7 x 3 Cm.\nMedidas caja: 14 x 8 x 4 Cm.\nPeso: 170 Grs.",
+      "precio": 22200,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "RADIO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361415/muebles_rafaela/dc4duucav14jahcyltih.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361417/muebles_rafaela/qv9hbx4yslegab3hxr3i.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361419/muebles_rafaela/bezpab1agxcjx3ftsz95.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "oOVzIs9FoY1I388xj04P",
@@ -5029,6 +5695,30 @@
       "nombre": "TERMOTANQUE ESCORIAL A GAS 80L"
     },
     {
+      "id": "sAYFZzm5iS5TqCrMNJa9",
+      "nombre": "CORTADORA DE PASTO 1HP C/BOLSA",
+      "descripcion": "Potencia 1 HP.\n\n1700 Watts \n\nIdeal para jardines medianos y grandes.\n\nCon recolector de césped rígido de 43 litros y tapa.\nAncho de corte 390 mm.\nCarcasa de acero con tratamiento antioxidante\nPintura Epoxi fijada a altas temperaturas\nRuedas reforzadas de 160 mm.\n2 ALTURAS DE CORTE",
+      "precio": 405800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CORTADORA DE PASTO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "MOCAR",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533481/muebles_rafaela/qv3dbfbirpx26qqrxxs3.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533483/muebles_rafaela/wgmrx6ma5jky8ayvkjbo.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "sO2ZGisM4U7FF1fFkD75",
       "descripcion": "Mueble organizador de 1,80mts. de altura para todo tipo de ambiente. En su interior cuenta con tres estantes regulables según las necesidades de guardado. En la cocina, en el lavadero, en el garage, en un cuarto; un infaltable del hogar.\n\nDimensiones del mueble (cm): 180 x 60 x 32",
       "precioAnterior": null,
@@ -5292,6 +5982,31 @@
       "stock": null,
       "categoria": "CAMAS",
       "destacado": false
+    },
+    {
+      "id": "tULjq6LFnLcBgOUYrznh",
+      "nombre": "PARLANTE WINCO W259",
+      "descripcion": "Parlante inalámbrico.\n\nConexión inalámbrica.\n\nWoofer de 8 pulgadas.\n\nEntradas varias.\n\nVisor led de 4 dígitos.\n\nBatería recargable.\n\nIluminación led.\n\nRadio FM.\n\nTWS.\n\nRecargable vía USB.\n\nMedidas del producto: 30 x 22 x 17 Cm.",
+      "precio": 98000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "PARLANTE"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785360089/muebles_rafaela/wmvwn5zvg4coopshsos1.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785360091/muebles_rafaela/p3chpierf9mvnafonwb0.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785360093/muebles_rafaela/kmk332i2srt7tlcijhia.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "tnkj7OeOcGDtbOfDOT3w",
@@ -5874,6 +6589,31 @@
       "nombre": "MESADA DURAFORT 1.00 x 0.60 C/ZOCALO"
     },
     {
+      "id": "yaQVph9XxQ2JudJkw1Eq",
+      "nombre": "VENTILADOR DE TECHO RETRACTIL WINCO",
+      "descripcion": "Ventilador de techo con luz LED en 3 tonos.\n\n6 velocidades.\n\n4 aspas transparentes retráctiles.\n\nModo verano: el aire circula para abajo produciendo una brisa fresca.\n\nModo invierno: un flujo de aire ascendente empuja el aire caliente del techo hacia abajo.\n\nTemporizador y control remoto.\n\nDiseño moderno y muy silencioso.\n\nMedidas de la caja: 54 x 54 19 Cm.\n\nMedida del aro de luz: 48 Cm.\n\nMedida total con aspas abiertas: 106 Cm.",
+      "precio": 216900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785363302/muebles_rafaela/rbc1s4dqxuabs0g7wi3h.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785363305/muebles_rafaela/ehp3fuke9hvugwspeiit.jpg",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785363308/muebles_rafaela/palk93jdktcn0tbalrrj.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "ybS7xDZ5qR4P33lgkI0c",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 65L",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
@@ -6112,6 +6852,30 @@
       ]
     },
     {
+      "id": "zsImyvZlkIVpPZ6V0ZjL",
+      "nombre": "SANDWICHERA WINCO W017",
+      "descripcion": "Superficie anti-adherente.\n\nUso pan lactal tipo sellado.\n\nPara 2 sandwiches.\n\nTraba de seguridad.\n\nParedes frías.\n\nIndicadores luminosos.\n\nCalentamiento rápido.\n\nPotencia: 220V / 750 W.\n\nMedidas producto: 23 x 8 x 22,5 Cm.",
+      "precio": 40100,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "SANDWICHERA"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "WINCO",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361912/muebles_rafaela/trk11vjruixuqtx4fcud.jpg",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785361920/muebles_rafaela/xgbtucaoz6m24pqpeqoo.jpg"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "zyoNMsuw5lTfOe3y6LXA",
       "colores": [],
       "imagenes": [
@@ -6147,6 +6911,13 @@
       ]
     },
     {
+      "id": "2sivkqJY4e9UrVO8nJ82",
+      "nombre": "BORDEADORA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "5cpaSONvzwUU8N62NxuY",
       "nombre": "BLANCO"
     },
@@ -6174,6 +6945,13 @@
     {
       "id": "AdkKN6MhuFk2VastDHa3",
       "nombre": "YOGURTERA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "AxPO17tvKJ5Chg8PYgEz",
+      "nombre": "CORTADORA DE PASTO",
       "gruposIds": [
         "GIv0VA4zt92dq9XlM2S0"
       ]
@@ -6254,6 +7032,13 @@
       "padreId": "yLCpvttuCZXS1lbjMb9E",
       "gruposIds": [
         "yLCpvttuCZXS1lbjMb9E"
+      ]
+    },
+    {
+      "id": "RqvL7dKZQJxpJdE3MM36",
+      "nombre": "SECADOR",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
       ]
     },
     {
@@ -6597,6 +7382,10 @@
       "nombre": "FIBERBALL"
     },
     {
+      "id": "fiRnulyMNvTiYiKmT4EF",
+      "nombre": "MOCAR"
+    },
+    {
       "id": "gGNAKy4ArDPYQfTOQAyr",
       "nombre": "BRIKET"
     },
@@ -6655,6 +7444,13 @@
       "fecha": "2026-07-09T13:00:01.200Z"
     },
     {
+      "id": "0cTv0ZCQTpzrhqNziPDq",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CORTADORA DE PASTO 1HP C/BOLSA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:31:27.424Z"
+    },
+    {
       "id": "0jitHSd1ioev9KM7tyPw",
       "usuario": "admin",
       "descripcion": "Asignó 1 categoría(s) al grupo \"BLANCO\"",
@@ -6667,6 +7463,13 @@
       "descripcion": "Renombró la categoría \"BOX\" a \"BOX CON CAJONES\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:47:52.445Z"
+    },
+    {
+      "id": "0whjkm7iLibrdZC5I16y",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"MOCAR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:27:18.739Z"
     },
     {
       "id": "0yYb1de3fB4ASb24L26n",
@@ -6709,6 +7512,20 @@
       "tipo": "categoria_creada",
       "usuario": "admin",
       "descripcion": "Creó la categoría \"TOSTADORA\""
+    },
+    {
+      "id": "1YunHXUOctl61NDqmLex",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"SECADOR DE PELO PLEGABLE W191\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T22:00:52.769Z"
+    },
+    {
+      "id": "1avAZcvOu7gbdy4xWLDR",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RALLADOR WINCO W319\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:45:08.490Z"
     },
     {
       "id": "1ldLxmeSKJER253c1spy",
@@ -7187,6 +8004,13 @@
       "fecha": "2026-07-05T16:50:39.597Z"
     },
     {
+      "id": "B5UoxVIWzVC1ufl4oLsu",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PLANCHITA DE PELO WINCO W100\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:40:44.763Z"
+    },
+    {
       "id": "BAqhh35ElYQZSqPwbiQi",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"MESA DE LUZ MELAMINA C/DESAYUNADOR\"",
@@ -7439,6 +8263,13 @@
       "fecha": "2026-07-06T21:12:48.438Z"
     },
     {
+      "id": "GX3mRnTy3RUxS1kXruO4",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"HORNO ELECTRICO 45L WINCO W1145\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T15:03:05.608Z"
+    },
+    {
       "id": "GlcNhcFEJNu6hO9gATYW",
       "tipo": "categoria_editada",
       "descripcion": "Renombró la categoría \"MESAS\" a \"MESAS\"",
@@ -7486,6 +8317,13 @@
       "descripcion": "Creó el producto \"RESPALDO MELAMINA 1.40m-1.60m RC6\"",
       "usuario": "admin",
       "fecha": "2026-07-15T13:18:24.957Z"
+    },
+    {
+      "id": "HI8zLKGSM8AMZtua5ozC",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PICADORA WINCO W1810\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:26:06.596Z"
     },
     {
       "id": "HK55vdRS2UrvUtjfy1hC",
@@ -7901,6 +8739,13 @@
       "usuario": "admin"
     },
     {
+      "id": "O3UPM7ehhAL0VjRdXELB",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"CORTADORA DE PASTO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:27:00.017Z"
+    },
+    {
       "id": "O7Yr6UsOjhvrLB9S0MeJ",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ALMOHADA SENSITIVE MEMORY CERVICAL FIBERBALL\"",
@@ -7920,6 +8765,13 @@
       "fecha": "2026-07-24T13:47:06.156Z",
       "usuario": "admin",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "OKkBTR68ps9xM0JF6lfC",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"SECADOR DE PELO PLEGABLE WINCO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:56:05.119Z"
     },
     {
       "id": "OMoPW2hR3Dysjnd4sZzq",
@@ -8104,6 +8956,13 @@
       "fecha": "2026-07-15T13:13:04.718Z"
     },
     {
+      "id": "QvmRicMSuu22YVqfBr8H",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CORTADORA DE PASTO 1/2HP C/BOLSA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:28:58.436Z"
+    },
+    {
       "id": "ROTVMV1sMrMtt8b4nehJ",
       "fecha": "2026-07-22T14:35:44.745Z",
       "usuario": "admin",
@@ -8139,6 +8998,13 @@
       "fecha": "2026-07-11T14:04:33.370Z"
     },
     {
+      "id": "ReaFcRiXIv0Zur5YIQ1p",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"SANDWICHERA 3 EN 1 WINCO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:50:07.300Z"
+    },
+    {
       "id": "RhVNC3P3Sn3eQSUzwSFV",
       "fecha": "2026-07-28T13:31:19.330Z",
       "tipo": "categoria_creada",
@@ -8172,6 +9038,13 @@
       "descripcion": "Renombró la categoría \"HELADERAS\" a \"HELADERAS Y FREZZER\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:57:09.051Z"
+    },
+    {
+      "id": "SJ40yTLI8JJr7u1MbJpn",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TOSTADORA WINCO W854\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T22:09:35.082Z"
     },
     {
       "id": "SP6BHt5YHcxxOvmyfIJf",
@@ -8279,6 +9152,13 @@
       "fecha": "2026-07-05T16:56:42.218Z"
     },
     {
+      "id": "TYRwYjh5CfmjLrMcbUUQ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"SECADOR DE PELO PLEGABLE WINCO W190\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:57:07.673Z"
+    },
+    {
       "id": "Tm6kF1u0eMX1QeTD6woD",
       "fecha": "2026-07-24T20:32:05.130Z",
       "usuario": "admin",
@@ -8377,6 +9257,20 @@
       "fecha": "2026-07-08T21:23:33.962Z"
     },
     {
+      "id": "VXg43MBQCLfXr7q5Akau",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TOSTADORA WINCO W836\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T22:10:33.952Z"
+    },
+    {
+      "id": "VYZn8InWSc5aj5MhddMZ",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 1 categoría(s) al grupo \"ELECTRODOMESTICOS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:55:46.125Z"
+    },
+    {
       "id": "VjHCIg6lKPTh3TmYJxNg",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"CALOVENTOR LILIANA \"BLACKSUN\"\"",
@@ -8417,6 +9311,13 @@
       "descripcion": "Editó el producto \"BAJO MESADA MELAMINA 1.40 CENTRO ESTANT\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:23:10.102Z"
+    },
+    {
+      "id": "WKKTggV8HRZ2AiY1aEG4",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"YOGURTERA WINCO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T22:13:49.966Z"
     },
     {
       "id": "WRY2n6Ho9D9FV97TF18m",
@@ -8494,6 +9395,13 @@
       "descripcion": "Creó el producto \"CAMA DE PINO 1 ½ PLAZA MAVIC (1.00M)\"",
       "usuario": "admin",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "XWz3M5X6pvjQ9lhtzMWz",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"BORDEADORA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:27:04.779Z"
     },
     {
       "id": "Y6TBpN93kSc1MyrSQbxt",
@@ -8636,6 +9544,13 @@
       "usuario": "admin"
     },
     {
+      "id": "aS6bKJsT8I22ooHRHlEf",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 2 categoría(s) al grupo \"ELECTRODOMESTICOS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:27:11.696Z"
+    },
+    {
       "id": "aVWpvENoz1dk7BWoNOVo",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESTANTE MELAMINA 60X20 C/MENSULA\"",
@@ -8648,6 +9563,13 @@
       "descripcion": "Renombró el proveedor \"muebles123\" a \"UNICAN\"",
       "usuario": "admin",
       "fecha": "2026-07-02T18:59:31.794Z"
+    },
+    {
+      "id": "anY5BmsIQzBJYMtu3IO6",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CORTADORA DE PASTO 3/4HP C/BOLSA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:30:29.386Z"
     },
     {
       "id": "aoZNFDJNmZOJEa3eHuN6",
@@ -8818,6 +9740,13 @@
       "fecha": "2026-07-03T14:02:20.643Z"
     },
     {
+      "id": "dLCURjyRaICxetWM0MPX",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PAVA ELECTRICA CORTE HERVIDORA WINCO ACERO INOX.\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T15:06:30.763Z"
+    },
+    {
       "id": "dMNvfSQDrjy8lFPIsanh",
       "tipo": "categoria_editada",
       "descripcion": "Renombró la categoría \"ALACENA\" a \"ALACENA\"",
@@ -8858,6 +9787,13 @@
       "descripcion": "Editó el producto \"SILLA PINO TANDIL S\\TAPIZAR\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:03:18.829Z"
+    },
+    {
+      "id": "e7lAE2umpd40gEFZrhtM",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RADIO PORTATIL WINCO W223\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:43:44.593Z"
     },
     {
       "id": "eVGw5jpEjl6FdiY1VvQx",
@@ -8902,6 +9838,13 @@
       "fecha": "2026-07-05T16:53:35.934Z"
     },
     {
+      "id": "epodOeOwSeFnTApY9IDY",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE TECHO RETRACTIL WINCO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T22:15:14.423Z"
+    },
+    {
       "id": "eyRDCh6ESbF5ziF9BjVS",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 24 PARES CENTRO ESTANT\"",
@@ -8937,6 +9880,13 @@
       "fecha": "2026-07-03T14:01:36.494Z"
     },
     {
+      "id": "fFaFxczJYob9w1Xrerym",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"SECADOR DE PELO PLEGABLE WINCO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:55:35.143Z"
+    },
+    {
       "id": "fFbYIEXvYNIDeUN3I8eF",
       "tipo": "categoria_creada",
       "descripcion": "Creó la categoría \"BIBLIOTECA\"",
@@ -8963,6 +9913,20 @@
       "descripcion": "Creó el producto \"RESPALDO MELAMINA C/MESA DE LUZ RC5\"",
       "usuario": "admin",
       "fecha": "2026-07-15T13:24:14.798Z"
+    },
+    {
+      "id": "fmJTVtYr5jz5S910hl8P",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"MULTICOCINA REDONDA WINCO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:18:32.325Z"
+    },
+    {
+      "id": "fyX57cxf5JNH1Pc3gbLR",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PARLANTE WINCO W257\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:20:28.546Z"
     },
     {
       "id": "fzXhZptIO2rfYlPDyx7V",
@@ -9028,6 +9992,13 @@
       "fecha": "2026-07-05T16:45:42.703Z"
     },
     {
+      "id": "hA6qcBniRuyfjBSOeJHC",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"SECADOR DE PELO PROFESIONAL IONICO WINCO 2000W\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T22:03:23.224Z"
+    },
+    {
       "id": "hG80KAbANDxdKyqpuQx4",
       "fecha": "2026-07-28T13:31:27.603Z",
       "tipo": "categoria_creada",
@@ -9035,11 +10006,25 @@
       "descripcion": "Creó la categoría \"PLANCHA\""
     },
     {
+      "id": "hUEHbigEzGr4luenylAG",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PLANCHA SECA WINCO W30\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:38:33.081Z"
+    },
+    {
       "id": "hepLREEOP2zKhlkewoBQ",
       "tipo": "producto_estado",
       "descripcion": "Desactivó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-04T22:21:56.076Z"
+    },
+    {
+      "id": "hyNjbPZsqaupxxEyKI3q",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"RADIO DUAL AM/FM WINCO W1231\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:42:09.510Z"
     },
     {
       "id": "iA1wWi8ETgUDGuwPlMAw",
@@ -9056,6 +10041,13 @@
       "fecha": "2026-07-02T18:59:31.800Z"
     },
     {
+      "id": "iXv1BjttpvN58Rjj6T1R",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PARLANTE WINCO W259\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:21:37.187Z"
+    },
+    {
       "id": "ia3gwrLBglgBm584IprA",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
@@ -9068,6 +10060,13 @@
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"SALAMANDRA ECO PUELO 8500Kca/h ÑUKE\"",
       "fecha": "2026-07-21T13:15:24.021Z"
+    },
+    {
+      "id": "iuhwOFTlKdNotyNDfQpI",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"HORNO ELECTRICO 34L WINCO W1134\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T15:01:17.098Z"
     },
     {
       "id": "izJ0lJx8fPhoygs8Q6aU",
@@ -9110,6 +10109,13 @@
       "descripcion": "Creó el producto \"CAFETERA FILTRO 0.6L WINCO W1930\"",
       "fecha": "2026-07-28T14:12:40.242Z",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "jXooG1L9qoGeyYn7E5Ig",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"LICUADORA WINCO VASO VIDRIO W1801\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T15:08:35.671Z"
     },
     {
       "id": "jZTUDu1gTt0ISQHHHORu",
@@ -9602,6 +10608,13 @@
       "fecha": "2026-07-09T14:41:44.534Z"
     },
     {
+      "id": "r1WzpJ1objgsf37ECAYg",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PAVA ELECTRICA CORTE PARA MATE WINCO ACERO INOX.\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T15:05:26.778Z"
+    },
+    {
       "id": "rEX7QsGBsiSXyAAEUwX4",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
@@ -9656,6 +10669,13 @@
       "descripcion": "Editó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:56:43.054Z"
+    },
+    {
+      "id": "s5QZDqQVPobxf97pJw5u",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"TOSTADORA WINCO W851\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T22:05:00.500Z"
     },
     {
       "id": "s6V5hHVQqfaaOOIFJHHi",
@@ -9826,6 +10846,13 @@
       "fecha": "2026-07-15T13:25:51.722Z"
     },
     {
+      "id": "u6VJ9Kb5uIWlc6CtbuuD",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"SANDWICHERA WINCO W017\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:52:05.212Z"
+    },
+    {
       "id": "u6t6O5eSf7HWd3yZBedU",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 20LTS\"",
@@ -9845,6 +10872,13 @@
       "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 295LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:47:33.132Z"
+    },
+    {
+      "id": "uIMV01y2wxjkgPq1567I",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"SECADOR DE PELO PROFESIONAL WINCO 2000W\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T22:02:04.069Z"
     },
     {
       "id": "uMFhwlwXiKafSB2oDWns",
@@ -9964,6 +10998,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO A GAS 53LTS A.R\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:54:29.908Z"
+    },
+    {
+      "id": "x81uTpC1EojEy8Hf0G26",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PLANCHA A VAPOR WINCO W34\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:37:41.821Z"
     },
     {
       "id": "x9QAQcypz7mfA9TwgUGH",
@@ -10092,11 +11133,25 @@
       "descripcion": "Renombró el proveedor \"CENTRO ESTANT\" a \"CENTRO ESTANT\""
     },
     {
+      "id": "z3qbLz1x00ymGoOyDatP",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"SECADOR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:55:41.365Z"
+    },
+    {
       "id": "zA44vh9cSBBlDu1QxrG2",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"BOX DE MELAMINA CON CAJONES 1.40X1.90 (sin colchon)\"",
       "usuario": "admin",
       "fecha": "2026-07-08T20:36:02.035Z"
+    },
+    {
+      "id": "zAoo3Dq8gBoSf4KrtNMK",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"PLANCHITA DE PELO WINCO W4182\"",
+      "usuario": "admin",
+      "fecha": "2026-07-29T21:39:57.333Z"
     },
     {
       "id": "zDXVm0jlWsmqHKF7F9cE",
