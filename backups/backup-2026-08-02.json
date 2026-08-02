@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-07-30T12:26:50.404Z",
+  "fecha": "2026-08-02T11:59:37.562Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -957,6 +957,28 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ]
+    },
+    {
+      "id": "AtKJymi9kq9upzwddbJo",
+      "nombre": "CORTADORA DE PASTO 3/4HP C/BOLSA",
+      "descripcion": "Potencia 3/4 HP - 1300 Watts \n\nIdeal para jardines medianos.\n\nCon recolector de césped rígido de 43 litros con tapa.\nAncho de corte 390 mm.\nCarcasa de acero con tratamiento antioxidante\nPintura Epoxi fijada a altas temperaturas\nRuedas reforzadas de 135 mm.\n2 ALTURAS DE CORTE",
+      "precio": 369400,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CORTADORA DE PASTO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "MOCAR",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533424/muebles_rafaela/mx4xdghtxqmndsyvyxbk.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "B98nf83kkR2ExsfvDNpR",
@@ -3695,6 +3717,30 @@
       "precio": 133634
     },
     {
+      "id": "Zu6oVzs1mzSIWz1yA6dx",
+      "nombre": "CORTADORA DE PASTO 1/2HP C/BOLSA",
+      "descripcion": "Potencia 1/2 HP - 900 Watts \n\nIdeal para jardines pequeños.\n\nCon recolector de césped de 38 litros.\n\nAncho de corte 350 mm.\n\nCarcasa de acero con tratamiento antioxidante\n\nPintura Epoxi fijada a altas temperaturas\n\nRuedas reforzadas de 135 mm.\n\n2 ALTURAS DE CORTE",
+      "precio": 319700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CORTADORA DE PASTO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "MOCAR",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533330/muebles_rafaela/b5jtye0ztf2aros4geni.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533331/muebles_rafaela/baj8h9ncmoo9cs3qmys2.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "aQKBvLkUEx3eA6uu4NUL",
       "nombre": "PAVA ELECTRICA CORTE PARA MATE WINCO ACERO INOX.",
       "descripcion": "Acero inoxidable.\n\nCapacidad de 1.8 Lts.\n\nSelector mate / hervir.\n\nTermostato de seguridad.\n\nCorte automático.\n\nProtección por falta de agua.\n\nIndicador luminoso de encendido.\n\nBase inalámbrica.\n\nTapa abatible.",
@@ -5649,6 +5695,30 @@
       "nombre": "TERMOTANQUE ESCORIAL A GAS 80L"
     },
     {
+      "id": "sAYFZzm5iS5TqCrMNJa9",
+      "nombre": "CORTADORA DE PASTO 1HP C/BOLSA",
+      "descripcion": "Potencia 1 HP.\n\n1700 Watts \n\nIdeal para jardines medianos y grandes.\n\nCon recolector de césped rígido de 43 litros y tapa.\nAncho de corte 390 mm.\nCarcasa de acero con tratamiento antioxidante\nPintura Epoxi fijada a altas temperaturas\nRuedas reforzadas de 160 mm.\n2 ALTURAS DE CORTE",
+      "precio": 405800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "CORTADORA DE PASTO"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "MOCAR",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533481/muebles_rafaela/qv3dbfbirpx26qqrxxs3.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533483/muebles_rafaela/wgmrx6ma5jky8ayvkjbo.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "sO2ZGisM4U7FF1fFkD75",
       "descripcion": "Mueble organizador de 1,80mts. de altura para todo tipo de ambiente. En su interior cuenta con tres estantes regulables según las necesidades de guardado. En la cocina, en el lavadero, en el garage, en un cuarto; un infaltable del hogar.\n\nDimensiones del mueble (cm): 180 x 60 x 32",
       "precioAnterior": null,
@@ -6841,6 +6911,13 @@
       ]
     },
     {
+      "id": "2sivkqJY4e9UrVO8nJ82",
+      "nombre": "BORDEADORA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
       "id": "5cpaSONvzwUU8N62NxuY",
       "nombre": "BLANCO"
     },
@@ -6868,6 +6945,13 @@
     {
       "id": "AdkKN6MhuFk2VastDHa3",
       "nombre": "YOGURTERA",
+      "gruposIds": [
+        "GIv0VA4zt92dq9XlM2S0"
+      ]
+    },
+    {
+      "id": "AxPO17tvKJ5Chg8PYgEz",
+      "nombre": "CORTADORA DE PASTO",
       "gruposIds": [
         "GIv0VA4zt92dq9XlM2S0"
       ]
@@ -7298,6 +7382,10 @@
       "nombre": "FIBERBALL"
     },
     {
+      "id": "fiRnulyMNvTiYiKmT4EF",
+      "nombre": "MOCAR"
+    },
+    {
       "id": "gGNAKy4ArDPYQfTOQAyr",
       "nombre": "BRIKET"
     },
@@ -7356,6 +7444,13 @@
       "fecha": "2026-07-09T13:00:01.200Z"
     },
     {
+      "id": "0cTv0ZCQTpzrhqNziPDq",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CORTADORA DE PASTO 1HP C/BOLSA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:31:27.424Z"
+    },
+    {
       "id": "0jitHSd1ioev9KM7tyPw",
       "usuario": "admin",
       "descripcion": "Asignó 1 categoría(s) al grupo \"BLANCO\"",
@@ -7368,6 +7463,13 @@
       "descripcion": "Renombró la categoría \"BOX\" a \"BOX CON CAJONES\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:47:52.445Z"
+    },
+    {
+      "id": "0whjkm7iLibrdZC5I16y",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"MOCAR\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:27:18.739Z"
     },
     {
       "id": "0yYb1de3fB4ASb24L26n",
@@ -8637,6 +8739,13 @@
       "usuario": "admin"
     },
     {
+      "id": "O3UPM7ehhAL0VjRdXELB",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"CORTADORA DE PASTO\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:27:00.017Z"
+    },
+    {
       "id": "O7Yr6UsOjhvrLB9S0MeJ",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ALMOHADA SENSITIVE MEMORY CERVICAL FIBERBALL\"",
@@ -8845,6 +8954,13 @@
       "descripcion": "Creó el producto \"ROPERO MELAMINA 3 PUERTAS ABRIR R3\"",
       "usuario": "admin",
       "fecha": "2026-07-15T13:13:04.718Z"
+    },
+    {
+      "id": "QvmRicMSuu22YVqfBr8H",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CORTADORA DE PASTO 1/2HP C/BOLSA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:28:58.436Z"
     },
     {
       "id": "ROTVMV1sMrMtt8b4nehJ",
@@ -9281,6 +9397,13 @@
       "tipo": "producto_creado"
     },
     {
+      "id": "XWz3M5X6pvjQ9lhtzMWz",
+      "tipo": "categoria_creada",
+      "descripcion": "Creó la categoría \"BORDEADORA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:27:04.779Z"
+    },
+    {
       "id": "Y6TBpN93kSc1MyrSQbxt",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 18 PARES CENTRO ESTANT\"",
@@ -9421,6 +9544,13 @@
       "usuario": "admin"
     },
     {
+      "id": "aS6bKJsT8I22ooHRHlEf",
+      "tipo": "categoria_editada",
+      "descripcion": "Asignó 2 categoría(s) al grupo \"ELECTRODOMESTICOS\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:27:11.696Z"
+    },
+    {
       "id": "aVWpvENoz1dk7BWoNOVo",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ESTANTE MELAMINA 60X20 C/MENSULA\"",
@@ -9433,6 +9563,13 @@
       "descripcion": "Renombró el proveedor \"muebles123\" a \"UNICAN\"",
       "usuario": "admin",
       "fecha": "2026-07-02T18:59:31.794Z"
+    },
+    {
+      "id": "anY5BmsIQzBJYMtu3IO6",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"CORTADORA DE PASTO 3/4HP C/BOLSA\"",
+      "usuario": "admin",
+      "fecha": "2026-07-31T21:30:29.386Z"
     },
     {
       "id": "aoZNFDJNmZOJEa3eHuN6",
