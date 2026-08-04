@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-01T12:00:37.965Z",
+  "fecha": "2026-08-04T12:58:52.878Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -4457,6 +4457,32 @@
       "nombre": "COCINA ESCORIAL MASTER STYLE 56CM INOX"
     },
     {
+      "id": "fb2fVAAsXJMObZzR1DKi",
+      "nombre": "HELADERA GAFA 358 282LTS",
+      "descripcion": "La Heladera con Freezer Gafa HGF358 AFB Blanca con 282L de capacidad de almacenamiento, es la solución ideal para preservar alimentos y bebidas de todo tipo, de forma práctica y organizada.\nSu clasificación de Eficiencia Energética A, hace que la heladera sea más eficiente, con un menor consumo de energía. Además, cuenta con un gas más ecológico, que cuida el medioambiente y no daña la capa de ozono.\nSu tecnología Cycle Defrost, además de ser más económica, ayuda a preservar la humedad natural de tus alimentos.",
+      "precio": 1034000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS Y FREEZER"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767675/muebles_rafaela/f1cnnv4nzjoomozaookp.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767677/muebles_rafaela/lqa9bwq0cxatbrlublhn.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767679/muebles_rafaela/wl8m4tmr7jcoa6ig2txv.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767680/muebles_rafaela/dlpz7gdgfp3gswnoy5nm.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "proveedor": "GAFA"
+    },
+    {
       "id": "fo9IkPqKHps4GGHfmnEN",
       "descripcion": "Capacidad y confort\nEl termotanque eléctrico Escorial tiene una capacidad para 85,5 litros. A diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Para funcionar, sólo hay que enchufarlo a la red eléctrica convencional. Automáticamente, el artefacto calentará el agua hasta un punto prefijado. Cuenta con un tanque con aislamiento de espuma de poliuretano que asegura un consumo eficiente de energía. Puede colgarse. Termotanque eléctrico 5 litros.\n\nSeguridad y consumo\nUna de las principales características de este tipo de calentadores es que pueden instalarse en cualquier espacio y no necesitan ventilación como los equipos que utilizan llamas de combustión para generar calor. Este artefacto no produce gases tóxicos y tampoco consume oxígeno del ambiente en el que se lo ubique. A la hora de elegir un calefón hay que tener en cuenta que se calculan aproximadamente 50 litros para 3 personas; 75 litros, de 3 a 5 personas; y 120, de 5 a 7 personas. Escorial\n\nSistema de calentamiento\nA diferencia de los equipos a gas que calientan el agua a través de un quemador y generan gases tóxicos, este termotanque produce calor a través de una resistencia eléctrica hasta que se alcanza la temperatura deseada. Luego, el aislamiento del tanque se encarga de que no se enfríe demasiado rápido. Cuando la temperatura baja, por el paso del tiempo o porque se usó el agua caliente y entra agua fría, la resistencia vuelve a entrar en funcionamiento.",
       "precio": 423562,
@@ -4930,6 +4956,32 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL A GAS 45L"
+    },
+    {
+      "id": "kGyjgAfl4RYc2RFnFQKd",
+      "nombre": "HELADERA GAFA 368 330LTS",
+      "descripcion": "La Heladera con Freezer Gafa HGF368 AFB Blanca con 330L de capacidad de almacenamiento, es la solución ideal para preservar alimentos y bebidas de todo tipo, de forma práctica y organizada.\nSu clasificación de Eficiencia Energética A, hace que la heladera sea más eficiente, con un menor consumo de energía. Además, cuenta con un gas más ecológico, que cuida el medioambiente y no daña la capa de ozono.\nSu tecnología Cycle Defrost, además de ser más económica, ayuda a preservar la humedad natural de tus alimentos.\nGRAN CAPACIDAD: Más espacio para almacenar y organizar alimentos, bebidas y todo tipo de envases con mayor facilidad.",
+      "precio": 1102600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS Y FREEZER"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "GAFA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792884/muebles_rafaela/thstla3bt44gghg5abrc.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792885/muebles_rafaela/ghesdc74eo9fqlsp41lm.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792887/muebles_rafaela/ywluppjzmjasde2hi3el.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792889/muebles_rafaela/qoal7ougucfzsxsy2gnu.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "kJ2wxxDejpg1aIsvfMU4",
@@ -7338,6 +7390,10 @@
       "nombre": "SEÑORIAL"
     },
     {
+      "id": "7e9fN4cVPpF5SO4JfDFi",
+      "nombre": "GAFA"
+    },
+    {
       "id": "975gnJIBijvaKjirSJON",
       "nombre": "TANDIL"
     },
@@ -8373,6 +8429,13 @@
       "descripcion": "Creó el producto \"ALACENA/ORGANIZADOR\"",
       "usuario": "admin",
       "fecha": "2026-07-14T13:16:52.469Z"
+    },
+    {
+      "id": "I2VCFWxgJ0cbjlPg1r6g",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"HELADERA GAFA 368 330LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T21:34:54.590Z"
     },
     {
       "id": "I2tocAX5Uj0NG4iMlQbb",
@@ -9439,6 +9502,13 @@
       "fecha": "2026-07-08T20:53:07.796Z"
     },
     {
+      "id": "Yw3LCIA3HEii4MFXKZmZ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"HELADERA GAFA 358 282LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:34:45.576Z"
+    },
+    {
       "id": "Z3gwFXjtf4Lju8uny6dQ",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Cocina Escorial Master Classic  Inox 56CM\"",
@@ -9535,6 +9605,13 @@
       "usuario": "admin",
       "fecha": "2026-07-20T12:39:46.476Z",
       "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA ECO (0.80M)\""
+    },
+    {
+      "id": "aMWJECjIr39TfPtoXpNU",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"GAFA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:35:10.175Z"
     },
     {
       "id": "aNMNXWJjnMRfPNRWYSx1",
@@ -10368,6 +10445,13 @@
       "descripcion": "Creó el producto \"ORGANIZADOR PARA BAÑO BT12 MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-14T12:59:37.402Z"
+    },
+    {
+      "id": "nnESCHpDFjgXwoJT7XeZ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA GAFA 358 282LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:35:40.781Z"
     },
     {
       "id": "nnuXCKDBk2YYw20Lh69h",
