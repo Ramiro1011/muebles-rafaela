@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-02T11:59:37.562Z",
+  "fecha": "2026-08-05T12:49:48.413Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -501,9 +501,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -522,7 +519,11 @@
         }
       ],
       "nombre": "COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO",
-      "precio": 511472
+      "precio": 511472,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "62W8J2zuNOVIhSTlaeX1",
@@ -783,9 +784,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -798,7 +796,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 2078960
+      "precio": 2078960,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "94GarddO5saVjQEfU1g9",
@@ -1705,9 +1707,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1726,7 +1725,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 1526720
+      "precio": 1526720,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "IKgENFkEy4oFZ8JNOQ29",
@@ -1861,9 +1864,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1875,7 +1875,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 390936
+      "precio": 390936,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "JIV53pvVXniveS91ySpC",
@@ -1970,9 +1974,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1990,7 +1991,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 532272
+      "precio": 532272,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "KYECYbp33Bj2ZL8VV0J9",
@@ -2092,9 +2097,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2113,7 +2115,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO",
-      "precio": 180024
+      "precio": 180024,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "LE3reaxc65bc78FrR8Sn",
@@ -2205,9 +2211,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2217,7 +2220,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 306904
+      "precio": 306904,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "N4uP9b5o7aPAr5hKqPbD",
@@ -2256,9 +2263,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2276,7 +2280,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO",
-      "precio": 259168
+      "precio": 259168,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "NWdM03OKrzlNWrVdujmF",
@@ -2470,9 +2478,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2490,7 +2495,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 386360
+      "precio": 386360,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "PW2KzaBbWD0Wnq99Jf80",
@@ -2696,9 +2705,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2710,7 +2716,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 525824
+      "precio": 525824,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "Qyxplb20r8sVNvoFY2F1",
@@ -3438,9 +3448,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -3458,7 +3465,11 @@
           "hex": "#92acce"
         }
       ],
-      "precio": 221000
+      "precio": 221000,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "XNXljq5gPntto8RFONZg",
@@ -4073,9 +4084,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -4093,7 +4101,11 @@
           "hex": "#5e566f"
         }
       ],
-      "precio": 458640
+      "precio": 458640,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "ccY8m6tUcnxNkCJzFduH",
@@ -4457,6 +4469,32 @@
       "nombre": "COCINA ESCORIAL MASTER STYLE 56CM INOX"
     },
     {
+      "id": "fb2fVAAsXJMObZzR1DKi",
+      "nombre": "HELADERA GAFA 358 282LTS",
+      "descripcion": "La Heladera con Freezer Gafa HGF358 AFB Blanca con 282L de capacidad de almacenamiento, es la solución ideal para preservar alimentos y bebidas de todo tipo, de forma práctica y organizada.\nSu clasificación de Eficiencia Energética A, hace que la heladera sea más eficiente, con un menor consumo de energía. Además, cuenta con un gas más ecológico, que cuida el medioambiente y no daña la capa de ozono.\nSu tecnología Cycle Defrost, además de ser más económica, ayuda a preservar la humedad natural de tus alimentos.",
+      "precio": 1034000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS Y FREEZER"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767675/muebles_rafaela/f1cnnv4nzjoomozaookp.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767677/muebles_rafaela/lqa9bwq0cxatbrlublhn.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767679/muebles_rafaela/wl8m4tmr7jcoa6ig2txv.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767680/muebles_rafaela/dlpz7gdgfp3gswnoy5nm.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "proveedor": "GAFA"
+    },
+    {
       "id": "fo9IkPqKHps4GGHfmnEN",
       "descripcion": "Capacidad y confort\nEl termotanque eléctrico Escorial tiene una capacidad para 85,5 litros. A diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Para funcionar, sólo hay que enchufarlo a la red eléctrica convencional. Automáticamente, el artefacto calentará el agua hasta un punto prefijado. Cuenta con un tanque con aislamiento de espuma de poliuretano que asegura un consumo eficiente de energía. Puede colgarse. Termotanque eléctrico 5 litros.\n\nSeguridad y consumo\nUna de las principales características de este tipo de calentadores es que pueden instalarse en cualquier espacio y no necesitan ventilación como los equipos que utilizan llamas de combustión para generar calor. Este artefacto no produce gases tóxicos y tampoco consume oxígeno del ambiente en el que se lo ubique. A la hora de elegir un calefón hay que tener en cuenta que se calculan aproximadamente 50 litros para 3 personas; 75 litros, de 3 a 5 personas; y 120, de 5 a 7 personas. Escorial\n\nSistema de calentamiento\nA diferencia de los equipos a gas que calientan el agua a través de un quemador y generan gases tóxicos, este termotanque produce calor a través de una resistencia eléctrica hasta que se alcanza la temperatura deseada. Luego, el aislamiento del tanque se encarga de que no se enfríe demasiado rápido. Cuando la temperatura baja, por el paso del tiempo o porque se usó el agua caliente y entra agua fría, la resistencia vuelve a entrar en funcionamiento.",
       "precio": 423562,
@@ -4624,9 +4662,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -4644,7 +4679,11 @@
           "hex": "#8da2c3"
         }
       ],
-      "precio": 293592
+      "precio": 293592,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "hWpWPyX1qTzygcBALOL0",
@@ -4932,15 +4971,38 @@
       "nombre": "TERMOTANQUE ESCORIAL A GAS 45L"
     },
     {
+      "id": "kGyjgAfl4RYc2RFnFQKd",
+      "nombre": "HELADERA GAFA 368 330LTS",
+      "descripcion": "La Heladera con Freezer Gafa HGF368 AFB Blanca con 330L de capacidad de almacenamiento, es la solución ideal para preservar alimentos y bebidas de todo tipo, de forma práctica y organizada.\nSu clasificación de Eficiencia Energética A, hace que la heladera sea más eficiente, con un menor consumo de energía. Además, cuenta con un gas más ecológico, que cuida el medioambiente y no daña la capa de ozono.\nSu tecnología Cycle Defrost, además de ser más económica, ayuda a preservar la humedad natural de tus alimentos.\nGRAN CAPACIDAD: Más espacio para almacenar y organizar alimentos, bebidas y todo tipo de envases con mayor facilidad.",
+      "precio": 1102600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS Y FREEZER"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "GAFA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792884/muebles_rafaela/thstla3bt44gghg5abrc.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792885/muebles_rafaela/ghesdc74eo9fqlsp41lm.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792887/muebles_rafaela/ywluppjzmjasde2hi3el.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792889/muebles_rafaela/qoal7ougucfzsxsy2gnu.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "kJ2wxxDejpg1aIsvfMU4",
       "nombre": "COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO",
       "descripcion": "COLCHON 1.40X1.90\n18CM DE ALTO\n70KG-75KG POR PLAZA",
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -4958,7 +5020,11 @@
           "hex": "#90a1b7"
         }
       ],
-      "precio": 313560
+      "precio": 313560,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "klWUv5O0uXjLDyakgVoP",
@@ -5288,9 +5354,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -5308,7 +5371,11 @@
           "hex": "#6c6580"
         }
       ],
-      "precio": 414648
+      "precio": 414648,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "njGbNuJdL9w42lIW6uvO",
@@ -5910,9 +5977,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -5929,7 +5993,11 @@
           "hex": "#897db5"
         }
       ],
-      "precio": 318240
+      "precio": 318240,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "tKPvv2j7MwRSoNYBhj2P",
@@ -6015,9 +6083,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6036,7 +6101,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 748280
+      "precio": 748280,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "tyJrvrznv8AkhUlv714f",
@@ -6103,9 +6172,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6124,7 +6190,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO",
-      "precio": 325936
+      "precio": 325936,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "ubci9iI3vP2J0qUE0Vpm",
@@ -6380,9 +6450,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6401,7 +6468,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 854776
+      "precio": 854776,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "wXeKQXudlWUxxJLNyTlY",
@@ -6410,9 +6481,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6424,7 +6492,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 361712
+      "precio": 361712,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "weHYPAfDCXsCox92iMFF",
@@ -7338,6 +7410,10 @@
       "nombre": "SEÑORIAL"
     },
     {
+      "id": "7e9fN4cVPpF5SO4JfDFi",
+      "nombre": "GAFA"
+    },
+    {
       "id": "975gnJIBijvaKjirSJON",
       "nombre": "TANDIL"
     },
@@ -7435,6 +7511,13 @@
       "descripcion": "Editó el producto \"ESTUFA COPPENS 2500KCAL TB/TBU\"",
       "usuario": "admin",
       "fecha": "2026-07-11T13:34:23.330Z"
+    },
+    {
+      "id": "0LhiIekkHzJKtRpOhUK7",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON KING SIZE ESPUMA MARFIL PLUS TOPACIO (completo)\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:08.513Z"
     },
     {
       "id": "0ZKbU9KtnFIKNwHX2rhc",
@@ -7575,6 +7658,13 @@
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:00.712Z"
+    },
+    {
+      "id": "2hQoEUyUHX0KEbKLrvM6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:10.009Z"
     },
     {
       "id": "2k3LPJIh5Ve1aRu7QMRH",
@@ -7920,6 +8010,13 @@
       "tipo": "producto_editado"
     },
     {
+      "id": "9YSdA7XIOpl71K3JA3Gh",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:19:57.247Z"
+    },
+    {
       "id": "9ZQGrk27TCgzulIjx34o",
       "descripcion": "Creó el producto \"MESADA DURAFORT 1.60 x 0.60\"",
       "usuario": "admin",
@@ -7939,6 +8036,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:31.285Z"
+    },
+    {
+      "id": "9kLmNK8ZM23ysK5NoYQ6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:48.135Z"
     },
     {
       "id": "9x1r4jeaTOMoL5lLuM46",
@@ -8067,6 +8171,13 @@
       "fecha": "2026-07-06T22:19:38.731Z"
     },
     {
+      "id": "DCEJe4DVLf7SfUiisgeA",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:19:49.000Z"
+    },
+    {
       "id": "DDOp5Jqa2vPYDGh1okDq",
       "usuario": "admin",
       "descripcion": "Creó el producto \"BATIDORA CON BOWL WINCO W303\"",
@@ -8086,6 +8197,13 @@
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 322LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:02:42.982Z"
+    },
+    {
+      "id": "DOUM1sw9RiVCUcUQPU3J",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:23.529Z"
     },
     {
       "id": "DOvxCYs9BXnvFG3R911F",
@@ -8212,6 +8330,13 @@
       "descripcion": "Creó la categoría \"DESPENSERO\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:48:29.643Z"
+    },
+    {
+      "id": "FIBOA9o17xlFHIWeZBo5",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:18.221Z"
     },
     {
       "id": "FMAWXY6j02Iz9vdqXzpR",
@@ -8375,6 +8500,13 @@
       "fecha": "2026-07-14T13:16:52.469Z"
     },
     {
+      "id": "I2VCFWxgJ0cbjlPg1r6g",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"HELADERA GAFA 368 330LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T21:34:54.590Z"
+    },
+    {
       "id": "I2tocAX5Uj0NG4iMlQbb",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 120L A.R\"",
@@ -8415,6 +8547,13 @@
       "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT PARIS SC1250\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:07:44.616Z"
+    },
+    {
+      "id": "IofDSE9y0E6vEn4DeWnf",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON KING SIZE ESPUMA MARTINICA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:13.411Z"
     },
     {
       "id": "IvNn4hYwfCtFmMECkCy0",
@@ -8543,6 +8682,13 @@
       "fecha": "2026-07-03T13:06:14.312Z"
     },
     {
+      "id": "LcgWwZTZOirtY2OePmzG",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:33.963Z"
+    },
+    {
       "id": "Lgr8pVojY8PrS0hLFdUn",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH132 MELAMINA\"",
@@ -8620,6 +8766,13 @@
       "fecha": "2026-07-14T13:33:43.912Z"
     },
     {
+      "id": "MThIInlnL5oy9l124g7b",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:53.088Z"
+    },
+    {
       "id": "MY4wuMsFEJqYnEXmTo9K",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 PLAZA ESMERALDA TOPACIO\"",
@@ -8681,6 +8834,13 @@
       "descripcion": "Creó el proveedor \"BRIKET\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:09.370Z"
+    },
+    {
+      "id": "NA11WKcyHiNWtAndH84F",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:47.171Z"
     },
     {
       "id": "NAEK4qf1AzyFqt9WF8uE",
@@ -8898,6 +9058,13 @@
       "descripcion": "Creó el producto \"BAIUT 1.80 4 PUERTAS 3 CAJONES\"",
       "fecha": "2026-07-22T22:04:11.979Z",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "Q7lCWY6heLgzEaN90GKB",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:40.924Z"
     },
     {
       "id": "QKl0KA6gXkM9IOL0iIXc",
@@ -9439,6 +9606,13 @@
       "fecha": "2026-07-08T20:53:07.796Z"
     },
     {
+      "id": "Yw3LCIA3HEii4MFXKZmZ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"HELADERA GAFA 358 282LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:34:45.576Z"
+    },
+    {
       "id": "Z3gwFXjtf4Lju8uny6dQ",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Cocina Escorial Master Classic  Inox 56CM\"",
@@ -9451,6 +9625,13 @@
       "descripcion": "Renombró la categoría \"ESTANTE\" a \"ESTANTE\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:38:47.755Z"
+    },
+    {
+      "id": "ZHVVpBeyiJpx7N3MS78M",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA RESORTE SIMETRIC TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:43.361Z"
     },
     {
       "id": "ZLhqrc5ypVcE9gJTRnTr",
@@ -9535,6 +9716,13 @@
       "usuario": "admin",
       "fecha": "2026-07-20T12:39:46.476Z",
       "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA ECO (0.80M)\""
+    },
+    {
+      "id": "aMWJECjIr39TfPtoXpNU",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"GAFA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:35:10.175Z"
     },
     {
       "id": "aNMNXWJjnMRfPNRWYSx1",
@@ -9731,6 +9919,13 @@
       "fecha": "2026-07-24T13:45:17.412Z",
       "tipo": "producto_creado",
       "usuario": "admin"
+    },
+    {
+      "id": "dEat85ggedlHy6XWtHWA",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL PLUS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:19.862Z"
     },
     {
       "id": "dFeEvbYVEHLndytD9MJO",
@@ -9983,6 +10178,13 @@
       "tipo": "categoria_creada",
       "usuario": "admin",
       "descripcion": "Creó la categoría \"BALANZA\""
+    },
+    {
+      "id": "h52E3D4KBwv2RGxv3LQ6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:25.843Z"
     },
     {
       "id": "h9XpnXd4K5zuBc1TsKJZ",
@@ -10370,6 +10572,20 @@
       "fecha": "2026-07-14T12:59:37.402Z"
     },
     {
+      "id": "naJWJUWRKs7BcstavBnZ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:38.784Z"
+    },
+    {
+      "id": "nnESCHpDFjgXwoJT7XeZ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA GAFA 358 282LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:35:40.781Z"
+    },
+    {
       "id": "nnuXCKDBk2YYw20Lh69h",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN COMPACT 52CM\"",
@@ -10501,6 +10717,13 @@
       "fecha": "2026-07-22T14:34:32.475Z",
       "descripcion": "Creó el producto \"SILLON ESQUINERO \"LOURDES\" C/BUTACON 2.00M\"",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "pc2Q6j2DPUIeP5urHOoj",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:57.695Z"
     },
     {
       "id": "pi92mBdr1XF2Bp0CXsG6",
@@ -10699,6 +10922,13 @@
       "descripcion": "Creó la categoría \"RALLADOR\""
     },
     {
+      "id": "sGs05AR5SXHIqwe0mwgh",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:02.927Z"
+    },
+    {
       "id": "sIJZBewcPDf6C7eLq4MV",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
@@ -10846,6 +11076,13 @@
       "fecha": "2026-07-15T13:25:51.722Z"
     },
     {
+      "id": "u3gkXwNBNbQfntMUoNYo",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:05.494Z"
+    },
+    {
       "id": "u6VJ9Kb5uIWlc6CtbuuD",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"SANDWICHERA WINCO W017\"",
@@ -10977,6 +11214,13 @@
       "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT MILAN SC1260\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:15:27.944Z"
+    },
+    {
+      "id": "wtZ61tp9Yz88S9b4jK9a",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:28.470Z"
     },
     {
       "id": "wyYPhSrZLkB0abhWb3Yw",
