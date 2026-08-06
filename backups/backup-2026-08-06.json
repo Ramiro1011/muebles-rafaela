@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-03T13:38:10.613Z",
+  "fecha": "2026-08-06T12:54:05.913Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -501,9 +501,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -522,7 +519,11 @@
         }
       ],
       "nombre": "COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO",
-      "precio": 511472
+      "precio": 511472,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "62W8J2zuNOVIhSTlaeX1",
@@ -783,9 +784,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -798,7 +796,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 2078960
+      "precio": 2078960,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "94GarddO5saVjQEfU1g9",
@@ -857,7 +859,6 @@
     {
       "id": "96Pfq1pRV0Xo2UQQIbkC",
       "proveedor": "PINARCIS",
-      "precio": 150300,
       "material": null,
       "descuento": 0,
       "destacado": false,
@@ -874,7 +875,8 @@
         "MUEBLES"
       ],
       "precioAnterior": null,
-      "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)"
+      "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)",
+      "precio": 157965
     },
     {
       "id": "9jAisInJCds0UtI1FAli",
@@ -1193,7 +1195,7 @@
         "CAMAS",
         "MUEBLES"
       ],
-      "precio": 174800
+      "precio": 183715
     },
     {
       "id": "CpCiwN5FzXEL2wcdfdDw",
@@ -1278,7 +1280,6 @@
       "descripcion": "Cama de 2 plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 9 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.30 x 1.90 mts. Medida final 1.40 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
       "nuevo": false,
       "descuento": 0,
-      "precio": 202350,
       "destacado": false,
       "activo": true,
       "nombre": "CAMA DE PINO 2 PLAZAS MAVIC (1.30M)",
@@ -1288,7 +1289,8 @@
       "material": null,
       "colores": [],
       "stock": null,
-      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg"
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg",
+      "precio": 212670
     },
     {
       "id": "DgT6DkoXcC9jWllfAEZG",
@@ -1705,9 +1707,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1726,7 +1725,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 1526720
+      "precio": 1526720,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "IKgENFkEy4oFZ8JNOQ29",
@@ -1861,9 +1864,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1875,7 +1875,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 390936
+      "precio": 390936,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "JIV53pvVXniveS91ySpC",
@@ -1970,9 +1974,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1990,7 +1991,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 532272
+      "precio": 532272,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "KYECYbp33Bj2ZL8VV0J9",
@@ -2092,9 +2097,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2113,7 +2115,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO",
-      "precio": 180024
+      "precio": 180024,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "LE3reaxc65bc78FrR8Sn",
@@ -2205,9 +2211,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2217,7 +2220,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 306904
+      "precio": 306904,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "N4uP9b5o7aPAr5hKqPbD",
@@ -2256,9 +2263,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2276,7 +2280,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO",
-      "precio": 259168
+      "precio": 259168,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "NWdM03OKrzlNWrVdujmF",
@@ -2335,8 +2343,8 @@
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549449/muebles_rafaela/olw7j7icobcmxco56qym.png"
       ],
-      "precio": 101000,
-      "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)"
+      "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)",
+      "precio": 106151
     },
     {
       "id": "OniDP7OfEyRwV2DhruEW",
@@ -2427,8 +2435,8 @@
       "nuevo": false,
       "descripcion": "Cama de 2 ½ plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 10 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.40 x 1.90 mts. Medida final 1.50 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
       "precioAnterior": null,
-      "precio": 214800,
-      "colores": []
+      "colores": [],
+      "precio": 225755
     },
     {
       "id": "PH2zsaEbPCUDaywwiA3I",
@@ -2470,9 +2478,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2490,7 +2495,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 386360
+      "precio": 386360,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "PW2KzaBbWD0Wnq99Jf80",
@@ -2696,9 +2705,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2710,7 +2716,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 525824
+      "precio": 525824,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "Qyxplb20r8sVNvoFY2F1",
@@ -3438,9 +3448,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -3458,7 +3465,11 @@
           "hex": "#92acce"
         }
       ],
-      "precio": 221000
+      "precio": 221000,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "XNXljq5gPntto8RFONZg",
@@ -3851,7 +3862,6 @@
     {
       "id": "b8fYfOIWK7EyjbMtKLvd",
       "material": null,
-      "precio": 152700,
       "stock": null,
       "activo": true,
       "categorias": [
@@ -3868,7 +3878,8 @@
       "descuento": 0,
       "destacado": false,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324453/muebles_rafaela/txefvox6rxslbzumd0sf.png",
-      "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts."
+      "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts.",
+      "precio": 160488
     },
     {
       "id": "bJzjhI5WOxmYiATNQA3u",
@@ -4073,9 +4084,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -4093,7 +4101,11 @@
           "hex": "#5e566f"
         }
       ],
-      "precio": 458640
+      "precio": 458640,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "ccY8m6tUcnxNkCJzFduH",
@@ -4395,9 +4407,9 @@
       "stock": null,
       "nombre": "CAMA DE PINO 2 PLAZAS ECO (1.30M)",
       "activo": true,
-      "precio": 93000,
       "nuevo": false,
-      "categoria": "CAMAS"
+      "categoria": "CAMAS",
+      "precio": 97743
     },
     {
       "id": "f4Xtg8prbFB5zxglcLIx",
@@ -4455,6 +4467,32 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL MASTER STYLE 56CM INOX"
+    },
+    {
+      "id": "fb2fVAAsXJMObZzR1DKi",
+      "nombre": "HELADERA GAFA 358 282LTS",
+      "descripcion": "La Heladera con Freezer Gafa HGF358 AFB Blanca con 282L de capacidad de almacenamiento, es la solución ideal para preservar alimentos y bebidas de todo tipo, de forma práctica y organizada.\nSu clasificación de Eficiencia Energética A, hace que la heladera sea más eficiente, con un menor consumo de energía. Además, cuenta con un gas más ecológico, que cuida el medioambiente y no daña la capa de ozono.\nSu tecnología Cycle Defrost, además de ser más económica, ayuda a preservar la humedad natural de tus alimentos.",
+      "precio": 1034000,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS Y FREEZER"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767675/muebles_rafaela/f1cnnv4nzjoomozaookp.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767677/muebles_rafaela/lqa9bwq0cxatbrlublhn.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767679/muebles_rafaela/wl8m4tmr7jcoa6ig2txv.webp",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785767680/muebles_rafaela/dlpz7gdgfp3gswnoy5nm.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": [],
+      "proveedor": "GAFA"
     },
     {
       "id": "fo9IkPqKHps4GGHfmnEN",
@@ -4624,9 +4662,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -4644,7 +4679,11 @@
           "hex": "#8da2c3"
         }
       ],
-      "precio": 293592
+      "precio": 293592,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "hWpWPyX1qTzygcBALOL0",
@@ -4932,15 +4971,38 @@
       "nombre": "TERMOTANQUE ESCORIAL A GAS 45L"
     },
     {
+      "id": "kGyjgAfl4RYc2RFnFQKd",
+      "nombre": "HELADERA GAFA 368 330LTS",
+      "descripcion": "La Heladera con Freezer Gafa HGF368 AFB Blanca con 330L de capacidad de almacenamiento, es la solución ideal para preservar alimentos y bebidas de todo tipo, de forma práctica y organizada.\nSu clasificación de Eficiencia Energética A, hace que la heladera sea más eficiente, con un menor consumo de energía. Además, cuenta con un gas más ecológico, que cuida el medioambiente y no daña la capa de ozono.\nSu tecnología Cycle Defrost, además de ser más económica, ayuda a preservar la humedad natural de tus alimentos.\nGRAN CAPACIDAD: Más espacio para almacenar y organizar alimentos, bebidas y todo tipo de envases con mayor facilidad.",
+      "precio": 1102600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "HELADERAS Y FREEZER"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "GAFA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792884/muebles_rafaela/thstla3bt44gghg5abrc.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792885/muebles_rafaela/ghesdc74eo9fqlsp41lm.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792887/muebles_rafaela/ywluppjzmjasde2hi3el.png",
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1785792889/muebles_rafaela/qoal7ougucfzsxsy2gnu.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "kJ2wxxDejpg1aIsvfMU4",
       "nombre": "COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO",
       "descripcion": "COLCHON 1.40X1.90\n18CM DE ALTO\n70KG-75KG POR PLAZA",
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -4958,7 +5020,11 @@
           "hex": "#90a1b7"
         }
       ],
-      "precio": 313560
+      "precio": 313560,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "klWUv5O0uXjLDyakgVoP",
@@ -5288,9 +5354,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -5308,7 +5371,11 @@
           "hex": "#6c6580"
         }
       ],
-      "precio": 414648
+      "precio": 414648,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "njGbNuJdL9w42lIW6uvO",
@@ -5650,7 +5717,6 @@
       "nombre": "CAMA NIDO X2 1 PLAZA ECO",
       "stock": null,
       "imagenes": [],
-      "precio": 192800,
       "descripcion": "Cama superpuesta o cama cucheta o cama paralela o cama litera modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  Cada parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 5 varillas y 4 travesaños de distintas maderas duras.\n\nLa cama superior está fabricada para colchón de 0.80 x 2.00 mts. La cama inferior está fabricada para colchón de 0.80 x 1.90 mts alto máximo de colchón 16 cm. Medida final 0.90 x 2.08 mts.\n\nPodes combinar la cama con carricama, carrocajón, cajonera Fën o baranda Huapi.",
       "categoria": "CAMAS",
       "categorias": [
@@ -5663,7 +5729,8 @@
       "material": null,
       "precioAnterior": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324550/muebles_rafaela/afw4jxhrg2r5zarbbunu.jpg",
-      "descuento": 0
+      "descuento": 0,
+      "precio": 202633
     },
     {
       "id": "rjqWyVEqmv9V5tb5HzP9",
@@ -5834,7 +5901,6 @@
       ],
       "nombre": "CAMA NIDO X3 1 PLAZA ECO",
       "material": null,
-      "precio": 274800,
       "descuento": 0,
       "proveedor": "PINARCIS",
       "imagenes": [],
@@ -5845,7 +5911,8 @@
       "precioAnterior": null,
       "stock": null,
       "colores": [],
-      "activo": true
+      "activo": true,
+      "precio": 288815
     },
     {
       "id": "sg2y1vTKwIIiZY6uad9l",
@@ -5910,9 +5977,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -5929,7 +5993,11 @@
           "hex": "#897db5"
         }
       ],
-      "precio": 318240
+      "precio": 318240,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "tKPvv2j7MwRSoNYBhj2P",
@@ -5974,14 +6042,14 @@
         "CAMAS",
         "MUEBLES"
       ],
-      "precio": 92000,
       "nombre": "CAMA DE PINO 1 ½ PLAZA ECO (1.00M)",
       "imagenes": [],
       "descripcion": "Cama de 1 ½ plaza o cama twin modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 7 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.00 x 1.90 mts. Medida final 1.10 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm.",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784551093/muebles_rafaela/wsyeez4w0femtkkafgxs.jpg",
       "stock": null,
       "categoria": "CAMAS",
-      "destacado": false
+      "destacado": false,
+      "precio": 96692
     },
     {
       "id": "tULjq6LFnLcBgOUYrznh",
@@ -6015,9 +6083,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6036,7 +6101,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 748280
+      "precio": 748280,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "tyJrvrznv8AkhUlv714f",
@@ -6052,7 +6121,6 @@
       "descuento": 0,
       "destacado": false,
       "proveedor": "PINARCIS",
-      "precio": 71000,
       "nuevo": false,
       "categorias": [
         "MUEBLES",
@@ -6060,7 +6128,8 @@
       ],
       "precioAnterior": null,
       "categoria": "MUEBLES",
-      "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)"
+      "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)",
+      "precio": 74621
     },
     {
       "id": "uGHpdveIm88ixPEi0F2Z",
@@ -6103,9 +6172,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6124,7 +6190,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO",
-      "precio": 325936
+      "precio": 325936,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "ubci9iI3vP2J0qUE0Vpm",
@@ -6380,9 +6450,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6401,7 +6468,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 854776
+      "precio": 854776,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "wXeKQXudlWUxxJLNyTlY",
@@ -6410,9 +6481,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6424,7 +6492,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 361712
+      "precio": 361712,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "weHYPAfDCXsCox92iMFF",
@@ -7338,6 +7410,10 @@
       "nombre": "SEÑORIAL"
     },
     {
+      "id": "7e9fN4cVPpF5SO4JfDFi",
+      "nombre": "GAFA"
+    },
+    {
       "id": "975gnJIBijvaKjirSJON",
       "nombre": "TANDIL"
     },
@@ -7423,6 +7499,13 @@
       "descripcion": "Creó el producto \"ASPIRADORA DE TACHO 10L WINCO\""
     },
     {
+      "id": "07QTCCS84NDHyQtbesOE",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 5.1% el precio de 11 producto(s) de \"PINARCIS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-05T14:48:46.789Z"
+    },
+    {
       "id": "0CEOd5834Dl2qCKQzrCB",
       "fecha": "2026-07-21T13:24:03.792Z",
       "usuario": "admin",
@@ -7435,6 +7518,13 @@
       "descripcion": "Editó el producto \"ESTUFA COPPENS 2500KCAL TB/TBU\"",
       "usuario": "admin",
       "fecha": "2026-07-11T13:34:23.330Z"
+    },
+    {
+      "id": "0LhiIekkHzJKtRpOhUK7",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON KING SIZE ESPUMA MARFIL PLUS TOPACIO (completo)\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:08.513Z"
     },
     {
       "id": "0ZKbU9KtnFIKNwHX2rhc",
@@ -7575,6 +7665,13 @@
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:00.712Z"
+    },
+    {
+      "id": "2hQoEUyUHX0KEbKLrvM6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:10.009Z"
     },
     {
       "id": "2k3LPJIh5Ve1aRu7QMRH",
@@ -7920,6 +8017,13 @@
       "tipo": "producto_editado"
     },
     {
+      "id": "9YSdA7XIOpl71K3JA3Gh",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:19:57.247Z"
+    },
+    {
       "id": "9ZQGrk27TCgzulIjx34o",
       "descripcion": "Creó el producto \"MESADA DURAFORT 1.60 x 0.60\"",
       "usuario": "admin",
@@ -7939,6 +8043,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:31.285Z"
+    },
+    {
+      "id": "9kLmNK8ZM23ysK5NoYQ6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:48.135Z"
     },
     {
       "id": "9x1r4jeaTOMoL5lLuM46",
@@ -8067,6 +8178,13 @@
       "fecha": "2026-07-06T22:19:38.731Z"
     },
     {
+      "id": "DCEJe4DVLf7SfUiisgeA",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:19:49.000Z"
+    },
+    {
       "id": "DDOp5Jqa2vPYDGh1okDq",
       "usuario": "admin",
       "descripcion": "Creó el producto \"BATIDORA CON BOWL WINCO W303\"",
@@ -8086,6 +8204,13 @@
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 322LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:02:42.982Z"
+    },
+    {
+      "id": "DOUM1sw9RiVCUcUQPU3J",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:23.529Z"
     },
     {
       "id": "DOvxCYs9BXnvFG3R911F",
@@ -8212,6 +8337,13 @@
       "descripcion": "Creó la categoría \"DESPENSERO\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:48:29.643Z"
+    },
+    {
+      "id": "FIBOA9o17xlFHIWeZBo5",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:18.221Z"
     },
     {
       "id": "FMAWXY6j02Iz9vdqXzpR",
@@ -8375,6 +8507,13 @@
       "fecha": "2026-07-14T13:16:52.469Z"
     },
     {
+      "id": "I2VCFWxgJ0cbjlPg1r6g",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"HELADERA GAFA 368 330LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T21:34:54.590Z"
+    },
+    {
       "id": "I2tocAX5Uj0NG4iMlQbb",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 120L A.R\"",
@@ -8415,6 +8554,13 @@
       "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT PARIS SC1250\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:07:44.616Z"
+    },
+    {
+      "id": "IofDSE9y0E6vEn4DeWnf",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON KING SIZE ESPUMA MARTINICA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:13.411Z"
     },
     {
       "id": "IvNn4hYwfCtFmMECkCy0",
@@ -8543,6 +8689,13 @@
       "fecha": "2026-07-03T13:06:14.312Z"
     },
     {
+      "id": "LcgWwZTZOirtY2OePmzG",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:33.963Z"
+    },
+    {
       "id": "Lgr8pVojY8PrS0hLFdUn",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH132 MELAMINA\"",
@@ -8620,6 +8773,13 @@
       "fecha": "2026-07-14T13:33:43.912Z"
     },
     {
+      "id": "MThIInlnL5oy9l124g7b",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:53.088Z"
+    },
+    {
       "id": "MY4wuMsFEJqYnEXmTo9K",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 PLAZA ESMERALDA TOPACIO\"",
@@ -8681,6 +8841,13 @@
       "descripcion": "Creó el proveedor \"BRIKET\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:09.370Z"
+    },
+    {
+      "id": "NA11WKcyHiNWtAndH84F",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:47.171Z"
     },
     {
       "id": "NAEK4qf1AzyFqt9WF8uE",
@@ -8898,6 +9065,13 @@
       "descripcion": "Creó el producto \"BAIUT 1.80 4 PUERTAS 3 CAJONES\"",
       "fecha": "2026-07-22T22:04:11.979Z",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "Q7lCWY6heLgzEaN90GKB",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:40.924Z"
     },
     {
       "id": "QKl0KA6gXkM9IOL0iIXc",
@@ -9439,6 +9613,13 @@
       "fecha": "2026-07-08T20:53:07.796Z"
     },
     {
+      "id": "Yw3LCIA3HEii4MFXKZmZ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"HELADERA GAFA 358 282LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:34:45.576Z"
+    },
+    {
       "id": "Z3gwFXjtf4Lju8uny6dQ",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"Cocina Escorial Master Classic  Inox 56CM\"",
@@ -9451,6 +9632,13 @@
       "descripcion": "Renombró la categoría \"ESTANTE\" a \"ESTANTE\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:38:47.755Z"
+    },
+    {
+      "id": "ZHVVpBeyiJpx7N3MS78M",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA RESORTE SIMETRIC TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:43.361Z"
     },
     {
       "id": "ZLhqrc5ypVcE9gJTRnTr",
@@ -9535,6 +9723,13 @@
       "usuario": "admin",
       "fecha": "2026-07-20T12:39:46.476Z",
       "descripcion": "Editó el producto \"CAMA DE PINO 1 PLAZA ECO (0.80M)\""
+    },
+    {
+      "id": "aMWJECjIr39TfPtoXpNU",
+      "tipo": "proveedor_creado",
+      "descripcion": "Creó el proveedor \"GAFA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:35:10.175Z"
     },
     {
       "id": "aNMNXWJjnMRfPNRWYSx1",
@@ -9731,6 +9926,13 @@
       "fecha": "2026-07-24T13:45:17.412Z",
       "tipo": "producto_creado",
       "usuario": "admin"
+    },
+    {
+      "id": "dEat85ggedlHy6XWtHWA",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL PLUS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:19.862Z"
     },
     {
       "id": "dFeEvbYVEHLndytD9MJO",
@@ -9983,6 +10185,13 @@
       "tipo": "categoria_creada",
       "usuario": "admin",
       "descripcion": "Creó la categoría \"BALANZA\""
+    },
+    {
+      "id": "h52E3D4KBwv2RGxv3LQ6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:25.843Z"
     },
     {
       "id": "h9XpnXd4K5zuBc1TsKJZ",
@@ -10370,6 +10579,20 @@
       "fecha": "2026-07-14T12:59:37.402Z"
     },
     {
+      "id": "naJWJUWRKs7BcstavBnZ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:38.784Z"
+    },
+    {
+      "id": "nnESCHpDFjgXwoJT7XeZ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"HELADERA GAFA 358 282LTS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-03T14:35:40.781Z"
+    },
+    {
       "id": "nnuXCKDBk2YYw20Lh69h",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COCINA INDUSTRIAL USMAN COMPACT 52CM\"",
@@ -10501,6 +10724,13 @@
       "fecha": "2026-07-22T14:34:32.475Z",
       "descripcion": "Creó el producto \"SILLON ESQUINERO \"LOURDES\" C/BUTACON 2.00M\"",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "pc2Q6j2DPUIeP5urHOoj",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:57.695Z"
     },
     {
       "id": "pi92mBdr1XF2Bp0CXsG6",
@@ -10699,6 +10929,13 @@
       "descripcion": "Creó la categoría \"RALLADOR\""
     },
     {
+      "id": "sGs05AR5SXHIqwe0mwgh",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:02.927Z"
+    },
+    {
       "id": "sIJZBewcPDf6C7eLq4MV",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
@@ -10846,6 +11083,13 @@
       "fecha": "2026-07-15T13:25:51.722Z"
     },
     {
+      "id": "u3gkXwNBNbQfntMUoNYo",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:05.494Z"
+    },
+    {
       "id": "u6VJ9Kb5uIWlc6CtbuuD",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"SANDWICHERA WINCO W017\"",
@@ -10977,6 +11221,13 @@
       "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT MILAN SC1260\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:15:27.944Z"
+    },
+    {
+      "id": "wtZ61tp9Yz88S9b4jK9a",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:28.470Z"
     },
     {
       "id": "wyYPhSrZLkB0abhWb3Yw",
