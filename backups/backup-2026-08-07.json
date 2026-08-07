@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-04T12:58:52.878Z",
+  "fecha": "2026-08-07T11:42:46.695Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -232,7 +232,6 @@
       "nuevo": false,
       "categoria": "TELEVISOR",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727364/muebles_rafaela/jrxzf1gdnzwd8hekkkzp.webp",
-      "precio": 922800,
       "categorias": [
         "TELEVISOR",
         "ELECTRODOMESTICOS"
@@ -247,7 +246,8 @@
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727366/muebles_rafaela/b5wfmy4tanjbrtxictnu.webp"
       ],
-      "proveedor": "HITACHI/TCL"
+      "proveedor": "HITACHI/TCL",
+      "precio": 950484
     },
     {
       "id": "2WhMWGtomrHYbiOh0nRQ",
@@ -501,9 +501,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -522,7 +519,33 @@
         }
       ],
       "nombre": "COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO",
-      "precio": 511472
+      "precio": 511472,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
+    },
+    {
+      "id": "5icx4Kg7HqFIqqhkAxwz",
+      "nombre": "VENTILADOR DE PIE 18\" LILIANA",
+      "descripcion": "Ventilador de Pie Orbital con Repeler de Liliana, modelo VPRN18, es la solución perfecta para mantener tu ambiente fresco, confortable y libre de insectos! Con su diseño moderno y tecnología avanzada, este ventilador te ofrece un gran caudal de aire, distribución uniforme y funcionalidad adicional con su sistema repelente.",
+      "precio": 146800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052526/muebles_rafaela/g6d9n9hzunaypxmdplk9.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "62W8J2zuNOVIhSTlaeX1",
@@ -783,9 +806,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -798,7 +818,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 2078960
+      "precio": 2078960,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "94GarddO5saVjQEfU1g9",
@@ -857,7 +881,6 @@
     {
       "id": "96Pfq1pRV0Xo2UQQIbkC",
       "proveedor": "PINARCIS",
-      "precio": 150300,
       "material": null,
       "descuento": 0,
       "destacado": false,
@@ -874,7 +897,8 @@
         "MUEBLES"
       ],
       "precioAnterior": null,
-      "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)"
+      "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)",
+      "precio": 157965
     },
     {
       "id": "9jAisInJCds0UtI1FAli",
@@ -974,6 +998,28 @@
       "material": null,
       "proveedor": "MOCAR",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533424/muebles_rafaela/mx4xdghtxqmndsyvyxbk.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "B8gix29HRiYfSuRyElUl",
+      "nombre": "VENTILADOR DE PIE 16\" LILIANA",
+      "descripcion": "Ventilador de Pie de Liliana, modelo VP16P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño funcional y características prácticas, este ventilador te ofrece un gran caudal de aire y ajustes personalizables para adaptarse a tus necesidades.",
+      "precio": 125800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052420/muebles_rafaela/ubsa4jnqweqjzx2z9zsg.webp",
       "imagenes": [],
       "nuevo": false,
       "destacado": false,
@@ -1193,7 +1239,7 @@
         "CAMAS",
         "MUEBLES"
       ],
-      "precio": 174800
+      "precio": 183715
     },
     {
       "id": "CpCiwN5FzXEL2wcdfdDw",
@@ -1278,7 +1324,6 @@
       "descripcion": "Cama de 2 plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 9 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.30 x 1.90 mts. Medida final 1.40 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
       "nuevo": false,
       "descuento": 0,
-      "precio": 202350,
       "destacado": false,
       "activo": true,
       "nombre": "CAMA DE PINO 2 PLAZAS MAVIC (1.30M)",
@@ -1288,7 +1333,8 @@
       "material": null,
       "colores": [],
       "stock": null,
-      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg"
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg",
+      "precio": 212670
     },
     {
       "id": "DgT6DkoXcC9jWllfAEZG",
@@ -1705,9 +1751,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1726,7 +1769,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 1526720
+      "precio": 1526720,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "IKgENFkEy4oFZ8JNOQ29",
@@ -1861,9 +1908,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1875,7 +1919,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 390936
+      "precio": 390936,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "JIV53pvVXniveS91ySpC",
@@ -1970,9 +2018,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -1990,7 +2035,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 532272
+      "precio": 532272,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "KYECYbp33Bj2ZL8VV0J9",
@@ -2092,9 +2141,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2113,7 +2159,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO",
-      "precio": 180024
+      "precio": 180024,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "LE3reaxc65bc78FrR8Sn",
@@ -2174,6 +2224,28 @@
       "proveedor": "TANDIL"
     },
     {
+      "id": "M2WrxVjiPT18yBdmaUol",
+      "nombre": "VENTILADOR DE TECHO CON LUZ LILIANA ASPAS METALICAS",
+      "descripcion": "Ventilador de Techo con Luz LED de Liliana, modelo VTHB114, es la combinación perfecta de estilo, confort y eficiencia para tu hogar! Con su diseño moderno y funcionalidades avanzadas, este ventilador te ofrece frescura y luminosidad en un solo equipo, ideal para cualquier ambiente.",
+      "precio": 188700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786051894/muebles_rafaela/ebinlwx6eotoxv22wfnc.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "MZVKrX2vJZL8PWqCXyQP",
       "destacado": false,
       "colores": [],
@@ -2186,7 +2258,6 @@
       "nombre": "TELEVISOR 32\" TCL ANDROID TV",
       "nuevo": false,
       "categoria": "ELECTRODOMESTICOS",
-      "precio": 429500,
       "descripcion": "FHD\n· HDR 10\n· Sin Bisel Metálico\n· Android TV\n· Dolby Audio\n· HDMI * 2\n· WIFI\n· Bluetooth 5.0",
       "stock": null,
       "material": null,
@@ -2196,7 +2267,8 @@
         "ELECTRODOMESTICOS",
         "TELEVISOR"
       ],
-      "proveedor": "HITACHI/TCL"
+      "proveedor": "HITACHI/TCL",
+      "precio": 442385
     },
     {
       "id": "MzxF5ohybRqa9WrVVIvh",
@@ -2205,9 +2277,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2217,7 +2286,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 306904
+      "precio": 306904,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "N4uP9b5o7aPAr5hKqPbD",
@@ -2256,9 +2329,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2276,7 +2346,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO",
-      "precio": 259168
+      "precio": 259168,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "NWdM03OKrzlNWrVdujmF",
@@ -2335,8 +2409,8 @@
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549449/muebles_rafaela/olw7j7icobcmxco56qym.png"
       ],
-      "precio": 101000,
-      "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)"
+      "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)",
+      "precio": 106151
     },
     {
       "id": "OniDP7OfEyRwV2DhruEW",
@@ -2427,7 +2501,31 @@
       "nuevo": false,
       "descripcion": "Cama de 2 ½ plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 10 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.40 x 1.90 mts. Medida final 1.50 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
       "precioAnterior": null,
-      "precio": 214800,
+      "colores": [],
+      "precio": 225755
+    },
+    {
+      "id": "P8iNlhqHNhQsygKMca36",
+      "nombre": "VENTILADOR DE TECHO CON LUZ LILIANA ASPAS MADERA",
+      "descripcion": "Ventilador de Techo con Luz de Liliana, modelo VTHM214, es la combinación perfecta de estilo, confort y funcionalidad para tu hogar! Con su diseño elegante y características avanzadas, este ventilador te ofrece frescura y luminosidad en un solo equipo, ideal para cualquier ambiente.",
+      "precio": 209600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786051574/muebles_rafaela/im3htmooctsugtix3gq7.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786051575/muebles_rafaela/uncd0isgkjloqcqbtb1i.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
       "colores": []
     },
     {
@@ -2470,9 +2568,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2490,7 +2585,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 386360
+      "precio": 386360,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "PW2KzaBbWD0Wnq99Jf80",
@@ -2696,9 +2795,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -2710,7 +2806,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 525824
+      "precio": 525824,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "Qyxplb20r8sVNvoFY2F1",
@@ -2754,6 +2854,30 @@
       "categoria": "MUEBLES",
       "nombre": "MESADA DURAFORT 1.20 x 0.60",
       "descuento": 0
+    },
+    {
+      "id": "RUIi80AKYszmKggrfp6F",
+      "nombre": "VENTILADOR DE PIE 10\" 3 EN 1 LILIANA",
+      "descripcion": "El Ventilador 3 en 1 Liliana VP10M es la opción ideal para mantener tus ambientes frescos con mayor versatilidad. Su diseño permite utilizarlo como ventilador de pie, pared o turbo, adaptándose a cada necesidad del hogar. Con cabezal oscilante y reclinable, barral metálico telescópico y aspas metálicas tipo trébol, asegura un excelente flujo de aire para climas de alta temperatura.\nPosee 3 velocidades para regular fácilmente la intensidad, base redonda estable y parrilla negra de estilo moderno. Con potencia de 60W, combina eficiencia, rendimiento y bajo consumo energético.",
+      "precio": 60700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052360/muebles_rafaela/ta4allnqipqpgt14hly4.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052362/muebles_rafaela/zkwsdjbzqurbfq1dtsnc.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "RW69VK9eJTTgue82vIWv",
@@ -3438,9 +3562,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -3458,7 +3579,11 @@
           "hex": "#92acce"
         }
       ],
-      "precio": 221000
+      "precio": 221000,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "XNXljq5gPntto8RFONZg",
@@ -3851,7 +3976,6 @@
     {
       "id": "b8fYfOIWK7EyjbMtKLvd",
       "material": null,
-      "precio": 152700,
       "stock": null,
       "activo": true,
       "categorias": [
@@ -3868,7 +3992,8 @@
       "descuento": 0,
       "destacado": false,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324453/muebles_rafaela/txefvox6rxslbzumd0sf.png",
-      "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts."
+      "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts.",
+      "precio": 160488
     },
     {
       "id": "bJzjhI5WOxmYiATNQA3u",
@@ -4045,7 +4170,6 @@
     {
       "id": "cCXqbXacUBejZP3nyv0P",
       "descripcion": "· FHD\n· HDR 10\n· Sin Bisel Metálico\n· Android TV\n· Dolby Audio\n· HDMI * 2\n· WIFI\n· Bluetooth 5.0",
-      "precio": 650600,
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784726927/muebles_rafaela/hqb4n0iwqr60g9bkzkd2.webp"
       ],
@@ -4064,7 +4188,8 @@
         "ELECTRODOMESTICOS"
       ],
       "proveedor": "HITACHI/TCL",
-      "nombre": "TELEVISOR 43\" TCL ANDROID TV"
+      "nombre": "TELEVISOR 43\" TCL ANDROID TV",
+      "precio": 670118
     },
     {
       "id": "cGDc4dYeud6SaqHm98Kq",
@@ -4073,9 +4198,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -4093,7 +4215,11 @@
           "hex": "#5e566f"
         }
       ],
-      "precio": 458640
+      "precio": 458640,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "ccY8m6tUcnxNkCJzFduH",
@@ -4116,6 +4242,28 @@
       "nombre": "ALMOHADA EMOCION FIBERBALL",
       "precioAnterior": null,
       "activo": true
+    },
+    {
+      "id": "d2txvcDq1ZD20RoSBJso",
+      "nombre": "VENTILADOR DE PIE 32\" INDUSTRIAL",
+      "descripcion": "Ventilador de Pie Industrial Liliana VPI32\n¡Refrescá tus espacios amplios con potencia y durabilidad! El Ventilador de Pie Industrial VPI32 de Liliana es la solución ideal para patios, jardines, terrazas, galpones y establecimientos gastronómicos. Con su diseño robusto, motor reforzado y cabezal oscilante y reclinable, ofrece un flujo de aire potente y uniforme, manteniendo un ambiente fresco y confortable incluso en los días más calurosos.",
+      "precio": 315900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052775/muebles_rafaela/y0e2vwnsqscdm0lkxxt8.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "dPoFKr6Vm3RQ9C2GhEQ8",
@@ -4395,9 +4543,9 @@
       "stock": null,
       "nombre": "CAMA DE PINO 2 PLAZAS ECO (1.30M)",
       "activo": true,
-      "precio": 93000,
       "nuevo": false,
-      "categoria": "CAMAS"
+      "categoria": "CAMAS",
+      "precio": 97743
     },
     {
       "id": "f4Xtg8prbFB5zxglcLIx",
@@ -4650,9 +4798,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -4670,7 +4815,11 @@
           "hex": "#8da2c3"
         }
       ],
-      "precio": 293592
+      "precio": 293592,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "hWpWPyX1qTzygcBALOL0",
@@ -4765,6 +4914,28 @@
         "RESPALDO"
       ],
       "precio": 208190
+    },
+    {
+      "id": "hsXJonF6JGcmTYRBGIRf",
+      "nombre": "VENTILADOR DE PIE 20\" LILIANA",
+      "descripcion": "Ventilador de Pie Orbital con Repeler de Liliana, modelo VPRN20, es la solución perfecta para mantener tu ambiente fresco, confortable y libre de insectos! Con su diseño moderno y tecnología avanzada, este ventilador te ofrece un gran caudal de aire, distribución uniforme y funcionalidad adicional con su sistema repelente.",
+      "precio": 164300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052605/muebles_rafaela/rfearzdbg0vyoyd5oosn.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "iLf7ufI9tnosP58mK9Bz",
@@ -4990,9 +5161,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -5010,7 +5178,11 @@
           "hex": "#90a1b7"
         }
       ],
-      "precio": 313560
+      "precio": 313560,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "klWUv5O0uXjLDyakgVoP",
@@ -5242,6 +5414,28 @@
       ]
     },
     {
+      "id": "m71PVT2yrftrmdePt9CD",
+      "nombre": "VENTILADOR DE TECHO INDUSTRIAL LILIANA",
+      "descripcion": "Ventilador de Techo Industrial de Liliana, modelo VTHI503, es la solución perfecta para espacios grandes que requieren una circulación de aire potente y eficiente! Con su diseño robusto y características avanzadas, este ventilador te ofrece frescura y durabilidad, ideal para ambientes industriales o residenciales amplios.",
+      "precio": 192300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786051777/muebles_rafaela/csuxv3warvxerqrmwqpf.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "mRlSl9rxQqy0GmDZ3RTi",
       "descripcion": "Bajo mesada con cajón ollero y patas regulables que le darán a tu cocina esa imagen y orden que tanto buscaste.\n\nDimensiones del mueble (cm): 83 x 140 x 50,7",
       "precioAnterior": null,
@@ -5340,9 +5534,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -5360,7 +5551,11 @@
           "hex": "#6c6580"
         }
       ],
-      "precio": 414648
+      "precio": 414648,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "njGbNuJdL9w42lIW6uvO",
@@ -5702,7 +5897,6 @@
       "nombre": "CAMA NIDO X2 1 PLAZA ECO",
       "stock": null,
       "imagenes": [],
-      "precio": 192800,
       "descripcion": "Cama superpuesta o cama cucheta o cama paralela o cama litera modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  Cada parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 5 varillas y 4 travesaños de distintas maderas duras.\n\nLa cama superior está fabricada para colchón de 0.80 x 2.00 mts. La cama inferior está fabricada para colchón de 0.80 x 1.90 mts alto máximo de colchón 16 cm. Medida final 0.90 x 2.08 mts.\n\nPodes combinar la cama con carricama, carrocajón, cajonera Fën o baranda Huapi.",
       "categoria": "CAMAS",
       "categorias": [
@@ -5715,7 +5909,8 @@
       "material": null,
       "precioAnterior": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324550/muebles_rafaela/afw4jxhrg2r5zarbbunu.jpg",
-      "descuento": 0
+      "descuento": 0,
+      "precio": 202633
     },
     {
       "id": "rjqWyVEqmv9V5tb5HzP9",
@@ -5886,7 +6081,6 @@
       ],
       "nombre": "CAMA NIDO X3 1 PLAZA ECO",
       "material": null,
-      "precio": 274800,
       "descuento": 0,
       "proveedor": "PINARCIS",
       "imagenes": [],
@@ -5897,7 +6091,8 @@
       "precioAnterior": null,
       "stock": null,
       "colores": [],
-      "activo": true
+      "activo": true,
+      "precio": 288815
     },
     {
       "id": "sg2y1vTKwIIiZY6uad9l",
@@ -5962,9 +6157,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -5981,7 +6173,11 @@
           "hex": "#897db5"
         }
       ],
-      "precio": 318240
+      "precio": 318240,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "tKPvv2j7MwRSoNYBhj2P",
@@ -6026,14 +6222,14 @@
         "CAMAS",
         "MUEBLES"
       ],
-      "precio": 92000,
       "nombre": "CAMA DE PINO 1 ½ PLAZA ECO (1.00M)",
       "imagenes": [],
       "descripcion": "Cama de 1 ½ plaza o cama twin modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 7 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.00 x 1.90 mts. Medida final 1.10 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm.",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784551093/muebles_rafaela/wsyeez4w0femtkkafgxs.jpg",
       "stock": null,
       "categoria": "CAMAS",
-      "destacado": false
+      "destacado": false,
+      "precio": 96692
     },
     {
       "id": "tULjq6LFnLcBgOUYrznh",
@@ -6067,9 +6263,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6088,7 +6281,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 748280
+      "precio": 748280,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "tyJrvrznv8AkhUlv714f",
@@ -6104,7 +6301,6 @@
       "descuento": 0,
       "destacado": false,
       "proveedor": "PINARCIS",
-      "precio": 71000,
       "nuevo": false,
       "categorias": [
         "MUEBLES",
@@ -6112,7 +6308,8 @@
       ],
       "precioAnterior": null,
       "categoria": "MUEBLES",
-      "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)"
+      "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)",
+      "precio": 74621
     },
     {
       "id": "uGHpdveIm88ixPEi0F2Z",
@@ -6155,9 +6352,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6176,7 +6370,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO",
-      "precio": 325936
+      "precio": 325936,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "ubci9iI3vP2J0qUE0Vpm",
@@ -6432,9 +6630,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6453,7 +6648,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 854776
+      "precio": 854776,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "wXeKQXudlWUxxJLNyTlY",
@@ -6462,9 +6661,6 @@
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
-      "categorias": [
-        "COLCHONES"
-      ],
       "categoria": "COLCHONES",
       "material": null,
       "proveedor": "TOPACIO",
@@ -6476,7 +6672,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 361712
+      "precio": 361712,
+      "categorias": [
+        "COLCHONES",
+        "BLANCO"
+      ]
     },
     {
       "id": "weHYPAfDCXsCox92iMFF",
@@ -6574,6 +6774,30 @@
         }
       ],
       "precio": 105839
+    },
+    {
+      "id": "xUDpdaNaz4tuLYimZVgD",
+      "nombre": "VENTILADOR DE MESA LILIANA OSCILANTE",
+      "descripcion": "Ventilador de Mesa de Liliana, modelo VSOP16, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño funcional y características avanzadas, este ventilador te ofrece un gran caudal de aire y distribución uniforme, ideal para espacios reducidos.",
+      "precio": 129300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052242/muebles_rafaela/y37lfpdziir6pgennvqk.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052244/muebles_rafaela/q0bbmke2popycjfs0pjf.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "yIfHhtnpd4phVAhBNHaz",
@@ -6939,7 +7163,6 @@
         "ELECTRODOMESTICOS",
         "TELEVISOR"
       ],
-      "precio": 1161600,
       "nombre": "TELEVISOR 55\" TCL QLED SMART",
       "activo": true,
       "nuevo": false,
@@ -6951,7 +7174,8 @@
       "descuento": 0,
       "categoria": "ELECTRODOMESTICOS",
       "stock": null,
-      "precioAnterior": null
+      "precioAnterior": null,
+      "precio": 1196448
     }
   ],
   "categorias": [
@@ -7479,6 +7703,20 @@
       "descripcion": "Creó el producto \"ASPIRADORA DE TACHO 10L WINCO\""
     },
     {
+      "id": "07QTCCS84NDHyQtbesOE",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 5.1% el precio de 11 producto(s) de \"PINARCIS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-05T14:48:46.789Z"
+    },
+    {
+      "id": "091RV0lph9yT3vC9dWpL",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 16\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:40:23.596Z"
+    },
+    {
       "id": "0CEOd5834Dl2qCKQzrCB",
       "fecha": "2026-07-21T13:24:03.792Z",
       "usuario": "admin",
@@ -7491,6 +7729,13 @@
       "descripcion": "Editó el producto \"ESTUFA COPPENS 2500KCAL TB/TBU\"",
       "usuario": "admin",
       "fecha": "2026-07-11T13:34:23.330Z"
+    },
+    {
+      "id": "0LhiIekkHzJKtRpOhUK7",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON KING SIZE ESPUMA MARFIL PLUS TOPACIO (completo)\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:08.513Z"
     },
     {
       "id": "0ZKbU9KtnFIKNwHX2rhc",
@@ -7547,6 +7792,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 53LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:53:50.063Z"
+    },
+    {
+      "id": "1Bw0nUwZf41lqtOXNip4",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE MESA LILIANA OSCILANTE\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:37:32.679Z"
     },
     {
       "id": "1CQc2zvUb2f7i6WfMG2S",
@@ -7631,6 +7883,13 @@
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 18PARES\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:00.712Z"
+    },
+    {
+      "id": "2hQoEUyUHX0KEbKLrvM6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:10.009Z"
     },
     {
       "id": "2k3LPJIh5Ve1aRu7QMRH",
@@ -7976,6 +8235,13 @@
       "tipo": "producto_editado"
     },
     {
+      "id": "9YSdA7XIOpl71K3JA3Gh",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:19:57.247Z"
+    },
+    {
       "id": "9ZQGrk27TCgzulIjx34o",
       "descripcion": "Creó el producto \"MESADA DURAFORT 1.60 x 0.60\"",
       "usuario": "admin",
@@ -7995,6 +8261,13 @@
       "descripcion": "Editó el producto \"COMODA MELAMINA 3 CAJONES 1,00M\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:51:31.285Z"
+    },
+    {
+      "id": "9kLmNK8ZM23ysK5NoYQ6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:48.135Z"
     },
     {
       "id": "9x1r4jeaTOMoL5lLuM46",
@@ -8123,6 +8396,13 @@
       "fecha": "2026-07-06T22:19:38.731Z"
     },
     {
+      "id": "DCEJe4DVLf7SfUiisgeA",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:19:49.000Z"
+    },
+    {
       "id": "DDOp5Jqa2vPYDGh1okDq",
       "usuario": "admin",
       "descripcion": "Creó el producto \"BATIDORA CON BOWL WINCO W303\"",
@@ -8142,6 +8422,13 @@
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 322LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:02:42.982Z"
+    },
+    {
+      "id": "DOUM1sw9RiVCUcUQPU3J",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:23.529Z"
     },
     {
       "id": "DOvxCYs9BXnvFG3R911F",
@@ -8268,6 +8555,13 @@
       "descripcion": "Creó la categoría \"DESPENSERO\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:48:29.643Z"
+    },
+    {
+      "id": "FIBOA9o17xlFHIWeZBo5",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:18.221Z"
     },
     {
       "id": "FMAWXY6j02Iz9vdqXzpR",
@@ -8480,6 +8774,13 @@
       "fecha": "2026-07-08T22:07:44.616Z"
     },
     {
+      "id": "IofDSE9y0E6vEn4DeWnf",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON KING SIZE ESPUMA MARTINICA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:13.411Z"
+    },
+    {
       "id": "IvNn4hYwfCtFmMECkCy0",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/CONGELADOR BRIKET 290LTS\"",
@@ -8606,6 +8907,13 @@
       "fecha": "2026-07-03T13:06:14.312Z"
     },
     {
+      "id": "LcgWwZTZOirtY2OePmzG",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:33.963Z"
+    },
+    {
       "id": "Lgr8pVojY8PrS0hLFdUn",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ORGANIZADOR APARADOR BH132 MELAMINA\"",
@@ -8683,6 +8991,13 @@
       "fecha": "2026-07-14T13:33:43.912Z"
     },
     {
+      "id": "MThIInlnL5oy9l124g7b",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:53.088Z"
+    },
+    {
       "id": "MY4wuMsFEJqYnEXmTo9K",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"COLCHON 1 PLAZA ESMERALDA TOPACIO\"",
@@ -8744,6 +9059,13 @@
       "descripcion": "Creó el proveedor \"BRIKET\"",
       "usuario": "admin",
       "fecha": "2026-07-03T14:01:09.370Z"
+    },
+    {
+      "id": "NA11WKcyHiNWtAndH84F",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA AGUAMARINA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:47.171Z"
     },
     {
       "id": "NAEK4qf1AzyFqt9WF8uE",
@@ -8942,6 +9264,13 @@
       "fecha": "2026-07-28T14:09:02.556Z"
     },
     {
+      "id": "PqvXr1JcLsNMqiLvZett",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 20\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:43:30.424Z"
+    },
+    {
       "id": "PulaiTMajlx0TaHCcUDi",
       "fecha": "2026-07-17T21:18:57.296Z",
       "usuario": "admin",
@@ -8961,6 +9290,13 @@
       "descripcion": "Creó el producto \"BAIUT 1.80 4 PUERTAS 3 CAJONES\"",
       "fecha": "2026-07-22T22:04:11.979Z",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "Q7lCWY6heLgzEaN90GKB",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:40.924Z"
     },
     {
       "id": "QKl0KA6gXkM9IOL0iIXc",
@@ -9059,6 +9395,13 @@
       "descripcion": "Editó el producto \"ESTUFA INFRARROJA \"CALORE\" LILIANA\"",
       "usuario": "admin",
       "fecha": "2026-07-11T14:04:33.370Z"
+    },
+    {
+      "id": "RcZCrhNDmrbLHpKUa5oH",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 18\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:42:12.305Z"
     },
     {
       "id": "ReaFcRiXIv0Zur5YIQ1p",
@@ -9502,6 +9845,13 @@
       "fecha": "2026-07-08T20:53:07.796Z"
     },
     {
+      "id": "YkUTPjWjJG7OL7m9Bzke",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE TECHO INDUSTRIAL LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:30:32.142Z"
+    },
+    {
       "id": "Yw3LCIA3HEii4MFXKZmZ",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"HELADERA GAFA 358 282LTS\"",
@@ -9521,6 +9871,13 @@
       "descripcion": "Renombró la categoría \"ESTANTE\" a \"ESTANTE\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:38:47.755Z"
+    },
+    {
+      "id": "ZHVVpBeyiJpx7N3MS78M",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA RESORTE SIMETRIC TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:43.361Z"
     },
     {
       "id": "ZLhqrc5ypVcE9gJTRnTr",
@@ -9796,6 +10153,13 @@
       "fecha": "2026-07-06T13:59:13.101Z"
     },
     {
+      "id": "czVpNbdRNcyiUC6Omv4x",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 10\" 3 EN 1 LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:39:26.226Z"
+    },
+    {
       "id": "d2eKP0yOdup9ApgcuhTw",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 24PARES\"",
@@ -9808,6 +10172,13 @@
       "fecha": "2026-07-24T13:45:17.412Z",
       "tipo": "producto_creado",
       "usuario": "admin"
+    },
+    {
+      "id": "dEat85ggedlHy6XWtHWA",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL PLUS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:19.862Z"
     },
     {
       "id": "dFeEvbYVEHLndytD9MJO",
@@ -9843,6 +10214,13 @@
       "fecha": "2026-07-21T13:20:23.209Z",
       "descripcion": "Creó el producto \"FOGON 40 ÑUKE\"",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "dSGCR6AKtnDBbWqAfOjq",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE TECHO CON LUZ LILIANA ASPAS METALICAS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:31:39.190Z"
     },
     {
       "id": "dTbIXj9WQcVH8iCxpQ1L",
@@ -10062,6 +10440,20 @@
       "descripcion": "Creó la categoría \"BALANZA\""
     },
     {
+      "id": "gswdL3vduJIIYJMXEruP",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3% el precio de 4 producto(s) de \"HITACHI/TCL\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T20:43:50.131Z"
+    },
+    {
+      "id": "h52E3D4KBwv2RGxv3LQ6",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:25.843Z"
+    },
+    {
       "id": "h9XpnXd4K5zuBc1TsKJZ",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA GRIS C/FREEZER BRIKET 257LTS\"",
@@ -10237,6 +10629,13 @@
       "fecha": "2026-07-06T13:48:49.266Z"
     },
     {
+      "id": "jx7nz2CnXDfaX0TR5N81",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE TECHO CON LUZ LILIANA ASPAS MADERA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:26:22.839Z"
+    },
+    {
       "id": "kBYKx6jLtwvKPei39PJC",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 390LTS\"",
@@ -10305,6 +10704,13 @@
       "descripcion": "Editó el producto \"Termotanque  Escorial  Electrico 55 LT conexion inferior\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:53:27.531Z"
+    },
+    {
+      "id": "lVXFIqKk3Pwfg1K9JjXJ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 32\" INDUSTRIAL\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:46:20.068Z"
     },
     {
       "id": "lX07eogRQVG9YtUUIst7",
@@ -10447,6 +10853,13 @@
       "fecha": "2026-07-14T12:59:37.402Z"
     },
     {
+      "id": "naJWJUWRKs7BcstavBnZ",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 ½ PLAZA ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:38.784Z"
+    },
+    {
       "id": "nnESCHpDFjgXwoJT7XeZ",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA GAFA 358 282LTS\"",
@@ -10585,6 +10998,13 @@
       "fecha": "2026-07-22T14:34:32.475Z",
       "descripcion": "Creó el producto \"SILLON ESQUINERO \"LOURDES\" C/BUTACON 2.00M\"",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "pc2Q6j2DPUIeP5urHOoj",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:57.695Z"
     },
     {
       "id": "pi92mBdr1XF2Bp0CXsG6",
@@ -10783,6 +11203,13 @@
       "descripcion": "Creó la categoría \"RALLADOR\""
     },
     {
+      "id": "sGs05AR5SXHIqwe0mwgh",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 ½ PLAZAS RESORTE AXIS TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:21:02.927Z"
+    },
+    {
       "id": "sIJZBewcPDf6C7eLq4MV",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"HELADERA C/FREEZER BRIKET 322LTS\"",
@@ -10930,6 +11357,13 @@
       "fecha": "2026-07-15T13:25:51.722Z"
     },
     {
+      "id": "u3gkXwNBNbQfntMUoNYo",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:05.494Z"
+    },
+    {
       "id": "u6VJ9Kb5uIWlc6CtbuuD",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"SANDWICHERA WINCO W017\"",
@@ -11061,6 +11495,13 @@
       "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT MILAN SC1260\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:15:27.944Z"
+    },
+    {
+      "id": "wtZ61tp9Yz88S9b4jK9a",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"COLCHON 2 PLAZAS ESPUMA ESMERALDA TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-08-04T13:20:28.470Z"
     },
     {
       "id": "wyYPhSrZLkB0abhWb3Yw",
