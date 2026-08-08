@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-05T12:49:48.413Z",
+  "fecha": "2026-08-08T11:24:24.308Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -232,7 +232,6 @@
       "nuevo": false,
       "categoria": "TELEVISOR",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727364/muebles_rafaela/jrxzf1gdnzwd8hekkkzp.webp",
-      "precio": 922800,
       "categorias": [
         "TELEVISOR",
         "ELECTRODOMESTICOS"
@@ -247,7 +246,8 @@
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727366/muebles_rafaela/b5wfmy4tanjbrtxictnu.webp"
       ],
-      "proveedor": "HITACHI/TCL"
+      "proveedor": "HITACHI/TCL",
+      "precio": 950484
     },
     {
       "id": "2WhMWGtomrHYbiOh0nRQ",
@@ -524,6 +524,28 @@
         "COLCHONES",
         "BLANCO"
       ]
+    },
+    {
+      "id": "5icx4Kg7HqFIqqhkAxwz",
+      "nombre": "VENTILADOR DE PIE 18\" LILIANA",
+      "descripcion": "Ventilador de Pie Orbital con Repeler de Liliana, modelo VPRN18, es la solución perfecta para mantener tu ambiente fresco, confortable y libre de insectos! Con su diseño moderno y tecnología avanzada, este ventilador te ofrece un gran caudal de aire, distribución uniforme y funcionalidad adicional con su sistema repelente.",
+      "precio": 146800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052526/muebles_rafaela/g6d9n9hzunaypxmdplk9.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "62W8J2zuNOVIhSTlaeX1",
@@ -859,7 +881,6 @@
     {
       "id": "96Pfq1pRV0Xo2UQQIbkC",
       "proveedor": "PINARCIS",
-      "precio": 150300,
       "material": null,
       "descuento": 0,
       "destacado": false,
@@ -876,7 +897,8 @@
         "MUEBLES"
       ],
       "precioAnterior": null,
-      "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)"
+      "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)",
+      "precio": 157965
     },
     {
       "id": "9jAisInJCds0UtI1FAli",
@@ -976,6 +998,28 @@
       "material": null,
       "proveedor": "MOCAR",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1785533424/muebles_rafaela/mx4xdghtxqmndsyvyxbk.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "B8gix29HRiYfSuRyElUl",
+      "nombre": "VENTILADOR DE PIE 16\" LILIANA",
+      "descripcion": "Ventilador de Pie de Liliana, modelo VP16P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño funcional y características prácticas, este ventilador te ofrece un gran caudal de aire y ajustes personalizables para adaptarse a tus necesidades.",
+      "precio": 125800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052420/muebles_rafaela/ubsa4jnqweqjzx2z9zsg.webp",
       "imagenes": [],
       "nuevo": false,
       "destacado": false,
@@ -1195,7 +1239,7 @@
         "CAMAS",
         "MUEBLES"
       ],
-      "precio": 174800
+      "precio": 183715
     },
     {
       "id": "CpCiwN5FzXEL2wcdfdDw",
@@ -1280,7 +1324,6 @@
       "descripcion": "Cama de 2 plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 9 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.30 x 1.90 mts. Medida final 1.40 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
       "nuevo": false,
       "descuento": 0,
-      "precio": 202350,
       "destacado": false,
       "activo": true,
       "nombre": "CAMA DE PINO 2 PLAZAS MAVIC (1.30M)",
@@ -1290,7 +1333,8 @@
       "material": null,
       "colores": [],
       "stock": null,
-      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg"
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg",
+      "precio": 212670
     },
     {
       "id": "DgT6DkoXcC9jWllfAEZG",
@@ -2180,6 +2224,52 @@
       "proveedor": "TANDIL"
     },
     {
+      "id": "Ljhtbe3UKEMskIIFdR4u",
+      "nombre": "VENTILADOR TURBO 10\" LILIANA",
+      "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF10P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y funcional, este ventilador ofrece 3 opciones de uso (piso, mesa y pared), adaptándose a tus necesidades en cualquier espacio.",
+      "precio": 50800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110238/muebles_rafaela/iyx7jwmdz01dfi6tlz6c.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110239/muebles_rafaela/gu9ccvjyb7wvahfmz1we.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
+      "id": "M2WrxVjiPT18yBdmaUol",
+      "nombre": "VENTILADOR DE TECHO CON LUZ LILIANA ASPAS METALICAS",
+      "descripcion": "Ventilador de Techo con Luz LED de Liliana, modelo VTHB114, es la combinación perfecta de estilo, confort y eficiencia para tu hogar! Con su diseño moderno y funcionalidades avanzadas, este ventilador te ofrece frescura y luminosidad en un solo equipo, ideal para cualquier ambiente.",
+      "precio": 188700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786051894/muebles_rafaela/ebinlwx6eotoxv22wfnc.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "MZVKrX2vJZL8PWqCXyQP",
       "destacado": false,
       "colores": [],
@@ -2192,7 +2282,6 @@
       "nombre": "TELEVISOR 32\" TCL ANDROID TV",
       "nuevo": false,
       "categoria": "ELECTRODOMESTICOS",
-      "precio": 429500,
       "descripcion": "FHD\n· HDR 10\n· Sin Bisel Metálico\n· Android TV\n· Dolby Audio\n· HDMI * 2\n· WIFI\n· Bluetooth 5.0",
       "stock": null,
       "material": null,
@@ -2202,7 +2291,8 @@
         "ELECTRODOMESTICOS",
         "TELEVISOR"
       ],
-      "proveedor": "HITACHI/TCL"
+      "proveedor": "HITACHI/TCL",
+      "precio": 442385
     },
     {
       "id": "MzxF5ohybRqa9WrVVIvh",
@@ -2343,8 +2433,8 @@
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549449/muebles_rafaela/olw7j7icobcmxco56qym.png"
       ],
-      "precio": 101000,
-      "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)"
+      "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)",
+      "precio": 106151
     },
     {
       "id": "OniDP7OfEyRwV2DhruEW",
@@ -2435,7 +2525,31 @@
       "nuevo": false,
       "descripcion": "Cama de 2 ½ plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 10 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.40 x 1.90 mts. Medida final 1.50 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
       "precioAnterior": null,
-      "precio": 214800,
+      "colores": [],
+      "precio": 225755
+    },
+    {
+      "id": "P8iNlhqHNhQsygKMca36",
+      "nombre": "VENTILADOR DE TECHO CON LUZ LILIANA ASPAS MADERA",
+      "descripcion": "Ventilador de Techo con Luz de Liliana, modelo VTHM214, es la combinación perfecta de estilo, confort y funcionalidad para tu hogar! Con su diseño elegante y características avanzadas, este ventilador te ofrece frescura y luminosidad en un solo equipo, ideal para cualquier ambiente.",
+      "precio": 209600,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786051574/muebles_rafaela/im3htmooctsugtix3gq7.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786051575/muebles_rafaela/uncd0isgkjloqcqbtb1i.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
       "colores": []
     },
     {
@@ -2764,6 +2878,30 @@
       "categoria": "MUEBLES",
       "nombre": "MESADA DURAFORT 1.20 x 0.60",
       "descuento": 0
+    },
+    {
+      "id": "RUIi80AKYszmKggrfp6F",
+      "nombre": "VENTILADOR DE PIE 10\" 3 EN 1 LILIANA",
+      "descripcion": "El Ventilador 3 en 1 Liliana VP10M es la opción ideal para mantener tus ambientes frescos con mayor versatilidad. Su diseño permite utilizarlo como ventilador de pie, pared o turbo, adaptándose a cada necesidad del hogar. Con cabezal oscilante y reclinable, barral metálico telescópico y aspas metálicas tipo trébol, asegura un excelente flujo de aire para climas de alta temperatura.\nPosee 3 velocidades para regular fácilmente la intensidad, base redonda estable y parrilla negra de estilo moderno. Con potencia de 60W, combina eficiencia, rendimiento y bajo consumo energético.",
+      "precio": 60700,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052360/muebles_rafaela/ta4allnqipqpgt14hly4.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052362/muebles_rafaela/zkwsdjbzqurbfq1dtsnc.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "RW69VK9eJTTgue82vIWv",
@@ -3862,7 +4000,6 @@
     {
       "id": "b8fYfOIWK7EyjbMtKLvd",
       "material": null,
-      "precio": 152700,
       "stock": null,
       "activo": true,
       "categorias": [
@@ -3879,7 +4016,8 @@
       "descuento": 0,
       "destacado": false,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324453/muebles_rafaela/txefvox6rxslbzumd0sf.png",
-      "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts."
+      "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts.",
+      "precio": 160488
     },
     {
       "id": "bJzjhI5WOxmYiATNQA3u",
@@ -4056,7 +4194,6 @@
     {
       "id": "cCXqbXacUBejZP3nyv0P",
       "descripcion": "· FHD\n· HDR 10\n· Sin Bisel Metálico\n· Android TV\n· Dolby Audio\n· HDMI * 2\n· WIFI\n· Bluetooth 5.0",
-      "precio": 650600,
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784726927/muebles_rafaela/hqb4n0iwqr60g9bkzkd2.webp"
       ],
@@ -4075,7 +4212,8 @@
         "ELECTRODOMESTICOS"
       ],
       "proveedor": "HITACHI/TCL",
-      "nombre": "TELEVISOR 43\" TCL ANDROID TV"
+      "nombre": "TELEVISOR 43\" TCL ANDROID TV",
+      "precio": 670118
     },
     {
       "id": "cGDc4dYeud6SaqHm98Kq",
@@ -4128,6 +4266,28 @@
       "nombre": "ALMOHADA EMOCION FIBERBALL",
       "precioAnterior": null,
       "activo": true
+    },
+    {
+      "id": "d2txvcDq1ZD20RoSBJso",
+      "nombre": "VENTILADOR DE PIE 32\" INDUSTRIAL",
+      "descripcion": "Ventilador de Pie Industrial Liliana VPI32\n¡Refrescá tus espacios amplios con potencia y durabilidad! El Ventilador de Pie Industrial VPI32 de Liliana es la solución ideal para patios, jardines, terrazas, galpones y establecimientos gastronómicos. Con su diseño robusto, motor reforzado y cabezal oscilante y reclinable, ofrece un flujo de aire potente y uniforme, manteniendo un ambiente fresco y confortable incluso en los días más calurosos.",
+      "precio": 315900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052775/muebles_rafaela/y0e2vwnsqscdm0lkxxt8.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "dPoFKr6Vm3RQ9C2GhEQ8",
@@ -4189,6 +4349,30 @@
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783946706/muebles_rafaela/ki4la3pfqdbxxxnvszgj.jpg",
       "proveedor": "CENTRO ESTANT",
       "precio": 153036
+    },
+    {
+      "id": "ddvL6Tk032Ucy5FqEEpS",
+      "nombre": "VENTILADOR TURBO 16\" LILIANA",
+      "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF16P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y características prácticas, este ventilador te ofrece un gran caudal de aire y la posibilidad de usarlo de pie o fijado a la pared, adaptándose a tus necesidades.",
+      "precio": 69900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110447/muebles_rafaela/s01bvkfdu93yoabl8jmc.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110452/muebles_rafaela/hgsn1dag2se8pwyda5r1.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "e8bT1VEfIfoSzel927gP",
@@ -4407,9 +4591,9 @@
       "stock": null,
       "nombre": "CAMA DE PINO 2 PLAZAS ECO (1.30M)",
       "activo": true,
-      "precio": 93000,
       "nuevo": false,
-      "categoria": "CAMAS"
+      "categoria": "CAMAS",
+      "precio": 97743
     },
     {
       "id": "f4Xtg8prbFB5zxglcLIx",
@@ -4780,6 +4964,28 @@
       "precio": 208190
     },
     {
+      "id": "hsXJonF6JGcmTYRBGIRf",
+      "nombre": "VENTILADOR DE PIE 20\" LILIANA",
+      "descripcion": "Ventilador de Pie Orbital con Repeler de Liliana, modelo VPRN20, es la solución perfecta para mantener tu ambiente fresco, confortable y libre de insectos! Con su diseño moderno y tecnología avanzada, este ventilador te ofrece un gran caudal de aire, distribución uniforme y funcionalidad adicional con su sistema repelente.",
+      "precio": 164300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052605/muebles_rafaela/rfearzdbg0vyoyd5oosn.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "iLf7ufI9tnosP58mK9Bz",
       "nombre": "ESTUFA COPPENS 4000KCAL TB/TBU",
       "descripcion": "Único con tiraje lateral opcional.\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y tiro balanceado.",
@@ -4920,6 +5126,30 @@
       "activo": true,
       "nombre": "BIBLIOTECA MELAMINA 60CM CENTRO ESTANT",
       "precio": 175490
+    },
+    {
+      "id": "k4NDqzbnuDHxVkNLY4nv",
+      "nombre": "VENTILADOR TURBO 20\" LILIANA",
+      "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF20P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y características prácticas, este ventilador te ofrece un gran caudal de aire y la posibilidad de usarlo de pie o fijado a la pared, adaptándose a tus necesidades.",
+      "precio": 108450,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110512/muebles_rafaela/pztfykin5f4rickrxhym.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110516/muebles_rafaela/skcgh5v6hbqugspkpubs.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "k8wIBWkfgVY3oqW1CNJa",
@@ -5254,6 +5484,28 @@
         "SALAMANDRA",
         "CALEFACCION"
       ]
+    },
+    {
+      "id": "m71PVT2yrftrmdePt9CD",
+      "nombre": "VENTILADOR DE TECHO INDUSTRIAL LILIANA",
+      "descripcion": "Ventilador de Techo Industrial de Liliana, modelo VTHI503, es la solución perfecta para espacios grandes que requieren una circulación de aire potente y eficiente! Con su diseño robusto y características avanzadas, este ventilador te ofrece frescura y durabilidad, ideal para ambientes industriales o residenciales amplios.",
+      "precio": 192300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786051777/muebles_rafaela/csuxv3warvxerqrmwqpf.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "mRlSl9rxQqy0GmDZ3RTi",
@@ -5717,7 +5969,6 @@
       "nombre": "CAMA NIDO X2 1 PLAZA ECO",
       "stock": null,
       "imagenes": [],
-      "precio": 192800,
       "descripcion": "Cama superpuesta o cama cucheta o cama paralela o cama litera modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  Cada parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 5 varillas y 4 travesaños de distintas maderas duras.\n\nLa cama superior está fabricada para colchón de 0.80 x 2.00 mts. La cama inferior está fabricada para colchón de 0.80 x 1.90 mts alto máximo de colchón 16 cm. Medida final 0.90 x 2.08 mts.\n\nPodes combinar la cama con carricama, carrocajón, cajonera Fën o baranda Huapi.",
       "categoria": "CAMAS",
       "categorias": [
@@ -5730,7 +5981,8 @@
       "material": null,
       "precioAnterior": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324550/muebles_rafaela/afw4jxhrg2r5zarbbunu.jpg",
-      "descuento": 0
+      "descuento": 0,
+      "precio": 202633
     },
     {
       "id": "rjqWyVEqmv9V5tb5HzP9",
@@ -5901,7 +6153,6 @@
       ],
       "nombre": "CAMA NIDO X3 1 PLAZA ECO",
       "material": null,
-      "precio": 274800,
       "descuento": 0,
       "proveedor": "PINARCIS",
       "imagenes": [],
@@ -5912,7 +6163,8 @@
       "precioAnterior": null,
       "stock": null,
       "colores": [],
-      "activo": true
+      "activo": true,
+      "precio": 288815
     },
     {
       "id": "sg2y1vTKwIIiZY6uad9l",
@@ -6042,14 +6294,14 @@
         "CAMAS",
         "MUEBLES"
       ],
-      "precio": 92000,
       "nombre": "CAMA DE PINO 1 ½ PLAZA ECO (1.00M)",
       "imagenes": [],
       "descripcion": "Cama de 1 ½ plaza o cama twin modelo Recta posee cabecera y piecera con diseño minimalistas, está fabricada con patas de 1 ½” x 4” y fajas de ¾” x 5”.  La parrilla posee largueros de 1 ½” x 4” con cantos redondeados, 7 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.00 x 1.90 mts. Medida final 1.10 x 1.98 mts. Altura cabecera 65 cm, altura piecera 44 cm, altura del piso al inicio del elástico 26cm.",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784551093/muebles_rafaela/wsyeez4w0femtkkafgxs.jpg",
       "stock": null,
       "categoria": "CAMAS",
-      "destacado": false
+      "destacado": false,
+      "precio": 96692
     },
     {
       "id": "tULjq6LFnLcBgOUYrznh",
@@ -6121,7 +6373,6 @@
       "descuento": 0,
       "destacado": false,
       "proveedor": "PINARCIS",
-      "precio": 71000,
       "nuevo": false,
       "categorias": [
         "MUEBLES",
@@ -6129,7 +6380,8 @@
       ],
       "precioAnterior": null,
       "categoria": "MUEBLES",
-      "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)"
+      "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)",
+      "precio": 74621
     },
     {
       "id": "uGHpdveIm88ixPEi0F2Z",
@@ -6165,6 +6417,28 @@
       ],
       "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR LIBE40",
       "precio": 381064
+    },
+    {
+      "id": "uHDcGDbbdRS7mU9CW1kh",
+      "nombre": "VENTILADOR TURBO 12\" WHITENBLACK",
+      "descripcion": "Turbo Ventilador de Liliana, modelo VTC12, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño compacto y características prácticas, este ventilador te ofrece un gran caudal de aire, facilidad de limpieza y versatilidad en su uso.",
+      "precio": 58300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110325/muebles_rafaela/olaumt91juj1hh9uxxsd.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "uS1igxMDBUGWZ8Upv22m",
@@ -6596,6 +6870,30 @@
       "precio": 105839
     },
     {
+      "id": "xUDpdaNaz4tuLYimZVgD",
+      "nombre": "VENTILADOR DE MESA LILIANA OSCILANTE",
+      "descripcion": "Ventilador de Mesa de Liliana, modelo VSOP16, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño funcional y características avanzadas, este ventilador te ofrece un gran caudal de aire y distribución uniforme, ideal para espacios reducidos.",
+      "precio": 129300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052242/muebles_rafaela/y37lfpdziir6pgennvqk.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786052244/muebles_rafaela/q0bbmke2popycjfs0pjf.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "yIfHhtnpd4phVAhBNHaz",
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 85L FAMILY",
       "descripcion": "Bajo consumo. Piloto analizador.\nTriple barrera anti-fuga. Válvula de seguridad por sobrepresión, unidad magnética y termocupla.\nDetector de monóxido de carbono.\nMultigas: Kit de instalación de gas natural o envasado.",
@@ -6959,7 +7257,6 @@
         "ELECTRODOMESTICOS",
         "TELEVISOR"
       ],
-      "precio": 1161600,
       "nombre": "TELEVISOR 55\" TCL QLED SMART",
       "activo": true,
       "nuevo": false,
@@ -6971,7 +7268,8 @@
       "descuento": 0,
       "categoria": "ELECTRODOMESTICOS",
       "stock": null,
-      "precioAnterior": null
+      "precioAnterior": null,
+      "precio": 1196448
     }
   ],
   "categorias": [
@@ -7499,6 +7797,20 @@
       "descripcion": "Creó el producto \"ASPIRADORA DE TACHO 10L WINCO\""
     },
     {
+      "id": "07QTCCS84NDHyQtbesOE",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 5.1% el precio de 11 producto(s) de \"PINARCIS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-05T14:48:46.789Z"
+    },
+    {
+      "id": "091RV0lph9yT3vC9dWpL",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 16\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:40:23.596Z"
+    },
+    {
       "id": "0CEOd5834Dl2qCKQzrCB",
       "fecha": "2026-07-21T13:24:03.792Z",
       "usuario": "admin",
@@ -7574,6 +7886,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE ECOTERMO ELECTRICO 53LTS\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:53:50.063Z"
+    },
+    {
+      "id": "1Bw0nUwZf41lqtOXNip4",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE MESA LILIANA OSCILANTE\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:37:32.679Z"
     },
     {
       "id": "1CQc2zvUb2f7i6WfMG2S",
@@ -8493,6 +8812,13 @@
       "fecha": "2026-07-04T12:53:26.167Z"
     },
     {
+      "id": "HpMz9E1kZSXLnPCCpxoJ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR TURBO 16\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-07T13:47:36.630Z"
+    },
+    {
       "id": "Ht2UhdSvgR8vSi0n1HrG",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ALACENA/ORGANIZADOR\"",
@@ -9039,6 +9365,13 @@
       "fecha": "2026-07-28T14:09:02.556Z"
     },
     {
+      "id": "PqvXr1JcLsNMqiLvZett",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 20\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:43:30.424Z"
+    },
+    {
       "id": "PulaiTMajlx0TaHCcUDi",
       "fecha": "2026-07-17T21:18:57.296Z",
       "usuario": "admin",
@@ -9165,6 +9498,13 @@
       "fecha": "2026-07-11T14:04:33.370Z"
     },
     {
+      "id": "RcZCrhNDmrbLHpKUa5oH",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 18\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:42:12.305Z"
+    },
+    {
       "id": "ReaFcRiXIv0Zur5YIQ1p",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"SANDWICHERA 3 EN 1 WINCO\"",
@@ -9198,6 +9538,13 @@
       "descripcion": "Editó el producto \"ESCOBERO 0.60x1.80 MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:43:44.988Z"
+    },
+    {
+      "id": "SEuryFRRR4IM9xr6TGne",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR TURBO 12\" WHITENBLACK\"",
+      "usuario": "admin",
+      "fecha": "2026-08-07T13:45:30.716Z"
     },
     {
       "id": "SIGPOVUnOGTn6JIHfSI2",
@@ -9606,6 +9953,13 @@
       "fecha": "2026-07-08T20:53:07.796Z"
     },
     {
+      "id": "YkUTPjWjJG7OL7m9Bzke",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE TECHO INDUSTRIAL LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:30:32.142Z"
+    },
+    {
       "id": "Yw3LCIA3HEii4MFXKZmZ",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"HELADERA GAFA 358 282LTS\"",
@@ -9907,6 +10261,13 @@
       "fecha": "2026-07-06T13:59:13.101Z"
     },
     {
+      "id": "czVpNbdRNcyiUC6Omv4x",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 10\" 3 EN 1 LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:39:26.226Z"
+    },
+    {
       "id": "d2eKP0yOdup9ApgcuhTw",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"BOTINERO MELAMINA 24PARES\"",
@@ -9961,6 +10322,13 @@
       "fecha": "2026-07-21T13:20:23.209Z",
       "descripcion": "Creó el producto \"FOGON 40 ÑUKE\"",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "dSGCR6AKtnDBbWqAfOjq",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE TECHO CON LUZ LILIANA ASPAS METALICAS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:31:39.190Z"
     },
     {
       "id": "dTbIXj9WQcVH8iCxpQ1L",
@@ -10180,6 +10548,13 @@
       "descripcion": "Creó la categoría \"BALANZA\""
     },
     {
+      "id": "gswdL3vduJIIYJMXEruP",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3% el precio de 4 producto(s) de \"HITACHI/TCL\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T20:43:50.131Z"
+    },
+    {
       "id": "h52E3D4KBwv2RGxv3LQ6",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"COLCHON QUEEN SIZE ESPUMA MARFIL TOPACIO\"",
@@ -10348,6 +10723,13 @@
       "tipo": "producto_creado"
     },
     {
+      "id": "juKGfFri2xero5pcHxxo",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR TURBO 20\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-07T13:48:39.976Z"
+    },
+    {
       "id": "jvrh2NM54Fc7BE4p7sAO",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL A GAS 120L\"",
@@ -10360,6 +10742,13 @@
       "descripcion": "Creó la categoría \"ESCRITORIO\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:48:49.266Z"
+    },
+    {
+      "id": "jx7nz2CnXDfaX0TR5N81",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE TECHO CON LUZ LILIANA ASPAS MADERA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:26:22.839Z"
     },
     {
       "id": "kBYKx6jLtwvKPei39PJC",
@@ -10430,6 +10819,13 @@
       "descripcion": "Editó el producto \"Termotanque  Escorial  Electrico 55 LT conexion inferior\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:53:27.531Z"
+    },
+    {
+      "id": "lVXFIqKk3Pwfg1K9JjXJ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR DE PIE 32\" INDUSTRIAL\"",
+      "usuario": "admin",
+      "fecha": "2026-08-06T21:46:20.068Z"
     },
     {
       "id": "lX07eogRQVG9YtUUIst7",
@@ -10696,6 +11092,13 @@
       "usuario": "admin",
       "descripcion": "Creó la categoría \"BLANCO\"",
       "tipo": "categoria_creada"
+    },
+    {
+      "id": "pCODe8rzwtKPRCzwGUMT",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR TURBO 10\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-07T13:44:04.380Z"
     },
     {
       "id": "pEjUHxR5b3wuPbLvD86U",
