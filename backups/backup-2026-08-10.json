@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-07T11:42:46.695Z",
+  "fecha": "2026-08-10T11:44:09.272Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -2224,6 +2224,30 @@
       "proveedor": "TANDIL"
     },
     {
+      "id": "Ljhtbe3UKEMskIIFdR4u",
+      "nombre": "VENTILADOR TURBO 10\" LILIANA",
+      "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF10P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y funcional, este ventilador ofrece 3 opciones de uso (piso, mesa y pared), adaptándose a tus necesidades en cualquier espacio.",
+      "precio": 50800,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110238/muebles_rafaela/iyx7jwmdz01dfi6tlz6c.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110239/muebles_rafaela/gu9ccvjyb7wvahfmz1we.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "M2WrxVjiPT18yBdmaUol",
       "nombre": "VENTILADOR DE TECHO CON LUZ LILIANA ASPAS METALICAS",
       "descripcion": "Ventilador de Techo con Luz LED de Liliana, modelo VTHB114, es la combinación perfecta de estilo, confort y eficiencia para tu hogar! Con su diseño moderno y funcionalidades avanzadas, este ventilador te ofrece frescura y luminosidad en un solo equipo, ideal para cualquier ambiente.",
@@ -4327,6 +4351,30 @@
       "precio": 153036
     },
     {
+      "id": "ddvL6Tk032Ucy5FqEEpS",
+      "nombre": "VENTILADOR TURBO 16\" LILIANA",
+      "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF16P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y características prácticas, este ventilador te ofrece un gran caudal de aire y la posibilidad de usarlo de pie o fijado a la pared, adaptándose a tus necesidades.",
+      "precio": 69900,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110447/muebles_rafaela/s01bvkfdu93yoabl8jmc.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110452/muebles_rafaela/hgsn1dag2se8pwyda5r1.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
+    },
+    {
       "id": "e8bT1VEfIfoSzel927gP",
       "nombre": "MESA DE LUZ MELAMINA C/DESAYUNADOR",
       "descripcion": "Si sos fan de desayunar en la cama esta es la mesita de luz para vos. Contiene una bandeja corrediza que podés usar para apoyar lo que necesites. Además cuenta con un cajón y un estante regulable en altura para ubicar según tus necesidades.\n\nDimensiones del mueble (cm): 71 x 42 x 37",
@@ -5078,6 +5126,30 @@
       "activo": true,
       "nombre": "BIBLIOTECA MELAMINA 60CM CENTRO ESTANT",
       "precio": 175490
+    },
+    {
+      "id": "k4NDqzbnuDHxVkNLY4nv",
+      "nombre": "VENTILADOR TURBO 20\" LILIANA",
+      "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF20P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y características prácticas, este ventilador te ofrece un gran caudal de aire y la posibilidad de usarlo de pie o fijado a la pared, adaptándose a tus necesidades.",
+      "precio": 108450,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110512/muebles_rafaela/pztfykin5f4rickrxhym.webp",
+      "imagenes": [
+        "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110516/muebles_rafaela/skcgh5v6hbqugspkpubs.webp"
+      ],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "k8wIBWkfgVY3oqW1CNJa",
@@ -6345,6 +6417,28 @@
       ],
       "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR LIBE40",
       "precio": 381064
+    },
+    {
+      "id": "uHDcGDbbdRS7mU9CW1kh",
+      "nombre": "VENTILADOR TURBO 12\" WHITENBLACK",
+      "descripcion": "Turbo Ventilador de Liliana, modelo VTC12, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño compacto y características prácticas, este ventilador te ofrece un gran caudal de aire, facilidad de limpieza y versatilidad en su uso.",
+      "precio": 58300,
+      "precioAnterior": null,
+      "descuento": 0,
+      "stock": null,
+      "categorias": [
+        "ELECTRODOMESTICOS",
+        "VENTILADOR"
+      ],
+      "categoria": "ELECTRODOMESTICOS",
+      "material": null,
+      "proveedor": "LILIANA",
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1786110325/muebles_rafaela/olaumt91juj1hh9uxxsd.webp",
+      "imagenes": [],
+      "nuevo": false,
+      "destacado": false,
+      "activo": true,
+      "colores": []
     },
     {
       "id": "uS1igxMDBUGWZ8Upv22m",
@@ -8718,6 +8812,13 @@
       "fecha": "2026-07-04T12:53:26.167Z"
     },
     {
+      "id": "HpMz9E1kZSXLnPCCpxoJ",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR TURBO 16\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-07T13:47:36.630Z"
+    },
+    {
       "id": "Ht2UhdSvgR8vSi0n1HrG",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ALACENA/ORGANIZADOR\"",
@@ -9437,6 +9538,13 @@
       "descripcion": "Editó el producto \"ESCOBERO 0.60x1.80 MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:43:44.988Z"
+    },
+    {
+      "id": "SEuryFRRR4IM9xr6TGne",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR TURBO 12\" WHITENBLACK\"",
+      "usuario": "admin",
+      "fecha": "2026-08-07T13:45:30.716Z"
     },
     {
       "id": "SIGPOVUnOGTn6JIHfSI2",
@@ -10615,6 +10723,13 @@
       "tipo": "producto_creado"
     },
     {
+      "id": "juKGfFri2xero5pcHxxo",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR TURBO 20\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-07T13:48:39.976Z"
+    },
+    {
       "id": "jvrh2NM54Fc7BE4p7sAO",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"TERMOTANQUE ESCORIAL A GAS 120L\"",
@@ -10977,6 +11092,13 @@
       "usuario": "admin",
       "descripcion": "Creó la categoría \"BLANCO\"",
       "tipo": "categoria_creada"
+    },
+    {
+      "id": "pCODe8rzwtKPRCzwGUMT",
+      "tipo": "producto_creado",
+      "descripcion": "Creó el producto \"VENTILADOR TURBO 10\" LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-08-07T13:44:04.380Z"
     },
     {
       "id": "pEjUHxR5b3wuPbLvD86U",
