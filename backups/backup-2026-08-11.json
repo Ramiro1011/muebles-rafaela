@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-08T11:24:24.308Z",
+  "fecha": "2026-08-11T11:41:23.023Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -959,7 +959,6 @@
       "id": "9z2NPLwRX3DQcqx7OnLZ",
       "nombre": "ESTUFA COPPENS 2500KCAL TB/TBU",
       "descripcion": "Único con tiraje lateral opcional.\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y tiro balanceado.",
-      "precio": 395900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -980,7 +979,8 @@
       "categorias": [
         "CALEFACCION",
         "ELECTRODOMESTICOS"
-      ]
+      ],
+      "precio": 427572
     },
     {
       "id": "AtKJymi9kq9upzwddbJo",
@@ -2679,7 +2679,6 @@
       "id": "PsEg1OXWIOq60V5jxdbp",
       "nombre": "ESTUFA COPPENS 5000KCAL SIN TIRO",
       "descripcion": "Ideal para ambientes medianos y grandes.\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y con piloto atmosférico",
-      "precio": 385400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2698,7 +2697,8 @@
       "categorias": [
         "CALEFACCION",
         "ELECTRODOMESTICOS"
-      ]
+      ],
+      "precio": 416232
     },
     {
       "id": "QHitVWBYMjfNoSjo9SmB",
@@ -4416,7 +4416,6 @@
       "id": "e8vIpQkCgEagmlvhJiEY",
       "nombre": "ESTUFA COPPENS 6000KCAL TB/TBU",
       "descripcion": "Único con tiraje lateral opcional.\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y tiro balanceado.",
-      "precio": 606800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4437,7 +4436,8 @@
       "categorias": [
         "CALEFACCION",
         "ELECTRODOMESTICOS"
-      ]
+      ],
+      "precio": 655344
     },
     {
       "id": "eFbKlOlaLPbeku1C1Hia",
@@ -4989,7 +4989,6 @@
       "id": "iLf7ufI9tnosP58mK9Bz",
       "nombre": "ESTUFA COPPENS 4000KCAL TB/TBU",
       "descripcion": "Único con tiraje lateral opcional.\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y tiro balanceado.",
-      "precio": 448700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -5010,7 +5009,8 @@
       "categorias": [
         "CALEFACCION",
         "ELECTRODOMESTICOS"
-      ]
+      ],
+      "precio": 484596
     },
     {
       "id": "iXQkMZvr4nGtB4Q6WbIx",
@@ -6555,7 +6555,6 @@
       "id": "urfRoZtDB4FpEx9FQj7x",
       "nombre": "ESTUFA COPPENS 3000KCAL SIN TIRO",
       "descripcion": "Ideal para ambientes chicos y medianos\nMayor ahorro debido a su exclusivo sistema de cámara de acero con enlozado vitrocerámico.\n100% Seguro, con válvula de seguridad .\nMayor duración. Materiales inalterables.\nFácil instalación.\nMultigas y con piloto atmosférico",
-      "precio": 348400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6574,7 +6573,8 @@
       "categorias": [
         "CALEFACCION",
         "ELECTRODOMESTICOS"
-      ]
+      ],
+      "precio": 376272
     },
     {
       "id": "uwO1IRdfftfkXdiiSn3q",
@@ -7074,7 +7074,6 @@
       "id": "zDGwyELIJKjtxZMYVHil",
       "nombre": "GARRAFERA KEN BROWN PLEGABLE",
       "descripcion": "Encendido piezoeléctrico.\nDiseño innovador – Sistema plegable.\nAnalizador atmosférico.\n3 niveles – 1400/2800/4200Kcal/h.\nDispositivo de seguridad especial para prevenir accidentes por monóxido de carbono (CO).\nRuedas giratorias.\nManijas laterales / Fácil armado.",
-      "precio": 236700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -7092,7 +7091,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 255636
     },
     {
       "id": "zV95BfNifjdUwR4chyoX",
@@ -8432,6 +8432,13 @@
       "descripcion": "Creó el producto \"PLANCHITA DE PELO WINCO W100\"",
       "usuario": "admin",
       "fecha": "2026-07-29T21:40:44.763Z"
+    },
+    {
+      "id": "B6mx4qSiK95mLz0juUXw",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 8% el precio de 6 producto(s) de \"COPPENS\"",
+      "usuario": "admin",
+      "fecha": "2026-08-10T21:26:56.140Z"
     },
     {
       "id": "BAqhh35ElYQZSqPwbiQi",
