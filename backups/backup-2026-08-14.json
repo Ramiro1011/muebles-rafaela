@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-11T11:41:23.023Z",
+  "fecha": "2026-08-14T11:41:36.364Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -216,14 +216,14 @@
         "ALMOHADAS"
       ],
       "descuento": 0,
-      "precio": 26000,
       "colores": [],
       "activo": true,
       "categoria": "BLANCO",
       "destacado": false,
       "material": null,
       "precioAnterior": null,
-      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784924379/muebles_rafaela/sj2tm4vmb1bv4jdpcnaz.png"
+      "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784924379/muebles_rafaela/sj2tm4vmb1bv4jdpcnaz.png",
+      "precio": 27040
     },
     {
       "id": "2NHihzLeASStvT3VcDOd",
@@ -763,8 +763,8 @@
         "ALMOHADAS"
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925308/muebles_rafaela/kgq5cdp6xsp1kbfncirw.png",
-      "precio": 46600,
-      "nombre": "ALMOHADA PLUMA FIBERBALL"
+      "nombre": "ALMOHADA PLUMA FIBERBALL",
+      "precio": 48464
     },
     {
       "id": "7xoOglfBWnUBWSOYTuP3",
@@ -1076,15 +1076,14 @@
         "ALMOHADAS"
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925365/muebles_rafaela/jbh5ft85inpcznr4e3s3.png",
-      "precio": 25300,
-      "nombre": "ALMOHADA NATURIS NUCLEO FIBERBALL"
+      "nombre": "ALMOHADA NATURIS NUCLEO FIBERBALL",
+      "precio": 26312
     },
     {
       "id": "BapPyZrPbhaaDShaIgrD",
       "material": null,
       "categoria": "BLANCO",
       "nombre": "ALMOHADA TRIANGULO FIBERBALL",
-      "precio": 36060,
       "descuento": 0,
       "colores": [],
       "destacado": false,
@@ -1099,7 +1098,8 @@
       "activo": true,
       "imagenes": [],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925464/muebles_rafaela/bpp38650fzpb0cjuhze3.png",
-      "stock": null
+      "stock": null,
+      "precio": 37502
     },
     {
       "id": "C9lRXcuQrgAG1IUirTVo",
@@ -1294,7 +1294,6 @@
     },
     {
       "id": "D1KrQs7xx2ZB4oGmKzkc",
-      "precio": 22300,
       "descripcion": "Rellena de auténticas microesferas de fibra poliéster hueca FiberBall®, 100% siliconadas, ofreciendo gran suavidad y soporte. Funda en fino percal con estampa blanco sobre blanco, con faja y vivo perimetral. Presentación en bolso de PVC. Consulte por otras medidas.",
       "categorias": [
         "BLANCO",
@@ -1312,7 +1311,8 @@
       "precioAnterior": null,
       "nuevo": false,
       "proveedor": "FIBERBALL",
-      "categoria": "BLANCO"
+      "categoria": "BLANCO",
+      "precio": 23192
     },
     {
       "id": "DZUb3ALLoXqsPVyV238O",
@@ -1688,7 +1688,7 @@
         "ALMOHADAS"
       ],
       "descripcion": "Rellena de auténticas microesferas de fibra poliéster hueca FiberBall®, 100% siliconadas, ofreciendo gran suavidad y soporte. Funda en fino percal con estampa blanco sobre blanco, con faja y vivo perimetral. Presentación en bolso de PVC. Consulte por otras medidas.",
-      "precio": 20700
+      "precio": 21528
     },
     {
       "id": "GuC6EQY95FYkuhFNgWrC",
@@ -3083,7 +3083,6 @@
       "material": null,
       "destacado": false,
       "descripcion": "Rellena de fibra de poliéster standard 100% virgen, proporcionando durabilidad y suavidad. La funda está confeccionada en tela Batista de color blanco óptico, conocida por su elegancia, resistencia y suavidad al tacto, ideal para un acabado limpio y refinado.",
-      "precio": 8100,
       "imagenes": [],
       "colores": [],
       "categorias": [
@@ -3097,7 +3096,8 @@
       "precioAnterior": null,
       "nuevo": false,
       "descuento": 0,
-      "nombre": "ALMOHADA PROCOL FIBERBALL"
+      "nombre": "ALMOHADA PROCOL FIBERBALL",
+      "precio": 8424
     },
     {
       "id": "TdXvoOiPGH6wQjKKiGsm",
@@ -3808,7 +3808,7 @@
       "destacado": false,
       "categoria": "BLANCO",
       "nombre": "ALMOHADA FIRST CLASS 90 FIBERBALL",
-      "precio": 21200
+      "precio": 22048
     },
     {
       "id": "YmR3k5pDtJAae4cRj4M4",
@@ -3977,7 +3977,6 @@
     },
     {
       "id": "aySzQEuFo283uQmD7WRC",
-      "precio": 14200,
       "destacado": false,
       "categoria": "BLANCO",
       "nombre": "ALMOHADA FIRST CLASS 70 FIBERBALL",
@@ -3995,7 +3994,8 @@
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784900822/muebles_rafaela/durq0bw1t1i6pp4npioh.png",
       "activo": true,
       "nuevo": false,
-      "material": null
+      "material": null,
+      "precio": 14768
     },
     {
       "id": "b8fYfOIWK7EyjbMtKLvd",
@@ -4026,7 +4026,6 @@
       "descripcion": "Relleno de fibra de poliéster standard 100% virgen, garantizando durabilidad, suavidad y ligereza. La funda está confeccionada con TNT (Tela No Tejida), que ofrece transpirabilidad, resistencia e higiene, ideal para un uso prolongado y cómodo.",
       "material": null,
       "imagenes": [],
-      "precio": 6200,
       "colores": [],
       "categorias": [
         "BLANCO",
@@ -4039,7 +4038,8 @@
       "precioAnterior": null,
       "nombre": "ALMOHADA CINDY FIBERBALL",
       "nuevo": false,
-      "descuento": 0
+      "descuento": 0,
+      "precio": 6448
     },
     {
       "id": "bMr4gTQqejw96fWDvVjB",
@@ -4128,7 +4128,7 @@
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784924948/muebles_rafaela/bs5by3t6as8jpxwcujrc.png",
       "precioAnterior": null,
-      "precio": 35600
+      "precio": 37024
     },
     {
       "id": "bZLB3Q23dJ7d6kFBC8Hc",
@@ -4255,7 +4255,6 @@
       "material": null,
       "destacado": false,
       "descripcion": "Rellena de mantas de fibra de poliéster siliconada de alto rendimiento, asegurando durabilidad y confort. Presentación en bolso de PVC para un almacenamiento conveniente.",
-      "precio": 15900,
       "proveedor": "FIBERBALL",
       "categorias": [
         "BLANCO",
@@ -4265,7 +4264,8 @@
       "categoria": "BLANCO",
       "nombre": "ALMOHADA EMOCION FIBERBALL",
       "precioAnterior": null,
-      "activo": true
+      "activo": true,
+      "precio": 16536
     },
     {
       "id": "d2txvcDq1ZD20RoSBJso",
@@ -4536,7 +4536,6 @@
       "destacado": false,
       "nombre": "ALMOHADA SENSITIVE MEMORY CERVICAL FIBERBALL",
       "activo": true,
-      "precio": 31600,
       "proveedor": "FIBERBALL",
       "descuento": 0,
       "categoria": "BLANCO",
@@ -4545,7 +4544,8 @@
       "stock": null,
       "precioAnterior": null,
       "colores": [],
-      "imagenes": []
+      "imagenes": [],
+      "precio": 32864
     },
     {
       "id": "eqpJyQF5AZzXChcDrO9j",
@@ -5754,12 +5754,12 @@
       "nuevo": false,
       "categoria": "BLANCO",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925121/muebles_rafaela/vzq3w2egodzvhbetrcyj.png",
-      "precio": 34300,
       "categorias": [
         "BLANCO",
         "ALMOHADAS"
       ],
-      "nombre": "ALMOHADA SENSITIVE MEMORY PLAIN FIBERBALL"
+      "nombre": "ALMOHADA SENSITIVE MEMORY PLAIN FIBERBALL",
+      "precio": 35672
     },
     {
       "id": "pOED0odhyogZQqZQPpFU",
@@ -7998,6 +7998,13 @@
       "descripcion": "Editó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT PRAGA SC8009\"",
       "usuario": "admin",
       "fecha": "2026-07-13T13:05:11.039Z"
+    },
+    {
+      "id": "32uOBbWRJrnpVQZRivjn",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 4% el precio de 14 producto(s) de \"FIBERBALL\"",
+      "usuario": "admin",
+      "fecha": "2026-08-11T13:42:43.168Z"
     },
     {
       "id": "3ACwySMzCvbyGWMLg0vX",
