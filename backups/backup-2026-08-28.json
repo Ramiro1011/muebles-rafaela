@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-25T11:23:18.033Z",
+  "fecha": "2026-08-28T21:18:46.331Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -247,7 +247,7 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727366/muebles_rafaela/b5wfmy4tanjbrtxictnu.webp"
       ],
       "proveedor": "HITACHI/TCL",
-      "precio": 950484
+      "precio": 919000
     },
     {
       "id": "2WhMWGtomrHYbiOh0nRQ",
@@ -381,7 +381,6 @@
     {
       "id": "4LVW5xrhrVFgFP4Xiqsg",
       "descripcion": "Diseño\nLa cocina Escorial Master Style ofrece 4 hornallas: 1 grande y 3 medianas, y encendido electrónico de una mano. El interior del horno está enlozado en polvo electrostático y tiene una práctica luz, mientras que en su exterior dispone de puerta con doble vidrio. Por otro lado, posee doble parrilla extraíble.\n\nCaracterísticas\nEsta cocina cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASST56 está preparado para Multigas.\n\nReja de fundición\nRespaldo de vidrio\nQuemadores de aluminio con tapa esmaltada",
-      "precio": 748330,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -412,7 +411,8 @@
         "ELECTRODOMESTICOS",
         "COCINA"
       ],
-      "nombre": "COCINA ESCORIAL MASTER STYLE 56CM"
+      "nombre": "COCINA ESCORIAL MASTER STYLE 56CM",
+      "precio": 808196
     },
     {
       "id": "4NalZhawYTsqZLdgU8JC",
@@ -1504,7 +1504,6 @@
     {
       "id": "FjPXgsp0tSczRTWMdAZO",
       "descripcion": "Diseño\nLa cocina Escorial Master Classic ofrece un diseño elegante realizado en acero inoxidable con tapa de horno de vidrio negro y laterales negros. Tiene 4 hornallas: 1 grande y 3 medianas. El interior del horno está enlozado en polvo electrostático y su reja se encuentra esmaltada. Por otro lado, posee una puerta de vidrio y cajón parrilla con puerta rebatible.\n\nCaracteristicas\nEsta cocina cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASCL56BN está preparado para sistema de gas natural.",
-      "precio": 648309,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1529,7 +1528,8 @@
         "ELECTRODOMESTICOS",
         "COCINA"
       ],
-      "nombre": "COCINA ESCORIAL MASTER CLASSIC INOX 56CM"
+      "nombre": "COCINA ESCORIAL MASTER CLASSIC INOX 56CM",
+      "precio": 700174
     },
     {
       "id": "FsiA49icJLtxjWrtbq4X",
@@ -1928,7 +1928,6 @@
     {
       "id": "JIV53pvVXniveS91ySpC",
       "descripcion": "Seguridad y consumo\nPara evitar cualquier tipo de accidentes, viene con una válvula de seguridad por termocupla que cierra totalmente el paso de gas al artefacto si por alguna razón se apaga la llama piloto. A su vez, posee un piloto analizador de oxígeno que detecta gases tóxicos. Por otro lado, a la hora de elegir un termotanque hay que tener en cuenta que se calculan aproximadamente 50 litros para 3 personas; 75 litros, de 3 a 5 personas; y 120, de 5 a 7 personas.\nCapacidad y confort\nEscorial 120LT es un termotanque a gas con capacidad para 120 litros. A diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Su tanque está construido con protección anti corrosión que elimina los depósitos de óxido que causan las picaduras internas. Puede utilizarse con gas natural o con gas envasado. Este modelo incluye patas para colocarlo de pie, asegurando su estabilidad.\nSistema de calentamiento\nEl Escorial tiene un tanque con capacidad para 120 litros, que calienta a través de un quemador con chapa de recubrimiento específico para altas temperaturas. Una vez que se alcanza la temperatura ideal, el agua caliente viaja desde el termotanque por la red doméstica hasta el grifo que fue activado.",
-      "precio": 493668,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1947,7 +1946,8 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "nombre": "TERMOTANQUE ESCORIAL A GAS 120L"
+      "nombre": "TERMOTANQUE ESCORIAL A GAS 120L",
+      "precio": 533161
     },
     {
       "id": "JwX0xrdNKKpq08WyDgSp",
@@ -2292,7 +2292,7 @@
         "TELEVISOR"
       ],
       "proveedor": "HITACHI/TCL",
-      "precio": 442385
+      "precio": 428000
     },
     {
       "id": "MzxF5ohybRqa9WrVVIvh",
@@ -3043,7 +3043,6 @@
     {
       "id": "T5aATJlmrpY0w3h1uu3u",
       "descripcion": "Diseño\nLa cocina Escorial a gas Master Classic ofrece 4 hornallas: 1 grande y 3 medianas. El interior del horno está enlozado en polvo electrostático y su reja se encuentra esmaltada. Por otro lado, la cocina a gas Escorial posee una puerta de vidrio y cajón parrilla con puerta rebatible.\n\nCaracteristicas\nLa cocina Escorial Master Classic cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASCL56BN está preparado para Gas Natural.",
-      "precio": 549485,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3075,7 +3074,8 @@
         "ELECTRODOMESTICOS",
         "COCINA"
       ],
-      "nombre": "COCINA ESCORIAL MASTER CLASSIC 56CM"
+      "nombre": "COCINA ESCORIAL MASTER CLASSIC 56CM",
+      "precio": 593444
     },
     {
       "id": "TBIYCnGfolQAERqXscdn",
@@ -3185,7 +3185,6 @@
     {
       "id": "U9TRwKeBkuqbtdijAUI5",
       "descripcion": "Capacidad y confort\nEl termotanque eléctrico Escorial tiene una capacidad para 55 litros. A diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Para funcionar, sólo hay que enchufarlo a la red eléctrica convencional. Automáticamente, el artefacto calentará el agua hasta un punto prefijado. Cuenta con un tanque con aislamiento de espuma de poliuretano que asegura un consumo eficiente de energía. Puede colgarse. Conexión inferior.\n\nSeguridad y consumo\nUna de las principales características de este tipo de calentadores es que pueden instalarse en cualquier espacio y no necesitan ventilación como los equipos que utilizan llamas de combustión para generar calor. Este artefacto no produce gases tóxicos y tampoco consume oxígeno del ambiente en el que se lo ubique. A la hora de elegir un termotanque hay que tener en cuenta que se calculan aproximadamente 50 litros para 3 personas; 75 litros, de 3 a 5 personas; y 120, de 5 a 7 personas. Escorial\n\nSistema de calentamiento\nA diferencia de los equipos a gas que calientan el agua a través de un quemador y generan gases tóxicos, este termotanque produce calor a través de una resistencia eléctrica hasta que se alcanza la temperatura deseada. Luego, el aislamiento del tanque se encarga de que no se enfríe demasiado rápido. Cuando la temperatura baja, por el paso del tiempo o porque se usó el agua caliente y entra agua fría, la resistencia vuelve a entrar en funcionamiento. Termotanque Electrico Escorial",
-      "precio": 389803,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3209,7 +3208,8 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 55L"
+      "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 55L",
+      "precio": 420987
     },
     {
       "id": "UP7tM3Cn4PhWk35PzYv7",
@@ -3754,7 +3754,6 @@
     {
       "id": "YGAJEAqTOdoj9zvjeXth",
       "descripcion": "Diseño\nLa Escorial Candor S2 es una cocina de diseño clásico en color blanco que cuenta con cuatro hornallas; horno y cajón parrilla independiente. Dispone de 1 quemador grande y 3 medianas. Por otro lado, está preparada para Gas Natural.\n\nCaracterísticas especiales\nLa cocina Escorial está totalmente enlozada en polvo electroestático y cuenta con puerta de horno con visor; bisagra desmontable y reja de plancha con apoya ollas. Por otro lado, dispone perillas de plástico inyectado, manija de plástico, respaldo extraible, horno y parrilla con sistema fácil limpieza (easy to clean).\n\nDimensiones\nSus medidas estándar de 95 cm de alto; 51 cm de ancho y 60 cm de profundidad hacen que se ajuste a cualquier tipo de cocina.",
-      "precio": 459177,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3786,7 +3785,8 @@
         "ELECTRODOMESTICOS",
         "COCINA"
       ],
-      "nombre": "COCINA ESCORIAL CANDOR"
+      "nombre": "COCINA ESCORIAL CANDOR",
+      "precio": 495911
     },
     {
       "id": "YH9lC3i8GN9ShxagWcGr",
@@ -4213,7 +4213,7 @@
       ],
       "proveedor": "HITACHI/TCL",
       "nombre": "TELEVISOR 43\" TCL ANDROID TV",
-      "precio": 670118
+      "precio": 648000
     },
     {
       "id": "cGDc4dYeud6SaqHm98Kq",
@@ -4624,7 +4624,6 @@
     {
       "id": "fP8TnBW0NPvzNb0SHyyZ",
       "descripcion": "Diseño\nLa cocina Escorial Master Style multigas ofrece 4 hornallas: 1 grande y 3 medianas. El interior del horno está enlozado en polvo electrostático y tiene una práctica luz, mientras que en su exterior dispone de puerta con doble vidrio. Por otro lado, posee doble parrilla extraíble y encendido de una mano.\n\nCaracterísticas\nEsta cocina cuenta con válvula de seguridad en hornallas y horno, por lo que tanto vos como tu familia podrán cocinar sin preocupaciones. El modelo MASST56 está preparado para Multigas.\n\nReja de fundición\nRespaldo de vidrio\nQuemadores de aluminio con tapa esmaltada",
-      "precio": 844534,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4650,7 +4649,8 @@
         "ELECTRODOMESTICOS",
         "COCINA"
       ],
-      "nombre": "COCINA ESCORIAL MASTER STYLE 56CM INOX"
+      "nombre": "COCINA ESCORIAL MASTER STYLE 56CM INOX",
+      "precio": 912097
     },
     {
       "id": "fb2fVAAsXJMObZzR1DKi",
@@ -4681,7 +4681,6 @@
     {
       "id": "fo9IkPqKHps4GGHfmnEN",
       "descripcion": "Capacidad y confort\nEl termotanque eléctrico Escorial tiene una capacidad para 85,5 litros. A diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Para funcionar, sólo hay que enchufarlo a la red eléctrica convencional. Automáticamente, el artefacto calentará el agua hasta un punto prefijado. Cuenta con un tanque con aislamiento de espuma de poliuretano que asegura un consumo eficiente de energía. Puede colgarse. Termotanque eléctrico 5 litros.\n\nSeguridad y consumo\nUna de las principales características de este tipo de calentadores es que pueden instalarse en cualquier espacio y no necesitan ventilación como los equipos que utilizan llamas de combustión para generar calor. Este artefacto no produce gases tóxicos y tampoco consume oxígeno del ambiente en el que se lo ubique. A la hora de elegir un calefón hay que tener en cuenta que se calculan aproximadamente 50 litros para 3 personas; 75 litros, de 3 a 5 personas; y 120, de 5 a 7 personas. Escorial\n\nSistema de calentamiento\nA diferencia de los equipos a gas que calientan el agua a través de un quemador y generan gases tóxicos, este termotanque produce calor a través de una resistencia eléctrica hasta que se alcanza la temperatura deseada. Luego, el aislamiento del tanque se encarga de que no se enfríe demasiado rápido. Cuando la temperatura baja, por el paso del tiempo o porque se usó el agua caliente y entra agua fría, la resistencia vuelve a entrar en funcionamiento.",
-      "precio": 423562,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4705,7 +4704,8 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 90L"
+      "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 90L",
+      "precio": 457447
     },
     {
       "id": "gA399wsvguMIcVQL4ui9",
@@ -5179,7 +5179,6 @@
     {
       "id": "kEUKZFoY0VkRJARlrP5c",
       "descripcion": "Seguridad y consumo\nPara evitar cualquier tipo de accidentes, viene con una válvula de seguridad por termocupla que cierra totalmente el paso de gas al artefacto si por alguna razón se apaga la llama piloto. A su vez, posee un piloto analizador de oxígeno que detecta gases tóxicos.\n\nCapacidad y confort\nEl termotanque a gas Escorial 45 litros, a diferencia de un calefón, permite tener agua caliente sin depender de la presión general, aún con el uso simultáneo de varias canillas. Su tanque está construido con protección anti corrosión que elimina los depósitos de óxido que causan las picaduras internas. Puede utilizarse con gas natural o con gas envasado. Es apto para colgar con patas opcionales para apoyarlo.\n\nSistema de calentamiento\nEl Escorial tiene un tanque que calienta a través de un quemador con chapa de recubrimiento específico para altas temperaturas. Una vez que se alcanza la temperatura ideal, el agua caliente viaja desde el termotanque por la red doméstica hasta el grifo que fue activado.\n\nCaracteristicas\nSistema de conexión Multigas (Gas natural convertible a gas licuado).\nPeso vacío: 20kg.\nAislación térmica de eficiencia elevada.\nTanque de acero enlozado en polvo electrostático.\nBarra de protección anti- corrosión (ánodo de magnesio). \nVálvula de alivio de sobrepresión. \nConexión de agua superior.\nAltura conexión agua: 18,5cm.\nPiloto analizador de oxígeno.\nTermocupla de seguridad.\nSistema de colgar.\nAlta eficiencia energética.",
-      "precio": 385273,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -5198,7 +5197,8 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "nombre": "TERMOTANQUE ESCORIAL A GAS 45L"
+      "nombre": "TERMOTANQUE ESCORIAL A GAS 45L",
+      "precio": 416095
     },
     {
       "id": "kGyjgAfl4RYc2RFnFQKd",
@@ -5987,7 +5987,6 @@
     {
       "id": "rjqWyVEqmv9V5tb5HzP9",
       "descripcion": "CARACTERÍSTICAS\n\n• Sistema de conexión Multigas (Gas natural convertible a gas licuado).\n• Peso vacío: 27kg.\n• Aislación térmica de eficiencia elevada.\n• Tanque de acero enlozado en polvo electrostático.\n• Barra de protección anti- corrosión (ánodo de magnesio).\n• Válvula de alivio de sobrepresión.\n• Conexión de agua superior.\n• Altura conexión agua: 18,5cm.\n• Piloto analizador de oxígeno.\n• Termocupla de seguridad.\n• Sistema de colgar.\n• Garantía de 3 años.\n• Alta eficiencia energética.",
-      "precio": 427187,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6011,7 +6010,8 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "nombre": "TERMOTANQUE ESCORIAL A GAS 80L"
+      "nombre": "TERMOTANQUE ESCORIAL A GAS 80L",
+      "precio": 461362
     },
     {
       "id": "sAYFZzm5iS5TqCrMNJa9",
@@ -6503,7 +6503,6 @@
     {
       "id": "ucuGY49tKyZRVwtxfrN1",
       "descripcion": "Encendido electrónico - Luz en Horno.\nSistema: Gas Natural y Gas Licuado.\nPeso: 26,5 kg.\nSuperficies exteriores e interior del horno totalmente enlozados en polvo electrostático de fácil limpieza.\nPuerta de horno de vidrio.\nDoble rejilla desmontable en plancha.\n4 hornallas (3 medianas y una grande).\nVálvula de seguridad en hornallas y horno.\nQuemadores de aluminio pulidos con tapa de acero esmaltada.\nRespaldo extraíble.\nPuerta de horno con bisagra desmontable.\nCajón parrilla con puerta rebatible. Asadera.\nEficiencia energética: Clase A.",
-      "precio": 546624,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6522,7 +6521,8 @@
         "ELECTRODOMESTICOS",
         "COCINA"
       ],
-      "nombre": "COCINA ESCORIAL PALACE CRISTAL"
+      "nombre": "COCINA ESCORIAL PALACE CRISTAL",
+      "precio": 590354
     },
     {
       "id": "uoEQcaOhUT14Iri46G6G",
@@ -7269,7 +7269,7 @@
       "categoria": "ELECTRODOMESTICOS",
       "stock": null,
       "precioAnterior": null,
-      "precio": 1196448
+      "precio": 1156600
     }
   ],
   "categorias": [
@@ -8096,6 +8096,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 40L\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:42:31.262Z"
+    },
+    {
+      "id": "5jTESWZSTFJcK5Mbxhbj",
+      "tipo": "producto_editado",
+      "fecha": "2026-08-28T20:40:10.574Z",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"TELEVISOR 43\" TCL ANDROID TV\""
     },
     {
       "id": "5xDk42qSNaos2REqMvXl",
@@ -9673,6 +9680,13 @@
       "fecha": "2026-07-21T13:27:09.741Z"
     },
     {
+      "id": "TRw9FZQzcVK4f2KOm80S",
+      "descripcion": "Editó el producto \"TELEVISOR 32\" TCL ANDROID TV\"",
+      "usuario": "admin",
+      "tipo": "producto_editado",
+      "fecha": "2026-08-28T20:39:57.349Z"
+    },
+    {
       "id": "TWS5pxDDCzOF4FVs7lWP",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"MESA DE LUZ MELAMINA C/DESAYUNADOR\"",
@@ -11066,6 +11080,13 @@
       "fecha": "2026-07-03T13:59:08.810Z"
     },
     {
+      "id": "ogEe6JNRnfgi2n4N1DOv",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TELEVISOR 50\" TCL ANDROID TV\"",
+      "fecha": "2026-08-28T20:40:26.166Z",
+      "usuario": "admin"
+    },
+    {
       "id": "ojgMfyxDTHjHg7FHWOEB",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ORGANIZADOR PARA BAÑO BT1 MELAMINA\"",
@@ -11248,6 +11269,13 @@
       "fecha": "2026-07-09T14:41:44.534Z"
     },
     {
+      "id": "qvs4ShE4ygYEhKdiXqny",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 8% el precio de 11 producto(s) de \"ESCORIAL\"",
+      "usuario": "admin",
+      "fecha": "2026-08-25T21:27:51.422Z"
+    },
+    {
       "id": "r1WzpJ1objgsf37ECAYg",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"PAVA ELECTRICA CORTE PARA MATE WINCO ACERO INOX.\"",
@@ -11379,6 +11407,13 @@
       "descripcion": "Creó el producto \"DESPENSERO 0.40M MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T21:18:47.251Z"
+    },
+    {
+      "id": "sfvGErHLaul5LK7LHm3H",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "fecha": "2026-08-28T20:40:39.704Z",
+      "descripcion": "Editó el producto \"TELEVISOR 55\" TCL QLED SMART\""
     },
     {
       "id": "shoPQ87bmTx8U1ZNpeJ1",
