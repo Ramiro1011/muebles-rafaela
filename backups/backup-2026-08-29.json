@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-26T11:25:45.400Z",
+  "fecha": "2026-08-29T15:27:05.303Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -247,7 +247,7 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727366/muebles_rafaela/b5wfmy4tanjbrtxictnu.webp"
       ],
       "proveedor": "HITACHI/TCL",
-      "precio": 950484
+      "precio": 919000
     },
     {
       "id": "2WhMWGtomrHYbiOh0nRQ",
@@ -2292,7 +2292,7 @@
         "TELEVISOR"
       ],
       "proveedor": "HITACHI/TCL",
-      "precio": 442385
+      "precio": 428000
     },
     {
       "id": "MzxF5ohybRqa9WrVVIvh",
@@ -4213,7 +4213,7 @@
       ],
       "proveedor": "HITACHI/TCL",
       "nombre": "TELEVISOR 43\" TCL ANDROID TV",
-      "precio": 670118
+      "precio": 648000
     },
     {
       "id": "cGDc4dYeud6SaqHm98Kq",
@@ -7269,7 +7269,7 @@
       "categoria": "ELECTRODOMESTICOS",
       "stock": null,
       "precioAnterior": null,
-      "precio": 1196448
+      "precio": 1156600
     }
   ],
   "categorias": [
@@ -8096,6 +8096,13 @@
       "descripcion": "Editó el producto \"TERMOTANQUE SEÑORIAL ELECTRICO 40L\"",
       "usuario": "admin",
       "fecha": "2026-07-06T21:42:31.262Z"
+    },
+    {
+      "id": "5jTESWZSTFJcK5Mbxhbj",
+      "tipo": "producto_editado",
+      "fecha": "2026-08-28T20:40:10.574Z",
+      "usuario": "admin",
+      "descripcion": "Editó el producto \"TELEVISOR 43\" TCL ANDROID TV\""
     },
     {
       "id": "5xDk42qSNaos2REqMvXl",
@@ -9673,6 +9680,13 @@
       "fecha": "2026-07-21T13:27:09.741Z"
     },
     {
+      "id": "TRw9FZQzcVK4f2KOm80S",
+      "descripcion": "Editó el producto \"TELEVISOR 32\" TCL ANDROID TV\"",
+      "usuario": "admin",
+      "tipo": "producto_editado",
+      "fecha": "2026-08-28T20:39:57.349Z"
+    },
+    {
       "id": "TWS5pxDDCzOF4FVs7lWP",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"MESA DE LUZ MELAMINA C/DESAYUNADOR\"",
@@ -11066,6 +11080,13 @@
       "fecha": "2026-07-03T13:59:08.810Z"
     },
     {
+      "id": "ogEe6JNRnfgi2n4N1DOv",
+      "tipo": "producto_editado",
+      "descripcion": "Editó el producto \"TELEVISOR 50\" TCL ANDROID TV\"",
+      "fecha": "2026-08-28T20:40:26.166Z",
+      "usuario": "admin"
+    },
+    {
       "id": "ojgMfyxDTHjHg7FHWOEB",
       "tipo": "producto_creado",
       "descripcion": "Creó el producto \"ORGANIZADOR PARA BAÑO BT1 MELAMINA\"",
@@ -11386,6 +11407,13 @@
       "descripcion": "Creó el producto \"DESPENSERO 0.40M MELAMINA\"",
       "usuario": "admin",
       "fecha": "2026-07-08T21:18:47.251Z"
+    },
+    {
+      "id": "sfvGErHLaul5LK7LHm3H",
+      "tipo": "producto_editado",
+      "usuario": "admin",
+      "fecha": "2026-08-28T20:40:39.704Z",
+      "descripcion": "Editó el producto \"TELEVISOR 55\" TCL QLED SMART\""
     },
     {
       "id": "shoPQ87bmTx8U1ZNpeJ1",
