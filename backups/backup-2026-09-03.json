@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-08-31T17:50:16.694Z",
+  "fecha": "2026-09-03T14:51:12.564Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -3814,7 +3814,6 @@
       "id": "YmR3k5pDtJAae4cRj4M4",
       "destacado": false,
       "precioAnterior": null,
-      "precio": 450800,
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757535/muebles_rafaela/ti1vrsa11mzwymnxscnj.png",
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757540/muebles_rafaela/ku8kmiw0k3pfe6lw4rue.png"
@@ -3833,7 +3832,8 @@
       "stock": null,
       "descuento": 0,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757529/muebles_rafaela/es6ig84if2bw5wotthgp.png",
-      "material": null
+      "material": null,
+      "precio": 464324
     },
     {
       "id": "ZgEG9o9hhZPG1J6LN42z",
@@ -4601,7 +4601,6 @@
       "stock": null,
       "activo": true,
       "descripcion": "445 x 1817 x 1015 mm",
-      "precio": 534800,
       "material": null,
       "colores": [],
       "nuevo": false,
@@ -4619,7 +4618,8 @@
         "MUEBLES",
         "BAIUT"
       ],
-      "nombre": "BAIUT 1.80 4 PUERTAS 3 CAJONES"
+      "nombre": "BAIUT 1.80 4 PUERTAS 3 CAJONES",
+      "precio": 550844
     },
     {
       "id": "fP8TnBW0NPvzNb0SHyyZ",
@@ -10609,6 +10609,13 @@
       "tipo": "categoria_creada",
       "usuario": "admin",
       "descripcion": "Creó la categoría \"PLANCHA\""
+    },
+    {
+      "id": "hHfC6wshFux0jpEzHIeC",
+      "tipo": "aumento_masivo",
+      "usuario": "admin",
+      "descripcion": "Aumentó 3% el precio de 2 producto(s) de \"ORLANDI\"",
+      "fecha": "2026-09-02T13:51:33.267Z"
     },
     {
       "id": "hUEHbigEzGr4luenylAG",
