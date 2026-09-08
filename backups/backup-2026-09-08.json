@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-05T13:39:41.855Z",
+  "fecha": "2026-09-08T14:51:58.655Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -67,7 +67,6 @@
       "id": "1Ra8LxE8JSFa6NFraQJi",
       "nombre": "TERMOTANQUE ECOTERMO A GAS 150LTS AP",
       "descripcion": "Diámetro: 486 – Altura: 1590",
-      "precio": 1921000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -93,7 +92,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 1997840
     },
     {
       "id": "1bZnAoJen4syS4gyghJW",
@@ -283,7 +283,6 @@
       "id": "3WFmGukvmkTpeSvOcOb1",
       "nombre": "TERMOTANQUE ECOTERMO A GAS 51LTS L.E",
       "descripcion": "Diámetro: 430 – Altura: 780",
-      "precio": 523000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -309,7 +308,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 543920
     },
     {
       "id": "3u1HG54ae92HluK3Iq1g",
@@ -519,11 +519,11 @@
         }
       ],
       "nombre": "COLCHON 2 PLAZAS ESPUMA MARFIL TOPACIO",
-      "precio": 511472,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 531931
     },
     {
       "id": "5icx4Kg7HqFIqqhkAxwz",
@@ -717,7 +717,6 @@
       "id": "7cPvir11M0S5Rb8tkVFB",
       "nombre": "TERMOTANQUE ECOTERMO ELECTRICO 20LTS",
       "descripcion": "Diámetro: 345 – Altura: 474",
-      "precio": 435500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -742,7 +741,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 452920
     },
     {
       "id": "7r8UG6quUJKIAnBiv2A9",
@@ -770,7 +770,6 @@
       "id": "7xoOglfBWnUBWSOYTuP3",
       "nombre": "TERMOTANQUE ECOTERMO A GAS 60LTS A.P",
       "descripcion": "Diámetro: 430 – Altura: 1260",
-      "precio": 1107400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -797,7 +796,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 1151696
     },
     {
       "id": "8dKknVyYitOqiWRvXZNF",
@@ -818,11 +818,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 2078960,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 2162118
     },
     {
       "id": "94GarddO5saVjQEfU1g9",
@@ -1383,7 +1383,6 @@
       "id": "EMKDBdQqX3ByS4twRTaL",
       "nombre": "TERMOTANQUE ECOTERMO ELECTRICO 70LTS",
       "descripcion": "Diámetro: 430 – Altura: 840",
-      "precio": 558800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1407,7 +1406,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 581152
     },
     {
       "id": "EVak4duV98z3I2qMLUd1",
@@ -1769,11 +1769,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 1526720,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 1587789
     },
     {
       "id": "IKgENFkEy4oFZ8JNOQ29",
@@ -1838,7 +1838,6 @@
       "id": "INd38gyHAoCM2u7WhZZP",
       "nombre": "TERMOTANQUE ECOTERMO ELECTRICO 53LTS",
       "descripcion": "Diámetro: 430 – Altura: 630",
-      "precio": 573500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1864,7 +1863,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 596440
     },
     {
       "id": "Ig16syZEzRT0FHMX5jc1",
@@ -1919,11 +1919,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 390936,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 406573
     },
     {
       "id": "JIV53pvVXniveS91ySpC",
@@ -2035,11 +2035,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 532272,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 553563
     },
     {
       "id": "KYECYbp33Bj2ZL8VV0J9",
@@ -2072,7 +2072,6 @@
       "id": "L52sZAgzGrshZ24FgZMW",
       "nombre": "TERMOTANQUE ECOTERMO A GAS 23LTS A.R",
       "descripcion": "Diámetro: 345 – Altura: 660",
-      "precio": 542800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2098,7 +2097,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 564512
     },
     {
       "id": "LAcREU40NQUyYuOLrIae",
@@ -2159,11 +2159,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA AGUAMARINA TOPACIO",
-      "precio": 180024,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 187225
     },
     {
       "id": "LE3reaxc65bc78FrR8Sn",
@@ -2200,7 +2200,6 @@
       "id": "LgHST6WbpwuDOdM6iUjZ",
       "nombre": "SILLA PINO TANDIL S\\TAPIZAR",
       "descripcion": null,
-      "precio": 123300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2221,7 +2220,8 @@
         "SILLAS",
         "MUEBLES"
       ],
-      "proveedor": "TANDIL"
+      "proveedor": "TANDIL",
+      "precio": 125766
     },
     {
       "id": "Ljhtbe3UKEMskIIFdR4u",
@@ -2310,17 +2310,16 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 306904,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 319180
     },
     {
       "id": "N4uP9b5o7aPAr5hKqPbD",
       "nombre": "TERMOTANQUE POPULI A GAS 45LTS",
       "descripcion": "Diámetro: 430 – Altura: 728",
-      "precio": 439800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2345,7 +2344,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 457392
     },
     {
       "id": "N5oMueoFXUvyrAACMibx",
@@ -2370,11 +2370,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA ESMERALDA TOPACIO",
-      "precio": 259168,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 269535
     },
     {
       "id": "NWdM03OKrzlNWrVdujmF",
@@ -2609,11 +2609,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 386360,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 401814
     },
     {
       "id": "PW2KzaBbWD0Wnq99Jf80",
@@ -2830,11 +2830,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 525824,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 546857
     },
     {
       "id": "Qyxplb20r8sVNvoFY2F1",
@@ -2985,7 +2985,6 @@
       "id": "SCJp8a50UIXQJEzJE05x",
       "nombre": "TERMOTANQUE ECOTERMO ELECTRICO 106LTS",
       "descripcion": "Diámetro: 430 – Altura: 1120",
-      "precio": 597600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3011,7 +3010,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 621504
     },
     {
       "id": "SgSaz4I5JXjfxc8qyGK1",
@@ -3036,9 +3036,9 @@
           "hex": "#bb8c25"
         }
       ],
-      "precio": 453800,
       "nombre": "MESA ASIA 1.60M",
-      "proveedor": "TANDIL"
+      "proveedor": "TANDIL",
+      "precio": 462876
     },
     {
       "id": "T5aATJlmrpY0w3h1uu3u",
@@ -3240,7 +3240,6 @@
       "id": "UZ5mEvicfq008ptPX3kH",
       "nombre": "SILLA PINO TANDIL S/TAPIZAR",
       "descripcion": null,
-      "precio": 123300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3261,7 +3260,8 @@
         "SILLAS",
         "MUEBLES"
       ],
-      "proveedor": "TANDIL"
+      "proveedor": "TANDIL",
+      "precio": 125766
     },
     {
       "id": "UcYRSbxyijZGNuAv8DPv",
@@ -3527,7 +3527,6 @@
       "id": "X50An9SWco5i2LDyqF4E",
       "nombre": "TERMOTANQUE ECOTERMO A GAS 120LTS",
       "descripcion": "Diámetro: 430 – Altura: 1480",
-      "precio": 670800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3553,7 +3552,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 697632
     },
     {
       "id": "X5AFDPdmqpfrEdsuXcZC",
@@ -3603,11 +3603,11 @@
           "hex": "#92acce"
         }
       ],
-      "precio": 221000,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 229840
     },
     {
       "id": "XNXljq5gPntto8RFONZg",
@@ -4134,7 +4134,6 @@
       "id": "bZLB3Q23dJ7d6kFBC8Hc",
       "nombre": "TERMOTANQUE ECOTERMO A GAS 80LTS",
       "descripcion": "Diámetro: 430 – Altura: 1070",
-      "precio": 574500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4159,7 +4158,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 597480
     },
     {
       "id": "bqFSYJSLFDkOVH1QxlMk",
@@ -4239,11 +4239,11 @@
           "hex": "#5e566f"
         }
       ],
-      "precio": 458640,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 476986
     },
     {
       "id": "ccY8m6tUcnxNkCJzFduH",
@@ -4812,7 +4812,6 @@
       "id": "h9HzlQ9hnNuWaWTyml6G",
       "nombre": "TERMOTANQUE ECOTERMO A GAS 53LTS A.R",
       "descripcion": "Diámetro: 430 – Altura: 800",
-      "precio": 650900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4837,7 +4836,8 @@
       "categorias": [
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
-      ]
+      ],
+      "precio": 676936
     },
     {
       "id": "hEWGdb8QiBV41xbhmTyp",
@@ -4863,11 +4863,11 @@
           "hex": "#8da2c3"
         }
       ],
-      "precio": 293592,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 305336
     },
     {
       "id": "hWpWPyX1qTzygcBALOL0",
@@ -5250,11 +5250,11 @@
           "hex": "#90a1b7"
         }
       ],
-      "precio": 313560,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 326102
     },
     {
       "id": "klWUv5O0uXjLDyakgVoP",
@@ -5623,11 +5623,11 @@
           "hex": "#6c6580"
         }
       ],
-      "precio": 414648,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 431234
     },
     {
       "id": "njGbNuJdL9w42lIW6uvO",
@@ -6245,11 +6245,11 @@
           "hex": "#897db5"
         }
       ],
-      "precio": 318240,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 330970
     },
     {
       "id": "tKPvv2j7MwRSoNYBhj2P",
@@ -6353,11 +6353,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 748280,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 778211
     },
     {
       "id": "tyJrvrznv8AkhUlv714f",
@@ -6464,11 +6464,11 @@
         }
       ],
       "nombre": "COLCHON 1 PLAZA ESPUMA MARFIL TOPACIO",
-      "precio": 325936,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 338973
     },
     {
       "id": "ubci9iI3vP2J0qUE0Vpm",
@@ -6742,11 +6742,11 @@
           "hex": "#888888"
         }
       ],
-      "precio": 854776,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 888967
     },
     {
       "id": "wXeKQXudlWUxxJLNyTlY",
@@ -6766,11 +6766,11 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 361712,
       "categorias": [
         "COLCHONES",
         "BLANCO"
-      ]
+      ],
+      "precio": 376180
     },
     {
       "id": "weHYPAfDCXsCox92iMFF",
@@ -8014,6 +8014,13 @@
       "fecha": "2026-07-06T22:43:30.738Z"
     },
     {
+      "id": "3DyAP6diiA72R5UGvmpd",
+      "usuario": "admin",
+      "descripcion": "Aumentó 4% el precio de 20 producto(s) de \"TOPACIO\"",
+      "fecha": "2026-09-07T12:49:27.020Z",
+      "tipo": "aumento_masivo"
+    },
+    {
       "id": "3RtHT0Gq9TOCWDZ90RMe",
       "tipo": "producto_editado",
       "usuario": "admin",
@@ -8509,6 +8516,13 @@
       "descripcion": "Creó el producto \"TERMOTANQUE SEÑORIAL A GAS 120L\"",
       "usuario": "admin",
       "fecha": "2026-07-06T22:19:38.731Z"
+    },
+    {
+      "id": "CsYyRLkq6ODuffNUpAHD",
+      "descripcion": "Aumentó 4% el precio de 12 producto(s) de \"ECOTERMO\"",
+      "usuario": "admin",
+      "fecha": "2026-09-07T12:32:18.202Z",
+      "tipo": "aumento_masivo"
     },
     {
       "id": "DCEJe4DVLf7SfUiisgeA",
@@ -11372,6 +11386,13 @@
       "tipo": "categoria_creada",
       "usuario": "admin",
       "descripcion": "Creó la categoría \"RALLADOR\""
+    },
+    {
+      "id": "sFlAxktdphavFLfOVCfo",
+      "fecha": "2026-09-07T13:07:07.381Z",
+      "descripcion": "Aumentó 2% el precio de 3 producto(s) de \"TANDIL\"",
+      "tipo": "aumento_masivo",
+      "usuario": "admin"
     },
     {
       "id": "sGs05AR5SXHIqwe0mwgh",
