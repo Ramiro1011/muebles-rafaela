@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-21T16:45:58.319Z",
+  "fecha": "2026-09-24T15:41:38.157Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -34,12 +34,11 @@
         "MUEBLES",
         "CÓMODAS"
       ],
-      "precio": 283182
+      "precio": 293093
     },
     {
       "id": "0kutNcziAXEBKQQvfr3f",
       "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
-      "precio": 468300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -61,7 +60,8 @@
           "hex": "#ffffff"
         }
       ],
-      "nombre": "TERMOTANQUE SEÑORIAL A GAS 30L A.R"
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 30L A.R",
+      "precio": 484690
     },
     {
       "id": "1Ra8LxE8JSFa6NFraQJi",
@@ -93,7 +93,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 1997840
+      "precio": 2067565
     },
     {
       "id": "1bZnAoJen4syS4gyghJW",
@@ -170,7 +170,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 299314
+      "precio": 309790
     },
     {
       "id": "1zPE2nwCz39dnEbDAA2i",
@@ -201,7 +201,7 @@
         "ESCOBERO",
         "MUEBLES"
       ],
-      "precio": 199797
+      "precio": 206790
     },
     {
       "id": "25q1xs4VVO2LMX5XxHXt",
@@ -223,7 +223,7 @@
       "material": null,
       "precioAnterior": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784924379/muebles_rafaela/sj2tm4vmb1bv4jdpcnaz.png",
-      "precio": 27040
+      "precio": 27986
     },
     {
       "id": "2NHihzLeASStvT3VcDOd",
@@ -247,13 +247,12 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784727366/muebles_rafaela/b5wfmy4tanjbrtxictnu.webp"
       ],
       "proveedor": "HITACHI/TCL",
-      "precio": 919000
+      "precio": 951165
     },
     {
       "id": "2WhMWGtomrHYbiOh0nRQ",
       "nombre": "CALOVENTOR LILIANA \"BLACKSUN\"",
       "descripcion": "Termostato regulable.\n· Potente forzador de aire de 1600 RMP.\n· 2 intensidades de calor.\n· Ultraliviano.\n· Manija para traslado.\n· Modo ventilación.\n· Ocupa poco espacio.",
-      "precio": 83400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -277,7 +276,8 @@
           "hex": "#000000"
         }
       ],
-      "proveedor": "LILIANA"
+      "proveedor": "LILIANA",
+      "precio": 86319
     },
     {
       "id": "3WFmGukvmkTpeSvOcOb1",
@@ -309,7 +309,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 543920
+      "precio": 562903
     },
     {
       "id": "3u1HG54ae92HluK3Iq1g",
@@ -340,7 +340,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 152382
+      "precio": 157715
     },
     {
       "id": "43gpNX2UkUNpFR6PtKwx",
@@ -376,7 +376,7 @@
           "hex": "#35271c"
         }
       ],
-      "precio": 153581
+      "precio": 158956
     },
     {
       "id": "4LVW5xrhrVFgFP4Xiqsg",
@@ -412,7 +412,7 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL MASTER STYLE 56CM",
-      "precio": 808196
+      "precio": 836483
     },
     {
       "id": "4NalZhawYTsqZLdgU8JC",
@@ -430,13 +430,13 @@
         "MUEBLES"
       ],
       "proveedor": "DIPI",
-      "precio": 684400,
       "descuento": 0,
       "destacado": false,
       "nuevo": false,
       "categoria": "SILLONES",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784731366/muebles_rafaela/sxbgnej5iaeyj5igkbid.jpg",
-      "precioAnterior": null
+      "precioAnterior": null,
+      "precio": 708354
     },
     {
       "id": "4d8OKYHwSpWheTOuQBbt",
@@ -466,13 +466,12 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 130909
+      "precio": 135491
     },
     {
       "id": "5FwpLB98CoCb20Ay25uc",
       "nombre": "COCINA INDUSTRIAL USMAN CARLI PLANCHA 85CM",
       "descripcion": "Cocina Industrial en Acero Inoxidable con Plancha\nVidrio templado en puerta, mecheros industriales, rejas de fundición y plancheta, horno con piso de ladrillos refractarios y válvulas de seguridad en horno y plancha.\n\nInformación\nAncho\t\n85 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
-      "precio": 888700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -493,7 +492,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 919804
     },
     {
       "id": "5HbeONkfc3s0HuiuWBcN",
@@ -523,13 +523,12 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 531931
+      "precio": 550549
     },
     {
       "id": "5icx4Kg7HqFIqqhkAxwz",
       "nombre": "VENTILADOR DE PIE 18\" LILIANA",
       "descripcion": "Ventilador de Pie Orbital con Repeler de Liliana, modelo VPRN18, es la solución perfecta para mantener tu ambiente fresco, confortable y libre de insectos! Con su diseño moderno y tecnología avanzada, este ventilador te ofrece un gran caudal de aire, distribución uniforme y funcionalidad adicional con su sistema repelente.",
-      "precio": 146800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -545,7 +544,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 151938
     },
     {
       "id": "62W8J2zuNOVIhSTlaeX1",
@@ -581,13 +581,12 @@
         }
       ],
       "proveedor": "CENTRO ESTANT",
-      "precio": 153036
+      "precio": 158392
     },
     {
       "id": "63Jj7miReP1J05VUEGnN",
       "nombre": "COCINA INDUSTRIAL USMAN SONIC XXL 55CM",
       "descripcion": "Cocina Industrial en Acero Inoxidable con bandeja.\nCon vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, válvula de seguridad, pirómetro y bandeja de gratinado. Ideal para uso gastronómico intensivo.\n\nAncho\t\n55 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
-      "precio": 826700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -608,7 +607,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 855634
     },
     {
       "id": "6MDmjfa2nexKrgafZMfm",
@@ -660,7 +660,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 115431
+      "precio": 119471
     },
     {
       "id": "6hwR2qIEBNwm8A7SKMtj",
@@ -742,7 +742,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 452920
+      "precio": 468727
     },
     {
       "id": "7r8UG6quUJKIAnBiv2A9",
@@ -764,7 +764,7 @@
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925308/muebles_rafaela/kgq5cdp6xsp1kbfncirw.png",
       "nombre": "ALMOHADA PLUMA FIBERBALL",
-      "precio": 48464
+      "precio": 50160
     },
     {
       "id": "7xoOglfBWnUBWSOYTuP3",
@@ -797,7 +797,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 1151696
+      "precio": 1191890
     },
     {
       "id": "8dKknVyYitOqiWRvXZNF",
@@ -822,13 +822,12 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 2162118
+      "precio": 2237792
     },
     {
       "id": "94GarddO5saVjQEfU1g9",
       "nombre": "COCINA INDUSTRIAL USMAN COMPACT 52CM",
       "descripcion": "Cocina Industrial en Acero Inoxidable.\nPuerta visor con vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, pirómetro en puerta y válvula de seguridad.\n\nAncho\t\n52 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
-      "precio": 533600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -849,13 +848,13 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 552276
     },
     {
       "id": "95IULm39XYXeUd2mCBZc",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 95L",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
-      "precio": 476300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -876,7 +875,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 492970
     },
     {
       "id": "96Pfq1pRV0Xo2UQQIbkC",
@@ -898,13 +898,12 @@
       ],
       "precioAnterior": null,
       "nombre": "CAMA DE PINO 1 PLAZA MAVIC (0.80M)",
-      "precio": 157965
+      "precio": 163494
     },
     {
       "id": "9jAisInJCds0UtI1FAli",
       "nombre": "HELADERA C/FREEZER BRIKET 257LTS",
       "descripcion": "Nuestra heladera con freezer de 257 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 550 | Alto: 1495 | Profundidad: 660\n\nPeso: 44,2 Kg\n\nClasificación Energética: A\n\nCapacidad: 257 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 270",
-      "precio": 901300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -928,7 +927,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 932845
     },
     {
       "id": "9oBjwSo3Wc5cJRXABWUT",
@@ -980,13 +980,12 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ],
-      "precio": 427572
+      "precio": 442537
     },
     {
       "id": "AtKJymi9kq9upzwddbJo",
       "nombre": "CORTADORA DE PASTO 3/4HP C/BOLSA",
       "descripcion": "Potencia 3/4 HP - 1300 Watts \n\nIdeal para jardines medianos.\n\nCon recolector de césped rígido de 43 litros con tapa.\nAncho de corte 390 mm.\nCarcasa de acero con tratamiento antioxidante\nPintura Epoxi fijada a altas temperaturas\nRuedas reforzadas de 135 mm.\n2 ALTURAS DE CORTE",
-      "precio": 369400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1002,13 +1001,13 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 382329
     },
     {
       "id": "B8gix29HRiYfSuRyElUl",
       "nombre": "VENTILADOR DE PIE 16\" LILIANA",
       "descripcion": "Ventilador de Pie de Liliana, modelo VP16P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño funcional y características prácticas, este ventilador te ofrece un gran caudal de aire y ajustes personalizables para adaptarse a tus necesidades.",
-      "precio": 125800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1024,7 +1023,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 130203
     },
     {
       "id": "B98nf83kkR2ExsfvDNpR",
@@ -1055,7 +1055,7 @@
         "MULTIUSO",
         "ORGANIZADOR"
       ],
-      "precio": 153036
+      "precio": 158392
     },
     {
       "id": "BMtDNXQudLiCxPn8tpE8",
@@ -1077,7 +1077,7 @@
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925365/muebles_rafaela/jbh5ft85inpcznr4e3s3.png",
       "nombre": "ALMOHADA NATURIS NUCLEO FIBERBALL",
-      "precio": 26312
+      "precio": 27233
     },
     {
       "id": "BapPyZrPbhaaDShaIgrD",
@@ -1099,7 +1099,7 @@
       "imagenes": [],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784925464/muebles_rafaela/bpp38650fzpb0cjuhze3.png",
       "stock": null,
-      "precio": 37502
+      "precio": 38815
     },
     {
       "id": "C9lRXcuQrgAG1IUirTVo",
@@ -1135,7 +1135,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 302693
+      "precio": 313287
     },
     {
       "id": "CAwy1yvfO2BtYrIXyzVd",
@@ -1191,7 +1191,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 149330
+      "precio": 154557
     },
     {
       "id": "CPkBUkN6KqxHtQHZekPV",
@@ -1239,7 +1239,7 @@
         "CAMAS",
         "MUEBLES"
       ],
-      "precio": 183715
+      "precio": 190145
     },
     {
       "id": "CpCiwN5FzXEL2wcdfdDw",
@@ -1312,7 +1312,7 @@
       "nuevo": false,
       "proveedor": "FIBERBALL",
       "categoria": "BLANCO",
-      "precio": 23192
+      "precio": 24004
     },
     {
       "id": "DZUb3ALLoXqsPVyV238O",
@@ -1334,7 +1334,7 @@
       "colores": [],
       "stock": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549790/muebles_rafaela/hp4wvpbek9cmdzzn5i56.jpg",
-      "precio": 212670
+      "precio": 220113
     },
     {
       "id": "DgT6DkoXcC9jWllfAEZG",
@@ -1374,10 +1374,10 @@
       "stock": null,
       "descuento": 0,
       "precioAnterior": null,
-      "precio": 265300,
       "nombre": "MESADA DURAFORT 1.40 x 0.60",
       "nuevo": false,
-      "material": null
+      "material": null,
+      "precio": 274586
     },
     {
       "id": "EMKDBdQqX3ByS4twRTaL",
@@ -1407,7 +1407,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 581152
+      "precio": 601434
     },
     {
       "id": "EVak4duV98z3I2qMLUd1",
@@ -1449,7 +1449,7 @@
           "hex": "#000000"
         }
       ],
-      "precio": 187916
+      "precio": 194493
     },
     {
       "id": "EZctlstB1OP0bPus8CvX",
@@ -1475,7 +1475,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 119573
+      "precio": 123758
     },
     {
       "id": "F2UbVGbRI2T3MIbo3Tkw",
@@ -1529,7 +1529,7 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL MASTER CLASSIC INOX 56CM",
-      "precio": 700174
+      "precio": 724680
     },
     {
       "id": "FsiA49icJLtxjWrtbq4X",
@@ -1560,7 +1560,7 @@
         "MUEBLES",
         "CÓMODAS"
       ],
-      "precio": 281983
+      "precio": 291852
     },
     {
       "id": "G1Y53JdZrOqfWEizNa70",
@@ -1591,7 +1591,6 @@
       "id": "GFiUWOMKYT1Ux5cCFwxb",
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 85L",
       "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
-      "precio": 481900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1607,13 +1606,13 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 498766
     },
     {
       "id": "GPDcwPmzxYsqQYIj17yU",
       "nombre": "SILLA UNICAN VERONA",
       "descripcion": null,
-      "precio": 53800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1641,7 +1640,8 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913139/muebles_rafaela/qdvuhofveybvvmqav4ii.jpg"
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913117/muebles_rafaela/u75gekgodlns0o9wlw1v.jpg",
-      "proveedor": "UNICAN"
+      "proveedor": "UNICAN",
+      "precio": 55683
     },
     {
       "id": "GhJhjgTU03XQ6mrQGMuX",
@@ -1688,7 +1688,7 @@
         "ALMOHADAS"
       ],
       "descripcion": "Rellena de auténticas microesferas de fibra poliéster hueca FiberBall®, 100% siliconadas, ofreciendo gran suavidad y soporte. Funda en fino percal con estampa blanco sobre blanco, con faja y vivo perimetral. Presentación en bolso de PVC. Consulte por otras medidas.",
-      "precio": 21528
+      "precio": 22281
     },
     {
       "id": "GuC6EQY95FYkuhFNgWrC",
@@ -1718,7 +1718,7 @@
         "MUEBLES",
         "RESPALDO"
       ],
-      "precio": 197617
+      "precio": 204534
     },
     {
       "id": "HkAYhZVhJDn46InLBcJn",
@@ -1773,13 +1773,12 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 1587789
+      "precio": 1643362
     },
     {
       "id": "IKgENFkEy4oFZ8JNOQ29",
       "nombre": "SILLA UNICAN MILÁN",
       "descripcion": null,
-      "precio": 46800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1806,7 +1805,8 @@
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913235/muebles_rafaela/armilovknr7zilgk2asn.png"
       ],
-      "proveedor": "UNICAN"
+      "proveedor": "UNICAN",
+      "precio": 48438
     },
     {
       "id": "IMOScwsyeTM2fC7UfyZ7",
@@ -1864,7 +1864,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 596440
+      "precio": 617256
     },
     {
       "id": "Ig16syZEzRT0FHMX5jc1",
@@ -1899,7 +1899,7 @@
         "MUEBLES",
         "CÓMODAS"
       ],
-      "precio": 283182
+      "precio": 293093
     },
     {
       "id": "JE6owNJdaMzDi7LP1EUb",
@@ -1923,7 +1923,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 406573
+      "precio": 420803
     },
     {
       "id": "JIV53pvVXniveS91ySpC",
@@ -1947,13 +1947,12 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL A GAS 120L",
-      "precio": 533161
+      "precio": 551822
     },
     {
       "id": "JwX0xrdNKKpq08WyDgSp",
       "nombre": "ESTUFA INFRARROJA \"SPINHOT\" LILIANA",
       "descripcion": "· Amplia radiación frontal. 3 tubos.\n· Frente mallado.\n· Iluminación atenuada.\n· 2 intensidades de calor.\n· Diseño compacto.",
-      "precio": 107000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -1972,7 +1971,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 110745
     },
     {
       "id": "KAG5WMC8uvl0ysRFBziA",
@@ -2009,7 +2009,7 @@
         "ROPEROS"
       ],
       "nombre": "ROPERO MELAMINA 3 PUERTAS ABRIR LIBE30",
-      "precio": 309996
+      "precio": 320846
     },
     {
       "id": "KLo5ce3zNs0EiCS3SFhs",
@@ -2039,13 +2039,12 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 553563
+      "precio": 572938
     },
     {
       "id": "KYECYbp33Bj2ZL8VV0J9",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 90L A.R",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
-      "precio": 633000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2066,7 +2065,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 655155
     },
     {
       "id": "L52sZAgzGrshZ24FgZMW",
@@ -2098,7 +2098,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 564512
+      "precio": 584213
     },
     {
       "id": "LAcREU40NQUyYuOLrIae",
@@ -2133,7 +2133,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 197944
+      "precio": 204872
     },
     {
       "id": "LCNqtWIwBVNnmesSFVyS",
@@ -2163,7 +2163,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 187225
+      "precio": 193778
     },
     {
       "id": "LE3reaxc65bc78FrR8Sn",
@@ -2194,7 +2194,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 183992
+      "precio": 190432
     },
     {
       "id": "LgHST6WbpwuDOdM6iUjZ",
@@ -2221,13 +2221,12 @@
         "MUEBLES"
       ],
       "proveedor": "TANDIL",
-      "precio": 125766
+      "precio": 130168
     },
     {
       "id": "Ljhtbe3UKEMskIIFdR4u",
       "nombre": "VENTILADOR TURBO 10\" LILIANA",
       "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF10P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y funcional, este ventilador ofrece 3 opciones de uso (piso, mesa y pared), adaptándose a tus necesidades en cualquier espacio.",
-      "precio": 50800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2245,13 +2244,13 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 52578
     },
     {
       "id": "M2WrxVjiPT18yBdmaUol",
       "nombre": "VENTILADOR DE TECHO CON LUZ LILIANA ASPAS METALICAS",
       "descripcion": "Ventilador de Techo con Luz LED de Liliana, modelo VTHB114, es la combinación perfecta de estilo, confort y eficiencia para tu hogar! Con su diseño moderno y funcionalidades avanzadas, este ventilador te ofrece frescura y luminosidad en un solo equipo, ideal para cualquier ambiente.",
-      "precio": 188700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2267,7 +2266,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 195304
     },
     {
       "id": "MZVKrX2vJZL8PWqCXyQP",
@@ -2292,7 +2292,7 @@
         "TELEVISOR"
       ],
       "proveedor": "HITACHI/TCL",
-      "precio": 428000
+      "precio": 442980
     },
     {
       "id": "MzxF5ohybRqa9WrVVIvh",
@@ -2314,7 +2314,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 319180
+      "precio": 330351
     },
     {
       "id": "N4uP9b5o7aPAr5hKqPbD",
@@ -2345,7 +2345,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 457392
+      "precio": 473355
     },
     {
       "id": "N5oMueoFXUvyrAACMibx",
@@ -2374,7 +2374,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 269535
+      "precio": 278969
     },
     {
       "id": "NWdM03OKrzlNWrVdujmF",
@@ -2410,7 +2410,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 50140
+      "precio": 51895
     },
     {
       "id": "NdS6jpb5wKgnTNlzEA8t",
@@ -2434,7 +2434,7 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1784549449/muebles_rafaela/olw7j7icobcmxco56qym.png"
       ],
       "nombre": "CAMA DE PINO 2 ½ PLAZAS ECO (1.40M)",
-      "precio": 106151
+      "precio": 109866
     },
     {
       "id": "OniDP7OfEyRwV2DhruEW",
@@ -2479,14 +2479,13 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 396800,
-      "precioAnterior": 0
+      "precioAnterior": 0,
+      "precio": 410688
     },
     {
       "id": "P6UlvX8Oh4MKB1EwM5Oh",
       "nombre": "ESTUFA CONVECTOR \"CONVECTORY\" LILIANA",
       "descripcion": "· Diseño moderno y decorativo.\n· Gran poder calórico.\n· Termostato regulable que ahorra energía.\n· Selector de temperatura: 3 intensidades de calor.",
-      "precio": 137300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2504,7 +2503,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 142106
     },
     {
       "id": "P6sbDngY9nUiejSPovOB",
@@ -2526,13 +2526,12 @@
       "descripcion": "Cama de 2 ½ plazas modelo Mavic® posee cabecera y piecera estilo colonial con detalles replanados en el interior, está fabricada con patas de 3” x 3” laminadas, fajas de 1” x 4” y tablero pulgada.  La parrilla posee largueros de 1 ½” x 5” con cantos redondeados, 10 varillas y 4 travesaños de distintas maderas duras.\n\nEstá fabricada para colchón de 1.40 x 1.90 mts. Medida final 1.50 x 2.08 mts. Altura cabecera 90 cm, altura piecera 64 cm, altura del piso al inicio del elástico 26cm.",
       "precioAnterior": null,
       "colores": [],
-      "precio": 225755
+      "precio": 233656
     },
     {
       "id": "P8iNlhqHNhQsygKMca36",
       "nombre": "VENTILADOR DE TECHO CON LUZ LILIANA ASPAS MADERA",
       "descripcion": "Ventilador de Techo con Luz de Liliana, modelo VTHM214, es la combinación perfecta de estilo, confort y funcionalidad para tu hogar! Con su diseño elegante y características avanzadas, este ventilador te ofrece frescura y luminosidad en un solo equipo, ideal para cualquier ambiente.",
-      "precio": 209600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2550,7 +2549,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 216936
     },
     {
       "id": "PH2zsaEbPCUDaywwiA3I",
@@ -2563,7 +2563,6 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "precio": 55800,
       "colores": [
         {
           "hex": "#000000",
@@ -2583,7 +2582,8 @@
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913194/muebles_rafaela/k9xwdvoqqk4nuylfk96w.jpg"
       ],
-      "proveedor": "UNICAN"
+      "proveedor": "UNICAN",
+      "precio": 57753
     },
     {
       "id": "PR8UIgEEJlXWr8Uz29g7",
@@ -2613,7 +2613,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 401814
+      "precio": 415877
     },
     {
       "id": "PW2KzaBbWD0Wnq99Jf80",
@@ -2648,7 +2648,7 @@
         "MUEBLES",
         "ESTANTES"
       ],
-      "precio": 61258
+      "precio": 63402
     },
     {
       "id": "Pqgo22iX0snTz3NwphHM",
@@ -2673,7 +2673,7 @@
       "activo": true,
       "colores": [],
       "nombre": "ORGANIZADOR PARA BAÑO BT2 MELAMINA",
-      "precio": 140501
+      "precio": 145419
     },
     {
       "id": "PsEg1OXWIOq60V5jxdbp",
@@ -2698,7 +2698,7 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ],
-      "precio": 416232
+      "precio": 430800
     },
     {
       "id": "QHitVWBYMjfNoSjo9SmB",
@@ -2728,7 +2728,7 @@
           "hex": "#c59972"
         }
       ],
-      "precio": 126113
+      "precio": 130527
     },
     {
       "id": "QNCIZSMOzZQOarZ4qIvW",
@@ -2783,13 +2783,12 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 133743
+      "precio": 138424
     },
     {
       "id": "Qbp7VK8l9teGzU9NFxFq",
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L BLACK",
       "descripcion": "Aislamiento con poliuretano.\nIndicador de temperatura digital.\nPiloto analizador.\nMultigas: Kit para instalación de gas natural o envasado.",
-      "precio": 750400,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2810,7 +2809,8 @@
           "nombre": "Negro",
           "hex": "#000000"
         }
-      ]
+      ],
+      "precio": 776664
     },
     {
       "id": "QsWWu3Mh1NdYjoDZJ6HG",
@@ -2834,7 +2834,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 546857
+      "precio": 565997
     },
     {
       "id": "Qyxplb20r8sVNvoFY2F1",
@@ -2850,7 +2850,6 @@
         "MESADAS"
       ],
       "descripcion": "- 1.20mt x 0.60mt\n\n- Sin zócalo\n\n- Fino borde antiderrame\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban",
-      "precio": 229400,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784813371/muebles_rafaela/ufxdzavkaqo4syktaoum.png",
       "precioAnterior": null,
       "material": null,
@@ -2877,13 +2876,13 @@
       ],
       "categoria": "MUEBLES",
       "nombre": "MESADA DURAFORT 1.20 x 0.60",
-      "descuento": 0
+      "descuento": 0,
+      "precio": 237429
     },
     {
       "id": "RUIi80AKYszmKggrfp6F",
       "nombre": "VENTILADOR DE PIE 10\" 3 EN 1 LILIANA",
       "descripcion": "El Ventilador 3 en 1 Liliana VP10M es la opción ideal para mantener tus ambientes frescos con mayor versatilidad. Su diseño permite utilizarlo como ventilador de pie, pared o turbo, adaptándose a cada necesidad del hogar. Con cabezal oscilante y reclinable, barral metálico telescópico y aspas metálicas tipo trébol, asegura un excelente flujo de aire para climas de alta temperatura.\nPosee 3 velocidades para regular fácilmente la intensidad, base redonda estable y parrilla negra de estilo moderno. Con potencia de 60W, combina eficiencia, rendimiento y bajo consumo energético.",
-      "precio": 60700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2901,13 +2900,13 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 62824
     },
     {
       "id": "RW69VK9eJTTgue82vIWv",
       "nombre": "HELADERA GRIS C/FREEZER BRIKET 257LTS",
       "descripcion": "Nuestra heladera con freezer de 257 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\n\nDimensiones (mm): Ancho: 550 | Alto: 1495 | Profundidad: 660\n\nPeso: 44,2 Kg\n\nClasificación Energética: A\n\nCapacidad: 257 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 270",
-      "precio": 947600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -2931,7 +2930,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 980766
     },
     {
       "id": "RaRygBmuR8uGE44oOP3R",
@@ -2942,7 +2942,6 @@
       "nombre": "SILLON \"CHESTER\" 3 CUERPOS",
       "precioAnterior": null,
       "proveedor": "DIPI",
-      "precio": 746600,
       "categoria": "SILLONES",
       "categorias": [
         "SILLONES",
@@ -2953,7 +2952,8 @@
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784730934/muebles_rafaela/gibbuomcoitgktxbqjve.jpg",
       "destacado": false,
       "material": null,
-      "descuento": 0
+      "descuento": 0,
+      "precio": 772731
     },
     {
       "id": "RgcwtpkplLbpJSxHRZsB",
@@ -3011,7 +3011,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 621504
+      "precio": 643194
     },
     {
       "id": "SgSaz4I5JXjfxc8qyGK1",
@@ -3038,7 +3038,7 @@
       ],
       "nombre": "MESA ASIA 1.60M",
       "proveedor": "TANDIL",
-      "precio": 462876
+      "precio": 479077
     },
     {
       "id": "T5aATJlmrpY0w3h1uu3u",
@@ -3075,7 +3075,7 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL MASTER CLASSIC 56CM",
-      "precio": 593444
+      "precio": 614215
     },
     {
       "id": "TBIYCnGfolQAERqXscdn",
@@ -3097,7 +3097,7 @@
       "nuevo": false,
       "descuento": 0,
       "nombre": "ALMOHADA PROCOL FIBERBALL",
-      "precio": 8424
+      "precio": 8719
     },
     {
       "id": "TdXvoOiPGH6wQjKKiGsm",
@@ -3130,7 +3130,7 @@
         }
       ],
       "nombre": "DESPENSERO 0.40x1.50 MELAMINA",
-      "precio": 121971
+      "precio": 126240
     },
     {
       "id": "U3P3rPe1AcPOlumMo5mR",
@@ -3155,7 +3155,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 304328
+      "precio": 314979
     },
     {
       "id": "U8z4OLhaNg8G1EjqnhO4",
@@ -3209,13 +3209,12 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 55L",
-      "precio": 420987
+      "precio": 435722
     },
     {
       "id": "UP7tM3Cn4PhWk35PzYv7",
       "nombre": "ESTUFA INFRARROJA \"CALORE\" LILIANA",
       "descripcion": "· Amplia radiación frontal. 3 tubos.\n· Frente mallado.\n· Iluminación atenuada.\n· Selector de temperatura: 2 intensidades de calor.\n· Diseño compacto.",
-      "precio": 96000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3234,7 +3233,8 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "proveedor": "LILIANA"
+      "proveedor": "LILIANA",
+      "precio": 99360
     },
     {
       "id": "UZ5mEvicfq008ptPX3kH",
@@ -3261,7 +3261,7 @@
         "MUEBLES"
       ],
       "proveedor": "TANDIL",
-      "precio": 125766
+      "precio": 130168
     },
     {
       "id": "UcYRSbxyijZGNuAv8DPv",
@@ -3293,7 +3293,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 571487
+      "precio": 591489
     },
     {
       "id": "UgnLGzw6Y4lq4pPPZiod",
@@ -3323,7 +3323,6 @@
     {
       "id": "UnyrKb8OjMh5YbiR4ztT",
       "descripcion": "Bajo consumo. Piloto analizador.\nTriple barrera anti-fuga. Válvula de seguridad por sobrepresión, unidad magnética y termocupla.\nDetector de monóxido de carbono.\nMultigas: Kit de instalación de gas natural o envasado.",
-      "precio": 613000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3345,11 +3344,11 @@
           "hex": "#888888"
         }
       ],
-      "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L FAMILY A.R"
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L FAMILY A.R",
+      "precio": 634455
     },
     {
       "id": "VSzMjDJft4zMDQc17Mq2",
-      "precio": 691900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3375,7 +3374,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 716117
     },
     {
       "id": "ViskTFgSHNHPY3qCtPOm",
@@ -3410,7 +3410,7 @@
         "MUEBLES",
         "MESAS DE LUZ"
       ],
-      "precio": 131563
+      "precio": 136168
     },
     {
       "id": "WNpjY2OwSh9egoJZbHoV",
@@ -3439,7 +3439,6 @@
     },
     {
       "id": "WgQvSTOhBEWwDYdheEeL",
-      "precio": 1039000,
       "nombre": "SILLON ESQUINERO \"LOURDES\" C/BUTACON 2.00M",
       "material": null,
       "nuevo": false,
@@ -3457,13 +3456,13 @@
       "precioAnterior": null,
       "descuento": 0,
       "imagenes": [],
-      "stock": null
+      "stock": null,
+      "precio": 1075365
     },
     {
       "id": "WgoIyGVpA1emPexjZxhy",
       "nombre": "SILLA UNICAN EAMES",
       "descripcion": null,
-      "precio": 46800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3490,7 +3489,8 @@
         "SILLAS",
         "MUEBLES"
       ],
-      "proveedor": "UNICAN"
+      "proveedor": "UNICAN",
+      "precio": 48438
     },
     {
       "id": "Wv6X4IVbbNAFcGVW4fsu",
@@ -3521,7 +3521,7 @@
           "hex": "#fafafa"
         }
       ],
-      "precio": 154126
+      "precio": 159520
     },
     {
       "id": "X50An9SWco5i2LDyqF4E",
@@ -3553,7 +3553,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 697632
+      "precio": 721979
     },
     {
       "id": "X5AFDPdmqpfrEdsuXcZC",
@@ -3607,7 +3607,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 229840
+      "precio": 237884
     },
     {
       "id": "XNXljq5gPntto8RFONZg",
@@ -3670,9 +3670,9 @@
       "activo": true,
       "categoria": "MUEBLES",
       "stock": null,
-      "precio": 307800,
       "destacado": false,
-      "descripcion": "- 1.60mt x 0.60mt\n\n- Sin zócalo\n\n- Fino borde antiderrame\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban"
+      "descripcion": "- 1.60mt x 0.60mt\n\n- Sin zócalo\n\n- Fino borde antiderrame\n\n- Medida de Bacha: 0.52mt x 0.32mt x 0.15mt\n\n- Contiene Microban",
+      "precio": 318573
     },
     {
       "id": "XUGk4JrEvpZ2Kz1aeIV0",
@@ -3703,7 +3703,6 @@
       "id": "Y3a3e3MOJippNfl9Kxup",
       "nombre": "COCINA INDUSTRIAL USMAN WIN 550",
       "descripcion": "Cocina Industrial en Acero Inoxidable.\nPuerta visor con vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, pirómetro en puerta y válvula de seguridad.\n\nAncho\t\n55 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
-      "precio": 685800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3724,7 +3723,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 709803
     },
     {
       "id": "YA74B8vBWz6hD8CSXnUC",
@@ -3786,7 +3786,7 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL CANDOR",
-      "precio": 495911
+      "precio": 513268
     },
     {
       "id": "YH9lC3i8GN9ShxagWcGr",
@@ -3808,7 +3808,7 @@
       "destacado": false,
       "categoria": "BLANCO",
       "nombre": "ALMOHADA FIRST CLASS 90 FIBERBALL",
-      "precio": 22048
+      "precio": 22820
     },
     {
       "id": "YmR3k5pDtJAae4cRj4M4",
@@ -3833,7 +3833,7 @@
       "descuento": 0,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784757529/muebles_rafaela/es6ig84if2bw5wotthgp.png",
       "material": null,
-      "precio": 464324
+      "precio": 497395
     },
     {
       "id": "ZgEG9o9hhZPG1J6LN42z",
@@ -3863,13 +3863,12 @@
           "hex": "#b88e68"
         }
       ],
-      "precio": 133634
+      "precio": 138311
     },
     {
       "id": "Zu6oVzs1mzSIWz1yA6dx",
       "nombre": "CORTADORA DE PASTO 1/2HP C/BOLSA",
       "descripcion": "Potencia 1/2 HP - 900 Watts \n\nIdeal para jardines pequeños.\n\nCon recolector de césped de 38 litros.\n\nAncho de corte 350 mm.\n\nCarcasa de acero con tratamiento antioxidante\n\nPintura Epoxi fijada a altas temperaturas\n\nRuedas reforzadas de 135 mm.\n\n2 ALTURAS DE CORTE",
-      "precio": 319700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3887,7 +3886,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 330890
     },
     {
       "id": "aQKBvLkUEx3eA6uu4NUL",
@@ -3919,7 +3919,6 @@
       "id": "aQz40FIaE97IbZxsV8Cy",
       "nombre": "HELADERA C/FREEZER BRIKET 322LTS",
       "descripcion": "Nuestra heladera con freezer de 322 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A+ y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 660 | Alto: 1640 | Profundidad: 682\n\nPeso: 54,4 Kg\n\nClasificación Energética: A+\n\nCapacidad: 322 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 239",
-      "precio": 986300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -3938,7 +3937,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 1020820
     },
     {
       "id": "alBCbmkUqbOHwjYG4j4p",
@@ -3973,7 +3973,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 180068
+      "precio": 186370
     },
     {
       "id": "aySzQEuFo283uQmD7WRC",
@@ -3995,7 +3995,7 @@
       "activo": true,
       "nuevo": false,
       "material": null,
-      "precio": 14768
+      "precio": 15285
     },
     {
       "id": "b8fYfOIWK7EyjbMtKLvd",
@@ -4017,7 +4017,7 @@
       "destacado": false,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324453/muebles_rafaela/txefvox6rxslbzumd0sf.png",
       "descripcion": "Parrilla/ elástico: largueros de 1 1/2 x 4 pulgadas, 5 varillas.\n\nRespaldos: 2 fajas de 1 x 3 pulgadas, 1 faja de 1 1/12 x 4 pulgadas.\n\nPatas de 1 1/2 x 4 pulgadas, tablero de 3/4 pulgadas.\n\nMedida final 0.89 x 1.98 mts. aprox.\n\nPara colchón de 0.80 x 1.90 mts.",
-      "precio": 160488
+      "precio": 166105
     },
     {
       "id": "bJzjhI5WOxmYiATNQA3u",
@@ -4039,7 +4039,7 @@
       "nombre": "ALMOHADA CINDY FIBERBALL",
       "nuevo": false,
       "descuento": 0,
-      "precio": 6448
+      "precio": 6674
     },
     {
       "id": "bMr4gTQqejw96fWDvVjB",
@@ -4069,7 +4069,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 157723
+      "precio": 163243
     },
     {
       "id": "bYzPK25xNkUnr5w5irfI",
@@ -4106,7 +4106,7 @@
           "hex": "#000000"
         }
       ],
-      "precio": 129601
+      "precio": 134137
     },
     {
       "id": "bZBGRdqxcXqTo749mMFY",
@@ -4128,7 +4128,7 @@
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784924948/muebles_rafaela/bs5by3t6as8jpxwcujrc.png",
       "precioAnterior": null,
-      "precio": 37024
+      "precio": 38320
     },
     {
       "id": "bZLB3Q23dJ7d6kFBC8Hc",
@@ -4159,13 +4159,12 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 597480
+      "precio": 618332
     },
     {
       "id": "bqFSYJSLFDkOVH1QxlMk",
       "nombre": "HELADERA BAJO MESADA BRIKET 125LTS NEGRA",
       "descripcion": "Nuestra heladera con congelador de 125 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 545 | Alto: 861 | Profundidad: 548\nClasificación Energética: A\nCapacidad: 125 Litros\nVolumen Refrigerador: 108 Litros\nVolumen Congelador: 16 Litros\nGas Refrigerante Ecológico R600a \nEstantes de vidrio templado\nIluminación Led",
-      "precio": 518200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4189,7 +4188,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 536337
     },
     {
       "id": "cCXqbXacUBejZP3nyv0P",
@@ -4213,7 +4213,7 @@
       ],
       "proveedor": "HITACHI/TCL",
       "nombre": "TELEVISOR 43\" TCL ANDROID TV",
-      "precio": 648000
+      "precio": 670680
     },
     {
       "id": "cGDc4dYeud6SaqHm98Kq",
@@ -4243,7 +4243,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 476986
+      "precio": 493681
     },
     {
       "id": "ccY8m6tUcnxNkCJzFduH",
@@ -4265,13 +4265,12 @@
       "nombre": "ALMOHADA EMOCION FIBERBALL",
       "precioAnterior": null,
       "activo": true,
-      "precio": 16536
+      "precio": 17115
     },
     {
       "id": "d2txvcDq1ZD20RoSBJso",
       "nombre": "VENTILADOR DE PIE 32\" INDUSTRIAL",
       "descripcion": "Ventilador de Pie Industrial Liliana VPI32\n¡Refrescá tus espacios amplios con potencia y durabilidad! El Ventilador de Pie Industrial VPI32 de Liliana es la solución ideal para patios, jardines, terrazas, galpones y establecimientos gastronómicos. Con su diseño robusto, motor reforzado y cabezal oscilante y reclinable, ofrece un flujo de aire potente y uniforme, manteniendo un ambiente fresco y confortable incluso en los días más calurosos.",
-      "precio": 315900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4287,7 +4286,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 326957
     },
     {
       "id": "dPoFKr6Vm3RQ9C2GhEQ8",
@@ -4348,13 +4348,12 @@
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1783946706/muebles_rafaela/ki4la3pfqdbxxxnvszgj.jpg",
       "proveedor": "CENTRO ESTANT",
-      "precio": 153036
+      "precio": 158392
     },
     {
       "id": "ddvL6Tk032Ucy5FqEEpS",
       "nombre": "VENTILADOR TURBO 16\" LILIANA",
       "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF16P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y características prácticas, este ventilador te ofrece un gran caudal de aire y la posibilidad de usarlo de pie o fijado a la pared, adaptándose a tus necesidades.",
-      "precio": 69900,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4372,7 +4371,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 72347
     },
     {
       "id": "e8bT1VEfIfoSzel927gP",
@@ -4410,7 +4410,7 @@
         "MUEBLES",
         "MESAS DE LUZ"
       ],
-      "precio": 131563
+      "precio": 136168
     },
     {
       "id": "e8vIpQkCgEagmlvhJiEY",
@@ -4437,13 +4437,12 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ],
-      "precio": 655344
+      "precio": 678281
     },
     {
       "id": "eFbKlOlaLPbeku1C1Hia",
       "nombre": "HELADERA GRIS C/FREEZER BRIKET 322LTS",
       "descripcion": "Nuestra heladera con freezer de 322 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A+ y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 660 | Alto: 1640 | Profundidad: 682\n\nPeso: 54,4 Kg\n\nClasificación Energética: A+\n\nCapacidad: 322 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 239",
-      "precio": 1034700,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4467,13 +4466,13 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 1070915
     },
     {
       "id": "eHzKAmWBDu4fqapNYo4l",
       "nombre": "HELADERA C/FREEZER BRIKET 350LTS",
       "descripcion": "Nuestra heladera con freezer de 350 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 660 | Alto: 1814 | Profundidad: 682\n\nPeso: 59,5 Kg\n\nClasificación Energética: A\n\nCapacidad: 350 Litros\n\nGas Refrigerante Ecológico R600a\n\nConsumo (kw/año): 338",
-      "precio": 1199500,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4492,7 +4491,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 1241483
     },
     {
       "id": "ebiPrNi53PVR6KvKy3lA",
@@ -4523,7 +4523,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 216256
+      "precio": 223825
     },
     {
       "id": "eh7FdDHLsn11T840xNpP",
@@ -4545,7 +4545,7 @@
       "precioAnterior": null,
       "colores": [],
       "imagenes": [],
-      "precio": 32864
+      "precio": 34014
     },
     {
       "id": "eqpJyQF5AZzXChcDrO9j",
@@ -4593,7 +4593,7 @@
       "activo": true,
       "nuevo": false,
       "categoria": "CAMAS",
-      "precio": 97743
+      "precio": 101164
     },
     {
       "id": "f4Xtg8prbFB5zxglcLIx",
@@ -4619,7 +4619,7 @@
         "BAIUT"
       ],
       "nombre": "BAIUT 1.80 4 PUERTAS 3 CAJONES",
-      "precio": 550844
+      "precio": 590078
     },
     {
       "id": "fP8TnBW0NPvzNb0SHyyZ",
@@ -4650,13 +4650,12 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL MASTER STYLE 56CM INOX",
-      "precio": 912097
+      "precio": 944020
     },
     {
       "id": "fb2fVAAsXJMObZzR1DKi",
       "nombre": "HELADERA GAFA 358 282LTS",
       "descripcion": "La Heladera con Freezer Gafa HGF358 AFB Blanca con 282L de capacidad de almacenamiento, es la solución ideal para preservar alimentos y bebidas de todo tipo, de forma práctica y organizada.\nSu clasificación de Eficiencia Energética A, hace que la heladera sea más eficiente, con un menor consumo de energía. Además, cuenta con un gas más ecológico, que cuida el medioambiente y no daña la capa de ozono.\nSu tecnología Cycle Defrost, además de ser más económica, ayuda a preservar la humedad natural de tus alimentos.",
-      "precio": 1034000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4676,7 +4675,8 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "proveedor": "GAFA"
+      "proveedor": "GAFA",
+      "precio": 1070190
     },
     {
       "id": "fo9IkPqKHps4GGHfmnEN",
@@ -4705,7 +4705,7 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL ELECTRICO 90L",
-      "precio": 457447
+      "precio": 473458
     },
     {
       "id": "gA399wsvguMIcVQL4ui9",
@@ -4748,7 +4748,7 @@
         "MUEBLES",
         "CÓMODAS"
       ],
-      "precio": 252880
+      "precio": 261731
     },
     {
       "id": "gH65BLJefqB1YD4APLO3",
@@ -4806,7 +4806,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 412783
+      "precio": 427230
     },
     {
       "id": "h9HzlQ9hnNuWaWTyml6G",
@@ -4837,7 +4837,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 676936
+      "precio": 700561
     },
     {
       "id": "hEWGdb8QiBV41xbhmTyp",
@@ -4867,7 +4867,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 305336
+      "precio": 316023
     },
     {
       "id": "hWpWPyX1qTzygcBALOL0",
@@ -4897,7 +4897,6 @@
       "id": "hYtqNZ5NfJDCl3SMcPzv",
       "nombre": "HELADERA BAJO MESADA BRIKET 125LTS",
       "descripcion": "Nuestra heladera con congelador de 125 litros, te permite guardar todos tus alimentos y bebidas de manera práctica y ordenada. Con gas ecológico, clasificación energética A+ y un consumo eficiente, ahorrás dinero mientras cuidás el planeta.\n\nDimensiones (mm): Ancho: 550 | Alto: 820 | Profundidad: 620\nPeso: 40 Kg\nClasificación Energética: A+\nCapacidad: 125 Litros\nGas Refrigerante Ecológico R600a\nConsumo (kw/año): 122",
-      "precio": 596300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4921,7 +4920,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 617171
     },
     {
       "id": "hjj3v4NGyz5maCB0M46y",
@@ -4961,13 +4961,12 @@
         "MUEBLES",
         "RESPALDO"
       ],
-      "precio": 208190
+      "precio": 215477
     },
     {
       "id": "hsXJonF6JGcmTYRBGIRf",
       "nombre": "VENTILADOR DE PIE 20\" LILIANA",
       "descripcion": "Ventilador de Pie Orbital con Repeler de Liliana, modelo VPRN20, es la solución perfecta para mantener tu ambiente fresco, confortable y libre de insectos! Con su diseño moderno y tecnología avanzada, este ventilador te ofrece un gran caudal de aire, distribución uniforme y funcionalidad adicional con su sistema repelente.",
-      "precio": 164300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -4983,7 +4982,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 170051
     },
     {
       "id": "iLf7ufI9tnosP58mK9Bz",
@@ -5010,7 +5010,7 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ],
-      "precio": 484596
+      "precio": 501557
     },
     {
       "id": "iXQkMZvr4nGtB4Q6WbIx",
@@ -5035,7 +5035,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 355122
+      "precio": 367551
     },
     {
       "id": "j5px3kzOkv06xV7cSCy2",
@@ -5088,7 +5088,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 367766
+      "precio": 380638
     },
     {
       "id": "k1D8XmzVTfps0E1qfKGn",
@@ -5125,13 +5125,12 @@
       ],
       "activo": true,
       "nombre": "BIBLIOTECA MELAMINA 60CM CENTRO ESTANT",
-      "precio": 175490
+      "precio": 181632
     },
     {
       "id": "k4NDqzbnuDHxVkNLY4nv",
       "nombre": "VENTILADOR TURBO 20\" LILIANA",
       "descripcion": "Turbo Ventilador Reclinable de Liliana, modelo VTF20P, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño versátil y características prácticas, este ventilador te ofrece un gran caudal de aire y la posibilidad de usarlo de pie o fijado a la pared, adaptándose a tus necesidades.",
-      "precio": 108450,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -5149,7 +5148,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 112246
     },
     {
       "id": "k8wIBWkfgVY3oqW1CNJa",
@@ -5198,13 +5198,12 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL A GAS 45L",
-      "precio": 416095
+      "precio": 430658
     },
     {
       "id": "kGyjgAfl4RYc2RFnFQKd",
       "nombre": "HELADERA GAFA 368 330LTS",
       "descripcion": "La Heladera con Freezer Gafa HGF368 AFB Blanca con 330L de capacidad de almacenamiento, es la solución ideal para preservar alimentos y bebidas de todo tipo, de forma práctica y organizada.\nSu clasificación de Eficiencia Energética A, hace que la heladera sea más eficiente, con un menor consumo de energía. Además, cuenta con un gas más ecológico, que cuida el medioambiente y no daña la capa de ozono.\nSu tecnología Cycle Defrost, además de ser más económica, ayuda a preservar la humedad natural de tus alimentos.\nGRAN CAPACIDAD: Más espacio para almacenar y organizar alimentos, bebidas y todo tipo de envases con mayor facilidad.",
-      "precio": 1102600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -5224,7 +5223,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 1141191
     },
     {
       "id": "kJ2wxxDejpg1aIsvfMU4",
@@ -5254,7 +5254,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 326102
+      "precio": 337516
     },
     {
       "id": "klWUv5O0uXjLDyakgVoP",
@@ -5303,7 +5303,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 206773
+      "precio": 214010
     },
     {
       "id": "lSlvZG6fz8g5aZVHzv1w",
@@ -5353,7 +5353,7 @@
         "BOTINEROS"
       ],
       "nombre": "BOTINERO MELAMINA 18 PARES CENTRO ESTANT",
-      "precio": 175383
+      "precio": 181521
     },
     {
       "id": "lf0jebF1YFs3BweRS938",
@@ -5387,7 +5387,7 @@
           "hex": "#5a4e35"
         }
       ],
-      "precio": 82731
+      "precio": 85627
     },
     {
       "id": "liRNuzLWtLWT4SOUGuNR",
@@ -5489,7 +5489,6 @@
       "id": "m71PVT2yrftrmdePt9CD",
       "nombre": "VENTILADOR DE TECHO INDUSTRIAL LILIANA",
       "descripcion": "Ventilador de Techo Industrial de Liliana, modelo VTHI503, es la solución perfecta para espacios grandes que requieren una circulación de aire potente y eficiente! Con su diseño robusto y características avanzadas, este ventilador te ofrece frescura y durabilidad, ideal para ambientes industriales o residenciales amplios.",
-      "precio": 192300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -5505,7 +5504,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 199030
     },
     {
       "id": "mRlSl9rxQqy0GmDZ3RTi",
@@ -5536,7 +5536,7 @@
         }
       ],
       "nombre": "BAJO MESADA MELAMINA 1.40 CENTRO ESTANT",
-      "precio": 265960
+      "precio": 275269
     },
     {
       "id": "mfgmUXgC9JC5mtwc31mb",
@@ -5597,7 +5597,7 @@
         "BOTINEROS"
       ],
       "nombre": "BOTINERO MELAMINA 24 PARES CENTRO ESTANT",
-      "precio": 188788
+      "precio": 195396
     },
     {
       "id": "nZtMKxp6vSSEmmH4kQYe",
@@ -5627,7 +5627,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 431234
+      "precio": 446327
     },
     {
       "id": "njGbNuJdL9w42lIW6uvO",
@@ -5636,7 +5636,6 @@
       "stock": null,
       "material": null,
       "destacado": false,
-      "precio": 625700,
       "descuento": 0,
       "categorias": [
         "SILLONES",
@@ -5649,7 +5648,8 @@
       "categoria": "SILLONES",
       "imagenes": [],
       "nuevo": false,
-      "descripcion": "SILLON CAMA DE UNA PLAZA. SACAS ALMOHADONES Y TE QUEDA CAMA DE 1.90M.\nSE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA"
+      "descripcion": "SILLON CAMA DE UNA PLAZA. SACAS ALMOHADONES Y TE QUEDA CAMA DE 1.90M.\nSE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA",
+      "precio": 647600
     },
     {
       "id": "o3Td1IVw1yEWmIiETaou",
@@ -5737,7 +5737,7 @@
           "hex": "#000000"
         }
       ],
-      "precio": 236639
+      "precio": 244921
     },
     {
       "id": "p3ClOy2IltUplbbDdNTc",
@@ -5759,7 +5759,7 @@
         "ALMOHADAS"
       ],
       "nombre": "ALMOHADA SENSITIVE MEMORY PLAIN FIBERBALL",
-      "precio": 35672
+      "precio": 36921
     },
     {
       "id": "pOED0odhyogZQqZQPpFU",
@@ -5789,7 +5789,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 135814
+      "precio": 140567
     },
     {
       "id": "paa1HMg1B554uXLMR57v",
@@ -5815,7 +5815,7 @@
         "MUEBLES",
         "ORGANIZADOR"
       ],
-      "precio": 142572
+      "precio": 147562
     },
     {
       "id": "peGmyyJwtpqclqpeilIP",
@@ -5846,7 +5846,6 @@
       "id": "psoAxXRcdN70quk2pgBd",
       "nombre": "SILLA UNICAN CALEGARI",
       "descripcion": null,
-      "precio": 53800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -5873,7 +5872,8 @@
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913035/muebles_rafaela/isa76h014d8mugjyg3u9.jpg"
       ],
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1782912999/muebles_rafaela/ug1kgot3c2qsb0jq5hds.jpg",
-      "proveedor": "UNICAN"
+      "proveedor": "UNICAN",
+      "precio": 55683
     },
     {
       "id": "q1izzNhxFXHHCyPpzmeu",
@@ -5899,13 +5899,12 @@
         "MULTIUSO",
         "ORGANIZADOR"
       ],
-      "precio": 178760
+      "precio": 185017
     },
     {
       "id": "qDtc5QsmHlHvXA4KnfcZ",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 120L A.R",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
-      "precio": 785200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -5926,7 +5925,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 812682
     },
     {
       "id": "qxrXIKiwiPnt4mughbMd",
@@ -5960,7 +5960,7 @@
           "hex": "#5e4c2b"
         }
       ],
-      "precio": 62675
+      "precio": 64869
     },
     {
       "id": "qzl5EIyYR2I8MMKwykq2",
@@ -5982,7 +5982,7 @@
       "precioAnterior": null,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784324550/muebles_rafaela/afw4jxhrg2r5zarbbunu.jpg",
       "descuento": 0,
-      "precio": 202633
+      "precio": 209725
     },
     {
       "id": "rjqWyVEqmv9V5tb5HzP9",
@@ -6011,13 +6011,12 @@
         "TERMOTANQUE"
       ],
       "nombre": "TERMOTANQUE ESCORIAL A GAS 80L",
-      "precio": 461362
+      "precio": 477510
     },
     {
       "id": "sAYFZzm5iS5TqCrMNJa9",
       "nombre": "CORTADORA DE PASTO 1HP C/BOLSA",
       "descripcion": "Potencia 1 HP.\n\n1700 Watts \n\nIdeal para jardines medianos y grandes.\n\nCon recolector de césped rígido de 43 litros y tapa.\nAncho de corte 390 mm.\nCarcasa de acero con tratamiento antioxidante\nPintura Epoxi fijada a altas temperaturas\nRuedas reforzadas de 160 mm.\n2 ALTURAS DE CORTE",
-      "precio": 405800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6035,7 +6034,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 420003
     },
     {
       "id": "sO2ZGisM4U7FF1fFkD75",
@@ -6066,7 +6066,7 @@
       ],
       "proveedor": "CENTRO ESTANT",
       "nombre": "DESPENSERO 0.60x1.80 MELAMINA",
-      "precio": 177779
+      "precio": 184001
     },
     {
       "id": "sQBJslJOGRmcTW6V7U4U",
@@ -6099,7 +6099,6 @@
       "id": "sWWbR9SmB8FAreGg6l0C",
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 160L",
       "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
-      "precio": 737600,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6120,7 +6119,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 763416
     },
     {
       "id": "sYOY60KiWPlQyl5xHtF7",
@@ -6141,8 +6141,8 @@
       "imagenes": [],
       "nuevo": false,
       "stock": null,
-      "precio": 644700,
-      "nombre": "SILLON \"JAURY\" 3 CUERPOS 1.90M"
+      "nombre": "SILLON \"JAURY\" 3 CUERPOS 1.90M",
+      "precio": 667265
     },
     {
       "id": "sf4ieTeMERQYWuuJDABi",
@@ -6164,7 +6164,7 @@
       "stock": null,
       "colores": [],
       "activo": true,
-      "precio": 288815
+      "precio": 298924
     },
     {
       "id": "sg2y1vTKwIIiZY6uad9l",
@@ -6220,7 +6220,7 @@
           "hex": "#000000"
         }
       ],
-      "precio": 162301
+      "precio": 167982
     },
     {
       "id": "t1r0MCNR6bqahqHdKnUz",
@@ -6249,13 +6249,12 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 330970
+      "precio": 342554
     },
     {
       "id": "tKPvv2j7MwRSoNYBhj2P",
       "nombre": "FREEZER HORIZONTAL BRIKET 390LTS",
       "descripcion": "Con el freezer horizontal Briket de 390 litros de capacidad, podés conservar todos los alimentos de cualquier tamaño de forma práctica y organizada. Además cuenta con gas ecológico que no afecta la capa de ozono, ruedas giratorias 360º, canasto organizador y controlador de temperatura con indicador lumínico..\n\nAncho: 1480\nAlto: 855\nProfundidad: 700\n\nClasif. Energética: A\n\nVolumen: 390 litros\n\nRango de Temp: 7ºC/-22ºC\n\nControl de temperatura Trial (Freezer / Enfriador / Conservador)\n\nTablero con indicador lumínico.\n\nCanasto organizador",
-      "precio": 1225100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6279,7 +6278,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 1267979
     },
     {
       "id": "tPwS7xc3jRLHuLysetp9",
@@ -6301,7 +6301,7 @@
       "stock": null,
       "categoria": "CAMAS",
       "destacado": false,
-      "precio": 96692
+      "precio": 100076
     },
     {
       "id": "tULjq6LFnLcBgOUYrznh",
@@ -6357,7 +6357,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 778211
+      "precio": 805448
     },
     {
       "id": "tyJrvrznv8AkhUlv714f",
@@ -6381,7 +6381,7 @@
       "precioAnterior": null,
       "categoria": "MUEBLES",
       "nombre": "CAMA DE PINO 1 PLAZA ECO (0.80M)",
-      "precio": 74621
+      "precio": 77233
     },
     {
       "id": "uGHpdveIm88ixPEi0F2Z",
@@ -6416,13 +6416,12 @@
         "ROPEROS"
       ],
       "nombre": "ROPERO MELAMINA 4 PUERTAS ABRIR LIBE40",
-      "precio": 381064
+      "precio": 394401
     },
     {
       "id": "uHDcGDbbdRS7mU9CW1kh",
       "nombre": "VENTILADOR TURBO 12\" WHITENBLACK",
       "descripcion": "Turbo Ventilador de Liliana, modelo VTC12, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño compacto y características prácticas, este ventilador te ofrece un gran caudal de aire, facilidad de limpieza y versatilidad en su uso.",
-      "precio": 58300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6438,7 +6437,8 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 60340
     },
     {
       "id": "uS1igxMDBUGWZ8Upv22m",
@@ -6468,13 +6468,12 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 338973
+      "precio": 350837
     },
     {
       "id": "ubci9iI3vP2J0qUE0Vpm",
       "nombre": "FREEZER HORIZONTAL BRIKET 230LTS",
       "descripcion": "Con el freezer horizontal Briket de 230 litros de capacidad, podés conservar todos los alimentos de cualquier tamaño de forma práctica y organizada. Además cuenta con gas ecológico que no afecta la capa de ozono, ruedas giratorias 360º, canasto organizador y controlador de temperatura con indicador lumínico..\n\nAncho: 945\nAlto: 855\nProfundidad: 700\n\nClasif. Energética: A\n\nVolumen: 230 litros\n\nRango de Temp: 7ºC/-22ºC\n\nControl de temperatura Trial (Freezer / Enfriador / Conservador)\n\nTablero con indicador lumínico.\n\nCanasto organizador",
-      "precio": 934200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6498,7 +6497,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 966897
     },
     {
       "id": "ucuGY49tKyZRVwtxfrN1",
@@ -6522,12 +6522,11 @@
         "COCINA"
       ],
       "nombre": "COCINA ESCORIAL PALACE CRISTAL",
-      "precio": 590354
+      "precio": 611016
     },
     {
       "id": "uoEQcaOhUT14Iri46G6G",
       "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
-      "precio": 539200,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6549,7 +6548,8 @@
           "hex": "#ffffff"
         }
       ],
-      "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L A.R"
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L A.R",
+      "precio": 558072
     },
     {
       "id": "urfRoZtDB4FpEx9FQj7x",
@@ -6574,7 +6574,7 @@
         "CALEFACCION",
         "ELECTRODOMESTICOS"
       ],
-      "precio": 376272
+      "precio": 389442
     },
     {
       "id": "uwO1IRdfftfkXdiiSn3q",
@@ -6631,13 +6631,12 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 105185
+      "precio": 108866
     },
     {
       "id": "vSk3OVIGhHE44Ys3vDJm",
       "nombre": "COCINA INDUSTRIAL USMAN WIN 850",
       "descripcion": "Cocina Industrial en Acero Inoxidable.\nPuerta visor con vidrio templado, mecheros industriales, rejas de aluminio, horno con ladrillos refractarios, pirómetro en puerta y válvula de seguridad.\n\nAncho\t\n85 cm\n\nAlto\t\n87 cm\n\nProfundidad\t\n62 cm",
-      "precio": 991150,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6658,13 +6657,13 @@
           "hex": "#888888"
         }
       ],
-      "proveedor": "USMAN"
+      "proveedor": "USMAN",
+      "precio": 1025840
     },
     {
       "id": "w6TjN6r9giYNLrjlTYyA",
       "nombre": "SILLA UNICAN MASTER",
       "descripcion": null,
-      "precio": 53800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6691,7 +6690,8 @@
       "imagenes": [
         "https://res.cloudinary.com/dc74ogekb/image/upload/v1782913261/muebles_rafaela/mqebravqhowflsnsej77.jpg"
       ],
-      "proveedor": "UNICAN"
+      "proveedor": "UNICAN",
+      "precio": 55683
     },
     {
       "id": "w9AgrB2OEEhrlbGEP2RH",
@@ -6746,7 +6746,7 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 888967
+      "precio": 920081
     },
     {
       "id": "wXeKQXudlWUxxJLNyTlY",
@@ -6770,13 +6770,12 @@
         "COLCHONES",
         "BLANCO"
       ],
-      "precio": 376180
+      "precio": 389346
     },
     {
       "id": "weHYPAfDCXsCox92iMFF",
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 120L",
       "descripcion": "Bajo consumo. Piloto analizador.\nMas seguro. Válvula de seguridad por sobrepresión.\nMultigas: Kit para instalación de gas natural o envasado.\nDetector de monóxido de carbono.",
-      "precio": 583100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6797,7 +6796,8 @@
           "nombre": "Blanco",
           "hex": "#ffffff"
         }
-      ]
+      ],
+      "precio": 603509
     },
     {
       "id": "wgwXi2vTryNzZ2x3qG7K",
@@ -6813,7 +6813,6 @@
         "MUEBLES",
         "MESADAS"
       ],
-      "precio": 363800,
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784814120/muebles_rafaela/a6d18yte0sadbaqgybw2.png",
       "material": null,
       "nuevo": false,
@@ -6832,7 +6831,8 @@
           "nombre": "GRIS CLARO",
           "hex": "#bdbdbd"
         }
-      ]
+      ],
+      "precio": 376533
     },
     {
       "id": "wtJsH7nekuXEoFWLDYUF",
@@ -6867,13 +6867,12 @@
           "hex": "#000000"
         }
       ],
-      "precio": 105839
+      "precio": 109543
     },
     {
       "id": "xUDpdaNaz4tuLYimZVgD",
       "nombre": "VENTILADOR DE MESA LILIANA OSCILANTE",
       "descripcion": "Ventilador de Mesa de Liliana, modelo VSOP16, es la solución perfecta para mantener tu ambiente fresco y confortable! Con su diseño funcional y características avanzadas, este ventilador te ofrece un gran caudal de aire y distribución uniforme, ideal para espacios reducidos.",
-      "precio": 129300,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6891,13 +6890,13 @@
       "nuevo": false,
       "destacado": false,
       "activo": true,
-      "colores": []
+      "colores": [],
+      "precio": 133826
     },
     {
       "id": "yIfHhtnpd4phVAhBNHaz",
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 85L FAMILY",
       "descripcion": "Bajo consumo. Piloto analizador.\nTriple barrera anti-fuga. Válvula de seguridad por sobrepresión, unidad magnética y termocupla.\nDetector de monóxido de carbono.\nMultigas: Kit de instalación de gas natural o envasado.",
-      "precio": 530000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -6918,7 +6917,8 @@
           "nombre": "Gris",
           "hex": "#888888"
         }
-      ]
+      ],
+      "precio": 548550
     },
     {
       "id": "yKfvztN2CJhDSWUksN3H",
@@ -6953,10 +6953,10 @@
       ],
       "stock": null,
       "categoria": "MUEBLES",
-      "precio": 191800,
       "descuento": 0,
       "destacado": false,
-      "nombre": "MESADA DURAFORT 1.00 x 0.60 C/ZOCALO"
+      "nombre": "MESADA DURAFORT 1.00 x 0.60 C/ZOCALO",
+      "precio": 198513
     },
     {
       "id": "yaQVph9XxQ2JudJkw1Eq",
@@ -6987,7 +6987,6 @@
       "id": "ybS7xDZ5qR4P33lgkI0c",
       "nombre": "TERMOTANQUE SEÑORIAL ELECTRICO 65L",
       "descripcion": "Bajo consumo. Ahorro de energía.\nMayor seguridad. Corte de energía por sobrecalentamiento.\nVálvula de seguridad por sobrepresión.",
-      "precio": 429800,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -7008,7 +7007,8 @@
           "hex": "#ffffff"
         }
       ],
-      "proveedor": "SEÑORIAL"
+      "proveedor": "SEÑORIAL",
+      "precio": 444843
     },
     {
       "id": "yhYw4UZAPCnuHh0QiIft",
@@ -7068,7 +7068,7 @@
         "ROPEROS"
       ],
       "nombre": "ROPERO MELAMINA 2 PUERTAS ABRIR LIBE20",
-      "precio": 240781
+      "precio": 249208
     },
     {
       "id": "zDGwyELIJKjtxZMYVHil",
@@ -7092,7 +7092,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 255636
+      "precio": 264583
     },
     {
       "id": "zV95BfNifjdUwR4chyoX",
@@ -7128,7 +7128,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 361226
+      "precio": 373869
     },
     {
       "id": "zVOzHPQdqB4aWrhVwPO8",
@@ -7162,12 +7162,11 @@
           "hex": "#c1a467"
         }
       ],
-      "precio": 183338
+      "precio": 189755
     },
     {
       "id": "zgcPb5rSvgxV3FujGkZP",
       "descripcion": "Bajo consumo. Piloto analizador.\nTriple barrera anti-fuga. Válvula de seguridad por sobrepresión, unidad magnética y termocupla.\nDetector de monóxido de carbono.\nMultigas: Kit de instalación de gas natural o envasado.",
-      "precio": 515000,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -7189,13 +7188,13 @@
           "hex": "#888888"
         }
       ],
-      "nombre": "TERMOTANQUE SEÑORIAL A GAS 30L FAMILY A.R"
+      "nombre": "TERMOTANQUE SEÑORIAL A GAS 30L FAMILY A.R",
+      "precio": 533025
     },
     {
       "id": "zk0Uwxzptd4bYcRNHaan",
       "nombre": "FREEZER HORIZONTAL BRIKET 295LTS",
       "descripcion": "Con el freezer horizontal Briket de 295 litros de capacidad, podés conservar todos los alimentos de cualquier tamaño de forma práctica y organizada. Además cuenta con gas ecológico que no afecta la capa de ozono, ruedas giratorias 360º, canasto organizador y controlador de temperatura con indicador lumínico..\n\nAncho: 1155\nAlto: 855\nProfundidad: 700\n\nClasif. Energética: A\n\nVolumen: 295 litros\n\nRango de Temp: 7ºC/-22ºC\n\nControl de temperatura Trial (Freezer / Enfriador / Conservador)\n\nTablero con indicador lumínico.\n\nCanasto organizador",
-      "precio": 999100,
       "precioAnterior": null,
       "descuento": 0,
       "stock": null,
@@ -7219,7 +7218,8 @@
         "ELECTRODOMESTICOS",
         "HELADERAS",
         "HELADERAS Y FREEZER"
-      ]
+      ],
+      "precio": 1034068
     },
     {
       "id": "zsImyvZlkIVpPZ6V0ZjL",
@@ -7269,7 +7269,7 @@
       "categoria": "ELECTRODOMESTICOS",
       "stock": null,
       "precioAnterior": null,
-      "precio": 1156600
+      "precio": 1197081
     }
   ],
   "categorias": [
@@ -8077,11 +8077,25 @@
       "fecha": "2026-07-04T13:35:07.803Z"
     },
     {
+      "id": "57a68m0TPfFM1lfjpedp",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 11 producto(s) de \"BRIKET\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:42:14.689Z"
+    },
+    {
       "id": "5KBlCQApqvlDJS2VZ4up",
       "descripcion": "Creó el producto \"TELEVISOR 50\" TCL ANDROID TV\"",
       "fecha": "2026-07-22T13:36:17.394Z",
       "usuario": "admin",
       "tipo": "producto_creado"
+    },
+    {
+      "id": "5U2S25KqJniENDlj8lHt",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 6 producto(s) de \"COPPENS\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:41:51.851Z"
     },
     {
       "id": "5UnGnnVzhJTfRM8Q30Bu",
@@ -8301,6 +8315,13 @@
       "fecha": "2026-07-06T22:57:04.364Z"
     },
     {
+      "id": "8a7i3xdpWWFR6v5nPIj3",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 2 producto(s) de \"ORLANDI\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:40:08.909Z"
+    },
+    {
       "id": "8ihPBJp7KQxtYnt43bU1",
       "usuario": "admin",
       "tipo": "categoria_editada",
@@ -8411,6 +8432,13 @@
       "descripcion": "Creó la categoría \"RACK TV\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:50:22.500Z"
+    },
+    {
+      "id": "AYH2eadQFJEpVcXo9vSU",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.49% el precio de 12 producto(s) de \"ECOTERMO\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:41:22.997Z"
     },
     {
       "id": "AqjbkEY9nVnIsHXq1QF8",
@@ -8630,6 +8658,13 @@
       "fecha": "2026-07-14T12:32:43.297Z"
     },
     {
+      "id": "EfhxxWl4279JBuPIXzuP",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 2 producto(s) de \"GAFA\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:40:54.423Z"
+    },
+    {
       "id": "Eh5YG8UhBaJZQMgK3VpM",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"ESTUFA COPPENS 5000KCAL SIN TIRO\"",
@@ -8761,6 +8796,13 @@
       "descripcion": "Creó el producto \"COLCHON 2 ½ PLAZAS RESORTE AXIS TOPACIO\"",
       "usuario": "admin",
       "fecha": "2026-07-09T14:20:48.777Z"
+    },
+    {
+      "id": "Gub2bPicZcguL6QMXI48",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 60 producto(s) de \"CENTRO ESTANT\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:42:00.880Z"
     },
     {
       "id": "GuuUEhBdtyzxyGPSRBZy",
@@ -8915,6 +8957,13 @@
       "descripcion": "Editó el producto \"COLCHON KING SIZE ESPUMA MARTINICA TOPACIO\"",
       "usuario": "admin",
       "fecha": "2026-08-04T13:21:13.411Z"
+    },
+    {
+      "id": "IpxCBzL9YH5F0w27LAhA",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 14 producto(s) de \"SEÑORIAL\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:39:51.041Z"
     },
     {
       "id": "IvNn4hYwfCtFmMECkCy0",
@@ -9582,6 +9631,13 @@
       "fecha": "2026-08-07T13:45:30.716Z"
     },
     {
+      "id": "SGsn2ZOQs94YpIgJVPzD",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 5 producto(s) de \"USMAN\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:39:14.932Z"
+    },
+    {
       "id": "SIGPOVUnOGTn6JIHfSI2",
       "tipo": "categoria_editada",
       "descripcion": "Renombró la categoría \"HELADERAS\" a \"HELADERAS Y FREZZER\"",
@@ -9722,6 +9778,13 @@
       "descripcion": "Creó el producto \"ALMOHADA SENSITIVE MEMORY PLAIN FIBERBALL\""
     },
     {
+      "id": "ToLbBLtOcHHmmmSixI27",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 6 producto(s) de \"UNICAN\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:39:23.943Z"
+    },
+    {
       "id": "TtRKZorF57JWqrRmdvav",
       "usuario": "admin",
       "tipo": "categoria_creada",
@@ -9811,6 +9874,13 @@
       "descripcion": "Creó el producto \"DESPENSERO 0.60X1.80\"",
       "usuario": "admin",
       "fecha": "2026-07-08T21:23:33.962Z"
+    },
+    {
+      "id": "VQZGKG1aoAl6Myj4XLcx",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 3 producto(s) de \"MOCAR\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:40:28.546Z"
     },
     {
       "id": "VXg43MBQCLfXr7q5Akau",
@@ -10107,6 +10177,13 @@
       "tipo": "categoria_editada"
     },
     {
+      "id": "ZpICqrRNBlHs64GrIP8m",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 20 producto(s) de \"TOPACIO\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:39:34.554Z"
+    },
+    {
       "id": "ZyygijTtgl1x7iL9g4Ii",
       "tipo": "producto_editado",
       "usuario": "admin",
@@ -10182,6 +10259,13 @@
       "descripcion": "Editó el producto \"Cocina Escorial Master Classic 56CM\"",
       "usuario": "admin",
       "fecha": "2026-07-05T16:48:38.585Z"
+    },
+    {
+      "id": "b6ttdiaYeKM7qVMa5c7Q",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 2 producto(s) de \"ORLANDI\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:40:21.291Z"
     },
     {
       "id": "bCftnYUDMCz55qRVcpP0",
@@ -10884,6 +10968,13 @@
       "fecha": "2026-07-06T14:02:03.354Z"
     },
     {
+      "id": "laoLMV2bPzyVb8ms44Mb",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 17 producto(s) de \"LILIANA\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:40:36.985Z"
+    },
+    {
       "id": "lht9DcDlS17kKwKItNMD",
       "descripcion": "Creó el producto \"FOGON JUAPI 50 ÑUKE\"",
       "usuario": "admin",
@@ -10959,6 +11050,13 @@
       "fecha": "2026-07-17T21:19:17.638Z",
       "usuario": "admin",
       "tipo": "proveedor_creado"
+    },
+    {
+      "id": "n0mkwXSXWbRIkyMX3xkZ",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 14 producto(s) de \"FIBERBALL\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:41:02.075Z"
     },
     {
       "id": "n91m8IVwfJrYftYVGIL1",
@@ -11213,6 +11311,13 @@
       "fecha": "2026-07-09T14:08:18.952Z"
     },
     {
+      "id": "pxQv1kXOEIvD0aPY0VAD",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 3 producto(s) de \"TANDIL\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:39:42.615Z"
+    },
+    {
       "id": "q12FOxgVdZiWlMQC7igw",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"Cocina Escorial Palace Cristal\"",
@@ -11253,6 +11358,13 @@
       "descripcion": "Creó el producto \"ESTUFA COPPENS 3000KCAL SIN TIRO\"",
       "usuario": "admin",
       "fecha": "2026-07-03T20:55:45.813Z"
+    },
+    {
+      "id": "qWoDlX7myUCn6ExqpvMF",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 4 producto(s) de \"HITACHI/TCL\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:40:46.097Z"
     },
     {
       "id": "qWoMImJATQmhnylmRCDC",
@@ -11316,6 +11428,13 @@
       "descripcion": "Editó el producto \"COCINA ESCORIAL MASTER STYLE 56CM\"",
       "usuario": "admin",
       "fecha": "2026-07-06T13:59:54.727Z"
+    },
+    {
+      "id": "rTsikgQgRnMwsHJxFtmy",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 5 producto(s) de \"DUAFORT\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:41:31.316Z"
     },
     {
       "id": "rXXTmFptyZJLjtDidhSc",
@@ -11484,6 +11603,13 @@
       "descripcion": "Editó el producto \"SILLA UNICAN MILÁN\"",
       "usuario": "admin",
       "fecha": "2026-07-03T13:58:18.427Z"
+    },
+    {
+      "id": "tMBYr47vyEn4GMJVfrED",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 5 producto(s) de \"DIPI\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:41:41.572Z"
     },
     {
       "id": "tSLkhKCczD1R0HUERaVd",
@@ -11675,6 +11801,13 @@
       "descripcion": "Creó el producto \"SILLON CAMA \"CAMI\" 1.90M\""
     },
     {
+      "id": "wPXm6i9cVVVHiL4njKQo",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 11 producto(s) de \"ESCORIAL\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:41:09.633Z"
+    },
+    {
       "id": "waCz6skWEHxnUl00seoU",
       "descripcion": "Creó el producto \"CAMA DE PINO 2 ½ PLAZAS MAVIC (1.40M)\"",
       "tipo": "producto_creado",
@@ -11694,6 +11827,13 @@
       "descripcion": "Creó el producto \"ESCRITORIO MELAMINA CENTRO ESTANT MILAN SC1260\"",
       "usuario": "admin",
       "fecha": "2026-07-08T22:15:27.944Z"
+    },
+    {
+      "id": "wsru9PJThjPGZWrPUVhH",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 3.5% el precio de 11 producto(s) de \"PINARCIS\"",
+      "usuario": "admin",
+      "fecha": "2026-09-23T14:40:00.567Z"
     },
     {
       "id": "wtZ61tp9Yz88S9b4jK9a",
