@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-10-20T15:32:35.506Z",
+  "fecha": "2026-10-23T15:37:39.148Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -61,7 +61,7 @@
         }
       ],
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 30L A.R",
-      "precio": 484690
+      "precio": 550414
     },
     {
       "id": "1Ra8LxE8JSFa6NFraQJi",
@@ -876,7 +876,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 492970
+      "precio": 559817
     },
     {
       "id": "96Pfq1pRV0Xo2UQQIbkC",
@@ -1607,7 +1607,7 @@
       "destacado": false,
       "activo": true,
       "colores": [],
-      "precio": 498766
+      "precio": 566399
     },
     {
       "id": "GPDcwPmzxYsqQYIj17yU",
@@ -2066,7 +2066,7 @@
           "hex": "#888888"
         }
       ],
-      "precio": 655155
+      "precio": 743994
     },
     {
       "id": "L52sZAgzGrshZ24FgZMW",
@@ -2480,7 +2480,7 @@
       "activo": true,
       "colores": [],
       "precioAnterior": 0,
-      "precio": 410688
+      "precio": 466377
     },
     {
       "id": "P6UlvX8Oh4MKB1EwM5Oh",
@@ -2810,7 +2810,7 @@
           "hex": "#000000"
         }
       ],
-      "precio": 776664
+      "precio": 881980
     },
     {
       "id": "QsWWu3Mh1NdYjoDZJ6HG",
@@ -3345,7 +3345,7 @@
         }
       ],
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L FAMILY A.R",
-      "precio": 634455
+      "precio": 720487
     },
     {
       "id": "VSzMjDJft4zMDQc17Mq2",
@@ -5926,7 +5926,7 @@
           "hex": "#888888"
         }
       ],
-      "precio": 812682
+      "precio": 922882
     },
     {
       "id": "qxrXIKiwiPnt4mughbMd",
@@ -6120,7 +6120,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 763416
+      "precio": 866935
     },
     {
       "id": "sYOY60KiWPlQyl5xHtF7",
@@ -6549,7 +6549,7 @@
         }
       ],
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 50L A.R",
-      "precio": 558072
+      "precio": 633747
     },
     {
       "id": "urfRoZtDB4FpEx9FQj7x",
@@ -6797,7 +6797,7 @@
           "hex": "#ffffff"
         }
       ],
-      "precio": 603509
+      "precio": 685345
     },
     {
       "id": "wgwXi2vTryNzZ2x3qG7K",
@@ -6918,7 +6918,7 @@
           "hex": "#888888"
         }
       ],
-      "precio": 548550
+      "precio": 622933
     },
     {
       "id": "yKfvztN2CJhDSWUksN3H",
@@ -7008,7 +7008,7 @@
         }
       ],
       "proveedor": "SEÑORIAL",
-      "precio": 444843
+      "precio": 505164
     },
     {
       "id": "yhYw4UZAPCnuHh0QiIft",
@@ -7189,7 +7189,7 @@
         }
       ],
       "nombre": "TERMOTANQUE SEÑORIAL A GAS 30L FAMILY A.R",
-      "precio": 533025
+      "precio": 605303
     },
     {
       "id": "zk0Uwxzptd4bYcRNHaan",
@@ -9608,6 +9608,13 @@
       "fecha": "2026-07-22T14:22:32.575Z",
       "tipo": "categoria_editada",
       "descripcion": "Asignó 1 categoría(s) al grupo \"MUEBLES\""
+    },
+    {
+      "id": "Rnzak1OQS5iyjp4msrJ2",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 13.56% el precio de 14 producto(s) de \"SEÑORIAL\"",
+      "usuario": "admin",
+      "fecha": "2026-10-21T21:18:58.111Z"
     },
     {
       "id": "Ro7mGR3pVN6uFpRotlUP",
