@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-10-23T15:37:39.148Z",
+  "fecha": "2026-10-26T17:06:31.926Z",
   "productos": [
     {
       "id": "0P9syNWg0QVLIXWyOP03",
@@ -93,7 +93,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 2067565
+      "precio": 2088241
     },
     {
       "id": "1bZnAoJen4syS4gyghJW",
@@ -309,7 +309,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 562903
+      "precio": 568532
     },
     {
       "id": "3u1HG54ae92HluK3Iq1g",
@@ -436,7 +436,7 @@
       "categoria": "SILLONES",
       "imagen": "https://res.cloudinary.com/dc74ogekb/image/upload/v1784731366/muebles_rafaela/sxbgnej5iaeyj5igkbid.jpg",
       "precioAnterior": null,
-      "precio": 708354
+      "precio": 728896
     },
     {
       "id": "4d8OKYHwSpWheTOuQBbt",
@@ -742,7 +742,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 468727
+      "precio": 473414
     },
     {
       "id": "7r8UG6quUJKIAnBiv2A9",
@@ -797,7 +797,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 1191890
+      "precio": 1203809
     },
     {
       "id": "8dKknVyYitOqiWRvXZNF",
@@ -1407,7 +1407,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 601434
+      "precio": 607448
     },
     {
       "id": "EVak4duV98z3I2qMLUd1",
@@ -1864,7 +1864,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 617256
+      "precio": 623429
     },
     {
       "id": "Ig16syZEzRT0FHMX5jc1",
@@ -2098,7 +2098,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 584213
+      "precio": 590055
     },
     {
       "id": "LAcREU40NQUyYuOLrIae",
@@ -2345,7 +2345,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 473355
+      "precio": 478089
     },
     {
       "id": "N5oMueoFXUvyrAACMibx",
@@ -2953,7 +2953,7 @@
       "destacado": false,
       "material": null,
       "descuento": 0,
-      "precio": 772731
+      "precio": 795140
     },
     {
       "id": "RgcwtpkplLbpJSxHRZsB",
@@ -3011,7 +3011,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 643194
+      "precio": 649626
     },
     {
       "id": "SgSaz4I5JXjfxc8qyGK1",
@@ -3457,7 +3457,7 @@
       "descuento": 0,
       "imagenes": [],
       "stock": null,
-      "precio": 1075365
+      "precio": 1106551
     },
     {
       "id": "WgoIyGVpA1emPexjZxhy",
@@ -3553,7 +3553,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 721979
+      "precio": 729199
     },
     {
       "id": "X5AFDPdmqpfrEdsuXcZC",
@@ -4159,7 +4159,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 618332
+      "precio": 624515
     },
     {
       "id": "bqFSYJSLFDkOVH1QxlMk",
@@ -4837,7 +4837,7 @@
         "ELECTRODOMESTICOS",
         "TERMOTANQUE"
       ],
-      "precio": 700561
+      "precio": 707567
     },
     {
       "id": "hEWGdb8QiBV41xbhmTyp",
@@ -5649,7 +5649,7 @@
       "imagenes": [],
       "nuevo": false,
       "descripcion": "SILLON CAMA DE UNA PLAZA. SACAS ALMOHADONES Y TE QUEDA CAMA DE 1.90M.\nSE PEUDE ENCARGAR COLOR CON 30 DIAS APROX DE DEMORA",
-      "precio": 647600
+      "precio": 666380
     },
     {
       "id": "o3Td1IVw1yEWmIiETaou",
@@ -6142,7 +6142,7 @@
       "nuevo": false,
       "stock": null,
       "nombre": "SILLON \"JAURY\" 3 CUERPOS 1.90M",
-      "precio": 667265
+      "precio": 686616
     },
     {
       "id": "sf4ieTeMERQYWuuJDABi",
@@ -9057,6 +9057,13 @@
       "fecha": "2026-07-06T14:32:12.707Z"
     },
     {
+      "id": "Kn18beCUAizNieXr2M0Y",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 2.9% el precio de 5 producto(s) de \"DIPI\"",
+      "usuario": "admin",
+      "fecha": "2026-10-26T12:57:55.094Z"
+    },
+    {
       "id": "LCoQIuohLYnyZihs3Sxz",
       "tipo": "producto_editado",
       "descripcion": "Editó el producto \"FREEZER HORIZONTAL BRIKET 230LTS\"",
@@ -11015,6 +11022,13 @@
       "descripcion": "Creó la categoría \"PAVA ELECTRICA\"",
       "fecha": "2026-07-28T13:30:49.823Z",
       "tipo": "categoria_creada"
+    },
+    {
+      "id": "mYV3RZwHkZ2BUgLu5V5T",
+      "tipo": "aumento_masivo",
+      "descripcion": "Aumentó 1% el precio de 12 producto(s) de \"ECOTERMO\"",
+      "usuario": "admin",
+      "fecha": "2026-10-26T12:09:07.657Z"
     },
     {
       "id": "maNem1TUFYTH6kso28I4",
